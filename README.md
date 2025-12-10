@@ -79,4 +79,5 @@ python run_chatbot.py
 ## 주의사항
 - MongoDB가 실행 중이어야 서비스가 정상 작동합니다. 
 - OpenAI API Key는 별도로 전달드릴 예정입니다. 
+- 프론트엔드 코드는 포함하지 않았습니다. 
 

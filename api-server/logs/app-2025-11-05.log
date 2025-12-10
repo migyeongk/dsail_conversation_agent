@@ -1,0 +1,343 @@
+[2025-11-05 23:25:56] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-11-05 23:25:56] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-11-05 23:26:00] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-11-05 23:26:08] INFO: 👤 [USER] 사용자 입력: "난 SJ야!" (6자)
+[2025-11-05 23:26:08] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2025-11-05 23:26:08] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2025-11-05 23:26:08] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-11-05 23:26:08] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1762352755979
+[2025-11-05 23:26:08] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-11-05 23:26:08] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-11-05 23:26:08] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-11-05 23:26:08] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1762352755979
+[2025-11-05 23:26:08] INFO: 👤 [USER]: "난 SJ야!"
+[2025-11-05 23:26:12] INFO: 🤖 [BOT]: "SJ님, 반가워요 😊 이제 간단한 질문들을 통해 최근의 마음 상태를 함께 살펴보는 시간을 가져볼게요." (57자)
+[2025-11-05 23:26:12] INFO: 🎯 [INTENT]: greeting
+[2025-11-05 23:26:12] INFO: 🎯 [IS_COMPLETED]: false
+[2025-11-05 23:26:12] INFO: 🎯 [IS_FINISHED]: false
+[2025-11-05 23:26:12] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-11-05 23:26:12] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-11-05 23:26:12] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-11-05 23:26:12] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-11-05 23:26:12] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-11-05 23:26:12] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀" → 사용자답변 "난 SJ야!"
+[2025-11-05 23:26:12] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:26:12] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance
+[2025-11-05 23:26:12] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:26:12] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:26:12] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-11-05 23:26:12] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-11-05 23:26:12] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 4747ms
+[2025-11-05 23:26:22] INFO: 👤 [USER] 사용자 입력: "그래" (2자)
+[2025-11-05 23:26:22] INFO: 🔍 [PREFERENCE] 직전 정책들: purpose_guidance
+[2025-11-05 23:26:22] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, 히스토리: 3개 메시지
+[2025-11-05 23:26:22] INFO: 🤖 [LAST_BOT] "SJ님, 반가워요 😊 이제 간단한 질문들을 통해 최근의 마음 상태를 함께 살펴보는 시간을 가져볼게요."
+[2025-11-05 23:26:22] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1762352755979
+[2025-11-05 23:26:22] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-11-05 23:26:22] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-11-05 23:26:22] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-11-05 23:26:22] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1762352755979
+[2025-11-05 23:26:22] INFO: 👤 [USER]: "그래"
+[2025-11-05 23:26:32] INFO: 🤖 [BOT]: "좋아요 SJ님 😊 앞으로 이야기 나눌 때 어떤 말투로 대화하는 게 가장 편하실까요?" (47자)
+[2025-11-05 23:26:32] INFO: 🎯 [INTENT]: answer_symptom
+[2025-11-05 23:26:32] INFO: 🎯 [IS_COMPLETED]: false
+[2025-11-05 23:26:32] INFO: 🎯 [IS_FINISHED]: false
+[2025-11-05 23:26:32] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-11-05 23:26:32] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-11-05 23:26:32] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-11-05 23:26:32] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-11-05 23:26:32] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "SJ님, 반가워요 😊 이제 간단한 질문들을 통해 최근의 마음 상태를 함께 살펴보는 시간을 가져볼게요."
+[2025-11-05 23:26:32] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "SJ님, 반가워요 😊 이제 간단한 질문들을 통해 최근의 마음 상태를 함께 살펴보는 시간을 가져볼게요." → 사용자답변 "그래"
+[2025-11-05 23:26:32] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:26:32] INFO: 📋 [POLICIES] 정책 저장 완료: ask_tone_preference
+[2025-11-05 23:26:32] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:26:32] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:26:32] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-11-05 23:26:32] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-11-05 23:26:32] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 10066ms
+[2025-11-05 23:30:05] INFO: 👤 [USER] 사용자 입력: "정중하지만 다정한 말투" (12자)
+[2025-11-05 23:30:05] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_tone_preference
+[2025-11-05 23:30:05] INFO: 🗣️ [PREFERENCE] 말투 설정 완료: 정중하지만 다정한 말투
+[2025-11-05 23:30:05] INFO: 📊 [SESSION_DATA] 메시지: 5개, 정책: purpose_guidance, ask_tone_preference, 히스토리: 5개 메시지
+[2025-11-05 23:30:05] INFO: 🤖 [LAST_BOT] "좋아요 SJ님 😊 앞으로 이야기 나눌 때 어떤 말투로 대화하는 게 가장 편하실까요?"
+[2025-11-05 23:30:05] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1762352755979
+[2025-11-05 23:30:05] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-11-05 23:30:05] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-11-05 23:30:05] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-11-05 23:30:05] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1762352755979
+[2025-11-05 23:30:05] INFO: 👤 [USER]: "정중하지만 다정한 말투"
+[2025-11-05 23:30:09] INFO: 🤖 [BOT]: "좋아요 SJ님 😊 그럼 앞으로 이야기를 나눌 때, 자세히 이야기 나누는 게 좋을지 아니면 빠르게 간단히 진행하는 게 좋을지 여쭤봐도 될까요? 💬" (82자)
+[2025-11-05 23:30:09] INFO: 🎯 [INTENT]: answer_tone
+[2025-11-05 23:30:09] INFO: 🎯 [IS_COMPLETED]: false
+[2025-11-05 23:30:09] INFO: 🎯 [IS_FINISHED]: false
+[2025-11-05 23:30:09] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-11-05 23:30:09] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-11-05 23:30:09] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-11-05 23:30:09] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-11-05 23:30:09] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "좋아요 SJ님 😊 앞으로 이야기 나눌 때 어떤 말투로 대화하는 게 가장 편하실까요?"
+[2025-11-05 23:30:09] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "좋아요 SJ님 😊 앞으로 이야기 나눌 때 어떤 말투로 대화하는 게 가장 편하실까요?" → 사용자답변 "정중하지만 다정한 말투"
+[2025-11-05 23:30:09] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:30:09] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-11-05 23:30:09] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:30:09] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:30:09] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-11-05 23:30:09] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-11-05 23:30:09] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3574ms
+[2025-11-05 23:30:12] INFO: 👤 [USER] 사용자 입력: "간결하고 신속한 대화" (11자)
+[2025-11-05 23:30:12] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-11-05 23:30:12] INFO: 💬 [PREFERENCE] 대화 스타일 설정 완료: 간결하고 신속한 대화
+[2025-11-05 23:30:12] INFO: 📊 [SESSION_DATA] 메시지: 7개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, 히스토리: 7개 메시지
+[2025-11-05 23:30:12] INFO: 🤖 [LAST_BOT] "좋아요 SJ님 😊 그럼 앞으로 이야기를 나눌 때, 자세히 이야기 나누는 게 좋을지 아니면 빠르게 간단히 진행하는 게 좋을지 여쭤봐도 될까요? 💬"
+[2025-11-05 23:30:12] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1762352755979
+[2025-11-05 23:30:12] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-11-05 23:30:12] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-11-05 23:30:12] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-11-05 23:30:12] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1762352755979
+[2025-11-05 23:30:12] INFO: 👤 [USER]: "간결하고 신속한 대화"
+[2025-11-05 23:30:15] INFO: 🤖 [BOT]: "좋아요, SJ님 😊 그럼 먼저 요즘 생활 속에서 스트레스를 받거나 마음이 힘들게 느껴지는 일이 있으신가요? 혹시 최근에 신경 쓰이거나 부담되는 일이 있다면 편하게 말씀해 주세요." (100자)
+[2025-11-05 23:30:15] INFO: 🎯 [INTENT]: answer_conversation_style
+[2025-11-05 23:30:15] INFO: 🎯 [IS_COMPLETED]: false
+[2025-11-05 23:30:15] INFO: 🎯 [IS_FINISHED]: false
+[2025-11-05 23:30:15] INFO: 🎯 [LAST_ASKED_QUESTION]: Q1
+[2025-11-05 23:30:15] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다
+[2025-11-05 23:30:15] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-11-05 23:30:15] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-11-05 23:30:15] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "좋아요 SJ님 😊 그럼 앞으로 이야기를 나눌 때, 자세히 이야기 나누는 게 좋을지 아니면 빠르게 간단히 진행하는 게 좋을지 여쭤봐도 될까요? 💬"
+[2025-11-05 23:30:15] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "좋아요 SJ님 😊 그럼 앞으로 이야기를 나눌 때, 자세히 이야기 나누는 게 좋을지 아니면 빠르게 간단히 진행하는 게 좋을지 여쭤봐도 될까요? 💬" → 사용자답변 "간결하고 신속한 대화"
+[2025-11-05 23:30:15] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:30:15] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_symptom
+[2025-11-05 23:30:15] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:30:15] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:30:15] INFO: 📝 [STATUS] Last Asked Question: Q1
+[2025-11-05 23:30:15] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-11-05 23:30:15] INFO: 💾 [DB] Status 업데이트 완료: user_sj, session_1762352755979
+[2025-11-05 23:30:15] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3436ms
+[2025-11-05 23:30:32] INFO: 👤 [USER] 사용자 입력: "약간 일이 잘 안 풀리면 금방 초조해지는 것 같아" (27자)
+[2025-11-05 23:30:32] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_new_symptom
+[2025-11-05 23:30:32] INFO: 📊 [SESSION_DATA] 메시지: 9개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_new_symptom, 히스토리: 9개 메시지
+[2025-11-05 23:30:32] INFO: 🤖 [LAST_BOT] "좋아요, SJ님 😊 그럼 먼저 요즘 생활 속에서 스트레스를 받거나 마음이 힘들게 느껴지는 일이 있으신가요? 혹시 최근에 신경 쓰이거나 부담되는 일이 있다면 편하게 말씀해 주세요."
+[2025-11-05 23:30:32] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1762352755979
+[2025-11-05 23:30:32] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-11-05 23:30:32] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-11-05 23:30:32] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-11-05 23:30:32] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1762352755979
+[2025-11-05 23:30:32] INFO: 👤 [USER]: "약간 일이 잘 안 풀리면 금방 초조해지는 것 같아"
+[2025-11-05 23:30:38] INFO: 🤖 [BOT]: "SJ님, 일이 뜻대로 안 풀릴 때 초조해지는 느낌이 드신다고 하셨군요. 그런 순간엔 마음이 쉽게 긴장될 수 있을 것 같아요. 지난 2주 동안 이런 초조함이나 불안한 느낌을 얼마나 자주 느끼셨는지 알려주실 수 있을까요?" (121자)
+[2025-11-05 23:30:38] INFO: 🎯 [INTENT]: answer_symptom
+[2025-11-05 23:30:38] INFO: 🎯 [IS_COMPLETED]: false
+[2025-11-05 23:30:38] INFO: 🎯 [IS_FINISHED]: false
+[2025-11-05 23:30:38] INFO: 🎯 [LAST_ASKED_QUESTION]: Q8
+[2025-11-05 23:30:38] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다
+[2025-11-05 23:30:38] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q8
+[2025-11-05 23:30:38] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-11-05 23:30:38] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "좋아요, SJ님 😊 그럼 먼저 요즘 생활 속에서 스트레스를 받거나 마음이 힘들게 느껴지는 일이 있으신가요? 혹시 최근에 신경 쓰이거나 부담되는 일이 있다면 편하게 말씀해 주세요."
+[2025-11-05 23:30:38] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "좋아요, SJ님 😊 그럼 먼저 요즘 생활 속에서 스트레스를 받거나 마음이 힘들게 느껴지는 일이 있으신가요? 혹시 최근에 신경 쓰이거나 부담되는 일이 있다면 편하게 말씀해 주세요." → 사용자답변 "약간 일이 잘 안 풀리면 금방 초조해지는 것 같아"
+[2025-11-05 23:30:38] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:30:38] INFO: 📋 [POLICIES] 정책 저장 완료: ask_frequency, empathize
+[2025-11-05 23:30:38] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:30:38] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:30:38] INFO: 🔄 [SLOTS] Q8 업데이트: {"condition":"일이 잘 안 풀릴 때","conflict":null,"experience":"yes","frequency":null,"note":"사용자가 특정 상황(일이 잘 안 풀릴 때)에 초조함을 느낀다고 표현함","questionId":"Q8","questionText":"초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다","rawUserInput":["약간 일이 잘 안 풀리면 금방 초조해지는 것 같아"],"status":"asking","updated":true}
+[2025-11-05 23:30:38] INFO: 📝 [STATUS] Last Asked Question: Q8
+[2025-11-05 23:30:38] INFO: ✅ [STATUS] Last Answered Question: Q8
+[2025-11-05 23:30:38] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-11-05 23:30:38] INFO: 💾 [DB] Status 업데이트 완료: user_sj, session_1762352755979
+[2025-11-05 23:30:38] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 5751ms
+[2025-11-05 23:39:20] INFO: 👤 [USER] 사용자 입력: "2~3일 이상" (7자)
+[2025-11-05 23:39:20] INFO: 🔍 [PREFERENCE] 직전 정책들: empathize
+[2025-11-05 23:39:20] INFO: 📊 [SESSION_DATA] 메시지: 11개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_new_symptom, ask_frequency, empathize, 히스토리: 11개 메시지
+[2025-11-05 23:39:20] INFO: 🤖 [LAST_BOT] "SJ님, 일이 뜻대로 안 풀릴 때 초조해지는 느낌이 드신다고 하셨군요. 그런 순간엔 마음이 쉽게 긴장될 수 있을 것 같아요. 지난 2주 동안 이런 초조함이나 불안한 느낌을 얼마나 자주 느끼셨는지 알려주실 수 있을까요?"
+[2025-11-05 23:39:20] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1762352755979
+[2025-11-05 23:39:20] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-11-05 23:39:20] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-11-05 23:39:20] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-11-05 23:39:20] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1762352755979
+[2025-11-05 23:39:20] INFO: 👤 [USER]: "2~3일 이상"
+[2025-11-05 23:39:25] INFO: 🤖 [BOT]: "2~3일 이상 그런 초조함을 느끼셨다고 하니, 꽤 자주 긴장된 순간이 있었던 것 같아요. 😊 이어서 여쭤보고 싶은데요, 요즘에는 일이나 사람 관계 등 여러 가지 일들에 대해 걱정이 많다고 느끼신 적도 있으신가요?" (119자)
+[2025-11-05 23:39:25] INFO: 🎯 [INTENT]: answer_frequency
+[2025-11-05 23:39:25] INFO: 🎯 [IS_COMPLETED]: false
+[2025-11-05 23:39:25] INFO: 🎯 [IS_FINISHED]: false
+[2025-11-05 23:39:25] INFO: 🎯 [LAST_ASKED_QUESTION]: Q9
+[2025-11-05 23:39:25] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다
+[2025-11-05 23:39:25] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q8
+[2025-11-05 23:39:25] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-11-05 23:39:25] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "SJ님, 일이 뜻대로 안 풀릴 때 초조해지는 느낌이 드신다고 하셨군요. 그런 순간엔 마음이 쉽게 긴장될 수 있을 것 같아요. 지난 2주 동안 이런 초조함이나 불안한 느낌을 얼마나 자주 느끼셨는지 알려주실 수 있을까요?"
+[2025-11-05 23:39:25] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "SJ님, 일이 뜻대로 안 풀릴 때 초조해지는 느낌이 드신다고 하셨군요. 그런 순간엔 마음이 쉽게 긴장될 수 있을 것 같아요. 지난 2주 동안 이런 초조함이나 불안한 느낌을 얼마나 자주 느끼셨는지 알려주실 수 있을까요?" → 사용자답변 "2~3일 이상"
+[2025-11-05 23:39:25] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:39:25] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_symptom, empathize
+[2025-11-05 23:39:25] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:39:25] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:39:25] INFO: 🔄 [SLOTS] Q8 업데이트: {"condition":null,"conflict":null,"experience":"yes","frequency":"2~3일 이상","note":"사용자가 지난 2주 동안 초조하거나 불안한 느낌을 2~3일 이상 경험했다고 응답함","questionId":"Q8","questionText":"초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다","rawUserInput":["2~3일 이상"],"status":"answered","updated":true}
+[2025-11-05 23:39:25] INFO: 📝 [STATUS] Last Asked Question: Q9
+[2025-11-05 23:39:25] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-11-05 23:39:25] INFO: 💾 [DB] Status 업데이트 완료: user_sj, session_1762352755979
+[2025-11-05 23:39:25] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 5409ms
+[2025-11-05 23:39:41] INFO: 👤 [USER] 사용자 입력: "일이 안 풀리면 그런 편이야" (15자)
+[2025-11-05 23:39:41] INFO: 🔍 [PREFERENCE] 직전 정책들: empathize
+[2025-11-05 23:39:41] INFO: 📊 [SESSION_DATA] 메시지: 13개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_new_symptom, ask_frequency, empathize, ask_new_symptom, empathize, 히스토리: 13개 메시지
+[2025-11-05 23:39:41] INFO: 🤖 [LAST_BOT] "2~3일 이상 그런 초조함을 느끼셨다고 하니, 꽤 자주 긴장된 순간이 있었던 것 같아요. 😊 이어서 여쭤보고 싶은데요, 요즘에는 일이나 사람 관계 등 여러 가지 일들에 대해 걱정이 많다고 느끼신 적도 있으신가요?"
+[2025-11-05 23:39:41] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1762352755979
+[2025-11-05 23:39:41] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-11-05 23:39:41] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-11-05 23:39:41] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-11-05 23:39:41] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1762352755979
+[2025-11-05 23:39:41] INFO: 👤 [USER]: "일이 안 풀리면 그런 편이야"
+[2025-11-05 23:39:46] INFO: 🤖 [BOT]: "SJ님, 일이 잘 안 풀릴 때 걱정이 많아진다고 하셨군요. 그런 순간엔 마음이 무겁게 느껴질 수도 있을 것 같아요. 지난 2주 동안 여러 가지 일에 대해 걱정을 너무 많이 했다고 느낀 날은 얼마나 자주 있었는지 알려주실 수 있을까요?" (130자)
+[2025-11-05 23:39:46] INFO: 🎯 [INTENT]: answer_condition
+[2025-11-05 23:39:46] INFO: 🎯 [IS_COMPLETED]: false
+[2025-11-05 23:39:46] INFO: 🎯 [IS_FINISHED]: false
+[2025-11-05 23:39:46] INFO: 🎯 [LAST_ASKED_QUESTION]: Q9
+[2025-11-05 23:39:46] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다
+[2025-11-05 23:39:46] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q9
+[2025-11-05 23:39:46] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-11-05 23:39:46] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "2~3일 이상 그런 초조함을 느끼셨다고 하니, 꽤 자주 긴장된 순간이 있었던 것 같아요. 😊 이어서 여쭤보고 싶은데요, 요즘에는 일이나 사람 관계 등 여러 가지 일들에 대해 걱정이 많다고 느끼신 적도 있으신가요?"
+[2025-11-05 23:39:46] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "2~3일 이상 그런 초조함을 느끼셨다고 하니, 꽤 자주 긴장된 순간이 있었던 것 같아요. 😊 이어서 여쭤보고 싶은데요, 요즘에는 일이나 사람 관계 등 여러 가지 일들에 대해 걱정이 많다고 느끼신 적도 있으신가요?" → 사용자답변 "일이 안 풀리면 그런 편이야"
+[2025-11-05 23:39:46] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:39:46] INFO: 📋 [POLICIES] 정책 저장 완료: ask_frequency, empathize
+[2025-11-05 23:39:46] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:39:46] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1762352755979
+[2025-11-05 23:39:46] INFO: 🔄 [SLOTS] Q9 업데이트: {"condition":"일이 안 풀릴 때","conflict":null,"experience":"yes","frequency":null,"note":"사용자는 일이 잘 풀리지 않을 때 걱정을 많이 하는 경향이 있다고 언급함","questionId":"Q9","questionText":"최근 여러 가지 일에 대해 너무 많은 걱정을 한다","rawUserInput":["일이 안 풀리면 그런 편이야"],"status":"asking","updated":true}
+[2025-11-05 23:39:46] INFO: ✅ [STATUS] Last Answered Question: Q9
+[2025-11-05 23:39:46] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-11-05 23:39:46] INFO: 💾 [DB] Status 업데이트 완료: user_sj, session_1762352755979
+[2025-11-05 23:39:46] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 4784ms
+[2025-11-05 23:43:34] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-11-05 23:43:34] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-11-05 23:43:38] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-11-05 23:43:41] INFO: 👤 [USER] 사용자 입력: "SJ야" (3자)
+[2025-11-05 23:43:41] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2025-11-05 23:43:41] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2025-11-05 23:43:41] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-11-05 23:43:41] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1762353813663
+[2025-11-05 23:43:41] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-11-05 23:43:41] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-11-05 23:43:41] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-11-05 23:43:41] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1762353813663
+[2025-11-05 23:43:41] INFO: 👤 [USER]: "SJ야"
+[2025-11-05 23:43:46] INFO: 🤖 [BOT]: "SJ님, 반가워요 😊 이번 문진은 최근의 기분과 스트레스 상태를 함께 살펴보면서 마음의 상태를 알아보는 시간이 될 거예요." (69자)
+[2025-11-05 23:43:46] INFO: 🎯 [INTENT]: greeting
+[2025-11-05 23:43:46] INFO: 🎯 [IS_COMPLETED]: false
+[2025-11-05 23:43:46] INFO: 🎯 [IS_FINISHED]: false
+[2025-11-05 23:43:46] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-11-05 23:43:46] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-11-05 23:43:46] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-11-05 23:43:46] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-11-05 23:43:46] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-11-05 23:43:46] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀" → 사용자답변 "SJ야"
+[2025-11-05 23:43:46] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1762353813663
+[2025-11-05 23:43:46] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance
+[2025-11-05 23:43:46] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1762353813663
+[2025-11-05 23:43:46] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1762353813663
+[2025-11-05 23:43:46] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-11-05 23:43:46] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-11-05 23:43:46] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 4625ms
+[2025-11-05 23:43:51] INFO: 👤 [USER] 사용자 입력: "응 시작해줘" (6자)
+[2025-11-05 23:43:51] INFO: 🔍 [PREFERENCE] 직전 정책들: purpose_guidance
+[2025-11-05 23:43:51] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, 히스토리: 3개 메시지
+[2025-11-05 23:43:51] INFO: 🤖 [LAST_BOT] "SJ님, 반가워요 😊 이번 문진은 최근의 기분과 스트레스 상태를 함께 살펴보면서 마음의 상태를 알아보는 시간이 될 거예요."
+[2025-11-05 23:43:51] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1762353813663
+[2025-11-05 23:43:51] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-11-05 23:43:51] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-11-05 23:43:51] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-11-05 23:43:51] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1762353813663
+[2025-11-05 23:43:51] INFO: 👤 [USER]: "응 시작해줘"
+[2025-11-05 23:43:53] INFO: 🤖 [BOT]: "좋아요 SJ님 😊 그럼 지금부터 문진을 시작해도 괜찮을까요?" (34자)
+[2025-11-05 23:43:53] INFO: 🎯 [INTENT]: request
+[2025-11-05 23:43:53] INFO: 🎯 [IS_COMPLETED]: false
+[2025-11-05 23:43:53] INFO: 🎯 [IS_FINISHED]: false
+[2025-11-05 23:43:53] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-11-05 23:43:53] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-11-05 23:43:53] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-11-05 23:43:53] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-11-05 23:43:53] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "SJ님, 반가워요 😊 이번 문진은 최근의 기분과 스트레스 상태를 함께 살펴보면서 마음의 상태를 알아보는 시간이 될 거예요."
+[2025-11-05 23:43:53] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "SJ님, 반가워요 😊 이번 문진은 최근의 기분과 스트레스 상태를 함께 살펴보면서 마음의 상태를 알아보는 시간이 될 거예요." → 사용자답변 "응 시작해줘"
+[2025-11-05 23:43:53] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1762353813663
+[2025-11-05 23:43:53] INFO: 📋 [POLICIES] 정책 저장 완료: request_agreement
+[2025-11-05 23:43:53] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1762353813663
+[2025-11-05 23:43:53] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1762353813663
+[2025-11-05 23:43:53] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-11-05 23:43:53] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-11-05 23:43:53] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2183ms
+[2025-11-05 23:43:55] INFO: 👤 [USER] 사용자 입력: "ㅇ" (1자)
+[2025-11-05 23:43:55] INFO: 🔍 [PREFERENCE] 직전 정책들: request_agreement
+[2025-11-05 23:43:55] INFO: 📊 [SESSION_DATA] 메시지: 5개, 정책: purpose_guidance, request_agreement, 히스토리: 5개 메시지
+[2025-11-05 23:43:55] INFO: 🤖 [LAST_BOT] "좋아요 SJ님 😊 그럼 지금부터 문진을 시작해도 괜찮을까요?"
+[2025-11-05 23:43:55] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1762353813663
+[2025-11-05 23:43:55] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-11-05 23:43:55] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-11-05 23:43:55] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-11-05 23:43:55] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1762353813663
+[2025-11-05 23:43:55] INFO: 👤 [USER]: "ㅇ"
+[2025-11-05 23:43:58] INFO: 🤖 [BOT]: "시작하기 전에 SJ님이 어떤 말투로 이야기 나누는 게 더 편하신지 알려주실 수 있을까요? 😊" (52자)
+[2025-11-05 23:43:58] INFO: 🎯 [INTENT]: answer_symptom
+[2025-11-05 23:43:58] INFO: 🎯 [IS_COMPLETED]: false
+[2025-11-05 23:43:58] INFO: 🎯 [IS_FINISHED]: false
+[2025-11-05 23:43:58] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-11-05 23:43:58] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-11-05 23:43:58] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-11-05 23:43:58] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-11-05 23:43:58] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "좋아요 SJ님 😊 그럼 지금부터 문진을 시작해도 괜찮을까요?"
+[2025-11-05 23:43:58] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "좋아요 SJ님 😊 그럼 지금부터 문진을 시작해도 괜찮을까요?" → 사용자답변 "ㅇ"
+[2025-11-05 23:43:58] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1762353813663
+[2025-11-05 23:43:58] INFO: 📋 [POLICIES] 정책 저장 완료: ask_tone_preference
+[2025-11-05 23:43:58] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1762353813663
+[2025-11-05 23:43:58] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1762353813663
+[2025-11-05 23:43:58] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-11-05 23:43:58] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-11-05 23:43:58] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2909ms
+[2025-11-05 23:50:42] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-11-05 23:50:42] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-11-05 23:50:50] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-11-05 23:50:51] INFO: 👤 [USER] 사용자 입력: "SJ야" (3자)
+[2025-11-05 23:50:51] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2025-11-05 23:50:51] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2025-11-05 23:50:51] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-11-05 23:50:51] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1762354242639
+[2025-11-05 23:50:51] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-11-05 23:50:51] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-11-05 23:50:51] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-11-05 23:50:51] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1762354242639
+[2025-11-05 23:50:51] INFO: 👤 [USER]: "SJ야"
+[2025-11-05 23:50:55] INFO: 🤖 [BOT]: "SJ님 반가워요 😊 오늘은 최근의 기분이나 스트레스 상태를 함께 살펴보면서 마음의 건강을 점검해보는 시간을 가질 거예요." (68자)
+[2025-11-05 23:50:55] INFO: 🎯 [INTENT]: greeting
+[2025-11-05 23:50:55] INFO: 🎯 [IS_COMPLETED]: false
+[2025-11-05 23:50:55] INFO: 🎯 [IS_FINISHED]: false
+[2025-11-05 23:50:55] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-11-05 23:50:55] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-11-05 23:50:55] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-11-05 23:50:55] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-11-05 23:50:55] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-11-05 23:50:55] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀" → 사용자답변 "SJ야"
+[2025-11-05 23:50:55] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1762354242639
+[2025-11-05 23:50:55] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance
+[2025-11-05 23:50:55] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1762354242639
+[2025-11-05 23:50:55] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1762354242639
+[2025-11-05 23:50:55] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-11-05 23:50:55] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-11-05 23:50:55] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 4172ms
+[2025-11-05 23:51:00] INFO: 👤 [USER] 사용자 입력: "좋아요" (3자)
+[2025-11-05 23:51:00] INFO: 🔍 [PREFERENCE] 직전 정책들: purpose_guidance
+[2025-11-05 23:51:00] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, 히스토리: 3개 메시지
+[2025-11-05 23:51:00] INFO: 🤖 [LAST_BOT] "SJ님 반가워요 😊 오늘은 최근의 기분이나 스트레스 상태를 함께 살펴보면서 마음의 건강을 점검해보는 시간을 가질 거예요."
+[2025-11-05 23:51:00] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1762354242639
+[2025-11-05 23:51:00] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-11-05 23:51:00] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-11-05 23:51:00] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-11-05 23:51:00] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1762354242639
+[2025-11-05 23:51:00] INFO: 👤 [USER]: "좋아요"
+[2025-11-05 23:51:09] INFO: 🤖 [BOT]: "좋아요 😊 그럼 본격적으로 시작하기 전에, SJ님은 어떤 말투로 이야기 나누는 게 더 편하신가요? 💬" (58자)
+[2025-11-05 23:51:09] INFO: 🎯 [INTENT]: answer_symptom
+[2025-11-05 23:51:09] INFO: 🎯 [IS_COMPLETED]: false
+[2025-11-05 23:51:09] INFO: 🎯 [IS_FINISHED]: false
+[2025-11-05 23:51:09] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-11-05 23:51:09] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-11-05 23:51:09] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-11-05 23:51:09] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-11-05 23:51:09] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "SJ님 반가워요 😊 오늘은 최근의 기분이나 스트레스 상태를 함께 살펴보면서 마음의 건강을 점검해보는 시간을 가질 거예요."
+[2025-11-05 23:51:09] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "SJ님 반가워요 😊 오늘은 최근의 기분이나 스트레스 상태를 함께 살펴보면서 마음의 건강을 점검해보는 시간을 가질 거예요." → 사용자답변 "좋아요"
+[2025-11-05 23:51:09] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1762354242639
+[2025-11-05 23:51:09] INFO: 📋 [POLICIES] 정책 저장 완료: ask_tone_preference
+[2025-11-05 23:51:09] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1762354242639
+[2025-11-05 23:51:09] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1762354242639
+[2025-11-05 23:51:09] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-11-05 23:51:09] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-11-05 23:51:09] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 9713ms

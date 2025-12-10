@@ -1,0 +1,780 @@
+2025-10-09 15:20:59 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2025-10-09 15:21:00 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2025-10-09 15:34:10 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_mgkang | Session: session_1759991646135 | Timestamp: 1759991650361 | Message: 아 드디어 된다 ㅠ 
+2025-10-09 15:34:10 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-09 15:34:10 | INFO     | ai_service | chat:49 | 💬 User Message: 아 드디어 된다 ㅠ 
+2025-10-09 15:34:10 | INFO     | ai_service | chat:50 | 👤 User ID: user_mgkang, Session ID: session_1759991646135
+2025-10-09 15:34:10 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1759991650361
+2025-10-09 15:34:10 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2025-10-09 15:34:10 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2025-10-09 15:34:10 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-09 15:34:10 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 미선택
+2025-10-09 15:34:10 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-10-09 15:34:10 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-09 15:34:10 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-09 15:34:10 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-09 15:34:10 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-09 15:34:10 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-09 15:34:10 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-09 15:34:10 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-09 15:34:10 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-09 15:34:10 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-09 15:34:10 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-09 15:34:10 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-09 15:34:10 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-09 15:34:10 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-09 15:34:10 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-09 15:34:10 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-09 15:34:10 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-09 15:34:10 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-09 15:34:10 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-09 15:34:11 | INFO     | ai_service | analyze_intent:76 | ✅ 의도 분석 완료: {'intent': 'greeting'}
+2025-10-09 15:34:11 | INFO     | ai_service | analyze_intent:77 | ----------------------------------------------------------
+2025-10-09 15:34:11 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-09 15:34:11 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-09 15:34:11 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-09 15:34:13 | INFO     | ai_service | select_policy:165 | 📊 정책 선택 결과: {'first_policy': 'purpose_guidance', 'second_policy': 'ask_tone_preference', 'next_question': None, 'is_completed': False, 'is_finished': False}
+2025-10-09 15:34:13 | INFO     | ai_service | select_policy:166 | 🎯 이번에 선택된 정책들: purpose_guidance, ask_tone_preference
+2025-10-09 15:34:13 | INFO     | ai_service | select_policy:167 | ----------------------------------------------------------
+2025-10-09 15:34:13 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-09 15:34:13 | INFO     | ai_service | generate_response_by_policies:85 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-09 15:34:13 | INFO     | ai_service | generate_response_by_policies:89 | 🔍 선택된 정책들: purpose_guidance, ask_tone_preference
+2025-10-09 15:34:13 | INFO     | ai_service | generate_response_by_policies:100 | 🔍 선택된 말투: 미선택
+2025-10-09 15:34:13 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-10-09 15:34:13 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_purpose_guidance_ask_tone_preference
+2025-10-09 15:34:14 | INFO     | ai_service | generate_response_by_policies:134 | ✅ 복합 정책 응답 생성 완료: 드디어 연결되셨네요! 반가워요 😊 이제 천천히 최근의 마음 상태를 알아보는 간단한 문진을 함께 해볼 거예요. 혹시 제가 어떤 말투로 이야기하면 더 편할까요?
+2025-10-09 15:34:19 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_mgkang | Session: session_1759991646135 | Timestamp: 1759991659162 | Message: 이성적이고 전문적인 말투
+2025-10-09 15:34:19 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-09 15:34:19 | INFO     | ai_service | chat:49 | 💬 User Message: 이성적이고 전문적인 말투
+2025-10-09 15:34:19 | INFO     | ai_service | chat:50 | 👤 User ID: user_mgkang, Session ID: session_1759991646135
+2025-10-09 15:34:19 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1759991659162
+2025-10-09 15:34:19 | INFO     | ai_service | chat:52 | 📊 Message Count: 3
+2025-10-09 15:34:19 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_tone_preference']
+2025-10-09 15:34:19 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-09 15:34:19 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 이성적이고 전문적인 말투
+2025-10-09 15:34:19 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-10-09 15:34:19 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+User: 아 드디어 된다 ㅠ 
+Bot: 드디어 연결되셨네요! 반가워요 😊 이제 천천히 최근의 마음 상태를 알아보는 간단한 문진을 함께 해볼 거예요. 혹시 제가 어떤 말투로 이야기하면 더 편할까요?
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-09 15:34:19 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-09 15:34:19 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-09 15:34:19 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-09 15:34:19 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-09 15:34:19 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-09 15:34:19 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-09 15:34:19 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-09 15:34:19 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-09 15:34:19 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-09 15:34:19 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-09 15:34:19 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-09 15:34:19 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-09 15:34:19 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-09 15:34:19 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-09 15:34:19 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-09 15:34:19 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-09 15:34:19 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-09 15:34:20 | INFO     | ai_service | analyze_intent:76 | ✅ 의도 분석 완료: {'intent': 'answer_tone'}
+2025-10-09 15:34:20 | INFO     | ai_service | analyze_intent:77 | ----------------------------------------------------------
+2025-10-09 15:34:20 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-09 15:34:20 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-09 15:34:20 | INFO     | ai_service | select_policy:129 | 📋 이전 정책 선택 이력: purpose_guidance, ask_tone_preference
+2025-10-09 15:34:20 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-09 15:34:21 | INFO     | ai_service | select_policy:165 | 📊 정책 선택 결과: {'first_policy': 'ask_conversation_style', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2025-10-09 15:34:21 | INFO     | ai_service | select_policy:166 | 🎯 이번에 선택된 정책들: ask_conversation_style
+2025-10-09 15:34:21 | INFO     | ai_service | select_policy:167 | ----------------------------------------------------------
+2025-10-09 15:34:21 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-09 15:34:21 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-09 15:34:21 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: ask_conversation_style
+2025-10-09 15:34:21 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-10-09 15:34:21 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 이성적이고 전문적인 말투
+2025-10-09 15:34:21 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_conversation_style
+2025-10-09 15:34:23 | INFO     | ai_service | generate_response_by_policy:72 | ✅ 응답 생성 완료: 좋습니다, 앞으로 진행할 때 제가 드리는 질문과 설명을 조금 더 깊이 있게 나누는 방식과 간결하게 빠르게 진행하는 방식 중 어떤 대화가 더 편하실까요?
+2025-10-09 15:47:15 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_mgkang | Session: session_1759992428451 | Timestamp: 1759992435785 | Message: 반가웡 난 미겨이
+2025-10-09 15:47:15 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-09 15:47:15 | INFO     | ai_service | chat:49 | 💬 User Message: 반가웡 난 미겨이
+2025-10-09 15:47:15 | INFO     | ai_service | chat:50 | 👤 User ID: user_mgkang, Session ID: session_1759992428451
+2025-10-09 15:47:15 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1759992435785
+2025-10-09 15:47:15 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2025-10-09 15:47:15 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2025-10-09 15:47:15 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-09 15:47:15 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 미선택
+2025-10-09 15:47:15 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-10-09 15:47:15 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-09 15:47:15 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-09 15:47:15 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-09 15:47:15 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-09 15:47:15 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-09 15:47:15 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-09 15:47:15 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-09 15:47:15 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-09 15:47:15 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-09 15:47:15 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-09 15:47:15 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-09 15:47:15 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-09 15:47:15 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-09 15:47:15 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-09 15:47:15 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-09 15:47:15 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-09 15:47:15 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-09 15:47:15 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-09 15:47:16 | INFO     | ai_service | analyze_intent:76 | ✅ 의도 분석 완료: {'intent': 'greeting'}
+2025-10-09 15:47:16 | INFO     | ai_service | analyze_intent:77 | ----------------------------------------------------------
+2025-10-09 15:47:16 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-09 15:47:16 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-09 15:47:16 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-09 15:47:17 | INFO     | ai_service | select_policy:165 | 📊 정책 선택 결과: {'first_policy': 'purpose_guidance', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2025-10-09 15:47:17 | INFO     | ai_service | select_policy:166 | 🎯 이번에 선택된 정책들: purpose_guidance
+2025-10-09 15:47:17 | INFO     | ai_service | select_policy:167 | ----------------------------------------------------------
+2025-10-09 15:47:17 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-09 15:47:17 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-09 15:47:17 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: purpose_guidance
+2025-10-09 15:47:17 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-10-09 15:47:17 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 미선택
+2025-10-09 15:47:17 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_purpose_guidance
+2025-10-09 15:47:18 | INFO     | ai_service | generate_response_by_policy:72 | ✅ 응답 생성 완료: 미겨이님, 만나서 반가워요 😊 오늘은 최근의 감정과 마음 상태를 알아보는 간단한 문진을 함께 진행해볼 거예요.
+2025-10-09 18:01:18 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_mgkang | Session: session_1759992428451 | Timestamp: 1760000478181 | Message: 아직 되지?
+2025-10-09 18:01:18 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-09 18:01:18 | INFO     | ai_service | chat:49 | 💬 User Message: 아직 되지?
+2025-10-09 18:01:18 | INFO     | ai_service | chat:50 | 👤 User ID: user_mgkang, Session ID: session_1759992428451
+2025-10-09 18:01:18 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1760000478181
+2025-10-09 18:01:18 | INFO     | ai_service | chat:52 | 📊 Message Count: 3
+2025-10-09 18:01:18 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance']
+2025-10-09 18:01:18 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-09 18:01:18 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 미선택
+2025-10-09 18:01:18 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-10-09 18:01:18 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+User: 반가웡 난 미겨이
+Bot: 미겨이님, 만나서 반가워요 😊 오늘은 최근의 감정과 마음 상태를 알아보는 간단한 문진을 함께 진행해볼 거예요.
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-09 18:01:18 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-09 18:01:18 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-09 18:01:18 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-09 18:01:18 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-09 18:01:18 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-09 18:01:18 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-09 18:01:18 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-09 18:01:18 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-09 18:01:18 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-09 18:01:18 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-09 18:01:18 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-09 18:01:18 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-09 18:01:18 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-09 18:01:18 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-09 18:01:18 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-09 18:01:18 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-09 18:01:18 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-09 18:01:19 | INFO     | ai_service | analyze_intent:76 | ✅ 의도 분석 완료: {'intent': 'question'}
+2025-10-09 18:01:19 | INFO     | ai_service | analyze_intent:77 | ----------------------------------------------------------
+2025-10-09 18:01:19 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-09 18:01:19 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-09 18:01:19 | INFO     | ai_service | select_policy:129 | 📋 이전 정책 선택 이력: purpose_guidance
+2025-10-09 18:01:19 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-09 18:01:20 | INFO     | ai_service | select_policy:165 | 📊 정책 선택 결과: {'first_policy': 'answer_question', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2025-10-09 18:01:20 | INFO     | ai_service | select_policy:166 | 🎯 이번에 선택된 정책들: answer_question
+2025-10-09 18:01:20 | INFO     | ai_service | select_policy:167 | ----------------------------------------------------------
+2025-10-09 18:01:20 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-09 18:01:20 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-09 18:01:20 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: answer_question
+2025-10-09 18:01:20 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-10-09 18:01:20 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 미선택
+2025-10-09 18:01:20 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_answer_question
+2025-10-09 18:01:21 | INFO     | ai_service | generate_response_by_policy:72 | ✅ 응답 생성 완료: 네, 지금 잘 되고 있어요 😊 그럼 이제 문진을 시작해볼까요? 최근 스트레스를 받거나 나를 힘들게 하는 일이 있었나요?
+2025-10-13 11:48:09 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_mgkang | Session: session_1760323678706 | Timestamp: 1760323689157 | Message: 됨 ???? 
+2025-10-13 11:48:09 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-13 11:48:09 | INFO     | ai_service | chat:49 | 💬 User Message: 됨 ???? 
+2025-10-13 11:48:09 | INFO     | ai_service | chat:50 | 👤 User ID: user_mgkang, Session ID: session_1760323678706
+2025-10-13 11:48:09 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1760323689157
+2025-10-13 11:48:09 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2025-10-13 11:48:09 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2025-10-13 11:48:09 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 11:48:09 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 미선택
+2025-10-13 11:48:09 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-10-13 11:48:09 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 11:48:09 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-13 11:48:09 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-13 11:48:09 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-13 11:48:09 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-13 11:48:09 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-13 11:48:09 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-13 11:48:09 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-13 11:48:09 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-13 11:48:09 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-13 11:48:09 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-13 11:48:09 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-13 11:48:09 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-13 11:48:09 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-13 11:48:09 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-13 11:48:09 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-13 11:48:09 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-13 11:48:09 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-13 11:48:12 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 11:48:12 | INFO     | ai_service | analyze_intent:63 | 🔄 의도 분석 재시도 1/3
+2025-10-13 11:48:13 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis | Attempt: 2
+2025-10-13 11:48:15 | INFO     | ai_service | analyze_intent:76 | ✅ 의도 분석 완료: {'intent': 'greeting'}
+2025-10-13 11:48:15 | INFO     | ai_service | analyze_intent:77 | ----------------------------------------------------------
+2025-10-13 11:48:15 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-13 11:48:15 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-13 11:48:15 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-13 11:48:18 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 11:48:18 | INFO     | ai_service | select_policy:144 | 🔄 정책 선택 재시도 1/3
+2025-10-13 11:48:19 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 2
+2025-10-13 11:48:22 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 11:48:22 | INFO     | ai_service | select_policy:144 | 🔄 정책 선택 재시도 2/3
+2025-10-13 11:48:24 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 3
+2025-10-13 11:48:27 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 11:48:27 | ERROR    | ai_service | log_error:79 | ERROR | 정책 선택 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 11:48:27 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-13 11:48:27 | INFO     | ai_service | generate_response_by_policies:85 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-13 11:48:27 | INFO     | ai_service | generate_response_by_policies:89 | 🔍 선택된 정책들: failed, failed
+2025-10-13 11:48:27 | INFO     | ai_service | generate_response_by_policies:100 | 🔍 선택된 말투: 미선택
+2025-10-13 11:48:27 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-10-13 11:48:27 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed
+2025-10-13 11:48:30 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 11:48:30 | INFO     | ai_service | generate_response_by_policies:122 | 🔄 복합 정책 응답 생성 재시도 1/3
+2025-10-13 11:48:31 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed | Attempt: 2
+2025-10-13 11:48:33 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 11:48:33 | INFO     | ai_service | generate_response_by_policies:122 | 🔄 복합 정책 응답 생성 재시도 2/3
+2025-10-13 11:48:35 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed | Attempt: 3
+2025-10-13 11:48:37 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 11:48:37 | ERROR    | ai_service | log_error:79 | ERROR | 복합 정책 응답 생성 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 12:59:53 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_kookheon | Session: session_1760327974739 | Timestamp: 1760327993113 | Message: 비가 오고 있어서 우울하다
+2025-10-13 12:59:53 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-13 12:59:53 | INFO     | ai_service | chat:49 | 💬 User Message: 비가 오고 있어서 우울하다
+2025-10-13 12:59:53 | INFO     | ai_service | chat:50 | 👤 User ID: user_kookheon, Session ID: session_1760327974739
+2025-10-13 12:59:53 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1760327993113
+2025-10-13 12:59:53 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2025-10-13 12:59:53 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2025-10-13 12:59:53 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 12:59:53 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 미선택
+2025-10-13 12:59:53 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-10-13 12:59:53 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 12:59:53 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-13 12:59:53 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-13 12:59:53 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-13 12:59:53 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-13 12:59:53 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-13 12:59:53 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-13 12:59:53 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-13 12:59:53 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-13 12:59:53 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-13 12:59:53 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-13 12:59:53 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-13 12:59:53 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-13 12:59:53 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-13 12:59:53 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-13 12:59:53 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-13 12:59:53 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-13 12:59:53 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-13 12:59:56 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 12:59:56 | INFO     | ai_service | analyze_intent:63 | 🔄 의도 분석 재시도 1/3
+2025-10-13 12:59:57 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis | Attempt: 2
+2025-10-13 13:00:00 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 13:00:00 | INFO     | ai_service | analyze_intent:63 | 🔄 의도 분석 재시도 2/3
+2025-10-13 13:00:02 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis | Attempt: 3
+2025-10-13 13:00:04 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 13:00:04 | ERROR    | ai_service | log_error:79 | ERROR | 의도 분석 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 13:00:04 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-13 13:00:04 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-13 13:00:04 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-13 13:00:06 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 13:00:06 | INFO     | ai_service | select_policy:144 | 🔄 정책 선택 재시도 1/3
+2025-10-13 13:00:07 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 2
+2025-10-13 13:00:10 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 13:00:10 | INFO     | ai_service | select_policy:144 | 🔄 정책 선택 재시도 2/3
+2025-10-13 13:00:12 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 3
+2025-10-13 13:00:13 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 13:00:13 | ERROR    | ai_service | log_error:79 | ERROR | 정책 선택 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 13:00:13 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-13 13:00:13 | INFO     | ai_service | generate_response_by_policies:85 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-13 13:00:13 | INFO     | ai_service | generate_response_by_policies:89 | 🔍 선택된 정책들: failed, failed
+2025-10-13 13:00:13 | INFO     | ai_service | generate_response_by_policies:100 | 🔍 선택된 말투: 미선택
+2025-10-13 13:00:13 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-10-13 13:00:13 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed
+2025-10-13 13:00:16 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 13:00:16 | INFO     | ai_service | generate_response_by_policies:122 | 🔄 복합 정책 응답 생성 재시도 1/3
+2025-10-13 13:00:17 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed | Attempt: 2
+2025-10-13 13:00:19 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 13:00:19 | INFO     | ai_service | generate_response_by_policies:122 | 🔄 복합 정책 응답 생성 재시도 2/3
+2025-10-13 13:00:21 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed | Attempt: 3
+2025-10-13 13:00:23 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 13:00:23 | ERROR    | ai_service | log_error:79 | ERROR | 복합 정책 응답 생성 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:08 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_kook | Session: session_1760339020397 | Timestamp: 1760339048079 | Message: 비가 와서 기분이 가라않고, 우울 하다
+2025-10-13 16:04:08 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-13 16:04:08 | INFO     | ai_service | chat:49 | 💬 User Message: 비가 와서 기분이 가라않고, 우울 하다
+2025-10-13 16:04:08 | INFO     | ai_service | chat:50 | 👤 User ID: user_kook, Session ID: session_1760339020397
+2025-10-13 16:04:08 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1760339048079
+2025-10-13 16:04:08 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2025-10-13 16:04:08 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2025-10-13 16:04:08 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 16:04:08 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 미선택
+2025-10-13 16:04:08 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-10-13 16:04:08 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 16:04:08 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-13 16:04:08 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-13 16:04:08 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-13 16:04:08 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-13 16:04:08 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-13 16:04:08 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-13 16:04:08 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-13 16:04:08 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-13 16:04:08 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-13 16:04:08 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-13 16:04:08 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-13 16:04:08 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-13 16:04:08 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-13 16:04:08 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-13 16:04:08 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-13 16:04:08 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-13 16:04:08 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-13 16:04:10 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:10 | INFO     | ai_service | analyze_intent:63 | 🔄 의도 분석 재시도 1/3
+2025-10-13 16:04:11 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis | Attempt: 2
+2025-10-13 16:04:14 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:14 | INFO     | ai_service | analyze_intent:63 | 🔄 의도 분석 재시도 2/3
+2025-10-13 16:04:16 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis | Attempt: 3
+2025-10-13 16:04:19 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:19 | ERROR    | ai_service | log_error:79 | ERROR | 의도 분석 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:19 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-13 16:04:19 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-13 16:04:19 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-13 16:04:22 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:22 | INFO     | ai_service | select_policy:144 | 🔄 정책 선택 재시도 1/3
+2025-10-13 16:04:23 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 2
+2025-10-13 16:04:25 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:25 | INFO     | ai_service | select_policy:144 | 🔄 정책 선택 재시도 2/3
+2025-10-13 16:04:27 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 3
+2025-10-13 16:04:29 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:29 | ERROR    | ai_service | log_error:79 | ERROR | 정책 선택 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:29 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-13 16:04:29 | INFO     | ai_service | generate_response_by_policies:85 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-13 16:04:29 | INFO     | ai_service | generate_response_by_policies:89 | 🔍 선택된 정책들: failed, failed
+2025-10-13 16:04:29 | INFO     | ai_service | generate_response_by_policies:100 | 🔍 선택된 말투: 미선택
+2025-10-13 16:04:29 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-10-13 16:04:29 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed
+2025-10-13 16:04:31 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:31 | INFO     | ai_service | generate_response_by_policies:122 | 🔄 복합 정책 응답 생성 재시도 1/3
+2025-10-13 16:04:32 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed | Attempt: 2
+2025-10-13 16:04:34 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:34 | INFO     | ai_service | generate_response_by_policies:122 | 🔄 복합 정책 응답 생성 재시도 2/3
+2025-10-13 16:04:36 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed | Attempt: 3
+2025-10-13 16:04:38 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:38 | ERROR    | ai_service | log_error:79 | ERROR | 복합 정책 응답 생성 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:48 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_kook | Session: session_1760339020397 | Timestamp: 1760339088854 | Message: KOOK 입니다.
+2025-10-13 16:04:48 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-13 16:04:48 | INFO     | ai_service | chat:49 | 💬 User Message: KOOK 입니다.
+2025-10-13 16:04:48 | INFO     | ai_service | chat:50 | 👤 User ID: user_kook, Session ID: session_1760339020397
+2025-10-13 16:04:48 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1760339088854
+2025-10-13 16:04:48 | INFO     | ai_service | chat:52 | 📊 Message Count: 3
+2025-10-13 16:04:48 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['failed', 'failed']
+2025-10-13 16:04:48 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 16:04:48 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 미선택
+2025-10-13 16:04:48 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-10-13 16:04:48 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+User: 비가 와서 기분이 가라않고, 우울 하다
+Bot: 죄송합니다. 응답 생성 중 오류가 발생했습니다.
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 16:04:48 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-13 16:04:48 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-13 16:04:48 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-13 16:04:48 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-13 16:04:48 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-13 16:04:48 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-13 16:04:48 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-13 16:04:48 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-13 16:04:48 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-13 16:04:48 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-13 16:04:48 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-13 16:04:48 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-13 16:04:48 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-13 16:04:48 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-13 16:04:48 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-13 16:04:48 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-13 16:04:48 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-13 16:04:50 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:50 | INFO     | ai_service | analyze_intent:63 | 🔄 의도 분석 재시도 1/3
+2025-10-13 16:04:51 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis | Attempt: 2
+2025-10-13 16:04:53 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:53 | INFO     | ai_service | analyze_intent:63 | 🔄 의도 분석 재시도 2/3
+2025-10-13 16:04:55 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis | Attempt: 3
+2025-10-13 16:04:57 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:57 | ERROR    | ai_service | log_error:79 | ERROR | 의도 분석 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:57 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-13 16:04:57 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-13 16:04:57 | INFO     | ai_service | select_policy:129 | 📋 이전 정책 선택 이력: failed, failed
+2025-10-13 16:04:57 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-13 16:04:59 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:04:59 | INFO     | ai_service | select_policy:144 | 🔄 정책 선택 재시도 1/3
+2025-10-13 16:05:00 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 2
+2025-10-13 16:05:02 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:05:02 | INFO     | ai_service | select_policy:144 | 🔄 정책 선택 재시도 2/3
+2025-10-13 16:05:04 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 3
+2025-10-13 16:05:06 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:05:06 | ERROR    | ai_service | log_error:79 | ERROR | 정책 선택 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:05:06 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-13 16:05:06 | INFO     | ai_service | generate_response_by_policies:85 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-13 16:05:06 | INFO     | ai_service | generate_response_by_policies:89 | 🔍 선택된 정책들: failed, failed
+2025-10-13 16:05:06 | INFO     | ai_service | generate_response_by_policies:100 | 🔍 선택된 말투: 미선택
+2025-10-13 16:05:06 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-10-13 16:05:06 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed
+2025-10-13 16:05:08 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:05:08 | INFO     | ai_service | generate_response_by_policies:122 | 🔄 복합 정책 응답 생성 재시도 1/3
+2025-10-13 16:05:09 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed | Attempt: 2
+2025-10-13 16:05:11 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:05:11 | INFO     | ai_service | generate_response_by_policies:122 | 🔄 복합 정책 응답 생성 재시도 2/3
+2025-10-13 16:05:13 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed | Attempt: 3
+2025-10-13 16:05:15 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:05:15 | ERROR    | ai_service | log_error:79 | ERROR | 복합 정책 응답 생성 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:06:04 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_kook | Session: session_1760339158637 | Timestamp: 1760339164383 | Message: kook
+2025-10-13 16:06:04 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-13 16:06:04 | INFO     | ai_service | chat:49 | 💬 User Message: kook
+2025-10-13 16:06:04 | INFO     | ai_service | chat:50 | 👤 User ID: user_kook, Session ID: session_1760339158637
+2025-10-13 16:06:04 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1760339164383
+2025-10-13 16:06:04 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2025-10-13 16:06:04 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2025-10-13 16:06:04 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 16:06:04 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 미선택
+2025-10-13 16:06:04 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-10-13 16:06:04 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 16:06:04 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-13 16:06:04 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-13 16:06:04 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-13 16:06:04 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-13 16:06:04 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-13 16:06:04 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-13 16:06:04 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-13 16:06:04 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-13 16:06:04 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-13 16:06:04 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-13 16:06:04 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-13 16:06:04 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-13 16:06:04 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-13 16:06:04 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-13 16:06:04 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-13 16:06:04 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-13 16:06:04 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-13 16:06:06 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:06:06 | INFO     | ai_service | analyze_intent:63 | 🔄 의도 분석 재시도 1/3
+2025-10-13 16:06:07 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis | Attempt: 2
+2025-10-13 16:06:09 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:06:09 | INFO     | ai_service | analyze_intent:63 | 🔄 의도 분석 재시도 2/3
+2025-10-13 16:06:11 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis | Attempt: 3
+2025-10-13 16:06:13 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:06:13 | ERROR    | ai_service | log_error:79 | ERROR | 의도 분석 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:06:13 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-13 16:06:13 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-13 16:06:13 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-13 16:06:14 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:06:14 | INFO     | ai_service | select_policy:144 | 🔄 정책 선택 재시도 1/3
+2025-10-13 16:06:15 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 2
+2025-10-13 16:06:17 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:06:17 | INFO     | ai_service | select_policy:144 | 🔄 정책 선택 재시도 2/3
+2025-10-13 16:06:19 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 3
+2025-10-13 16:06:21 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:06:21 | ERROR    | ai_service | log_error:79 | ERROR | 정책 선택 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:06:21 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-13 16:06:21 | INFO     | ai_service | generate_response_by_policies:85 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-13 16:06:21 | INFO     | ai_service | generate_response_by_policies:89 | 🔍 선택된 정책들: failed, failed
+2025-10-13 16:06:21 | INFO     | ai_service | generate_response_by_policies:100 | 🔍 선택된 말투: 미선택
+2025-10-13 16:06:21 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-10-13 16:06:21 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed
+2025-10-13 16:06:23 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:06:23 | INFO     | ai_service | generate_response_by_policies:122 | 🔄 복합 정책 응답 생성 재시도 1/3
+2025-10-13 16:06:24 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed | Attempt: 2
+2025-10-13 16:06:26 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:06:26 | INFO     | ai_service | generate_response_by_policies:122 | 🔄 복합 정책 응답 생성 재시도 2/3
+2025-10-13 16:06:28 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed | Attempt: 3
+2025-10-13 16:06:30 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 16:06:30 | ERROR    | ai_service | log_error:79 | ERROR | 복합 정책 응답 생성 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-13 17:35:15 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_kook | Session: session_1760339158637 | Timestamp: 1760344515220 | Message: kook
+2025-10-13 17:35:15 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-13 17:35:15 | INFO     | ai_service | chat:49 | 💬 User Message: kook
+2025-10-13 17:35:15 | INFO     | ai_service | chat:50 | 👤 User ID: user_kook, Session ID: session_1760339158637
+2025-10-13 17:35:15 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1760344515220
+2025-10-13 17:35:15 | INFO     | ai_service | chat:52 | 📊 Message Count: 3
+2025-10-13 17:35:15 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['failed', 'failed']
+2025-10-13 17:35:15 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 17:35:15 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 미선택
+2025-10-13 17:35:15 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-10-13 17:35:15 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+User: kook
+Bot: 죄송합니다. 응답 생성 중 오류가 발생했습니다.
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 17:35:15 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-13 17:35:15 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-13 17:35:15 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-13 17:35:15 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-13 17:35:15 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-13 17:35:15 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-13 17:35:15 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-13 17:35:15 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-13 17:35:15 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-13 17:35:15 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-13 17:35:15 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-13 17:35:15 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-13 17:35:15 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-13 17:35:15 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-13 17:35:15 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-13 17:35:15 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-13 17:35:15 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-13 17:35:16 | INFO     | ai_service | analyze_intent:76 | ✅ 의도 분석 완료: {'intent': 'greeting'}
+2025-10-13 17:35:16 | INFO     | ai_service | analyze_intent:77 | ----------------------------------------------------------
+2025-10-13 17:35:16 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-13 17:35:16 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-13 17:35:16 | INFO     | ai_service | select_policy:129 | 📋 이전 정책 선택 이력: failed, failed
+2025-10-13 17:35:16 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-13 17:35:18 | INFO     | ai_service | select_policy:165 | 📊 정책 선택 결과: {'first_policy': 'purpose_guidance', 'second_policy': 'ask_tone_preference', 'next_question': None, 'is_completed': False, 'is_finished': False}
+2025-10-13 17:35:18 | INFO     | ai_service | select_policy:166 | 🎯 이번에 선택된 정책들: purpose_guidance, ask_tone_preference
+2025-10-13 17:35:18 | INFO     | ai_service | select_policy:167 | ----------------------------------------------------------
+2025-10-13 17:35:18 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-13 17:35:18 | INFO     | ai_service | generate_response_by_policies:85 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-13 17:35:18 | INFO     | ai_service | generate_response_by_policies:89 | 🔍 선택된 정책들: purpose_guidance, ask_tone_preference
+2025-10-13 17:35:18 | INFO     | ai_service | generate_response_by_policies:100 | 🔍 선택된 말투: 미선택
+2025-10-13 17:35:18 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-10-13 17:35:18 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_purpose_guidance_ask_tone_preference
+2025-10-13 17:35:19 | INFO     | ai_service | generate_response_by_policies:134 | ✅ 복합 정책 응답 생성 완료: kook님, 만나서 반가워요 😊 이 대화는 최근 kook님의 마음 상태와 스트레스 정도를 함께 살펴보는 문진이에요. 혹시 제가 어떤 말투로 이야기하는 게 kook님께 더 편하실까요? 💬
+2025-10-13 17:35:30 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_kook | Session: session_1760339158637 | Timestamp: 1760344530373 | Message: 이성적이고 전문적인 말투
+2025-10-13 17:35:30 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-13 17:35:30 | INFO     | ai_service | chat:49 | 💬 User Message: 이성적이고 전문적인 말투
+2025-10-13 17:35:30 | INFO     | ai_service | chat:50 | 👤 User ID: user_kook, Session ID: session_1760339158637
+2025-10-13 17:35:30 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1760344530373
+2025-10-13 17:35:30 | INFO     | ai_service | chat:52 | 📊 Message Count: 5
+2025-10-13 17:35:30 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['failed', 'failed', 'purpose_guidance', 'ask_tone_preference']
+2025-10-13 17:35:30 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 17:35:30 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 이성적이고 전문적인 말투
+2025-10-13 17:35:30 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-10-13 17:35:30 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+User: kook
+Bot: 죄송합니다. 응답 생성 중 오류가 발생했습니다.
+User: kook
+Bot: kook님, 만나서 반가워요 😊 이 대화는 최근 kook님의 마음 상태와 스트레스 정도를 함께 살펴보는 문진이에요. 혹시 제가 어떤 말투로 이야기하는 게 kook님께 더 편하실까요? 💬
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 17:35:30 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-13 17:35:30 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-13 17:35:30 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-13 17:35:30 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-13 17:35:30 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-13 17:35:30 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-13 17:35:30 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-13 17:35:30 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-13 17:35:30 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-13 17:35:30 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-13 17:35:30 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-13 17:35:30 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-13 17:35:30 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-13 17:35:30 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-13 17:35:30 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-13 17:35:30 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-13 17:35:30 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-13 17:35:31 | INFO     | ai_service | analyze_intent:76 | ✅ 의도 분석 완료: {'intent': 'answer_tone'}
+2025-10-13 17:35:31 | INFO     | ai_service | analyze_intent:77 | ----------------------------------------------------------
+2025-10-13 17:35:31 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-13 17:35:31 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-13 17:35:31 | INFO     | ai_service | select_policy:129 | 📋 이전 정책 선택 이력: failed, failed, purpose_guidance, ask_tone_preference
+2025-10-13 17:35:31 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-13 17:35:32 | INFO     | ai_service | select_policy:165 | 📊 정책 선택 결과: {'first_policy': 'ask_conversation_style', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2025-10-13 17:35:32 | INFO     | ai_service | select_policy:166 | 🎯 이번에 선택된 정책들: ask_conversation_style
+2025-10-13 17:35:32 | INFO     | ai_service | select_policy:167 | ----------------------------------------------------------
+2025-10-13 17:35:32 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-13 17:35:32 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-13 17:35:32 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: ask_conversation_style
+2025-10-13 17:35:32 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-10-13 17:35:32 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 이성적이고 전문적인 말투
+2025-10-13 17:35:32 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_conversation_style
+2025-10-13 17:35:34 | INFO     | ai_service | generate_response_by_policy:72 | ✅ 응답 생성 완료: 감사합니다, kook님. 앞으로의 문진은 kook님께서 편안하게 느끼실 수 있도록 진행하고 싶은데요, 혹시 대화를 나눌 때 어떤 방식이 더 잘 맞으실지 알려주실 수 있을까요?
+2025-10-13 17:35:51 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_kook | Session: session_1760339158637 | Timestamp: 1760344551293 | Message: 간결하고 신속한 대화
+2025-10-13 17:35:51 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-13 17:35:51 | INFO     | ai_service | chat:49 | 💬 User Message: 간결하고 신속한 대화
+2025-10-13 17:35:51 | INFO     | ai_service | chat:50 | 👤 User ID: user_kook, Session ID: session_1760339158637
+2025-10-13 17:35:51 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1760344551293
+2025-10-13 17:35:51 | INFO     | ai_service | chat:52 | 📊 Message Count: 7
+2025-10-13 17:35:51 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['failed', 'failed', 'purpose_guidance', 'ask_tone_preference', 'ask_conversation_style']
+2025-10-13 17:35:51 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 17:35:51 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 이성적이고 전문적인 말투
+2025-10-13 17:35:51 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 간결하고 신속한 대화
+2025-10-13 17:35:51 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+User: kook
+Bot: 죄송합니다. 응답 생성 중 오류가 발생했습니다.
+User: kook
+Bot: kook님, 만나서 반가워요 😊 이 대화는 최근 kook님의 마음 상태와 스트레스 정도를 함께 살펴보는 문진이에요. 혹시 제가 어떤 말투로 이야기하는 게 kook님께 더 편하실까요? 💬
+User: 이성적이고 전문적인 말투
+Bot: 감사합니다, kook님. 앞으로의 문진은 kook님께서 편안하게 느끼실 수 있도록 진행하고 싶은데요, 혹시 대화를 나눌 때 어떤 방식이 더 잘 맞으실지 알려주실 수 있을까요?
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 17:35:51 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-13 17:35:51 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-13 17:35:51 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-13 17:35:51 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-13 17:35:51 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-13 17:35:51 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-13 17:35:51 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-13 17:35:51 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-13 17:35:51 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-13 17:35:51 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-13 17:35:51 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-13 17:35:51 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-13 17:35:51 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-13 17:35:51 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-13 17:35:51 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-13 17:35:51 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-13 17:35:51 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-13 17:35:51 | INFO     | ai_service | analyze_intent:76 | ✅ 의도 분석 완료: {'intent': 'answer_conversation_style'}
+2025-10-13 17:35:51 | INFO     | ai_service | analyze_intent:77 | ----------------------------------------------------------
+2025-10-13 17:35:51 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-13 17:35:51 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-13 17:35:51 | INFO     | ai_service | select_policy:129 | 📋 이전 정책 선택 이력: failed, failed, purpose_guidance, ask_tone_preference, ask_conversation_style
+2025-10-13 17:35:51 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-13 17:35:52 | INFO     | ai_service | select_policy:165 | 📊 정책 선택 결과: {'first_policy': 'ask_new_symptom', 'second_policy': None, 'next_question': 'Q1', 'is_completed': False, 'is_finished': False}
+2025-10-13 17:35:52 | INFO     | ai_service | select_policy:166 | 🎯 이번에 선택된 정책들: ask_new_symptom
+2025-10-13 17:35:52 | INFO     | ai_service | select_policy:167 | ----------------------------------------------------------
+2025-10-13 17:35:52 | INFO     | ai_service | chat:117 | 📝 Question Text 추가: Q1 - 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다
+2025-10-13 17:35:52 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-13 17:35:52 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-13 17:35:52 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: ask_new_symptom
+2025-10-13 17:35:52 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다
+2025-10-13 17:35:52 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 이성적이고 전문적인 말투
+2025-10-13 17:35:52 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_new_symptom
+2025-10-13 17:35:54 | INFO     | ai_service | generate_response_by_policy:72 | ✅ 응답 생성 완료: 좋아요, 그럼 최근에 마음을 힘들게 하거나 스트레스를 주는 일이 있었는지 여쭤봐도 될까요? 어떤 상황이나 일이 있었다면 간단히 말씀해 주셔도 괜찮습니다.
+2025-10-13 17:36:10 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_kook | Session: session_1760339158637 | Timestamp: 1760344570756 | Message: 비가 와서 기분이 우울하다
+2025-10-13 17:36:10 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-13 17:36:10 | INFO     | ai_service | chat:49 | 💬 User Message: 비가 와서 기분이 우울하다
+2025-10-13 17:36:10 | INFO     | ai_service | chat:50 | 👤 User ID: user_kook, Session ID: session_1760339158637
+2025-10-13 17:36:10 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1760344570756
+2025-10-13 17:36:10 | INFO     | ai_service | chat:52 | 📊 Message Count: 9
+2025-10-13 17:36:10 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['failed', 'failed', 'purpose_guidance', 'ask_tone_preference', 'ask_conversation_style', 'ask_new_symptom']
+2025-10-13 17:36:10 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 17:36:10 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 이성적이고 전문적인 말투
+2025-10-13 17:36:10 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 간결하고 신속한 대화
+2025-10-13 17:36:10 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+User: kook
+Bot: 죄송합니다. 응답 생성 중 오류가 발생했습니다.
+User: kook
+Bot: kook님, 만나서 반가워요 😊 이 대화는 최근 kook님의 마음 상태와 스트레스 정도를 함께 살펴보는 문진이에요. 혹시 제가 어떤 말투로 이야기하는 게 kook님께 더 편하실까요? 💬
+User: 이성적이고 전문적인 말투
+Bot: 감사합니다, kook님. 앞으로의 문진은 kook님께서 편안하게 느끼실 수 있도록 진행하고 싶은데요, 혹시 대화를 나눌 때 어떤 방식이 더 잘 맞으실지 알려주실 수 있을까요?
+User: 간결하고 신속한 대화
+Bot: 좋아요, 그럼 최근에 마음을 힘들게 하거나 스트레스를 주는 일이 있었는지 여쭤봐도 될까요? 어떤 상황이나 일이 있었다면 간단히 말씀해 주셔도 괜찮습니다.
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-13 17:36:10 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-13 17:36:10 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-13 17:36:10 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q1
+2025-10-13 17:36:10 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-13 17:36:10 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-13 17:36:10 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-13 17:36:10 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-13 17:36:10 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-13 17:36:10 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-13 17:36:10 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-13 17:36:10 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-13 17:36:10 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-13 17:36:10 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-13 17:36:10 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-13 17:36:10 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-13 17:36:10 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-13 17:36:10 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-13 17:36:11 | INFO     | ai_service | analyze_intent:76 | ✅ 의도 분석 완료: {'intent': 'answer_symptom'}
+2025-10-13 17:36:11 | INFO     | ai_service | analyze_intent:77 | ----------------------------------------------------------
+2025-10-13 17:36:11 | INFO     | ai_service | chat:90 | 🧠 Symptom 관련 의도 감지: DST 실행
+2025-10-13 17:36:11 | INFO     | ai_service | update_dialogue_state:223 | 🧠 DST 시작 - Intent: answer_symptom
+2025-10-13 17:36:11 | INFO     | ai_service | analysis_user_symptom:112 | 🔍 사용자 증상 분석 시작 - Intent: answer_symptom
+2025-10-13 17:36:11 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: symptom_analysis
+2025-10-13 17:36:14 | INFO     | ai_service | analysis_user_symptom:144 | 🤖 GPT 분석 결과: [
+    {
+        "questionId": "Q2",
+        "questionText": "기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다",
+        "experience": "yes",
+        "status": "asking",
+        "rawUserInput": ["비가 와서 기분이 우울하다"],
+        "frequency": null,
+        "condition": "비가 와서",
+        "note": "날씨(비)로 인해 일시적으로 기분이 우울하다고 표현함",
+        "conflict": null,
+        "updated": true
+    }
+]
+2025-10-13 17:36:14 | INFO     | ai_service | analysis_user_symptom:153 | ✅ 증상 분석 완료: [{'questionId': 'Q2', 'questionText': '기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다', 'experience': 'yes', 'status': 'asking', 'rawUserInput': ['비가 와서 기분이 우울하다'], 'frequency': None, 'condition': '비가 와서', 'note': '날씨(비)로 인해 일시적으로 기분이 우울하다고 표현함', 'conflict': None, 'updated': True}]
+2025-10-13 17:36:14 | INFO     | ai_service | analysis_user_symptom:154 | ----------------------------------------------------------
+2025-10-13 17:36:14 | INFO     | ai_service | create_full_updated_status:200 | 👉 마지막 답변된 질문: Q2
+2025-10-13 17:36:14 | INFO     | ai_service | update_dialogue_state:231 | 📊 상태 DB 업데이트 완료: {'is_completed': False, 'last_answered_question': 'Q2', 'last_asked_question': 'Q1', 'questions': [{'questionId': 'Q1', 'questionText': '최근 스트레스를 받거나 나를 힘들게 하는 일이 있다', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'frequency': None, 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q2', 'questionText': '기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다', 'experience': 'yes', 'status': 'asking', 'rawUserInput': ['비가 와서 기분이 우울하다'], 'frequency': None, 'context': None, 'note': '날씨(비)로 인해 일시적으로 기분이 우울하다고 표현함', 'updated': True, 'condition': '비가 와서', 'conflict': None}, {'questionId': 'Q3', 'questionText': '평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'frequency': None, 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q4', 'questionText': '잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'frequency': None, 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q5', 'questionText': '최근 매사에 피곤하고 기운이 없다', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'frequency': None, 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q6', 'questionText': '내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다.', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'frequency': None, 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q7', 'questionText': '차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'frequency': None, 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q8', 'questionText': '초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'frequency': None, 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q9', 'questionText': '최근 여러 가지 일에 대해 너무 많은 걱정을 한다', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'frequency': None, 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q10', 'questionText': '걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'frequency': None, 'context': None, 'note': None, 'updated': False}]}
+2025-10-13 17:36:14 | INFO     | ai_service | update_dialogue_state:232 | ----------------------------------------------------------
+2025-10-13 17:36:14 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-13 17:36:14 | INFO     | ai_service | select_policy:129 | 📋 이전 정책 선택 이력: failed, failed, purpose_guidance, ask_tone_preference, ask_conversation_style, ask_new_symptom
+2025-10-13 17:36:14 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-13 17:36:16 | INFO     | ai_service | select_policy:165 | 📊 정책 선택 결과: {'first_policy': 'ask_frequency', 'second_policy': 'empathize', 'next_question': 'Q2', 'is_completed': False, 'is_finished': False}
+2025-10-13 17:36:16 | INFO     | ai_service | select_policy:166 | 🎯 이번에 선택된 정책들: ask_frequency, empathize
+2025-10-13 17:36:16 | INFO     | ai_service | select_policy:167 | ----------------------------------------------------------
+2025-10-13 17:36:16 | INFO     | ai_service | chat:117 | 📝 Question Text 추가: Q2 - 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다
+2025-10-13 17:36:16 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-13 17:36:16 | INFO     | ai_service | generate_response_by_policies:85 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-13 17:36:16 | INFO     | ai_service | generate_response_by_policies:89 | 🔍 선택된 정책들: ask_frequency, empathize
+2025-10-13 17:36:16 | INFO     | ai_service | generate_response_by_policies:100 | 🔍 선택된 말투: 이성적이고 전문적인 말투
+2025-10-13 17:36:16 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다
+2025-10-13 17:36:16 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_frequency_empathize
+2025-10-13 17:36:18 | INFO     | ai_service | generate_response_by_policies:134 | ✅ 복합 정책 응답 생성 완료: 비가 와서 우울하다고 느끼셨군요, 그런 날씨의 영향은 충분히 있을 수 있습니다. 지난 2주 동안 이런 기분이 얼마나 자주, 혹은 어느 정도로 느껴지셨는지 알려주실 수 있을까요?
+2025-10-15 15:04:41 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_mgkang | Session: session_1760508270699 | Timestamp: 1760508281339 | Message: 난 미경 너 이름은?
+2025-10-15 15:04:41 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-10-15 15:04:41 | INFO     | ai_service | chat:49 | 💬 User Message: 난 미경 너 이름은?
+2025-10-15 15:04:41 | INFO     | ai_service | chat:50 | 👤 User ID: user_mgkang, Session ID: session_1760508270699
+2025-10-15 15:04:41 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1760508281339
+2025-10-15 15:04:41 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2025-10-15 15:04:41 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2025-10-15 15:04:41 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-15 15:04:41 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 미선택
+2025-10-15 15:04:41 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-10-15 15:04:41 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-10-15 15:04:41 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-10-15 15:04:41 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-10-15 15:04:41 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-10-15 15:04:41 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-10-15 15:04:41 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-10-15 15:04:41 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-10-15 15:04:41 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-10-15 15:04:41 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-10-15 15:04:41 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-10-15 15:04:41 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-10-15 15:04:41 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-10-15 15:04:41 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-10-15 15:04:41 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-10-15 15:04:41 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-10-15 15:04:41 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-10-15 15:04:41 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-10-15 15:04:41 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-10-15 15:04:45 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 15:04:45 | INFO     | ai_service | analyze_intent:63 | 🔄 의도 분석 재시도 1/3
+2025-10-15 15:04:46 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis | Attempt: 2
+2025-10-15 15:04:50 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 15:04:50 | INFO     | ai_service | analyze_intent:63 | 🔄 의도 분석 재시도 2/3
+2025-10-15 15:04:52 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis | Attempt: 3
+2025-10-15 15:04:55 | WARNING  | ai_service | analyze_intent:81 | ⚠️ 의도 분석 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 15:04:55 | ERROR    | ai_service | log_error:79 | ERROR | 의도 분석 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 15:04:55 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-10-15 15:04:55 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-10-15 15:04:55 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-10-15 15:04:58 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 15:04:58 | INFO     | ai_service | select_policy:144 | 🔄 정책 선택 재시도 1/3
+2025-10-15 15:04:59 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 2
+2025-10-15 15:05:01 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 15:05:01 | INFO     | ai_service | select_policy:144 | 🔄 정책 선택 재시도 2/3
+2025-10-15 15:05:03 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 3
+2025-10-15 15:05:05 | WARNING  | ai_service | select_policy:171 | ⚠️ 정책 선택 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 15:05:05 | ERROR    | ai_service | log_error:79 | ERROR | 정책 선택 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 15:05:05 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-10-15 15:05:05 | INFO     | ai_service | generate_response_by_policies:85 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-10-15 15:05:05 | INFO     | ai_service | generate_response_by_policies:89 | 🔍 선택된 정책들: failed, failed
+2025-10-15 15:05:05 | INFO     | ai_service | generate_response_by_policies:100 | 🔍 선택된 말투: 미선택
+2025-10-15 15:05:05 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-10-15 15:05:05 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed
+2025-10-15 15:05:07 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 1 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 15:05:07 | INFO     | ai_service | generate_response_by_policies:122 | 🔄 복합 정책 응답 생성 재시도 1/3
+2025-10-15 15:05:08 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed | Attempt: 2
+2025-10-15 15:05:10 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 2 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 15:05:10 | INFO     | ai_service | generate_response_by_policies:122 | 🔄 복합 정책 응답 생성 재시도 2/3
+2025-10-15 15:05:12 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed | Attempt: 3
+2025-10-15 15:05:14 | WARNING  | ai_service | generate_response_by_policies:138 | ⚠️ 복합 정책 응답 생성 시도 3 실패: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-15 15:05:14 | ERROR    | ai_service | log_error:79 | ERROR | 복합 정책 응답 생성 최종 실패 | Exception: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}

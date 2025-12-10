@@ -1,0 +1,62 @@
+[2025-12-03 15:46:45] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-12-03 15:46:45] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-12-03 15:46:49] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-12-03 15:46:55] INFO: 👤 [USER] 사용자 입력: "내 이름 알아서 뭐하게" (12자)
+[2025-12-03 15:46:55] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2025-12-03 15:46:55] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2025-12-03 15:46:55] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-03 15:46:55] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1764744404392
+[2025-12-03 15:46:55] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-03 15:46:55] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-03 15:46:55] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-03 15:46:55] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1764744404392
+[2025-12-03 15:46:55] INFO: 👤 [USER]: "내 이름 알아서 뭐하게"
+[2025-12-03 15:47:25] INFO: 🤖 [BOT]: "죄송합니다. 응답 생성 중 오류가 발생했습니다." (26자)
+[2025-12-03 15:47:25] INFO: 🎯 [INTENT]: failed
+[2025-12-03 15:47:25] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-03 15:47:25] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-03 15:47:25] INFO: 🎯 [LAST_ASKED_QUESTION]: failed
+[2025-12-03 15:47:25] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-03 15:47:25] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-03 15:47:25] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-03 15:47:25] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-03 15:47:25] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀" → 사용자답변 "내 이름 알아서 뭐하게"
+[2025-12-03 15:47:25] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1764744404392
+[2025-12-03 15:47:25] INFO: 📋 [POLICIES] 정책 저장 완료: failed, failed
+[2025-12-03 15:47:25] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1764744404392
+[2025-12-03 15:47:25] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1764744404392
+[2025-12-03 15:47:25] INFO: 📝 [STATUS] Last Asked Question: failed
+[2025-12-03 15:47:25] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-03 15:47:25] ERROR: ❌ 상태 업데이트 실패:
+[2025-12-03 15:47:25] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 30173ms
+[2025-12-03 15:54:29] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-12-03 15:54:29] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-12-03 15:54:33] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-12-03 15:54:46] INFO: 👤 [USER] 사용자 입력: "내 이름이 왜 궁금해?" (12자)
+[2025-12-03 15:54:46] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2025-12-03 15:54:46] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2025-12-03 15:54:46] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-03 15:54:46] INFO: 📊 [STATUS] 상태 조회 시작: user_sj, session_1764744869152
+[2025-12-03 15:54:46] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-03 15:54:46] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-03 15:54:46] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-03 15:54:46] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_sj, 세션ID=session_1764744869152
+[2025-12-03 15:54:46] INFO: 👤 [USER]: "내 이름이 왜 궁금해?"
+[2025-12-03 15:55:13] INFO: 🤖 [BOT]: "죄송합니다. 응답 생성 중 오류가 발생했습니다." (26자)
+[2025-12-03 15:55:13] INFO: 🎯 [INTENT]: failed
+[2025-12-03 15:55:13] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-03 15:55:13] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-03 15:55:13] INFO: 🎯 [LAST_ASKED_QUESTION]: failed
+[2025-12-03 15:55:13] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-03 15:55:13] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-03 15:55:13] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-03 15:55:13] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-03 15:55:13] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀" → 사용자답변 "내 이름이 왜 궁금해?"
+[2025-12-03 15:55:13] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_sj/session_1764744869152
+[2025-12-03 15:55:13] INFO: 📋 [POLICIES] 정책 저장 완료: failed, failed
+[2025-12-03 15:55:13] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_sj/session_1764744869152
+[2025-12-03 15:55:13] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_sj/session_1764744869152
+[2025-12-03 15:55:13] INFO: 📝 [STATUS] Last Asked Question: failed
+[2025-12-03 15:55:13] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-03 15:55:13] ERROR: ❌ 상태 업데이트 실패:
+[2025-12-03 15:55:13] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 26702ms

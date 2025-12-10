@@ -1,0 +1,1663 @@
+[2025-12-05 08:50:44] INFO: 👤 [USER] 사용자 입력: "홍길동." (4자)
+[2025-12-05 08:50:44] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2025-12-05 08:50:44] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2025-12-05 08:50:44] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-05 08:50:44] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205085035
+[2025-12-05 08:50:44] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 08:50:44] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 08:50:44] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 08:50:44] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205085035
+[2025-12-05 08:50:44] INFO: 👤 [USER]: "홍길동."
+[2025-12-05 08:51:13] INFO: 🤖 [BOT]: "죄송합니다. 응답 생성 중 오류가 발생했습니다." (26자)
+[2025-12-05 08:51:13] INFO: 🎯 [INTENT]: failed
+[2025-12-05 08:51:13] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 08:51:13] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 08:51:13] INFO: 🎯 [LAST_ASKED_QUESTION]: failed
+[2025-12-05 08:51:13] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 08:51:13] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 08:51:13] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 08:51:13] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-05 08:51:13] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀" → 사용자답변 "홍길동."
+[2025-12-05 08:51:13] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205085035
+[2025-12-05 08:51:13] INFO: 📋 [POLICIES] 정책 저장 완료: failed, failed
+[2025-12-05 08:51:13] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205085035
+[2025-12-05 08:51:13] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205085035
+[2025-12-05 08:51:13] INFO: 📝 [STATUS] Last Asked Question: failed
+[2025-12-05 08:51:13] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 08:51:13] ERROR: ❌ 상태 업데이트 실패:
+[2025-12-05 08:51:13] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 29294ms
+[2025-12-05 14:21:54] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-12-05 14:21:54] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-12-05 14:21:58] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2025-12-05 14:22:04] INFO: 👤 [USER] 사용자 입력: "ㅎㅇ 나 미경" (7자)
+[2025-12-05 14:22:04] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2025-12-05 14:22:04] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2025-12-05 14:22:04] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-05 14:22:04] INFO: 📊 [STATUS] 상태 조회 시작: user_mgkgmgm, session_1764912114049
+[2025-12-05 14:22:04] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 14:22:04] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 14:22:04] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 14:22:04] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mgkgmgm, 세션ID=session_1764912114049
+[2025-12-05 14:22:04] INFO: 👤 [USER]: "ㅎㅇ 나 미경"
+[2025-12-05 14:22:32] ERROR: ❌ [ERROR] AI 서비스 통신 실패:
+[2025-12-05 14:22:42] INFO: 👤 [USER] 사용자 입력: "ektl" (4자)
+[2025-12-05 14:22:42] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2025-12-05 14:22:42] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2025-12-05 14:22:42] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-05 14:22:42] INFO: 📊 [STATUS] 상태 조회 시작: user_mgkgmgm, session_1764912114049
+[2025-12-05 14:22:42] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 14:22:42] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 14:22:42] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 14:22:42] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mgkgmgm, 세션ID=session_1764912114049
+[2025-12-05 14:22:42] INFO: 👤 [USER]: "ektl"
+[2025-12-05 14:22:48] INFO: 🤖 [BOT]: "ektl님, 반가워요 😊 이 대화는 최근의 감정과 마음 상태를 함께 살펴보고 스스로를 더 잘 이해할 수 있도록 돕기 위한 문진이에요." (75자)
+[2025-12-05 14:22:48] INFO: 🎯 [INTENT]: other
+[2025-12-05 14:22:48] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 14:22:48] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 14:22:48] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 14:22:48] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 14:22:48] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 14:22:48] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 14:22:48] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-05 14:22:48] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀" → 사용자답변 "ektl"
+[2025-12-05 14:22:48] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mgkgmgm/session_1764912114049
+[2025-12-05 14:22:48] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance
+[2025-12-05 14:22:48] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mgkgmgm/session_1764912114049
+[2025-12-05 14:22:48] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mgkgmgm/session_1764912114049
+[2025-12-05 14:22:48] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 14:22:48] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 14:22:48] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 5904ms
+[2025-12-05 14:22:53] INFO: 👤 [USER] 사용자 입력: "엄엄.. " (5자)
+[2025-12-05 14:22:53] INFO: 🔍 [PREFERENCE] 직전 정책들: purpose_guidance
+[2025-12-05 14:22:53] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, 히스토리: 3개 메시지
+[2025-12-05 14:22:53] INFO: 🤖 [LAST_BOT] "ektl님, 반가워요 😊 이 대화는 최근의 감정과 마음 상태를 함께 살펴보고 스스로를 더 잘 이해할 수 있도록 돕기 위한 문진이에요."
+[2025-12-05 14:22:53] INFO: 📊 [STATUS] 상태 조회 시작: user_mgkgmgm, session_1764912114049
+[2025-12-05 14:22:53] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 14:22:53] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 14:22:53] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 14:22:53] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mgkgmgm, 세션ID=session_1764912114049
+[2025-12-05 14:22:53] INFO: 👤 [USER]: "엄엄.. "
+[2025-12-05 14:22:57] INFO: 🤖 [BOT]: "ektl님, 앞으로 대화할 때 어떤 말투로 이야기 나누면 더 편하실까요? 😊" (43자)
+[2025-12-05 14:22:57] INFO: 🎯 [INTENT]: other
+[2025-12-05 14:22:57] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 14:22:57] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 14:22:57] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 14:22:57] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 14:22:57] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 14:22:57] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 14:22:57] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "ektl님, 반가워요 😊 이 대화는 최근의 감정과 마음 상태를 함께 살펴보고 스스로를 더 잘 이해할 수 있도록 돕기 위한 문진이에요."
+[2025-12-05 14:22:57] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "ektl님, 반가워요 😊 이 대화는 최근의 감정과 마음 상태를 함께 살펴보고 스스로를 더 잘 이해할 수 있도록 돕기 위한 문진이에요." → 사용자답변 "엄엄.. "
+[2025-12-05 14:22:57] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mgkgmgm/session_1764912114049
+[2025-12-05 14:22:57] INFO: 📋 [POLICIES] 정책 저장 완료: ask_tone_preference
+[2025-12-05 14:22:57] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mgkgmgm/session_1764912114049
+[2025-12-05 14:22:57] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mgkgmgm/session_1764912114049
+[2025-12-05 14:22:57] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 14:22:57] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 14:22:57] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 4064ms
+[2025-12-05 16:42:58] INFO: 👤 [USER] 사용자 입력: "음 홍길동." (6자)
+[2025-12-05 16:42:58] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2025-12-05 16:42:58] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2025-12-05 16:42:58] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-05 16:42:58] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205164248
+[2025-12-05 16:42:58] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 16:42:58] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 16:42:58] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 16:42:58] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205164248
+[2025-12-05 16:42:58] INFO: 👤 [USER]: "음 홍길동."
+[2025-12-05 16:43:04] INFO: 🤖 [BOT]: "홍길동님 반가워요 😊 지금부터는 최근의 기분과 마음 상태를 알아보기 위한 간단한 문진을 함께 진행해볼게요!" (60자)
+[2025-12-05 16:43:04] INFO: 🎯 [INTENT]: greeting
+[2025-12-05 16:43:04] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 16:43:04] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 16:43:04] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 16:43:04] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 16:43:04] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 16:43:04] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 16:43:04] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-05 16:43:04] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀" → 사용자답변 "음 홍길동."
+[2025-12-05 16:43:04] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:43:04] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance
+[2025-12-05 16:43:04] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:43:04] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:43:04] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 16:43:04] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 16:43:04] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 6176ms
+[2025-12-05 16:43:19] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 16:43:19] INFO: 🔍 [PREFERENCE] 직전 정책들: purpose_guidance
+[2025-12-05 16:43:19] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, 히스토리: 3개 메시지
+[2025-12-05 16:43:19] INFO: 🤖 [LAST_BOT] "홍길동님 반가워요 😊 지금부터는 최근의 기분과 마음 상태를 알아보기 위한 간단한 문진을 함께 진행해볼게요!"
+[2025-12-05 16:43:19] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205164248
+[2025-12-05 16:43:19] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 16:43:19] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 16:43:19] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 16:43:19] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205164248
+[2025-12-05 16:43:19] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 16:43:22] INFO: 🤖 [BOT]: "홍길동님, 혹시 제가 어떤 말투로 이야기해드리면 더 편하게 느껴지실까요? 😊" (43자)
+[2025-12-05 16:43:22] INFO: 🎯 [INTENT]: other
+[2025-12-05 16:43:22] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 16:43:22] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 16:43:22] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 16:43:22] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 16:43:22] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 16:43:22] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 16:43:22] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "홍길동님 반가워요 😊 지금부터는 최근의 기분과 마음 상태를 알아보기 위한 간단한 문진을 함께 진행해볼게요!"
+[2025-12-05 16:43:22] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "홍길동님 반가워요 😊 지금부터는 최근의 기분과 마음 상태를 알아보기 위한 간단한 문진을 함께 진행해볼게요!" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 16:43:22] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:43:22] INFO: 📋 [POLICIES] 정책 저장 완료: ask_tone_preference
+[2025-12-05 16:43:22] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:43:22] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:43:22] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 16:43:22] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 16:43:22] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2987ms
+[2025-12-05 16:43:37] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 16:43:37] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_tone_preference
+[2025-12-05 16:43:37] INFO: 📊 [SESSION_DATA] 메시지: 5개, 정책: purpose_guidance, ask_tone_preference, 히스토리: 5개 메시지
+[2025-12-05 16:43:37] INFO: 🤖 [LAST_BOT] "홍길동님, 혹시 제가 어떤 말투로 이야기해드리면 더 편하게 느껴지실까요? 😊"
+[2025-12-05 16:43:37] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205164248
+[2025-12-05 16:43:37] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 16:43:37] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 16:43:37] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 16:43:37] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205164248
+[2025-12-05 16:43:37] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 16:43:42] INFO: 🤖 [BOT]: "홍길동님, 문진을 진행하기 전에 제가 이야기를 좀 더 깊이 나누는 편이 좋을지, 아니면 짧고 빠르게 진행하는 게 좋을지 궁금해요 🙂" (74자)
+[2025-12-05 16:43:42] INFO: 🎯 [INTENT]: other
+[2025-12-05 16:43:42] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 16:43:42] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 16:43:42] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 16:43:42] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 16:43:42] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 16:43:42] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 16:43:42] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "홍길동님, 혹시 제가 어떤 말투로 이야기해드리면 더 편하게 느껴지실까요? 😊"
+[2025-12-05 16:43:42] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "홍길동님, 혹시 제가 어떤 말투로 이야기해드리면 더 편하게 느껴지실까요? 😊" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 16:43:42] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:43:42] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 16:43:42] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:43:42] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:43:42] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 16:43:42] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 16:43:42] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 4757ms
+[2025-12-05 16:43:57] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 16:43:57] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 16:43:57] INFO: 📊 [SESSION_DATA] 메시지: 7개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, 히스토리: 7개 메시지
+[2025-12-05 16:43:57] INFO: 🤖 [LAST_BOT] "홍길동님, 문진을 진행하기 전에 제가 이야기를 좀 더 깊이 나누는 편이 좋을지, 아니면 짧고 빠르게 진행하는 게 좋을지 궁금해요 🙂"
+[2025-12-05 16:43:57] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205164248
+[2025-12-05 16:43:57] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 16:43:57] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 16:43:57] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 16:43:57] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205164248
+[2025-12-05 16:43:57] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 16:44:00] INFO: 🤖 [BOT]: "홍길동님, 이제 본격적으로 문진을 시작해도 괜찮을까요? 🙂" (33자)
+[2025-12-05 16:44:00] INFO: 🎯 [INTENT]: other
+[2025-12-05 16:44:00] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 16:44:00] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 16:44:00] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 16:44:00] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 16:44:00] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 16:44:00] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 16:44:00] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "홍길동님, 문진을 진행하기 전에 제가 이야기를 좀 더 깊이 나누는 편이 좋을지, 아니면 짧고 빠르게 진행하는 게 좋을지 궁금해요 🙂"
+[2025-12-05 16:44:00] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "홍길동님, 문진을 진행하기 전에 제가 이야기를 좀 더 깊이 나누는 편이 좋을지, 아니면 짧고 빠르게 진행하는 게 좋을지 궁금해요 🙂" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 16:44:00] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:44:00] INFO: 📋 [POLICIES] 정책 저장 완료: request_agreement
+[2025-12-05 16:44:00] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:44:00] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:44:00] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 16:44:00] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 16:44:00] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3626ms
+[2025-12-05 16:44:16] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 16:44:16] INFO: 🔍 [PREFERENCE] 직전 정책들: request_agreement
+[2025-12-05 16:44:16] INFO: 📊 [SESSION_DATA] 메시지: 9개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, request_agreement, 히스토리: 9개 메시지
+[2025-12-05 16:44:16] INFO: 🤖 [LAST_BOT] "홍길동님, 이제 본격적으로 문진을 시작해도 괜찮을까요? 🙂"
+[2025-12-05 16:44:16] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205164248
+[2025-12-05 16:44:16] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 16:44:16] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 16:44:16] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 16:44:16] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205164248
+[2025-12-05 16:44:16] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 16:44:19] INFO: 🤖 [BOT]: "괜찮아요 홍길동님 😊 혹시 잠깐 쉬고 계신 건가요, 아니면 제가 질문을 다시 드려볼까요?" (50자)
+[2025-12-05 16:44:19] INFO: 🎯 [INTENT]: other(무응답)
+[2025-12-05 16:44:19] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 16:44:19] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 16:44:19] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 16:44:19] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 16:44:19] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 16:44:19] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 16:44:19] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "홍길동님, 이제 본격적으로 문진을 시작해도 괜찮을까요? 🙂"
+[2025-12-05 16:44:19] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "홍길동님, 이제 본격적으로 문진을 시작해도 괜찮을까요? 🙂" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 16:44:19] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:44:19] INFO: 📋 [POLICIES] 정책 저장 완료: handle_off_topic
+[2025-12-05 16:44:19] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:44:19] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:44:19] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 16:44:19] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 16:44:19] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3123ms
+[2025-12-05 16:44:39] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 16:44:39] INFO: 🔍 [PREFERENCE] 직전 정책들: handle_off_topic
+[2025-12-05 16:44:39] INFO: 📊 [SESSION_DATA] 메시지: 11개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, request_agreement, handle_off_topic, 히스토리: 11개 메시지
+[2025-12-05 16:44:39] INFO: 🤖 [LAST_BOT] "괜찮아요 홍길동님 😊 혹시 잠깐 쉬고 계신 건가요, 아니면 제가 질문을 다시 드려볼까요?"
+[2025-12-05 16:44:39] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205164248
+[2025-12-05 16:44:39] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 16:44:39] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 16:44:39] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 16:44:39] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205164248
+[2025-12-05 16:44:39] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 16:44:43] INFO: 🤖 [BOT]: "홍길동님, 오늘은 몸이나 마음 컨디션이 좀 어떠세요? 😊" (32자)
+[2025-12-05 16:44:43] INFO: 🎯 [INTENT]: other
+[2025-12-05 16:44:43] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 16:44:43] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 16:44:43] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 16:44:43] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 16:44:43] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 16:44:43] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 16:44:43] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 홍길동님 😊 혹시 잠깐 쉬고 계신 건가요, 아니면 제가 질문을 다시 드려볼까요?"
+[2025-12-05 16:44:43] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 홍길동님 😊 혹시 잠깐 쉬고 계신 건가요, 아니면 제가 질문을 다시 드려볼까요?" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 16:44:43] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:44:43] INFO: 📋 [POLICIES] 정책 저장 완료: ask_current_state
+[2025-12-05 16:44:43] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:44:43] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:44:43] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 16:44:43] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 16:44:43] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3453ms
+[2025-12-05 16:44:57] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 16:44:57] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_current_state
+[2025-12-05 16:44:57] INFO: 📊 [SESSION_DATA] 메시지: 13개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, request_agreement, handle_off_topic, ask_current_state, 히스토리: 13개 메시지
+[2025-12-05 16:44:57] INFO: 🤖 [LAST_BOT] "홍길동님, 오늘은 몸이나 마음 컨디션이 좀 어떠세요? 😊"
+[2025-12-05 16:44:57] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205164248
+[2025-12-05 16:44:57] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 16:44:57] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 16:44:57] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 16:44:57] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205164248
+[2025-12-05 16:44:57] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 16:45:00] INFO: 🤖 [BOT]: "홍길동님, 혹시 앞으로 저와의 대화를 조금 더 깊이 나누는 게 좋을지, 아니면 짧고 빠르게 진행하는 게 좋을지 어떤 방식이 더 편하실까요? 😌" (80자)
+[2025-12-05 16:45:00] INFO: 🎯 [INTENT]: other
+[2025-12-05 16:45:00] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 16:45:00] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 16:45:00] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 16:45:00] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 16:45:00] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 16:45:00] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 16:45:00] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "홍길동님, 오늘은 몸이나 마음 컨디션이 좀 어떠세요? 😊"
+[2025-12-05 16:45:00] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "홍길동님, 오늘은 몸이나 마음 컨디션이 좀 어떠세요? 😊" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 16:45:00] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:45:00] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 16:45:00] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:45:00] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:45:00] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 16:45:00] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 16:45:00] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2856ms
+[2025-12-05 16:45:15] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 16:45:15] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 16:45:15] INFO: 📊 [SESSION_DATA] 메시지: 15개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, request_agreement, handle_off_topic, ask_current_state, ask_conversation_style, 히스토리: 15개 메시지
+[2025-12-05 16:45:15] INFO: 🤖 [LAST_BOT] "홍길동님, 혹시 앞으로 저와의 대화를 조금 더 깊이 나누는 게 좋을지, 아니면 짧고 빠르게 진행하는 게 좋을지 어떤 방식이 더 편하실까요? 😌"
+[2025-12-05 16:45:15] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205164248
+[2025-12-05 16:45:15] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 16:45:15] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 16:45:15] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 16:45:15] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205164248
+[2025-12-05 16:45:15] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 16:45:18] INFO: 🤖 [BOT]: "홍길동님, 앞으로 저와 이야기 나눌 때 깊이 있는 대화가 좋으신지 아니면 간단하게 진행하는 게 더 편하신지 알려주실 수 있을까요? 😌" (75자)
+[2025-12-05 16:45:18] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 16:45:18] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 16:45:18] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 16:45:18] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 16:45:18] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 16:45:18] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 16:45:18] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 16:45:18] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "홍길동님, 혹시 앞으로 저와의 대화를 조금 더 깊이 나누는 게 좋을지, 아니면 짧고 빠르게 진행하는 게 좋을지 어떤 방식이 더 편하실까요? 😌"
+[2025-12-05 16:45:18] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "홍길동님, 혹시 앞으로 저와의 대화를 조금 더 깊이 나누는 게 좋을지, 아니면 짧고 빠르게 진행하는 게 좋을지 어떤 방식이 더 편하실까요? 😌" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 16:45:18] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:45:19] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 16:45:19] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:45:19] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:45:19] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 16:45:19] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 16:45:19] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3251ms
+[2025-12-05 16:45:33] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 16:45:33] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 16:45:33] INFO: 📊 [SESSION_DATA] 메시지: 17개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, request_agreement, handle_off_topic, ask_current_state, ask_conversation_style, ask_conversation_style, 히스토리: 17개 메시지
+[2025-12-05 16:45:33] INFO: 🤖 [LAST_BOT] "홍길동님, 앞으로 저와 이야기 나눌 때 깊이 있는 대화가 좋으신지 아니면 간단하게 진행하는 게 더 편하신지 알려주실 수 있을까요? 😌"
+[2025-12-05 16:45:33] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205164248
+[2025-12-05 16:45:33] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 16:45:33] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 16:45:33] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 16:45:33] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205164248
+[2025-12-05 16:45:33] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 16:45:36] INFO: 🤖 [BOT]: "괜찮아요 홍길동님 😊 혹시 잠깐 다른 일 하고 계신가요, 아니면 잠시 쉬고 싶으신 걸까요?" (51자)
+[2025-12-05 16:45:36] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 16:45:36] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 16:45:36] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 16:45:36] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 16:45:36] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 16:45:36] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 16:45:36] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 16:45:36] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "홍길동님, 앞으로 저와 이야기 나눌 때 깊이 있는 대화가 좋으신지 아니면 간단하게 진행하는 게 더 편하신지 알려주실 수 있을까요? 😌"
+[2025-12-05 16:45:36] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "홍길동님, 앞으로 저와 이야기 나눌 때 깊이 있는 대화가 좋으신지 아니면 간단하게 진행하는 게 더 편하신지 알려주실 수 있을까요? 😌" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 16:45:36] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:45:36] INFO: 📋 [POLICIES] 정책 저장 완료: handle_off_topic
+[2025-12-05 16:45:36] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:45:36] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:45:36] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 16:45:36] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 16:45:36] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2872ms
+[2025-12-05 16:45:51] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 16:45:51] INFO: 🔍 [PREFERENCE] 직전 정책들: handle_off_topic
+[2025-12-05 16:45:51] INFO: 📊 [SESSION_DATA] 메시지: 19개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, request_agreement, handle_off_topic, ask_current_state, ask_conversation_style, ask_conversation_style, handle_off_topic, 히스토리: 19개 메시지
+[2025-12-05 16:45:51] INFO: 🤖 [LAST_BOT] "괜찮아요 홍길동님 😊 혹시 잠깐 다른 일 하고 계신가요, 아니면 잠시 쉬고 싶으신 걸까요?"
+[2025-12-05 16:45:51] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205164248
+[2025-12-05 16:45:51] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 16:45:51] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 16:45:51] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 16:45:51] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205164248
+[2025-12-05 16:45:51] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 16:45:53] INFO: 🤖 [BOT]: "괜찮아요 홍길동님 😊 혹시 잠시 다른 생각하고 계셨던 걸까요? 다시 문진 이야기로 돌아와 볼까요?" (55자)
+[2025-12-05 16:45:53] INFO: 🎯 [INTENT]: other
+[2025-12-05 16:45:53] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 16:45:53] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 16:45:53] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 16:45:53] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 16:45:53] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 16:45:53] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 16:45:53] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 홍길동님 😊 혹시 잠깐 다른 일 하고 계신가요, 아니면 잠시 쉬고 싶으신 걸까요?"
+[2025-12-05 16:45:53] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 홍길동님 😊 혹시 잠깐 다른 일 하고 계신가요, 아니면 잠시 쉬고 싶으신 걸까요?" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 16:45:53] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:45:53] INFO: 📋 [POLICIES] 정책 저장 완료: ask_return_to_topic
+[2025-12-05 16:45:53] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:45:53] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205164248
+[2025-12-05 16:45:53] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 16:45:53] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 16:45:53] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2296ms
+[2025-12-05 17:24:07] INFO: 👤 [USER] 사용자 입력: "이렇게 할 때마다 지금." (13자)
+[2025-12-05 17:24:07] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2025-12-05 17:24:07] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2025-12-05 17:24:07] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-05 17:24:07] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:24:07] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:24:07] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:24:07] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:24:07] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:24:07] INFO: 👤 [USER]: "이렇게 할 때마다 지금."
+[2025-12-05 17:24:11] INFO: 🤖 [BOT]: "지금은 최근의 마음 상태와 감정을 함께 살펴보기 위한 문진을 시작하려고 해요 😊" (45자)
+[2025-12-05 17:24:11] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:24:11] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:24:11] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:24:11] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:24:11] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:24:11] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:24:11] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:24:11] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀"
+[2025-12-05 17:24:11] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀" → 사용자답변 "이렇게 할 때마다 지금."
+[2025-12-05 17:24:11] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:24:11] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance
+[2025-12-05 17:24:11] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:24:11] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:24:11] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:24:11] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:24:11] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3816ms
+[2025-12-05 17:24:40] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:24:40] INFO: 🔍 [PREFERENCE] 직전 정책들: purpose_guidance
+[2025-12-05 17:24:40] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, 히스토리: 3개 메시지
+[2025-12-05 17:24:40] INFO: 🤖 [LAST_BOT] "지금은 최근의 마음 상태와 감정을 함께 살펴보기 위한 문진을 시작하려고 해요 😊"
+[2025-12-05 17:24:40] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:24:40] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:24:40] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:24:40] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:24:40] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:24:40] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:24:43] INFO: 🤖 [BOT]: "혹시 제가 앞으로 어떤 말투로 이야기하면 더 편하실까요? 😊" (34자)
+[2025-12-05 17:24:43] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:24:43] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:24:43] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:24:43] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:24:43] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:24:43] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:24:43] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:24:43] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "지금은 최근의 마음 상태와 감정을 함께 살펴보기 위한 문진을 시작하려고 해요 😊"
+[2025-12-05 17:24:43] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "지금은 최근의 마음 상태와 감정을 함께 살펴보기 위한 문진을 시작하려고 해요 😊" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:24:43] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:24:43] INFO: 📋 [POLICIES] 정책 저장 완료: ask_tone_preference
+[2025-12-05 17:24:43] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:24:43] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:24:43] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:24:43] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:24:43] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3683ms
+[2025-12-05 17:24:58] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:24:58] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_tone_preference
+[2025-12-05 17:24:58] INFO: 📊 [SESSION_DATA] 메시지: 5개, 정책: purpose_guidance, ask_tone_preference, 히스토리: 5개 메시지
+[2025-12-05 17:24:58] INFO: 🤖 [LAST_BOT] "혹시 제가 앞으로 어떤 말투로 이야기하면 더 편하실까요? 😊"
+[2025-12-05 17:24:58] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:24:58] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:24:58] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:24:58] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:24:58] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:24:58] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:25:02] INFO: 🤖 [BOT]: "혹시 오늘 대화는 조금 깊이 있게 나누는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 😊" (61자)
+[2025-12-05 17:25:02] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:25:02] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:25:02] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:25:02] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:25:02] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:25:02] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:25:02] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:25:02] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "혹시 제가 앞으로 어떤 말투로 이야기하면 더 편하실까요? 😊"
+[2025-12-05 17:25:02] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "혹시 제가 앞으로 어떤 말투로 이야기하면 더 편하실까요? 😊" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:25:02] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:25:02] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:25:02] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:25:02] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:25:02] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:25:02] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:25:02] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3556ms
+[2025-12-05 17:25:17] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:25:17] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:25:17] INFO: 📊 [SESSION_DATA] 메시지: 7개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, 히스토리: 7개 메시지
+[2025-12-05 17:25:17] INFO: 🤖 [LAST_BOT] "혹시 오늘 대화는 조금 깊이 있게 나누는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 😊"
+[2025-12-05 17:25:17] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:25:17] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:25:17] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:25:17] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:25:17] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:25:17] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:25:20] INFO: 🤖 [BOT]: "오늘 하루는 어떠셨어요? 😊 식사는 하셨는지도 궁금하네요 🍽️" (36자)
+[2025-12-05 17:25:20] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:25:20] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:25:20] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:25:20] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:25:20] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:25:20] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:25:20] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:25:20] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "혹시 오늘 대화는 조금 깊이 있게 나누는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 😊"
+[2025-12-05 17:25:20] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "혹시 오늘 대화는 조금 깊이 있게 나누는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 😊" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:25:20] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:25:20] INFO: 📋 [POLICIES] 정책 저장 완료: ask_current_state
+[2025-12-05 17:25:20] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:25:20] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:25:20] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:25:20] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:25:20] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3153ms
+[2025-12-05 17:25:35] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:25:35] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_current_state
+[2025-12-05 17:25:35] INFO: 📊 [SESSION_DATA] 메시지: 9개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, 히스토리: 9개 메시지
+[2025-12-05 17:25:35] INFO: 🤖 [LAST_BOT] "오늘 하루는 어떠셨어요? 😊 식사는 하셨는지도 궁금하네요 🍽️"
+[2025-12-05 17:25:35] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:25:35] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:25:35] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:25:35] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:25:35] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:25:35] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:25:38] INFO: 🤖 [BOT]: "지금부터 본격적으로 마음 상태를 살펴보는 문진을 시작해도 괜찮을까요? 🌿" (41자)
+[2025-12-05 17:25:38] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:25:38] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:25:38] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:25:38] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:25:38] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:25:38] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:25:38] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:25:38] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "오늘 하루는 어떠셨어요? 😊 식사는 하셨는지도 궁금하네요 🍽️"
+[2025-12-05 17:25:38] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "오늘 하루는 어떠셨어요? 😊 식사는 하셨는지도 궁금하네요 🍽️" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:25:38] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:25:38] INFO: 📋 [POLICIES] 정책 저장 완료: request_agreement
+[2025-12-05 17:25:38] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:25:38] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:25:38] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:25:38] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:25:38] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2881ms
+[2025-12-05 17:25:53] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:25:53] INFO: 🔍 [PREFERENCE] 직전 정책들: request_agreement
+[2025-12-05 17:25:53] INFO: 📊 [SESSION_DATA] 메시지: 11개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, 히스토리: 11개 메시지
+[2025-12-05 17:25:53] INFO: 🤖 [LAST_BOT] "지금부터 본격적으로 마음 상태를 살펴보는 문진을 시작해도 괜찮을까요? 🌿"
+[2025-12-05 17:25:53] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:25:53] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:25:53] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:25:53] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:25:53] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:25:53] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:25:56] INFO: 🤖 [BOT]: "괜찮으시다면, 오늘은 이야기를 좀 더 깊이 나눠볼지 아니면 짧고 간단하게 진행할지 여쭤봐도 될까요? 😊" (58자)
+[2025-12-05 17:25:56] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:25:56] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:25:56] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:25:56] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:25:56] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:25:56] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:25:56] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:25:56] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "지금부터 본격적으로 마음 상태를 살펴보는 문진을 시작해도 괜찮을까요? 🌿"
+[2025-12-05 17:25:56] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "지금부터 본격적으로 마음 상태를 살펴보는 문진을 시작해도 괜찮을까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:25:56] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:25:56] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:25:56] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:25:56] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:25:56] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:25:56] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:25:56] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3282ms
+[2025-12-05 17:26:11] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:26:11] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:26:11] INFO: 📊 [SESSION_DATA] 메시지: 13개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, 히스토리: 13개 메시지
+[2025-12-05 17:26:11] INFO: 🤖 [LAST_BOT] "괜찮으시다면, 오늘은 이야기를 좀 더 깊이 나눠볼지 아니면 짧고 간단하게 진행할지 여쭤봐도 될까요? 😊"
+[2025-12-05 17:26:11] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:26:11] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:26:11] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:26:11] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:26:11] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:26:11] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:26:14] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 잠시 다른 이야기를 하고 싶으신 걸까요, 아니면 다시 마음 상태 문진으로 돌아가볼까요? 🌿" (62자)
+[2025-12-05 17:26:14] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:26:14] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:26:14] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:26:14] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:26:14] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:26:14] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:26:14] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:26:14] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮으시다면, 오늘은 이야기를 좀 더 깊이 나눠볼지 아니면 짧고 간단하게 진행할지 여쭤봐도 될까요? 😊"
+[2025-12-05 17:26:14] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮으시다면, 오늘은 이야기를 좀 더 깊이 나눠볼지 아니면 짧고 간단하게 진행할지 여쭤봐도 될까요? 😊" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:26:14] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:26:14] INFO: 📋 [POLICIES] 정책 저장 완료: handle_off_topic
+[2025-12-05 17:26:14] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:26:14] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:26:14] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:26:14] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:26:14] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2927ms
+[2025-12-05 17:26:29] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:26:29] INFO: 🔍 [PREFERENCE] 직전 정책들: handle_off_topic
+[2025-12-05 17:26:29] INFO: 📊 [SESSION_DATA] 메시지: 15개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, 히스토리: 15개 메시지
+[2025-12-05 17:26:29] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 잠시 다른 이야기를 하고 싶으신 걸까요, 아니면 다시 마음 상태 문진으로 돌아가볼까요? 🌿"
+[2025-12-05 17:26:29] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:26:29] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:26:29] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:26:29] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:26:29] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:26:29] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:26:31] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 지금은 잠시 쉬고 싶으신 걸까요, 아니면 다시 마음 상태 문진으로 돌아가볼까요? 🌿" (58자)
+[2025-12-05 17:26:31] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:26:31] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:26:31] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:26:31] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:26:31] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:26:31] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:26:31] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:26:31] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 잠시 다른 이야기를 하고 싶으신 걸까요, 아니면 다시 마음 상태 문진으로 돌아가볼까요? 🌿"
+[2025-12-05 17:26:31] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 잠시 다른 이야기를 하고 싶으신 걸까요, 아니면 다시 마음 상태 문진으로 돌아가볼까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:26:31] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:26:31] INFO: 📋 [POLICIES] 정책 저장 완료: ask_return_to_topic
+[2025-12-05 17:26:31] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:26:31] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:26:31] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:26:31] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:26:31] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2510ms
+[2025-12-05 17:26:53] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:26:53] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_return_to_topic
+[2025-12-05 17:26:53] INFO: 📊 [SESSION_DATA] 메시지: 17개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, 히스토리: 17개 메시지
+[2025-12-05 17:26:53] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 지금은 잠시 쉬고 싶으신 걸까요, 아니면 다시 마음 상태 문진으로 돌아가볼까요? 🌿"
+[2025-12-05 17:26:53] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:26:53] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:26:53] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:26:53] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:26:53] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:26:53] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:26:56] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 오늘은 이야기를 좀 더 깊이 나누는 게 좋을지, 아니면 가볍게 짧게 나누는 게 더 편하실까요? 🌿" (66자)
+[2025-12-05 17:26:56] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:26:56] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:26:56] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:26:56] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:26:56] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:26:56] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:26:56] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:26:56] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 지금은 잠시 쉬고 싶으신 걸까요, 아니면 다시 마음 상태 문진으로 돌아가볼까요? 🌿"
+[2025-12-05 17:26:56] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 지금은 잠시 쉬고 싶으신 걸까요, 아니면 다시 마음 상태 문진으로 돌아가볼까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:26:56] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:26:56] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:26:56] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:26:56] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:26:56] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:26:56] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:26:56] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3038ms
+[2025-12-05 17:27:11] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:27:11] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:27:11] INFO: 📊 [SESSION_DATA] 메시지: 19개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, 히스토리: 19개 메시지
+[2025-12-05 17:27:11] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 오늘은 이야기를 좀 더 깊이 나누는 게 좋을지, 아니면 가볍게 짧게 나누는 게 더 편하실까요? 🌿"
+[2025-12-05 17:27:11] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:27:11] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:27:11] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:27:11] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:27:11] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:27:11] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:27:16] INFO: 🤖 [BOT]: "혹시 제가 이야기할 때 어떤 말투로 하면 더 편하게 느껴지실까요? 😊" (39자)
+[2025-12-05 17:27:16] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:27:16] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:27:16] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:27:16] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:27:16] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:27:16] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:27:16] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:27:16] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 오늘은 이야기를 좀 더 깊이 나누는 게 좋을지, 아니면 가볍게 짧게 나누는 게 더 편하실까요? 🌿"
+[2025-12-05 17:27:16] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 오늘은 이야기를 좀 더 깊이 나누는 게 좋을지, 아니면 가볍게 짧게 나누는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:27:16] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:27:16] INFO: 📋 [POLICIES] 정책 저장 완료: ask_tone_preference
+[2025-12-05 17:27:16] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:27:16] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:27:16] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:27:16] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:27:16] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 5002ms
+[2025-12-05 17:27:31] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:27:31] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_tone_preference
+[2025-12-05 17:27:31] INFO: 📊 [SESSION_DATA] 메시지: 21개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, 히스토리: 21개 메시지
+[2025-12-05 17:27:31] INFO: 🤖 [LAST_BOT] "혹시 제가 이야기할 때 어떤 말투로 하면 더 편하게 느껴지실까요? 😊"
+[2025-12-05 17:27:31] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:27:31] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:27:31] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:27:31] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:27:31] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:27:31] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:27:33] INFO: 🤖 [BOT]: "혹시 오늘은 이야기를 조금 깊게 나누는 게 좋을지, 아니면 짧고 간단하게 이야기하는 게 더 편하실까요? 😊" (60자)
+[2025-12-05 17:27:33] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:27:33] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:27:33] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:27:33] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:27:33] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:27:33] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:27:33] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:27:33] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "혹시 제가 이야기할 때 어떤 말투로 하면 더 편하게 느껴지실까요? 😊"
+[2025-12-05 17:27:33] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "혹시 제가 이야기할 때 어떤 말투로 하면 더 편하게 느껴지실까요? 😊" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:27:33] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:27:33] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:27:33] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:27:33] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:27:33] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:27:33] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:27:33] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2620ms
+[2025-12-05 17:28:05] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:28:05] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:28:05] INFO: 📊 [SESSION_DATA] 메시지: 23개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, 히스토리: 23개 메시지
+[2025-12-05 17:28:05] INFO: 🤖 [LAST_BOT] "혹시 오늘은 이야기를 조금 깊게 나누는 게 좋을지, 아니면 짧고 간단하게 이야기하는 게 더 편하실까요? 😊"
+[2025-12-05 17:28:05] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:28:05] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:28:05] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:28:05] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:28:05] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:28:05] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:28:07] INFO: 🤖 [BOT]: "괜찮아요 😊 잠시 다른 생각에 잠기셨던 걸까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿" (56자)
+[2025-12-05 17:28:07] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:28:07] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:28:07] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:28:07] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:28:07] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:28:07] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:28:07] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:28:07] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "혹시 오늘은 이야기를 조금 깊게 나누는 게 좋을지, 아니면 짧고 간단하게 이야기하는 게 더 편하실까요? 😊"
+[2025-12-05 17:28:07] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "혹시 오늘은 이야기를 조금 깊게 나누는 게 좋을지, 아니면 짧고 간단하게 이야기하는 게 더 편하실까요? 😊" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:28:07] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:28:07] INFO: 📋 [POLICIES] 정책 저장 완료: ask_return_to_topic
+[2025-12-05 17:28:07] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:28:07] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:28:07] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:28:07] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:28:07] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2396ms
+[2025-12-05 17:28:22] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:28:22] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_return_to_topic
+[2025-12-05 17:28:22] INFO: 📊 [SESSION_DATA] 메시지: 25개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, 히스토리: 25개 메시지
+[2025-12-05 17:28:22] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 잠시 다른 생각에 잠기셨던 걸까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿"
+[2025-12-05 17:28:22] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:28:22] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:28:22] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:28:22] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:28:22] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:28:22] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:28:25] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿" (80자)
+[2025-12-05 17:28:25] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:28:25] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:28:25] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:28:25] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:28:25] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:28:25] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:28:25] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:28:25] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 잠시 다른 생각에 잠기셨던 걸까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿"
+[2025-12-05 17:28:25] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 잠시 다른 생각에 잠기셨던 걸까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:28:25] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:28:25] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:28:25] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:28:25] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:28:25] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:28:25] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:28:25] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3251ms
+[2025-12-05 17:28:45] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:28:45] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:28:45] INFO: 📊 [SESSION_DATA] 메시지: 27개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, 히스토리: 27개 메시지
+[2025-12-05 17:28:45] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:28:45] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:28:45] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:28:45] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:28:45] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:28:45] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:28:45] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:28:49] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 제가 이야기할 때 조금 더 다정하게 말하는 게 좋을지, 아니면 담백하고 조용한 말투가 더 편하실까요? 🌿" (70자)
+[2025-12-05 17:28:49] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:28:49] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:28:49] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:28:49] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:28:49] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:28:49] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:28:49] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:28:49] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:28:49] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:28:49] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:28:49] INFO: 📋 [POLICIES] 정책 저장 완료: ask_tone_preference
+[2025-12-05 17:28:49] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:28:49] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:28:49] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:28:49] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:28:49] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3935ms
+[2025-12-05 17:29:04] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:29:04] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_tone_preference
+[2025-12-05 17:29:04] INFO: 📊 [SESSION_DATA] 메시지: 29개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, 히스토리: 29개 메시지
+[2025-12-05 17:29:04] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 제가 이야기할 때 조금 더 다정하게 말하는 게 좋을지, 아니면 담백하고 조용한 말투가 더 편하실까요? 🌿"
+[2025-12-05 17:29:04] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:29:04] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:29:04] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:29:04] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:29:04] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:29:04] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:29:09] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 아니면 짧고 간단하게 나누는 게 더 편하실까요? 🌿" (69자)
+[2025-12-05 17:29:09] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:29:09] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:29:09] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:29:09] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:29:09] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:29:09] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:29:09] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:29:09] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 제가 이야기할 때 조금 더 다정하게 말하는 게 좋을지, 아니면 담백하고 조용한 말투가 더 편하실까요? 🌿"
+[2025-12-05 17:29:09] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 제가 이야기할 때 조금 더 다정하게 말하는 게 좋을지, 아니면 담백하고 조용한 말투가 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:29:09] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:29:09] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:29:09] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:29:09] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:29:09] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:29:09] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:29:09] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 5069ms
+[2025-12-05 17:29:24] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:29:24] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:29:24] INFO: 📊 [SESSION_DATA] 메시지: 31개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, 히스토리: 31개 메시지
+[2025-12-05 17:29:24] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 아니면 짧고 간단하게 나누는 게 더 편하실까요? 🌿"
+[2025-12-05 17:29:24] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:29:24] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:29:24] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:29:24] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:29:24] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:29:24] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:29:28] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 차분히 깊이 이야기하는 게 좋을지, 가볍게 짧게 이야기하는 게 더 편하실까요? 🌿" (71자)
+[2025-12-05 17:29:28] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:29:28] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:29:28] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:29:28] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:29:28] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:29:28] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:29:28] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:29:28] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 아니면 짧고 간단하게 나누는 게 더 편하실까요? 🌿"
+[2025-12-05 17:29:28] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 아니면 짧고 간단하게 나누는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:29:28] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:29:28] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:29:28] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:29:28] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:29:28] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:29:28] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:29:28] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3392ms
+[2025-12-05 17:29:42] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:29:42] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:29:42] INFO: 📊 [SESSION_DATA] 메시지: 33개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, 히스토리: 33개 메시지
+[2025-12-05 17:29:43] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 차분히 깊이 이야기하는 게 좋을지, 가볍게 짧게 이야기하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:29:43] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:29:43] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:29:43] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:29:43] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:29:43] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:29:43] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:29:45] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 제가 앞으로 이야기할 때 조금 더 다정한 말투가 좋을까요, 아니면 차분하고 담백한 말투가 더 편하실까요? 🌿" (72자)
+[2025-12-05 17:29:45] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:29:45] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:29:45] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:29:45] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:29:45] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:29:45] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:29:45] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:29:45] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 차분히 깊이 이야기하는 게 좋을지, 가볍게 짧게 이야기하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:29:45] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 차분히 깊이 이야기하는 게 좋을지, 가볍게 짧게 이야기하는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:29:45] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:29:45] INFO: 📋 [POLICIES] 정책 저장 완료: ask_tone_preference
+[2025-12-05 17:29:45] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:29:45] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:29:45] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:29:45] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:29:45] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2960ms
+[2025-12-05 17:30:07] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:30:07] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_tone_preference
+[2025-12-05 17:30:07] INFO: 📊 [SESSION_DATA] 메시지: 35개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, 히스토리: 35개 메시지
+[2025-12-05 17:30:07] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 제가 앞으로 이야기할 때 조금 더 다정한 말투가 좋을까요, 아니면 차분하고 담백한 말투가 더 편하실까요? 🌿"
+[2025-12-05 17:30:07] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:30:07] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:30:07] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:30:07] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:30:07] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:30:07] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:30:10] INFO: 🤖 [BOT]: "괜찮아요 😊 잠시 생각 정리 중이셨을까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿" (53자)
+[2025-12-05 17:30:10] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:30:10] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:30:10] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:30:10] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:30:10] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:30:10] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:30:10] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:30:10] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 제가 앞으로 이야기할 때 조금 더 다정한 말투가 좋을까요, 아니면 차분하고 담백한 말투가 더 편하실까요? 🌿"
+[2025-12-05 17:30:10] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 제가 앞으로 이야기할 때 조금 더 다정한 말투가 좋을까요, 아니면 차분하고 담백한 말투가 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:30:10] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:30:10] INFO: 📋 [POLICIES] 정책 저장 완료: ask_return_to_topic
+[2025-12-05 17:30:10] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:30:10] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:30:10] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:30:10] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:30:10] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2849ms
+[2025-12-05 17:30:25] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:30:25] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_return_to_topic
+[2025-12-05 17:30:25] INFO: 📊 [SESSION_DATA] 메시지: 37개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, 히스토리: 37개 메시지
+[2025-12-05 17:30:25] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 잠시 생각 정리 중이셨을까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿"
+[2025-12-05 17:30:25] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:30:25] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:30:25] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:30:25] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:30:25] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:30:25] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:30:28] INFO: 🤖 [BOT]: "괜찮아요 😊 잠시 생각 정리 중이셨을까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿" (53자)
+[2025-12-05 17:30:28] INFO: 🎯 [INTENT]: other: no_response
+[2025-12-05 17:30:28] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:30:28] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:30:28] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:30:28] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:30:28] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:30:28] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:30:28] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 잠시 생각 정리 중이셨을까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿"
+[2025-12-05 17:30:28] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 잠시 생각 정리 중이셨을까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:30:28] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:30:28] INFO: 📋 [POLICIES] 정책 저장 완료: ask_return_to_topic
+[2025-12-05 17:30:28] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:30:28] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:30:28] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:30:28] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:30:28] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3079ms
+[2025-12-05 17:31:00] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:31:00] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_return_to_topic
+[2025-12-05 17:31:00] INFO: 📊 [SESSION_DATA] 메시지: 39개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, 히스토리: 39개 메시지
+[2025-12-05 17:31:00] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 잠시 생각 정리 중이셨을까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿"
+[2025-12-05 17:31:00] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:31:00] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:31:00] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:31:00] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:31:00] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:31:00] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:31:03] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로 제가 이야기할 때 조금 더 다정하게 말하는 게 좋을까요, 아니면 담백하고 차분한 말투가 더 편하실까요? 🌿" (75자)
+[2025-12-05 17:31:03] INFO: 🎯 [INTENT]: other: no_response
+[2025-12-05 17:31:03] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:31:03] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:31:03] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:31:03] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:31:03] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:31:03] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:31:03] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 잠시 생각 정리 중이셨을까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿"
+[2025-12-05 17:31:03] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 잠시 생각 정리 중이셨을까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:31:03] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:31:03] INFO: 📋 [POLICIES] 정책 저장 완료: ask_tone_preference
+[2025-12-05 17:31:03] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:31:03] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:31:03] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:31:03] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:31:03] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2705ms
+[2025-12-05 17:31:18] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:31:18] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_tone_preference
+[2025-12-05 17:31:18] INFO: 📊 [SESSION_DATA] 메시지: 41개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, 히스토리: 41개 메시지
+[2025-12-05 17:31:18] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로 제가 이야기할 때 조금 더 다정하게 말하는 게 좋을까요, 아니면 담백하고 차분한 말투가 더 편하실까요? 🌿"
+[2025-12-05 17:31:18] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:31:18] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:31:18] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:31:18] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:31:18] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:31:18] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:31:27] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 오늘은 이야기를 조금 깊게 나누는 게 좋을지, 아니면 짧고 간단하게 이야기하는 게 더 편하실까요? 🌿" (68자)
+[2025-12-05 17:31:27] INFO: 🎯 [INTENT]: failed
+[2025-12-05 17:31:27] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:31:27] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:31:27] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:31:27] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:31:27] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:31:27] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:31:27] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로 제가 이야기할 때 조금 더 다정하게 말하는 게 좋을까요, 아니면 담백하고 차분한 말투가 더 편하실까요? 🌿"
+[2025-12-05 17:31:27] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로 제가 이야기할 때 조금 더 다정하게 말하는 게 좋을까요, 아니면 담백하고 차분한 말투가 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:31:27] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:31:27] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:31:27] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:31:27] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:31:27] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:31:27] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:31:27] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 8558ms
+[2025-12-05 17:31:51] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:31:51] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:31:51] INFO: 📊 [SESSION_DATA] 메시지: 43개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, 히스토리: 43개 메시지
+[2025-12-05 17:31:51] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 오늘은 이야기를 조금 깊게 나누는 게 좋을지, 아니면 짧고 간단하게 이야기하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:31:51] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:31:51] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:31:51] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:31:51] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:31:51] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:31:51] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:31:54] INFO: 🤖 [BOT]: "괜찮아요 😊 잠시 다른 생각을 하고 계셨던 걸까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿" (58자)
+[2025-12-05 17:31:54] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:31:54] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:31:54] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:31:54] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:31:54] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:31:54] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:31:54] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:31:54] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 오늘은 이야기를 조금 깊게 나누는 게 좋을지, 아니면 짧고 간단하게 이야기하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:31:54] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 오늘은 이야기를 조금 깊게 나누는 게 좋을지, 아니면 짧고 간단하게 이야기하는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:31:54] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:31:54] INFO: 📋 [POLICIES] 정책 저장 완료: ask_return_to_topic
+[2025-12-05 17:31:54] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:31:54] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:31:54] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:31:54] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:31:54] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2917ms
+[2025-12-05 17:32:09] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:32:09] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_return_to_topic
+[2025-12-05 17:32:09] INFO: 📊 [SESSION_DATA] 메시지: 45개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, 히스토리: 45개 메시지
+[2025-12-05 17:32:09] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 잠시 다른 생각을 하고 계셨던 걸까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿"
+[2025-12-05 17:32:09] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:32:09] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:32:09] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:32:09] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:32:09] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:32:09] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:32:12] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로 이야기를 나눌 때는 조금 더 깊이 있게 대화하는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿" (76자)
+[2025-12-05 17:32:12] INFO: 🎯 [INTENT]: other_no_response
+[2025-12-05 17:32:12] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:32:12] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:32:12] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:32:12] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:32:12] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:32:12] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:32:12] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 잠시 다른 생각을 하고 계셨던 걸까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿"
+[2025-12-05 17:32:12] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 잠시 다른 생각을 하고 계셨던 걸까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:32:12] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:32:12] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:32:12] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:32:12] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:32:12] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:32:12] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:32:12] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3557ms
+[2025-12-05 17:32:46] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:32:46] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:32:46] INFO: 📊 [SESSION_DATA] 메시지: 47개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, 히스토리: 47개 메시지
+[2025-12-05 17:32:46] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로 이야기를 나눌 때는 조금 더 깊이 있게 대화하는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:32:46] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:32:46] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:32:46] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:32:46] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:32:46] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:32:46] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:32:49] INFO: 🤖 [BOT]: "괜찮아요 😊 앞으로 이야기 나눌 때는 조금 더 깊이 있게 대화하는 게 좋을지, 간단하고 빠르게 이야기하는 게 더 편하실지 여쭤봐도 될까요? 🌿" (81자)
+[2025-12-05 17:32:49] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:32:49] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:32:49] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:32:49] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:32:49] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:32:49] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:32:49] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:32:49] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로 이야기를 나눌 때는 조금 더 깊이 있게 대화하는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:32:49] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로 이야기를 나눌 때는 조금 더 깊이 있게 대화하는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:32:49] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:32:49] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:32:49] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:32:49] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:32:49] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:32:49] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:32:49] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2884ms
+[2025-12-05 17:33:04] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:33:04] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:33:04] INFO: 📊 [SESSION_DATA] 메시지: 49개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, 히스토리: 49개 메시지
+[2025-12-05 17:33:04] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 앞으로 이야기 나눌 때는 조금 더 깊이 있게 대화하는 게 좋을지, 간단하고 빠르게 이야기하는 게 더 편하실지 여쭤봐도 될까요? 🌿"
+[2025-12-05 17:33:04] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:33:04] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:33:04] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:33:04] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:33:04] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:33:04] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:33:07] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿" (76자)
+[2025-12-05 17:33:07] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:33:07] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:33:07] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:33:07] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:33:07] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:33:07] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:33:07] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:33:07] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 앞으로 이야기 나눌 때는 조금 더 깊이 있게 대화하는 게 좋을지, 간단하고 빠르게 이야기하는 게 더 편하실지 여쭤봐도 될까요? 🌿"
+[2025-12-05 17:33:07] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 앞으로 이야기 나눌 때는 조금 더 깊이 있게 대화하는 게 좋을지, 간단하고 빠르게 이야기하는 게 더 편하실지 여쭤봐도 될까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:33:07] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:33:07] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:33:07] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:33:07] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:33:07] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:33:07] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:33:07] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2736ms
+[2025-12-05 17:33:22] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:33:22] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:33:22] INFO: 📊 [SESSION_DATA] 메시지: 51개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, 히스토리: 51개 메시지
+[2025-12-05 17:33:22] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:33:22] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:33:22] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:33:22] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:33:22] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:33:22] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:33:22] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:33:24] INFO: 🤖 [BOT]: "괜찮아요 😊 잠시 쉬고 계셨던 걸까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿" (51자)
+[2025-12-05 17:33:24] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:33:24] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:33:24] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:33:24] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:33:24] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:33:24] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:33:24] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:33:24] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:33:24] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:33:24] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:33:24] INFO: 📋 [POLICIES] 정책 저장 완료: ask_return_to_topic
+[2025-12-05 17:33:24] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:33:24] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:33:24] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:33:24] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:33:24] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2343ms
+[2025-12-05 17:33:39] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:33:39] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_return_to_topic
+[2025-12-05 17:33:39] INFO: 📊 [SESSION_DATA] 메시지: 53개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, 히스토리: 53개 메시지
+[2025-12-05 17:33:39] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 잠시 쉬고 계셨던 걸까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿"
+[2025-12-05 17:33:39] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:33:39] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:33:39] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:33:39] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:33:39] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:33:39] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:33:42] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿" (70자)
+[2025-12-05 17:33:42] INFO: 🎯 [INTENT]: other_no_response
+[2025-12-05 17:33:42] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:33:42] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:33:42] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:33:42] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:33:42] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:33:42] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:33:42] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 잠시 쉬고 계셨던 걸까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿"
+[2025-12-05 17:33:42] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 잠시 쉬고 계셨던 걸까요? 다시 마음 상태 문진으로 돌아가도 괜찮을까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:33:42] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:33:42] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:33:42] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:33:42] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:33:42] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:33:42] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:33:42] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2972ms
+[2025-12-05 17:33:57] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:33:57] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:33:57] INFO: 📊 [SESSION_DATA] 메시지: 55개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, 히스토리: 55개 메시지
+[2025-12-05 17:33:57] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:33:57] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:33:57] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:33:57] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:33:57] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:33:57] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:33:57] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:34:00] INFO: 🤖 [BOT]: "괜찮아요 😊 잠시 생각 중이셨을까요? 다시 마음 상태 문진으로 돌아가 봐도 괜찮을까요? 🌿" (52자)
+[2025-12-05 17:34:00] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:34:00] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:34:00] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:34:00] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:34:00] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:34:00] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:34:00] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:34:00] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:34:00] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:34:00] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:34:00] INFO: 📋 [POLICIES] 정책 저장 완료: ask_return_to_topic
+[2025-12-05 17:34:00] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:34:00] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:34:00] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:34:00] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:34:00] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3069ms
+[2025-12-05 17:34:15] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:34:15] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_return_to_topic
+[2025-12-05 17:34:15] INFO: 📊 [SESSION_DATA] 메시지: 57개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, 히스토리: 57개 메시지
+[2025-12-05 17:34:15] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 잠시 생각 중이셨을까요? 다시 마음 상태 문진으로 돌아가 봐도 괜찮을까요? 🌿"
+[2025-12-05 17:34:15] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:34:15] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:34:15] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:34:15] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:34:15] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:34:15] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:34:18] INFO: 🤖 [BOT]: "괜찮아요 😊 그럼 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 이야기하는 게 좋을지 궁금해요 🌿" (77자)
+[2025-12-05 17:34:18] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:34:18] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:34:18] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:34:18] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:34:18] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:34:18] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:34:18] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:34:18] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 잠시 생각 중이셨을까요? 다시 마음 상태 문진으로 돌아가 봐도 괜찮을까요? 🌿"
+[2025-12-05 17:34:18] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 잠시 생각 중이셨을까요? 다시 마음 상태 문진으로 돌아가 봐도 괜찮을까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:34:18] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:34:18] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:34:18] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:34:18] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:34:18] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:34:18] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:34:18] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2497ms
+[2025-12-05 17:34:42] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:34:42] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:34:42] INFO: 📊 [SESSION_DATA] 메시지: 59개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, 히스토리: 59개 메시지
+[2025-12-05 17:34:42] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 그럼 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 이야기하는 게 좋을지 궁금해요 🌿"
+[2025-12-05 17:34:42] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:34:42] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:34:42] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:34:42] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:34:42] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:34:42] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:34:46] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿" (71자)
+[2025-12-05 17:34:46] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:34:46] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:34:46] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:34:46] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:34:46] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:34:46] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:34:46] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:34:46] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 그럼 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 이야기하는 게 좋을지 궁금해요 🌿"
+[2025-12-05 17:34:46] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 그럼 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 이야기하는 게 좋을지 궁금해요 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:34:46] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:34:46] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:34:46] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:34:46] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:34:46] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:34:46] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:34:46] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3871ms
+[2025-12-05 17:35:01] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:35:01] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:35:01] INFO: 📊 [SESSION_DATA] 메시지: 61개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, 히스토리: 61개 메시지
+[2025-12-05 17:35:01] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:35:01] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:35:01] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:35:01] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:35:01] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:35:01] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:35:01] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:35:06] INFO: 🤖 [BOT]: "괜찮아요 😊 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 이야기하는 게 더 편하실지 궁금해요 🌿" (77자)
+[2025-12-05 17:35:06] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:35:06] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:35:06] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:35:06] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:35:06] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:35:06] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:35:06] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:35:06] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:35:06] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:35:06] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:35:06] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:35:06] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:35:06] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:35:06] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:35:06] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:35:06] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 4970ms
+[2025-12-05 17:35:35] INFO: 👤 [USER] 사용자 입력: "아멘!" (3자)
+[2025-12-05 17:35:35] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:35:35] INFO: 📊 [SESSION_DATA] 메시지: 63개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, 히스토리: 63개 메시지
+[2025-12-05 17:35:35] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 이야기하는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:35:35] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:35:35] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:35:35] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:35:35] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:35:35] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:35:35] INFO: 👤 [USER]: "아멘!"
+[2025-12-05 17:35:42] INFO: 🤖 [BOT]: "아멘! 🙏 마음이 따뜻해지네요 😊 이제 다시 마음 상태를 살펴보는 문진으로 돌아가볼까요? 🌿" (54자)
+[2025-12-05 17:35:42] INFO: 🎯 [INTENT]: other(종교적 감탄사로, 대화 주제나 질문에 대한 직접적인 답변이 아님)
+[2025-12-05 17:35:42] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:35:42] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:35:42] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:35:42] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:35:42] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:35:42] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:35:42] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 이야기하는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:35:42] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 앞으로 대화를 나눌 때는 조금 더 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 이야기하는 게 더 편하실지 궁금해요 🌿" → 사용자답변 "아멘!"
+[2025-12-05 17:35:42] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:35:42] INFO: 📋 [POLICIES] 정책 저장 완료: ask_return_to_topic
+[2025-12-05 17:35:42] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:35:42] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:35:42] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:35:42] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:35:42] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 7020ms
+[2025-12-05 17:36:05] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:36:05] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_return_to_topic
+[2025-12-05 17:36:05] INFO: 📊 [SESSION_DATA] 메시지: 65개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, 히스토리: 65개 메시지
+[2025-12-05 17:36:05] INFO: 🤖 [LAST_BOT] "아멘! 🙏 마음이 따뜻해지네요 😊 이제 다시 마음 상태를 살펴보는 문진으로 돌아가볼까요? 🌿"
+[2025-12-05 17:36:05] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:36:05] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:36:05] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:36:05] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:36:05] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:36:05] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:36:07] INFO: 🤖 [BOT]: "괜찮아요 😊 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 여쭤봐도 될까요? 🌿" (72자)
+[2025-12-05 17:36:07] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:36:07] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:36:07] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:36:07] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:36:07] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:36:07] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:36:07] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:36:07] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "아멘! 🙏 마음이 따뜻해지네요 😊 이제 다시 마음 상태를 살펴보는 문진으로 돌아가볼까요? 🌿"
+[2025-12-05 17:36:07] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "아멘! 🙏 마음이 따뜻해지네요 😊 이제 다시 마음 상태를 살펴보는 문진으로 돌아가볼까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:36:07] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:36:07] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:36:07] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:36:07] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:36:07] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:36:07] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:36:07] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2449ms
+[2025-12-05 17:36:34] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:36:34] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:36:34] INFO: 📊 [SESSION_DATA] 메시지: 67개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, 히스토리: 67개 메시지
+[2025-12-05 17:36:34] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 여쭤봐도 될까요? 🌿"
+[2025-12-05 17:36:34] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:36:34] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:36:34] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:36:34] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:36:34] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:36:34] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:36:37] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 궁금해요 🌿" (70자)
+[2025-12-05 17:36:37] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:36:37] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:36:37] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:36:37] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:36:37] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:36:37] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:36:37] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:36:37] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 여쭤봐도 될까요? 🌿"
+[2025-12-05 17:36:37] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 여쭤봐도 될까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:36:37] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:36:37] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:36:37] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:36:37] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:36:37] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:36:37] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:36:37] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2363ms
+[2025-12-05 17:36:52] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:36:52] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:36:52] INFO: 📊 [SESSION_DATA] 메시지: 69개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, 히스토리: 69개 메시지
+[2025-12-05 17:36:52] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:36:52] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:36:52] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:36:52] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:36:52] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:36:52] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:36:52] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:36:55] INFO: 🤖 [BOT]: "괜찮아요 😊 앞으로는 대화를 조금 더 깊이 있게 나누는 게 좋을지, 아니면 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿" (73자)
+[2025-12-05 17:36:55] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:36:55] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:36:55] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:36:55] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:36:55] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:36:55] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:36:55] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:36:55] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:36:55] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 궁금해요 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:36:55] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:36:55] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:36:55] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:36:55] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:36:55] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:36:55] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:36:55] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3237ms
+[2025-12-05 17:37:10] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:37:10] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:37:10] INFO: 📊 [SESSION_DATA] 메시지: 71개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, 히스토리: 71개 메시지
+[2025-12-05 17:37:10] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 앞으로는 대화를 조금 더 깊이 있게 나누는 게 좋을지, 아니면 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:37:10] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:37:10] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:37:10] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:37:10] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:37:10] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:37:10] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:37:13] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 차분히 깊게 이야기하는 게 좋을지, 가볍고 짧게 주고받는 게 더 편하실지 궁금해요 🌿" (73자)
+[2025-12-05 17:37:13] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:37:13] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:37:13] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:37:13] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:37:13] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:37:13] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:37:13] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:37:13] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 앞으로는 대화를 조금 더 깊이 있게 나누는 게 좋을지, 아니면 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:37:13] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 앞으로는 대화를 조금 더 깊이 있게 나누는 게 좋을지, 아니면 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:37:13] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:37:13] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:37:13] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:37:13] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:37:13] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:37:13] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:37:13] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2712ms
+[2025-12-05 17:37:28] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:37:28] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:37:28] INFO: 📊 [SESSION_DATA] 메시지: 73개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, 히스토리: 73개 메시지
+[2025-12-05 17:37:28] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 차분히 깊게 이야기하는 게 좋을지, 가볍고 짧게 주고받는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:37:28] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:37:28] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:37:28] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:37:28] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:37:28] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:37:28] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:37:30] INFO: 🤖 [BOT]: "괜찮아요 😊 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿" (68자)
+[2025-12-05 17:37:30] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:37:30] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:37:30] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:37:30] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:37:30] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:37:30] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:37:30] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:37:30] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 차분히 깊게 이야기하는 게 좋을지, 가볍고 짧게 주고받는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:37:30] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로 대화를 나눌 때는 차분히 깊게 이야기하는 게 좋을지, 가볍고 짧게 주고받는 게 더 편하실지 궁금해요 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:37:30] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:37:30] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:37:30] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:37:30] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:37:30] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:37:30] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:37:30] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2843ms
+[2025-12-05 17:37:45] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:37:45] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:37:45] INFO: 📊 [SESSION_DATA] 메시지: 75개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, 히스토리: 75개 메시지
+[2025-12-05 17:37:45] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:37:45] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:37:45] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:37:45] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:37:45] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:37:45] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:37:45] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:37:48] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로는 이야기를 좀 더 깊이 나누는 게 좋을지, 아니면 짧고 간단하게 주고받는 게 더 편하실까요? 🌿" (69자)
+[2025-12-05 17:37:48] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:37:48] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:37:48] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:37:48] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:37:48] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:37:48] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:37:48] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:37:48] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:37:48] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 앞으로는 이야기를 조금 더 깊이 나누는 게 좋을지, 아니면 간단하고 빠르게 진행하는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:37:48] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:37:48] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:37:48] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:37:48] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:37:48] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:37:48] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:37:48] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2890ms
+[2025-12-05 17:38:03] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:38:03] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:38:03] INFO: 📊 [SESSION_DATA] 메시지: 77개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, 히스토리: 77개 메시지
+[2025-12-05 17:38:03] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로는 이야기를 좀 더 깊이 나누는 게 좋을지, 아니면 짧고 간단하게 주고받는 게 더 편하실까요? 🌿"
+[2025-12-05 17:38:03] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:38:03] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:38:03] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:38:03] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:38:03] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:38:03] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:38:08] INFO: 🤖 [BOT]: "요즘 혹시 마음을 무겁게 하거나 스트레스를 주는 일이 있으신가요? 🌿 어떤 일인지 편하게 이야기해주셔도 괜찮아요." (64자)
+[2025-12-05 17:38:08] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:38:08] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:38:08] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:38:08] INFO: 🎯 [LAST_ASKED_QUESTION]: Q1
+[2025-12-05 17:38:08] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다
+[2025-12-05 17:38:08] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:38:08] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:38:08] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로는 이야기를 좀 더 깊이 나누는 게 좋을지, 아니면 짧고 간단하게 주고받는 게 더 편하실까요? 🌿"
+[2025-12-05 17:38:08] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로는 이야기를 좀 더 깊이 나누는 게 좋을지, 아니면 짧고 간단하게 주고받는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:38:08] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:38:08] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_symptom
+[2025-12-05 17:38:08] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:38:08] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:38:08] INFO: 📝 [STATUS] Last Asked Question: Q1
+[2025-12-05 17:38:08] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:38:08] INFO: 💾 [DB] Status 업데이트 완료: u3007110, s20251205172400
+[2025-12-05 17:38:08] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 4412ms
+[2025-12-05 17:38:19] INFO: 👤 [USER] 사용자 입력: "자." (2자)
+[2025-12-05 17:38:19] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_new_symptom
+[2025-12-05 17:38:19] INFO: 📊 [SESSION_DATA] 메시지: 79개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_new_symptom, 히스토리: 79개 메시지
+[2025-12-05 17:38:19] INFO: 🤖 [LAST_BOT] "요즘 혹시 마음을 무겁게 하거나 스트레스를 주는 일이 있으신가요? 🌿 어떤 일인지 편하게 이야기해주셔도 괜찮아요."
+[2025-12-05 17:38:19] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:38:19] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:38:19] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:38:19] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:38:19] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:38:19] INFO: 👤 [USER]: "자."
+[2025-12-05 17:38:23] INFO: 🤖 [BOT]: "좋아요 😊 그럼 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 여쭤봐도 될까요? 🌿" (77자)
+[2025-12-05 17:38:23] INFO: 🎯 [INTENT]: answer_symptom
+[2025-12-05 17:38:23] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:38:23] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:38:23] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:38:23] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:38:23] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:38:23] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:38:23] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "요즘 혹시 마음을 무겁게 하거나 스트레스를 주는 일이 있으신가요? 🌿 어떤 일인지 편하게 이야기해주셔도 괜찮아요."
+[2025-12-05 17:38:23] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "요즘 혹시 마음을 무겁게 하거나 스트레스를 주는 일이 있으신가요? 🌿 어떤 일인지 편하게 이야기해주셔도 괜찮아요." → 사용자답변 "자."
+[2025-12-05 17:38:23] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:38:23] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:38:23] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:38:23] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:38:23] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:38:23] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:38:23] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3569ms
+[2025-12-05 17:38:44] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:38:44] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:38:44] INFO: 📊 [SESSION_DATA] 메시지: 81개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_new_symptom, ask_conversation_style, 히스토리: 81개 메시지
+[2025-12-05 17:38:44] INFO: 🤖 [LAST_BOT] "좋아요 😊 그럼 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 여쭤봐도 될까요? 🌿"
+[2025-12-05 17:38:44] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:38:44] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:38:44] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:38:44] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:38:44] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:38:44] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:38:50] INFO: 🤖 [BOT]: "괜찮아요 😊 그럼 앞으로 이야기를 나눌 때는 조금 더 깊이 있게 천천히 이야기하는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿" (84자)
+[2025-12-05 17:38:50] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:38:50] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:38:50] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:38:50] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:38:50] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:38:50] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:38:50] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:38:50] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "좋아요 😊 그럼 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 여쭤봐도 될까요? 🌿"
+[2025-12-05 17:38:50] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "좋아요 😊 그럼 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 여쭤봐도 될까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:38:50] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:38:50] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:38:50] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:38:50] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:38:50] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:38:50] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:38:50] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 6221ms
+[2025-12-05 17:39:05] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:39:05] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:39:05] INFO: 📊 [SESSION_DATA] 메시지: 83개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_new_symptom, ask_conversation_style, ask_conversation_style, 히스토리: 83개 메시지
+[2025-12-05 17:39:05] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 그럼 앞으로 이야기를 나눌 때는 조금 더 깊이 있게 천천히 이야기하는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:39:05] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:39:05] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:39:05] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:39:05] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:39:05] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:39:05] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:39:17] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 아니면 간단하고 빠르게 이야기하는 게 더 편하실까요? 🌿" (75자)
+[2025-12-05 17:39:17] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:39:17] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:39:17] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:39:17] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:39:17] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:39:17] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:39:17] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:39:17] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 그럼 앞으로 이야기를 나눌 때는 조금 더 깊이 있게 천천히 이야기하는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:39:17] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 그럼 앞으로 이야기를 나눌 때는 조금 더 깊이 있게 천천히 이야기하는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:39:17] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:39:17] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:39:17] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:39:17] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:39:17] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:39:17] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:39:17] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 11696ms
+[2025-12-05 17:39:32] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:39:32] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:39:32] INFO: 📊 [SESSION_DATA] 메시지: 85개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_new_symptom, ask_conversation_style, ask_conversation_style, ask_conversation_style, 히스토리: 85개 메시지
+[2025-12-05 17:39:32] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 아니면 간단하고 빠르게 이야기하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:39:32] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:39:32] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:39:32] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:39:32] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:39:32] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:39:32] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:39:40] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 이야기하는 게 더 편하실까요? 🌿" (71자)
+[2025-12-05 17:39:40] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:39:40] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:39:40] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:39:40] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:39:40] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:39:40] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:39:40] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:39:40] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 아니면 간단하고 빠르게 이야기하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:39:40] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 아니면 간단하고 빠르게 이야기하는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:39:40] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:39:40] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:39:40] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:39:40] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:39:40] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:39:40] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:39:40] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 8635ms
+[2025-12-05 17:39:55] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:39:55] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:39:55] INFO: 📊 [SESSION_DATA] 메시지: 87개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_new_symptom, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, 히스토리: 87개 메시지
+[2025-12-05 17:39:55] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 이야기하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:39:55] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:39:55] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:39:55] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:39:55] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:39:55] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:39:55] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:40:05] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실까요? 🌿" (70자)
+[2025-12-05 17:40:05] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:40:05] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:40:05] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:40:05] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:40:05] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:40:05] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:40:05] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:40:05] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 이야기하는 게 더 편하실까요? 🌿"
+[2025-12-05 17:40:05] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 이야기하는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:40:05] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:40:05] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:40:05] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:40:05] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:40:05] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:40:05] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:40:05] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 9257ms
+[2025-12-05 17:40:20] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:40:20] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:40:20] INFO: 📊 [SESSION_DATA] 메시지: 89개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_new_symptom, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, 히스토리: 89개 메시지
+[2025-12-05 17:40:20] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실까요? 🌿"
+[2025-12-05 17:40:20] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:40:20] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:40:20] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:40:20] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:40:20] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:40:20] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:40:29] INFO: 🤖 [BOT]: "괜찮아요 😊 앞으로 대화를 나눌 때는 조금 더 깊이 있는 이야기를 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 궁금해요 🌿" (79자)
+[2025-12-05 17:40:29] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:40:29] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:40:29] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:40:29] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:40:29] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:40:29] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:40:29] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:40:29] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실까요? 🌿"
+[2025-12-05 17:40:29] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 혹시 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:40:29] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:40:29] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:40:29] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:40:29] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:40:29] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:40:29] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:40:29] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 9597ms
+[2025-12-05 17:40:44] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:40:44] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:40:44] INFO: 📊 [SESSION_DATA] 메시지: 91개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_new_symptom, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, 히스토리: 91개 메시지
+[2025-12-05 17:40:44] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 앞으로 대화를 나눌 때는 조금 더 깊이 있는 이야기를 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:40:44] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:40:44] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:40:44] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:40:44] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:40:44] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:40:44] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:40:54] INFO: 🤖 [BOT]: "괜찮아요 😊 앞으로 이야기를 나눌 때는 천천히 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿" (76자)
+[2025-12-05 17:40:54] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:40:54] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:40:54] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:40:54] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:40:54] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:40:54] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:40:54] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:40:54] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 앞으로 대화를 나눌 때는 조금 더 깊이 있는 이야기를 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:40:54] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 앞으로 대화를 나눌 때는 조금 더 깊이 있는 이야기를 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 궁금해요 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:40:54] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:40:54] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:40:54] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:40:54] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:40:54] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:40:54] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:40:54] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 9806ms
+[2025-12-05 17:41:09] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:41:09] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:41:09] INFO: 📊 [SESSION_DATA] 메시지: 93개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_new_symptom, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, 히스토리: 93개 메시지
+[2025-12-05 17:41:09] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 앞으로 이야기를 나눌 때는 천천히 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:41:09] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:41:09] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:41:09] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:41:09] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:41:09] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:41:09] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:41:19] INFO: 🤖 [BOT]: "괜찮아요 😊 그럼 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 여쭤봐도 될까요? 🌿" (78자)
+[2025-12-05 17:41:19] INFO: 🎯 [INTENT]: NO_RESPONSE
+[2025-12-05 17:41:19] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:41:19] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:41:19] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:41:19] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:41:19] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:41:19] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:41:19] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 앞으로 이야기를 나눌 때는 천천히 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿"
+[2025-12-05 17:41:19] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 앞으로 이야기를 나눌 때는 천천히 깊이 있게 이야기하는 게 좋을지, 간단하고 빠르게 주고받는 게 더 편하실지 궁금해요 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:41:20] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:41:20] INFO: 📋 [POLICIES] 정책 저장 완료: ask_conversation_style
+[2025-12-05 17:41:20] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:41:20] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:41:20] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:41:20] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:41:20] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 10582ms
+[2025-12-05 17:41:34] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2025-12-05 17:41:34] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_conversation_style
+[2025-12-05 17:41:34] INFO: 📊 [SESSION_DATA] 메시지: 95개, 정책: purpose_guidance, ask_tone_preference, ask_conversation_style, ask_current_state, request_agreement, ask_conversation_style, handle_off_topic, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_tone_preference, ask_conversation_style, ask_conversation_style, ask_tone_preference, ask_return_to_topic, ask_return_to_topic, ask_tone_preference, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_return_to_topic, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_new_symptom, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, ask_conversation_style, 히스토리: 95개 메시지
+[2025-12-05 17:41:34] INFO: 🤖 [LAST_BOT] "괜찮아요 😊 그럼 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 여쭤봐도 될까요? 🌿"
+[2025-12-05 17:41:34] INFO: 📊 [STATUS] 상태 조회 시작: u3007110, s20251205172400
+[2025-12-05 17:41:34] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2025-12-05 17:41:34] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2025-12-05 17:41:34] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2025-12-05 17:41:34] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=u3007110, 세션ID=s20251205172400
+[2025-12-05 17:41:34] INFO: 👤 [USER]: "NO_RESPONSE"
+[2025-12-05 17:42:10] INFO: 🤖 [BOT]: "괜찮아요 😊 혹시 제가 이야기할 때 어떤 말투로 하면 더 편하게 느껴지실까요? 🌿" (47자)
+[2025-12-05 17:42:10] INFO: 🎯 [INTENT]: other
+[2025-12-05 17:42:10] INFO: 🎯 [IS_COMPLETED]: false
+[2025-12-05 17:42:10] INFO: 🎯 [IS_FINISHED]: false
+[2025-12-05 17:42:10] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2025-12-05 17:42:10] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2025-12-05 17:42:10] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2025-12-05 17:42:10] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2025-12-05 17:42:10] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "괜찮아요 😊 그럼 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 여쭤봐도 될까요? 🌿"
+[2025-12-05 17:42:10] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "괜찮아요 😊 그럼 앞으로는 이야기를 조금 더 깊이 있게 나누는 게 좋을지, 간단하고 빠르게 진행하는 게 더 편하실지 여쭤봐도 될까요? 🌿" → 사용자답변 "NO_RESPONSE"
+[2025-12-05 17:42:11] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:42:11] INFO: 📋 [POLICIES] 정책 저장 완료: ask_tone_preference
+[2025-12-05 17:42:11] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:42:11] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: u3007110/s20251205172400
+[2025-12-05 17:42:11] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2025-12-05 17:42:11] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2025-12-05 17:42:11] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 36137ms

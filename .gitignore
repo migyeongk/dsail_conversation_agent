@@ -1,0 +1,4 @@
+.env
+chatbot_env/
+.cache
+frontend/

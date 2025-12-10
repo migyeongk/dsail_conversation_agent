@@ -43,7 +43,7 @@ OPENAI_API_KEY=             # OpenAI API 키 (별도 안내 예정)
 - `User.js` - 사용자 정보
 - `Session.js` - 대화 세션
 - `Chat.js` - 대화 내용
-- `Status.js` - 상태 정보
+- `Status.js` - 문진 상태 정보
 
 
 
@@ -64,8 +64,8 @@ pip install -r requirements.txt
 ### 실행
 
 ```bash
-# MongoDB 확인 (보통 백그라운드에서 자동 실행됨)
-# 만약 실행되지 않았다면: mongod
+# MongoDB 확인
+# mongod
 
 # 터미널 1: API 서버 실행
 cd api-server

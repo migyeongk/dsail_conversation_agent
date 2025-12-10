@@ -5082,3 +5082,47 @@ Bot: 괜찮아요 😊 그럼 앞으로는 이야기를 조금 더 깊이 있게
 2025-12-05 17:42:05 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_tone_preference
 2025-12-05 17:42:10 | INFO     | ai_service | generate_response_by_policy:72 | ✅ 응답 생성 완료: 괜찮아요 😊 혹시 제가 이야기할 때 어떤 말투로 하면 더 편하게 느껴지실까요? 🌿
 2025-12-05 22:36:22 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2025-12-10 14:56:48 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3007110 | Session: s20251210145639 | Timestamp: 1765346208475 | Message: 아멘!
+2025-12-10 14:56:48 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2025-12-10 14:56:48 | INFO     | ai_service | chat:49 | 💬 User Message: 아멘!
+2025-12-10 14:56:48 | INFO     | ai_service | chat:50 | 👤 User ID: u3007110, Session ID: s20251210145639
+2025-12-10 14:56:48 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1765346208475
+2025-12-10 14:56:48 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2025-12-10 14:56:48 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2025-12-10 14:56:48 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-12-10 14:56:48 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 미선택
+2025-12-10 14:56:48 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2025-12-10 14:56:48 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀
+2025-12-10 14:56:48 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2025-12-10 14:56:48 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2025-12-10 14:56:48 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2025-12-10 14:56:48 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2025-12-10 14:56:48 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근 스트레스를 받거나 나를 힘들게 하는 일이 있다 (unanswered)
+2025-12-10 14:56:48 | INFO     | ai_service | chat:75 |   ❌ Q2: 기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다 (unanswered)
+2025-12-10 14:56:48 | INFO     | ai_service | chat:75 |   ❌ Q3: 평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다 (unanswered)
+2025-12-10 14:56:48 | INFO     | ai_service | chat:75 |   ❌ Q4: 잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다 (unanswered)
+2025-12-10 14:56:48 | INFO     | ai_service | chat:75 |   ❌ Q5: 최근 매사에 피곤하고 기운이 없다 (unanswered)
+2025-12-10 14:56:48 | INFO     | ai_service | chat:75 |   ❌ Q6: 내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다. (unanswered)
+2025-12-10 14:56:48 | INFO     | ai_service | chat:75 |   ❌ Q7: 차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다 (unanswered)
+2025-12-10 14:56:48 | INFO     | ai_service | chat:75 |   ❌ Q8: 초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다 (unanswered)
+2025-12-10 14:56:48 | INFO     | ai_service | chat:75 |   ❌ Q9: 최근 여러 가지 일에 대해 너무 많은 걱정을 한다 (unanswered)
+2025-12-10 14:56:48 | INFO     | ai_service | chat:75 |   ❌ Q10: 걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다 (unanswered)
+2025-12-10 14:56:48 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2025-12-10 14:56:48 | INFO     | ai_service | analyze_intent:46 | 🔍 의도 분석 중...
+2025-12-10 14:56:48 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2025-12-10 14:56:49 | INFO     | ai_service | analyze_intent:76 | ✅ 의도 분석 완료: {'intent': 'greeting'}
+2025-12-10 14:56:49 | INFO     | ai_service | analyze_intent:77 | ----------------------------------------------------------
+2025-12-10 14:56:49 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2025-12-10 14:56:49 | INFO     | ai_service | select_policy:122 | 🎯 정책 선택 중...
+2025-12-10 14:56:49 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2025-12-10 14:56:50 | INFO     | ai_service | select_policy:165 | 📊 정책 선택 결과: {'first_policy': 'purpose_guidance', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2025-12-10 14:56:50 | INFO     | ai_service | select_policy:166 | 🎯 이번에 선택된 정책들: purpose_guidance
+2025-12-10 14:56:50 | INFO     | ai_service | select_policy:167 | ----------------------------------------------------------
+2025-12-10 14:56:50 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2025-12-10 14:56:50 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2025-12-10 14:56:50 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: purpose_guidance
+2025-12-10 14:56:50 | INFO     | ai_service | check_question:148 | 🔍 선택된 문진문항: None
+2025-12-10 14:56:50 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 미선택
+2025-12-10 14:56:50 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_purpose_guidance
+2025-12-10 14:56:51 | INFO     | ai_service | generate_response_by_policy:72 | ✅ 응답 생성 완료: 반갑습니다 😊 이 대화는 요즘 마음이 어떤지 살펴보고 필요한 도움이 있을지 알아보기 위한 간단한 문진이에요.

@@ -4242,3 +4242,1323 @@ SJ는 평소 잠은 잘 주무시는 편인가요, 아니면 뒤척이거나 자
 [2026-01-22 13:56:56] INFO: 📂 [LOAD] 대화내역 로드 성공: 37개 메시지, 활성상태: false
 [2026-01-22 14:02:33] INFO: 🚀 [SERVER] 서버가 포트 3003에서 실행 중입니다.
 [2026-01-22 14:02:33] INFO: 🗄️ [DB] MongoDB 연결 성공
+[2026-01-22 14:03:05] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:03:05] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:03:11] INFO: 👤 [USER] 사용자 입력: "내 이름도 마인디인데 " (12자)
+[2026-01-22 14:03:11] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2026-01-22 14:03:11] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2026-01-22 14:03:11] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:03:11] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058184369
+[2026-01-22 14:03:11] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:03:11] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:03:11] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:03:11] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058184369
+[2026-01-22 14:03:11] INFO: 👤 [USER]: "내 이름도 마인디인데 "
+[2026-01-22 14:03:13] INFO: 🤖 [BOT]: "이름이 같아서 더 반갑네요 마인디님 😊 오늘은 기분이나 컨디션이 어떤가요?" (42자)
+[2026-01-22 14:03:13] INFO: 🎯 [INTENT]: greeting
+[2026-01-22 14:03:13] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:03:13] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:03:13] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:03:13] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:03:13] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:03:13] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:03:13] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:03:13] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀" → 사용자답변 "내 이름도 마인디인데 "
+[2026-01-22 14:03:13] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058184369
+[2026-01-22 14:03:13] INFO: 📋 [POLICIES] 정책 저장 완료: empathize, ask_current_state
+[2026-01-22 14:03:13] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058184369
+[2026-01-22 14:03:13] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058184369
+[2026-01-22 14:03:13] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:03:13] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:03:13] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2555ms
+[2026-01-22 14:03:19] INFO: 👤 [USER] 사용자 입력: "나쁘지 않아 왜 " (9자)
+[2026-01-22 14:03:19] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_current_state
+[2026-01-22 14:03:19] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: empathize, ask_current_state, 히스토리: 3개 메시지
+[2026-01-22 14:03:19] INFO: 🤖 [LAST_BOT] "이름이 같아서 더 반갑네요 마인디님 😊 오늘은 기분이나 컨디션이 어떤가요?"
+[2026-01-22 14:03:19] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058184369
+[2026-01-22 14:03:19] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:03:19] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:03:19] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:03:19] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058184369
+[2026-01-22 14:03:19] INFO: 👤 [USER]: "나쁘지 않아 왜 "
+[2026-01-22 14:03:22] INFO: 🤖 [BOT]: "기분이 나쁘지 않다니 다행이에요 마인디님 😊 요즘에는 혹시 스트레스 받는 일이나 마음이 좀 긴장되는 순간이 있나요?" (65자)
+[2026-01-22 14:03:22] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:03:22] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:03:22] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:03:22] INFO: 🎯 [LAST_ASKED_QUESTION]: Q1
+[2026-01-22 14:03:22] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근의 스트레스 수준이나 요인
+[2026-01-22 14:03:22] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q2
+[2026-01-22 14:03:22] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:03:22] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "이름이 같아서 더 반갑네요 마인디님 😊 오늘은 기분이나 컨디션이 어떤가요?"
+[2026-01-22 14:03:22] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "이름이 같아서 더 반갑네요 마인디님 😊 오늘은 기분이나 컨디션이 어떤가요?" → 사용자답변 "나쁘지 않아 왜 "
+[2026-01-22 14:03:22] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058184369
+[2026-01-22 14:03:22] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:03:22] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058184369
+[2026-01-22 14:03:22] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058184369
+[2026-01-22 14:03:22] INFO: 🔄 [SLOTS] Q2 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자가 현재 기분이 나쁘지 않다고 표현함. 우울감이나 기분 저하는 없는 상태로 보임.","questionId":"Q2","questionText":"우울감/기분저하/무기력","rawUserInput":["나쁘지 않아 왜"],"status":"answered","updated":true}
+[2026-01-22 14:03:22] INFO: 📝 [STATUS] Last Asked Question: Q1
+[2026-01-22 14:03:22] INFO: ✅ [STATUS] Last Answered Question: Q2
+[2026-01-22 14:03:22] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:03:22] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058184369
+[2026-01-22 14:03:22] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3028ms
+[2026-01-22 14:03:34] INFO: 👤 [USER] 사용자 입력: "움움 딱히 없어" (8자)
+[2026-01-22 14:03:34] INFO: 🔍 [PREFERENCE] 직전 정책들: question
+[2026-01-22 14:03:34] INFO: 📊 [SESSION_DATA] 메시지: 5개, 정책: empathize, ask_current_state, ask_new_question, question, 히스토리: 5개 메시지
+[2026-01-22 14:03:34] INFO: 🤖 [LAST_BOT] "기분이 나쁘지 않다니 다행이에요 마인디님 😊 요즘에는 혹시 스트레스 받는 일이나 마음이 좀 긴장되는 순간이 있나요?"
+[2026-01-22 14:03:34] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058184369
+[2026-01-22 14:03:34] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:03:34] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:03:34] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:03:34] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058184369
+[2026-01-22 14:03:34] INFO: 👤 [USER]: "움움 딱히 없어"
+[2026-01-22 14:03:38] INFO: 🤖 [BOT]: "그렇구나, 요즘은 스트레스 받을 일도 없고 비교적 편하게 지내고 있나 봐요 😊 혹시 최근에 괜히 마음이 불안하거나 걱정되는 일은 없었나요?" (78자)
+[2026-01-22 14:03:38] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:03:38] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:03:38] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:03:38] INFO: 🎯 [LAST_ASKED_QUESTION]: Q3
+[2026-01-22 14:03:38] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 불안/긴장/걱정
+[2026-01-22 14:03:38] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q1
+[2026-01-22 14:03:38] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:03:38] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "기분이 나쁘지 않다니 다행이에요 마인디님 😊 요즘에는 혹시 스트레스 받는 일이나 마음이 좀 긴장되는 순간이 있나요?"
+[2026-01-22 14:03:38] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "기분이 나쁘지 않다니 다행이에요 마인디님 😊 요즘에는 혹시 스트레스 받는 일이나 마음이 좀 긴장되는 순간이 있나요?" → 사용자답변 "움움 딱히 없어"
+[2026-01-22 14:03:38] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058184369
+[2026-01-22 14:03:38] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:03:38] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058184369
+[2026-01-22 14:03:38] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058184369
+[2026-01-22 14:03:38] INFO: 🔄 [SLOTS] Q1 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자는 최근에 스트레스 받는 일이나 긴장되는 순간이 딱히 없다고 응답함","questionId":"Q1","questionText":"최근의 스트레스 수준이나 요인","rawUserInput":["움움 딱히 없어"],"status":"answered","updated":true}
+[2026-01-22 14:03:38] INFO: 📝 [STATUS] Last Asked Question: Q3
+[2026-01-22 14:03:38] INFO: ✅ [STATUS] Last Answered Question: Q1
+[2026-01-22 14:03:38] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:03:38] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058184369
+[2026-01-22 14:03:38] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3451ms
+[2026-01-22 14:03:42] INFO: 👤 [USER] 사용자 입력: "웅웅 " (3자)
+[2026-01-22 14:03:42] INFO: 🔍 [PREFERENCE] 직전 정책들: question
+[2026-01-22 14:03:42] INFO: 📊 [SESSION_DATA] 메시지: 7개, 정책: empathize, ask_current_state, ask_new_question, question, ask_new_question, question, 히스토리: 7개 메시지
+[2026-01-22 14:03:42] INFO: 🤖 [LAST_BOT] "그렇구나, 요즘은 스트레스 받을 일도 없고 비교적 편하게 지내고 있나 봐요 😊 혹시 최근에 괜히 마음이 불안하거나 걱정되는 일은 없었나요?"
+[2026-01-22 14:03:42] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058184369
+[2026-01-22 14:03:42] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:03:42] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:03:42] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:03:42] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058184369
+[2026-01-22 14:03:42] INFO: 👤 [USER]: "웅웅 "
+[2026-01-22 14:03:50] INFO: 🤖 [BOT]: "웅웅 알겠어요 😊 요즘 잠은 잘 오고 푹 자는 편인가요, 아니면 잠이 좀 뒤척이거나 부족하다고 느껴질 때가 있나요?" (65자)
+[2026-01-22 14:03:50] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:03:50] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:03:50] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:03:50] INFO: 🎯 [LAST_ASKED_QUESTION]: Q4
+[2026-01-22 14:03:50] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 수면 문제/수면의 질/수면시간
+[2026-01-22 14:03:50] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q3
+[2026-01-22 14:03:50] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:03:50] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "그렇구나, 요즘은 스트레스 받을 일도 없고 비교적 편하게 지내고 있나 봐요 😊 혹시 최근에 괜히 마음이 불안하거나 걱정되는 일은 없었나요?"
+[2026-01-22 14:03:50] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "그렇구나, 요즘은 스트레스 받을 일도 없고 비교적 편하게 지내고 있나 봐요 😊 혹시 최근에 괜히 마음이 불안하거나 걱정되는 일은 없었나요?" → 사용자답변 "웅웅 "
+[2026-01-22 14:03:50] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058184369
+[2026-01-22 14:03:50] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:03:50] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058184369
+[2026-01-22 14:03:50] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058184369
+[2026-01-22 14:03:50] INFO: 🔄 [SLOTS] Q3 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자가 최근 불안하거나 걱정되는 일이 없다는 질문에 긍정적으로 동의함.","questionId":"Q3","questionText":"불안/긴장/걱정","rawUserInput":["웅웅"],"status":"answered","updated":true}
+[2026-01-22 14:03:50] INFO: 📝 [STATUS] Last Asked Question: Q4
+[2026-01-22 14:03:50] INFO: ✅ [STATUS] Last Answered Question: Q3
+[2026-01-22 14:03:50] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:03:50] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058184369
+[2026-01-22 14:03:50] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 7876ms
+[2026-01-22 14:03:56] INFO: 📊 [STATS] 사용자 user_mindy 대화목록 조회 성공: 15개 세션, 총 403개 메시지, 활성 8개
+[2026-01-22 14:03:56] INFO: 📊 [STATS] 사용자 user_mindy 대화목록 조회 성공: 15개 세션, 총 403개 메시지, 활성 8개
+[2026-01-22 14:03:58] INFO: 📂 [LOAD] 대화내역 로드 성공: 63개 메시지, 활성상태: false
+[2026-01-22 14:03:58] INFO: 📂 [LOAD] 대화내역 로드 성공: 63개 메시지, 활성상태: false
+[2026-01-22 14:06:13] INFO: 📊 [STATS] 사용자 user_mindy 대화목록 조회 성공: 15개 세션, 총 403개 메시지, 활성 8개
+[2026-01-22 14:06:13] INFO: 📊 [STATS] 사용자 user_mindy 대화목록 조회 성공: 15개 세션, 총 403개 메시지, 활성 8개
+[2026-01-22 14:07:12] INFO: 🚀 [SERVER] 서버가 포트 3003에서 실행 중입니다.
+[2026-01-22 14:07:12] INFO: 🗄️ [DB] MongoDB 연결 성공
+[2026-01-22 14:07:15] INFO: 📂 [LOAD] 대화내역 로드 성공: 9개 메시지, 활성상태: true
+[2026-01-22 14:07:15] INFO: 📂 [LOAD] 대화내역 로드 성공: 9개 메시지, 활성상태: true
+[2026-01-22 14:07:18] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:07:18] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:07:23] INFO: 👤 [USER] 사용자 입력: "후 나는 미경" (7자)
+[2026-01-22 14:07:23] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2026-01-22 14:07:23] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2026-01-22 14:07:23] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:07:23] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058436756
+[2026-01-22 14:07:23] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:07:23] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:07:23] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:07:23] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058436756
+[2026-01-22 14:07:23] INFO: 👤 [USER]: "후 나는 미경"
+[2026-01-22 14:07:25] INFO: 🤖 [BOT]: "미경님, 반가워요 😊 저는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 도와드릴 거예요. 오늘은 컨디션이 어떤가요? 식사는 잘 하셨나요?" (79자)
+[2026-01-22 14:07:25] INFO: 🎯 [INTENT]: greeting
+[2026-01-22 14:07:25] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:07:25] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:07:25] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:07:25] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:07:25] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:07:25] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:07:25] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:07:25] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀" → 사용자답변 "후 나는 미경"
+[2026-01-22 14:07:25] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:25] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance, ask_current_state
+[2026-01-22 14:07:26] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:26] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:26] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:07:26] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:07:26] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2250ms
+[2026-01-22 14:07:29] INFO: 👤 [USER] 사용자 입력: "햇어 햇어" (5자)
+[2026-01-22 14:07:29] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_current_state
+[2026-01-22 14:07:29] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, ask_current_state, 히스토리: 3개 메시지
+[2026-01-22 14:07:29] INFO: 🤖 [LAST_BOT] "미경님, 반가워요 😊 저는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 도와드릴 거예요. 오늘은 컨디션이 어떤가요? 식사는 잘 하셨나요?"
+[2026-01-22 14:07:29] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058436756
+[2026-01-22 14:07:29] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:07:29] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:07:29] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:07:29] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058436756
+[2026-01-22 14:07:29] INFO: 👤 [USER]: "햇어 햇어"
+[2026-01-22 14:07:31] INFO: 🤖 [BOT]: "잘 하셨어요 미경님 😊 그래도 요즘엔 스트레스는 좀 덜한 편이신가요, 아니면 여전히 신경 쓰이는 일들이 있으신가요?" (65자)
+[2026-01-22 14:07:31] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:07:31] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:07:31] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:07:31] INFO: 🎯 [LAST_ASKED_QUESTION]: Q1
+[2026-01-22 14:07:31] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근의 스트레스 수준이나 요인
+[2026-01-22 14:07:31] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:07:31] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:07:31] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "미경님, 반가워요 😊 저는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 도와드릴 거예요. 오늘은 컨디션이 어떤가요? 식사는 잘 하셨나요?"
+[2026-01-22 14:07:31] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "미경님, 반가워요 😊 저는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 도와드릴 거예요. 오늘은 컨디션이 어떤가요? 식사는 잘 하셨나요?" → 사용자답변 "햇어 햇어"
+[2026-01-22 14:07:31] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:32] INFO: 📋 [POLICIES] 정책 저장 완료: empathize, ask_new_question
+[2026-01-22 14:07:32] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:32] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:32] INFO: 📝 [STATUS] Last Asked Question: Q1
+[2026-01-22 14:07:32] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:07:32] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058436756
+[2026-01-22 14:07:32] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2980ms
+[2026-01-22 14:07:38] INFO: 👤 [USER] 사용자 입력: "움 업는데 " (6자)
+[2026-01-22 14:07:38] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_new_question
+[2026-01-22 14:07:38] INFO: 📊 [SESSION_DATA] 메시지: 5개, 정책: purpose_guidance, ask_current_state, empathize, ask_new_question, 히스토리: 5개 메시지
+[2026-01-22 14:07:38] INFO: 🤖 [LAST_BOT] "잘 하셨어요 미경님 😊 그래도 요즘엔 스트레스는 좀 덜한 편이신가요, 아니면 여전히 신경 쓰이는 일들이 있으신가요?"
+[2026-01-22 14:07:38] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058436756
+[2026-01-22 14:07:38] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:07:38] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:07:38] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:07:38] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058436756
+[2026-01-22 14:07:38] INFO: 👤 [USER]: "움 업는데 "
+[2026-01-22 14:07:41] INFO: 🤖 [BOT]: "스트레스는 없다고 하니 다행이에요 미경님 😊 그렇다면 요즘 기분은 어떤가요, 조금 처지거나 힘이 빠지는 날도 있나요?" (66자)
+[2026-01-22 14:07:41] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:07:41] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:07:41] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:07:41] INFO: 🎯 [LAST_ASKED_QUESTION]: Q2
+[2026-01-22 14:07:41] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 우울감/기분저하/무기력
+[2026-01-22 14:07:41] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q1
+[2026-01-22 14:07:41] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:07:41] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "잘 하셨어요 미경님 😊 그래도 요즘엔 스트레스는 좀 덜한 편이신가요, 아니면 여전히 신경 쓰이는 일들이 있으신가요?"
+[2026-01-22 14:07:41] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "잘 하셨어요 미경님 😊 그래도 요즘엔 스트레스는 좀 덜한 편이신가요, 아니면 여전히 신경 쓰이는 일들이 있으신가요?" → 사용자답변 "움 업는데 "
+[2026-01-22 14:07:41] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:41] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:07:41] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:41] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:41] INFO: 🔄 [SLOTS] Q1 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자는 최근 스트레스가 없다고 응답함","questionId":"Q1","questionText":"최근의 스트레스 수준이나 요인","rawUserInput":["움 업는데"],"status":"answered","updated":true}
+[2026-01-22 14:07:41] INFO: 📝 [STATUS] Last Asked Question: Q2
+[2026-01-22 14:07:41] INFO: ✅ [STATUS] Last Answered Question: Q1
+[2026-01-22 14:07:41] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:07:41] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058436756
+[2026-01-22 14:07:41] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2852ms
+[2026-01-22 14:07:45] INFO: 👤 [USER] 사용자 입력: "기분? 걍 그래 " (9자)
+[2026-01-22 14:07:45] INFO: 🔍 [PREFERENCE] 직전 정책들: question
+[2026-01-22 14:07:45] INFO: 📊 [SESSION_DATA] 메시지: 7개, 정책: purpose_guidance, ask_current_state, empathize, ask_new_question, ask_new_question, question, 히스토리: 7개 메시지
+[2026-01-22 14:07:45] INFO: 🤖 [LAST_BOT] "스트레스는 없다고 하니 다행이에요 미경님 😊 그렇다면 요즘 기분은 어떤가요, 조금 처지거나 힘이 빠지는 날도 있나요?"
+[2026-01-22 14:07:45] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058436756
+[2026-01-22 14:07:45] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:07:45] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:07:45] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:07:45] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058436756
+[2026-01-22 14:07:45] INFO: 👤 [USER]: "기분? 걍 그래 "
+[2026-01-22 14:07:48] INFO: 🤖 [BOT]: "그렇구나, 그냥 그런 날도 있죠 미경님 🙂 요즘은 예전보다 의욕이 덜하거나 무기력하게 느껴질 때도 있나요?" (60자)
+[2026-01-22 14:07:48] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:07:48] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:07:48] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:07:48] INFO: 🎯 [LAST_ASKED_QUESTION]: Q2
+[2026-01-22 14:07:48] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 우울감/기분저하/무기력
+[2026-01-22 14:07:48] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q2
+[2026-01-22 14:07:48] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:07:48] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "스트레스는 없다고 하니 다행이에요 미경님 😊 그렇다면 요즘 기분은 어떤가요, 조금 처지거나 힘이 빠지는 날도 있나요?"
+[2026-01-22 14:07:48] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "스트레스는 없다고 하니 다행이에요 미경님 😊 그렇다면 요즘 기분은 어떤가요, 조금 처지거나 힘이 빠지는 날도 있나요?" → 사용자답변 "기분? 걍 그래 "
+[2026-01-22 14:07:48] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:48] INFO: 📋 [POLICIES] 정책 저장 완료: clarify_response, empathize
+[2026-01-22 14:07:48] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:48] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:48] INFO: 🔄 [SLOTS] Q2 업데이트: {"condition":null,"conflict":null,"experience":"unknown","note":"기분이 특별히 좋지도 나쁘지도 않은 중립적인 상태로 보이나, 우울감이나 무기력감 여부는 명확하지 않음","questionId":"Q2","questionText":"우울감/기분저하/무기력","rawUserInput":["기분? 걍 그래"],"status":"checking","updated":true}
+[2026-01-22 14:07:48] INFO: ✅ [STATUS] Last Answered Question: Q2
+[2026-01-22 14:07:48] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:07:48] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058436756
+[2026-01-22 14:07:48] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3196ms
+[2026-01-22 14:07:52] INFO: 👤 [USER] 사용자 입력: "에에에엑 없어 " (8자)
+[2026-01-22 14:07:52] INFO: 🔍 [PREFERENCE] 직전 정책들: empathize
+[2026-01-22 14:07:52] INFO: 📊 [SESSION_DATA] 메시지: 9개, 정책: purpose_guidance, ask_current_state, empathize, ask_new_question, ask_new_question, question, clarify_response, empathize, 히스토리: 9개 메시지
+[2026-01-22 14:07:52] INFO: 🤖 [LAST_BOT] "그렇구나, 그냥 그런 날도 있죠 미경님 🙂 요즘은 예전보다 의욕이 덜하거나 무기력하게 느껴질 때도 있나요?"
+[2026-01-22 14:07:52] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058436756
+[2026-01-22 14:07:52] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:07:52] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:07:52] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:07:52] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058436756
+[2026-01-22 14:07:52] INFO: 👤 [USER]: "에에에엑 없어 "
+[2026-01-22 14:07:55] INFO: 🤖 [BOT]: "좋아요 미경님 😊 요즘은 걱정되거나 마음이 조마조마한 일은 없으신가요?" (40자)
+[2026-01-22 14:07:55] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:07:55] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:07:55] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:07:55] INFO: 🎯 [LAST_ASKED_QUESTION]: Q3
+[2026-01-22 14:07:55] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 불안/긴장/걱정
+[2026-01-22 14:07:55] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q2
+[2026-01-22 14:07:55] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:07:55] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "그렇구나, 그냥 그런 날도 있죠 미경님 🙂 요즘은 예전보다 의욕이 덜하거나 무기력하게 느껴질 때도 있나요?"
+[2026-01-22 14:07:55] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "그렇구나, 그냥 그런 날도 있죠 미경님 🙂 요즘은 예전보다 의욕이 덜하거나 무기력하게 느껴질 때도 있나요?" → 사용자답변 "에에에엑 없어 "
+[2026-01-22 14:07:55] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:55] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:07:55] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:55] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058436756
+[2026-01-22 14:07:55] INFO: 🔄 [SLOTS] Q2 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자는 최근 의욕 저하나 무기력감을 느끼지 않는다고 명확히 부정함.","questionId":"Q2","questionText":"우울감/기분저하/무기력","rawUserInput":["에에에엑 없어"],"status":"answered","updated":true}
+[2026-01-22 14:07:55] INFO: 📝 [STATUS] Last Asked Question: Q3
+[2026-01-22 14:07:55] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:07:56] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058436756
+[2026-01-22 14:07:56] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3070ms
+[2026-01-22 14:13:07] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:13:07] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:13:10] INFO: 🚀 [SERVER] 서버가 포트 3003에서 실행 중입니다.
+[2026-01-22 14:13:10] INFO: 🗄️ [DB] MongoDB 연결 성공
+[2026-01-22 14:13:14] INFO: 👤 [USER] 사용자 입력: "ㅎㅇ 나 미경" (7자)
+[2026-01-22 14:13:14] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2026-01-22 14:13:14] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2026-01-22 14:13:14] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:13:14] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058786102
+[2026-01-22 14:13:14] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:13:14] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:13:14] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:13:14] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058786102
+[2026-01-22 14:13:14] INFO: 👤 [USER]: "ㅎㅇ 나 미경"
+[2026-01-22 14:13:16] INFO: 🤖 [BOT]: "미경님, 반가워요 😊 저는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 도와드릴 거예요. 오늘 하루는 어땠는지, 기분이나 컨디션은 어떤가요?" (81자)
+[2026-01-22 14:13:16] INFO: 🎯 [INTENT]: greeting
+[2026-01-22 14:13:16] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:13:16] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:13:16] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:13:16] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:13:16] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:13:16] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:13:16] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:13:16] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀" → 사용자답변 "ㅎㅇ 나 미경"
+[2026-01-22 14:13:16] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:13:16] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance, ask_current_state
+[2026-01-22 14:13:16] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:13:16] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:13:16] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:13:16] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:13:16] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2225ms
+[2026-01-22 14:13:22] INFO: 👤 [USER] 사용자 입력: "나쁘지 않아" (6자)
+[2026-01-22 14:13:22] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_current_state
+[2026-01-22 14:13:22] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, ask_current_state, 히스토리: 3개 메시지
+[2026-01-22 14:13:22] INFO: 🤖 [LAST_BOT] "미경님, 반가워요 😊 저는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 도와드릴 거예요. 오늘 하루는 어땠는지, 기분이나 컨디션은 어떤가요?"
+[2026-01-22 14:13:22] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058786102
+[2026-01-22 14:13:22] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:13:22] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:13:22] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:13:22] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058786102
+[2026-01-22 14:13:22] INFO: 👤 [USER]: "나쁘지 않아"
+[2026-01-22 14:13:25] ERROR: ❌ [ERROR] AI 서비스 통신 실패:
+[2026-01-22 14:13:30] INFO: 👤 [USER] 사용자 입력: "나쁘지않다고?" (7자)
+[2026-01-22 14:13:30] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_current_state
+[2026-01-22 14:13:30] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, ask_current_state, 히스토리: 3개 메시지
+[2026-01-22 14:13:30] INFO: 🤖 [LAST_BOT] "미경님, 반가워요 😊 저는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 도와드릴 거예요. 오늘 하루는 어땠는지, 기분이나 컨디션은 어떤가요?"
+[2026-01-22 14:13:30] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058786102
+[2026-01-22 14:13:30] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:13:30] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:13:30] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:13:30] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058786102
+[2026-01-22 14:13:30] INFO: 👤 [USER]: "나쁘지않다고?"
+[2026-01-22 14:13:33] INFO: 🤖 [BOT]: "나쁘지 않았다고 하니 그나마 다행이에요 😊 그래도 혹시 마음 한켠에 답답하거나 힘든 느낌은 없었나요?" (57자)
+[2026-01-22 14:13:33] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:13:33] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:13:33] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:13:33] INFO: 🎯 [LAST_ASKED_QUESTION]: Q2
+[2026-01-22 14:13:33] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 우울감/기분저하/무기력
+[2026-01-22 14:13:33] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q2
+[2026-01-22 14:13:33] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:13:33] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "미경님, 반가워요 😊 저는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 도와드릴 거예요. 오늘 하루는 어땠는지, 기분이나 컨디션은 어떤가요?"
+[2026-01-22 14:13:33] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "미경님, 반가워요 😊 저는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 도와드릴 거예요. 오늘 하루는 어땠는지, 기분이나 컨디션은 어떤가요?" → 사용자답변 "나쁘지않다고?"
+[2026-01-22 14:13:33] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:13:33] INFO: 📋 [POLICIES] 정책 저장 완료: clarify_response, empathize
+[2026-01-22 14:13:33] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:13:33] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:13:33] INFO: 🔄 [SLOTS] Q2 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자가 오늘 기분이 나쁘지 않다고 표현함. 전반적으로 우울감이나 기분 저하는 크지 않은 것으로 보이나, 구체적인 감정 상태 확인 필요.","questionId":"Q2","questionText":"우울감/기분저하/무기력","rawUserInput":["나쁘지않다고?"],"status":"checking","updated":true}
+[2026-01-22 14:13:33] INFO: 📝 [STATUS] Last Asked Question: Q2
+[2026-01-22 14:13:33] INFO: ✅ [STATUS] Last Answered Question: Q2
+[2026-01-22 14:13:33] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:13:33] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058786102
+[2026-01-22 14:13:33] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3468ms
+[2026-01-22 14:13:37] INFO: 👤 [USER] 사용자 입력: "움 없었어" (5자)
+[2026-01-22 14:13:37] INFO: 🔍 [PREFERENCE] 직전 정책들: empathize
+[2026-01-22 14:13:37] INFO: 📊 [SESSION_DATA] 메시지: 5개, 정책: purpose_guidance, ask_current_state, clarify_response, empathize, 히스토리: 5개 메시지
+[2026-01-22 14:13:37] INFO: 🤖 [LAST_BOT] "나쁘지 않았다고 하니 그나마 다행이에요 😊 그래도 혹시 마음 한켠에 답답하거나 힘든 느낌은 없었나요?"
+[2026-01-22 14:13:37] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058786102
+[2026-01-22 14:13:37] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:13:37] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:13:37] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:13:37] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058786102
+[2026-01-22 14:13:37] INFO: 👤 [USER]: "움 없었어"
+[2026-01-22 14:13:40] INFO: 🤖 [BOT]: "그렇구나, 요즘 마음이 크게 힘들진 않다니 다행이에요 😊 혹시 대신 신경 쓰이거나 스트레스 받는 일은 요즘 없으신가요?" (67자)
+[2026-01-22 14:13:40] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:13:40] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:13:40] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:13:40] INFO: 🎯 [LAST_ASKED_QUESTION]: Q1
+[2026-01-22 14:13:40] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근의 스트레스 수준이나 요인
+[2026-01-22 14:13:40] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q2
+[2026-01-22 14:13:40] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:13:40] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "나쁘지 않았다고 하니 그나마 다행이에요 😊 그래도 혹시 마음 한켠에 답답하거나 힘든 느낌은 없었나요?"
+[2026-01-22 14:13:40] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "나쁘지 않았다고 하니 그나마 다행이에요 😊 그래도 혹시 마음 한켠에 답답하거나 힘든 느낌은 없었나요?" → 사용자답변 "움 없었어"
+[2026-01-22 14:13:40] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:13:40] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:13:40] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:13:40] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:13:40] INFO: 🔄 [SLOTS] Q2 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자는 답답하거나 힘든 느낌이 없었다고 명확히 부정함.","questionId":"Q2","questionText":"우울감/기분저하/무기력","rawUserInput":["움 없었어"],"status":"answered","updated":true}
+[2026-01-22 14:13:40] INFO: 📝 [STATUS] Last Asked Question: Q1
+[2026-01-22 14:13:40] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:13:40] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058786102
+[2026-01-22 14:13:40] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3374ms
+[2026-01-22 14:13:46] INFO: 👤 [USER] 사용자 입력: "스트레스 받는 일도 잘 없어" (15자)
+[2026-01-22 14:13:46] INFO: 🔍 [PREFERENCE] 직전 정책들: question
+[2026-01-22 14:13:46] INFO: 📊 [SESSION_DATA] 메시지: 7개, 정책: purpose_guidance, ask_current_state, clarify_response, empathize, ask_new_question, question, 히스토리: 7개 메시지
+[2026-01-22 14:13:46] INFO: 🤖 [LAST_BOT] "그렇구나, 요즘 마음이 크게 힘들진 않다니 다행이에요 😊 혹시 대신 신경 쓰이거나 스트레스 받는 일은 요즘 없으신가요?"
+[2026-01-22 14:13:46] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058786102
+[2026-01-22 14:13:46] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:13:46] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:13:46] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:13:46] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058786102
+[2026-01-22 14:13:46] INFO: 👤 [USER]: "스트레스 받는 일도 잘 없어"
+[2026-01-22 14:13:49] INFO: 🤖 [BOT]: "스트레스도 별로 없다고 하니 마음이 꽤 안정된 시기인 것 같아요 😊  
+혹시 요즘엔 괜히 불안하거나 걱정되는 일은 없었나요?" (70자)
+[2026-01-22 14:13:49] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:13:49] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:13:49] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:13:49] INFO: 🎯 [LAST_ASKED_QUESTION]: Q3
+[2026-01-22 14:13:49] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 불안/긴장/걱정
+[2026-01-22 14:13:49] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q1
+[2026-01-22 14:13:49] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:13:49] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "그렇구나, 요즘 마음이 크게 힘들진 않다니 다행이에요 😊 혹시 대신 신경 쓰이거나 스트레스 받는 일은 요즘 없으신가요?"
+[2026-01-22 14:13:49] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "그렇구나, 요즘 마음이 크게 힘들진 않다니 다행이에요 😊 혹시 대신 신경 쓰이거나 스트레스 받는 일은 요즘 없으신가요?" → 사용자답변 "스트레스 받는 일도 잘 없어"
+[2026-01-22 14:13:49] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:13:49] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:13:49] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:13:49] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:13:49] INFO: 🔄 [SLOTS] Q1 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자는 최근 스트레스 받는 일이 거의 없다고 명확히 언급함","questionId":"Q1","questionText":"최근의 스트레스 수준이나 요인","rawUserInput":["스트레스 받는 일도 잘 없어"],"status":"answered","updated":true}
+[2026-01-22 14:13:49] INFO: 📝 [STATUS] Last Asked Question: Q3
+[2026-01-22 14:13:49] INFO: ✅ [STATUS] Last Answered Question: Q1
+[2026-01-22 14:13:49] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:13:49] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058786102
+[2026-01-22 14:13:49] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3436ms
+[2026-01-22 14:14:00] INFO: 👤 [USER] 사용자 입력: "음음음 있었어 일이 많을 때 좀 걱정돼 다 할 수 있을지" (31자)
+[2026-01-22 14:14:00] INFO: 🔍 [PREFERENCE] 직전 정책들: question
+[2026-01-22 14:14:00] INFO: 📊 [SESSION_DATA] 메시지: 9개, 정책: purpose_guidance, ask_current_state, clarify_response, empathize, ask_new_question, question, ask_new_question, question, 히스토리: 9개 메시지
+[2026-01-22 14:14:00] INFO: 🤖 [LAST_BOT] "스트레스도 별로 없다고 하니 마음이 꽤 안정된 시기인 것 같아요 😊  
+혹시 요즘엔 괜히 불안하거나 걱정되는 일은 없었나요?"
+[2026-01-22 14:14:00] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058786102
+[2026-01-22 14:14:00] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:14:00] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:14:00] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:14:00] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058786102
+[2026-01-22 14:14:00] INFO: 👤 [USER]: "음음음 있었어 일이 많을 때 좀 걱정돼 다 할 수 있을지"
+[2026-01-22 14:14:03] INFO: 🤖 [BOT]: "일이 많을 때 걱정이 생기면 잠도 영향을 받을 때가 있죠 😴 요즘은 잠은 잘 오고, 푹 자는 편인가요?" (58자)
+[2026-01-22 14:14:03] INFO: 🎯 [INTENT]: answer_context
+[2026-01-22 14:14:03] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:14:03] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:14:03] INFO: 🎯 [LAST_ASKED_QUESTION]: Q4
+[2026-01-22 14:14:03] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 수면 문제/수면의 질/수면시간
+[2026-01-22 14:14:03] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q3
+[2026-01-22 14:14:03] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:14:03] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "스트레스도 별로 없다고 하니 마음이 꽤 안정된 시기인 것 같아요 😊  
+혹시 요즘엔 괜히 불안하거나 걱정되는 일은 없었나요?"
+[2026-01-22 14:14:03] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "스트레스도 별로 없다고 하니 마음이 꽤 안정된 시기인 것 같아요 😊  
+혹시 요즘엔 괜히 불안하거나 걱정되는 일은 없었나요?" → 사용자답변 "음음음 있었어 일이 많을 때 좀 걱정돼 다 할 수 있을지"
+[2026-01-22 14:14:03] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:14:03] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:14:03] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:14:03] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:14:03] INFO: 🔄 [SLOTS] Q3 업데이트: {"condition":"일이 많을 때 걱정이 생김","conflict":null,"experience":"yes","note":"사용자는 업무량이 많을 때 불안이나 걱정을 느낀다고 표현함","questionId":"Q3","questionText":"불안/긴장/걱정","rawUserInput":["음음음 있었어 일이 많을 때 좀 걱정돼 다 할 수 있을지"],"status":"answered","updated":true}
+[2026-01-22 14:14:03] INFO: 📝 [STATUS] Last Asked Question: Q4
+[2026-01-22 14:14:03] INFO: ✅ [STATUS] Last Answered Question: Q3
+[2026-01-22 14:14:03] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:14:03] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058786102
+[2026-01-22 14:14:03] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3263ms
+[2026-01-22 14:14:08] INFO: 👤 [USER] 사용자 입력: "움움 잠은 잘 자는거같애~" (14자)
+[2026-01-22 14:14:08] INFO: 🔍 [PREFERENCE] 직전 정책들: question
+[2026-01-22 14:14:08] INFO: 📊 [SESSION_DATA] 메시지: 11개, 정책: purpose_guidance, ask_current_state, clarify_response, empathize, ask_new_question, question, ask_new_question, question, ask_new_question, question, 히스토리: 11개 메시지
+[2026-01-22 14:14:08] INFO: 🤖 [LAST_BOT] "일이 많을 때 걱정이 생기면 잠도 영향을 받을 때가 있죠 😴 요즘은 잠은 잘 오고, 푹 자는 편인가요?"
+[2026-01-22 14:14:08] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058786102
+[2026-01-22 14:14:08] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:14:08] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:14:08] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:14:08] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058786102
+[2026-01-22 14:14:08] INFO: 👤 [USER]: "움움 잠은 잘 자는거같애~"
+[2026-01-22 14:14:11] INFO: 🤖 [BOT]: "잠도 잘 자고 있다니 다행이에요 😊  
+그럼 요즘엔 하루를 보내고 나면 피곤함이 많이 느껴지나요, 아니면 비교적 에너지가 남는 편인가요?" (77자)
+[2026-01-22 14:14:11] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:14:11] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:14:11] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:14:11] INFO: 🎯 [LAST_ASKED_QUESTION]: Q5
+[2026-01-22 14:14:11] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 에너지 수준/피로감
+[2026-01-22 14:14:11] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q4
+[2026-01-22 14:14:11] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:14:11] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "일이 많을 때 걱정이 생기면 잠도 영향을 받을 때가 있죠 😴 요즘은 잠은 잘 오고, 푹 자는 편인가요?"
+[2026-01-22 14:14:11] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "일이 많을 때 걱정이 생기면 잠도 영향을 받을 때가 있죠 😴 요즘은 잠은 잘 오고, 푹 자는 편인가요?" → 사용자답변 "움움 잠은 잘 자는거같애~"
+[2026-01-22 14:14:11] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:14:11] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:14:11] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:14:11] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:14:11] INFO: 🔄 [SLOTS] Q4 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자는 최근 수면에 문제가 없고, 잠을 잘 자는 편이라고 응답함.","questionId":"Q4","questionText":"수면 문제/수면의 질/수면시간","rawUserInput":["움움 잠은 잘 자는거같애~"],"status":"answered","updated":true}
+[2026-01-22 14:14:11] INFO: 📝 [STATUS] Last Asked Question: Q5
+[2026-01-22 14:14:11] INFO: ✅ [STATUS] Last Answered Question: Q4
+[2026-01-22 14:14:11] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:14:11] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058786102
+[2026-01-22 14:14:11] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3397ms
+[2026-01-22 14:14:48] INFO: 👤 [USER] 사용자 입력: "음음 에너지가 부족한 편이기는 해" (18자)
+[2026-01-22 14:14:48] INFO: 🔍 [PREFERENCE] 직전 정책들: question
+[2026-01-22 14:14:48] INFO: 📊 [SESSION_DATA] 메시지: 13개, 정책: purpose_guidance, ask_current_state, clarify_response, empathize, ask_new_question, question, ask_new_question, question, ask_new_question, question, ask_new_question, question, 히스토리: 13개 메시지
+[2026-01-22 14:14:48] INFO: 🤖 [LAST_BOT] "잠도 잘 자고 있다니 다행이에요 😊  
+그럼 요즘엔 하루를 보내고 나면 피곤함이 많이 느껴지나요, 아니면 비교적 에너지가 남는 편인가요?"
+[2026-01-22 14:14:48] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058786102
+[2026-01-22 14:14:48] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:14:48] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:14:48] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:14:48] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058786102
+[2026-01-22 14:14:48] INFO: 👤 [USER]: "음음 에너지가 부족한 편이기는 해"
+[2026-01-22 14:14:51] INFO: 🤖 [BOT]: "에너지가 좀 부족하다고 느낄 땐 주변 사람들과의 시간도 영향받을 때가 있죠 😊 요즘엔 친구나 가족이랑 자주 연락하거나 만나고 계신가요?" (76자)
+[2026-01-22 14:14:51] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:14:51] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:14:51] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:14:51] INFO: 🎯 [LAST_ASKED_QUESTION]: Q6
+[2026-01-22 14:14:51] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 사회적 관계/사회적 연결감
+[2026-01-22 14:14:51] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q5
+[2026-01-22 14:14:51] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:14:51] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "잠도 잘 자고 있다니 다행이에요 😊  
+그럼 요즘엔 하루를 보내고 나면 피곤함이 많이 느껴지나요, 아니면 비교적 에너지가 남는 편인가요?"
+[2026-01-22 14:14:51] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "잠도 잘 자고 있다니 다행이에요 😊  
+그럼 요즘엔 하루를 보내고 나면 피곤함이 많이 느껴지나요, 아니면 비교적 에너지가 남는 편인가요?" → 사용자답변 "음음 에너지가 부족한 편이기는 해"
+[2026-01-22 14:14:51] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:14:51] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:14:51] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:14:51] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058786102
+[2026-01-22 14:14:51] INFO: 🔄 [SLOTS] Q5 업데이트: {"condition":null,"conflict":null,"experience":"yes","note":"사용자는 에너지가 부족하다고 표현함. 피로감이 있는 상태로 보임.","questionId":"Q5","questionText":"에너지 수준/피로감","rawUserInput":["음음 에너지가 부족한 편이기는 해"],"status":"answered","updated":true}
+[2026-01-22 14:14:51] INFO: 📝 [STATUS] Last Asked Question: Q6
+[2026-01-22 14:14:51] INFO: ✅ [STATUS] Last Answered Question: Q5
+[2026-01-22 14:14:51] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:14:51] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058786102
+[2026-01-22 14:14:51] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3274ms
+[2026-01-22 14:15:50] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:15:51] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:15:54] INFO: 🚀 [SERVER] 서버가 포트 3003에서 실행 중입니다.
+[2026-01-22 14:15:54] INFO: 🗄️ [DB] MongoDB 연결 성공
+[2026-01-22 14:18:06] INFO: 👤 [USER] 사용자 입력: "나 미경" (4자)
+[2026-01-22 14:18:06] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2026-01-22 14:18:06] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2026-01-22 14:18:06] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:18:06] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058949225
+[2026-01-22 14:18:06] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:18:06] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:18:06] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:18:06] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058949225
+[2026-01-22 14:18:06] INFO: 👤 [USER]: "나 미경"
+[2026-01-22 14:18:10] INFO: 🤖 [BOT]: "미경님, 만나서 반가워요 😊 오늘은 최근 마음 상태를 함께 살펴보는 대화를 나눌 거예요. 우선 오늘 하루는 어땠는지, 컨디션이나 기분은 어떤가요?" (82자)
+[2026-01-22 14:18:10] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:18:10] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:18:10] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:18:10] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:18:10] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:18:10] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:18:10] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:18:10] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:18:10] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀" → 사용자답변 "나 미경"
+[2026-01-22 14:18:10] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058949225
+[2026-01-22 14:18:10] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance, ask_current_state
+[2026-01-22 14:18:10] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058949225
+[2026-01-22 14:18:10] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058949225
+[2026-01-22 14:18:10] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:18:10] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:18:10] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3527ms
+[2026-01-22 14:18:17] INFO: 👤 [USER] 사용자 입력: "not bad" (7자)
+[2026-01-22 14:18:17] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_current_state
+[2026-01-22 14:18:17] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, ask_current_state, 히스토리: 3개 메시지
+[2026-01-22 14:18:17] INFO: 🤖 [LAST_BOT] "미경님, 만나서 반가워요 😊 오늘은 최근 마음 상태를 함께 살펴보는 대화를 나눌 거예요. 우선 오늘 하루는 어땠는지, 컨디션이나 기분은 어떤가요?"
+[2026-01-22 14:18:17] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769058949225
+[2026-01-22 14:18:17] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:18:17] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:18:17] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:18:17] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769058949225
+[2026-01-22 14:18:17] INFO: 👤 [USER]: "not bad"
+[2026-01-22 14:18:20] INFO: 🤖 [BOT]: "그렇군요 미경님, 기분이 괜찮다고 하니 다행이에요 😊 요즘은 스트레스 받는 일은 좀 있으신가요?" (54자)
+[2026-01-22 14:18:20] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:18:20] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:18:20] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:18:20] INFO: 🎯 [LAST_ASKED_QUESTION]: Q1
+[2026-01-22 14:18:20] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근의 스트레스 수준이나 요인
+[2026-01-22 14:18:20] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q2
+[2026-01-22 14:18:20] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:18:20] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "미경님, 만나서 반가워요 😊 오늘은 최근 마음 상태를 함께 살펴보는 대화를 나눌 거예요. 우선 오늘 하루는 어땠는지, 컨디션이나 기분은 어떤가요?"
+[2026-01-22 14:18:20] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "미경님, 만나서 반가워요 😊 오늘은 최근 마음 상태를 함께 살펴보는 대화를 나눌 거예요. 우선 오늘 하루는 어땠는지, 컨디션이나 기분은 어떤가요?" → 사용자답변 "not bad"
+[2026-01-22 14:18:20] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769058949225
+[2026-01-22 14:18:20] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:18:20] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769058949225
+[2026-01-22 14:18:20] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769058949225
+[2026-01-22 14:18:20] INFO: 🔄 [SLOTS] Q2 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자가 오늘 기분이 'not bad'라고 표현함. 전반적으로 우울감이나 기분 저하는 없는 상태로 보임.","questionId":"Q2","questionText":"우울감/기분저하/무기력","rawUserInput":["not bad"],"status":"answered","updated":true}
+[2026-01-22 14:18:20] INFO: 📝 [STATUS] Last Asked Question: Q1
+[2026-01-22 14:18:20] INFO: ✅ [STATUS] Last Answered Question: Q2
+[2026-01-22 14:18:20] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:18:20] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769058949225
+[2026-01-22 14:18:20] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3047ms
+[2026-01-22 14:18:46] INFO: 🚀 [SERVER] 서버가 포트 3003에서 실행 중입니다.
+[2026-01-22 14:18:46] INFO: 🗄️ [DB] MongoDB 연결 성공
+[2026-01-22 14:18:53] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:18:53] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:18:54] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:18:54] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:18:55] INFO: 👤 [USER] 사용자 입력: "ㅇㅇ 나 미경" (7자)
+[2026-01-22 14:18:55] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2026-01-22 14:18:55] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2026-01-22 14:18:55] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:18:55] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059132811
+[2026-01-22 14:18:55] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:18:55] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:18:55] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:18:55] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059132811
+[2026-01-22 14:18:55] INFO: 👤 [USER]: "ㅇㅇ 나 미경"
+[2026-01-22 14:18:58] INFO: 🤖 [BOT]: "미경님 반가워요 😊 앞으로는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 진행할 거예요. 오늘은 컨디션이 어떤가요? 식사나 휴식은 잘 하셨나요?" (83자)
+[2026-01-22 14:18:58] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:18:58] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:18:58] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:18:58] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:18:58] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:18:58] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:18:58] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:18:58] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:18:58] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀" → 사용자답변 "ㅇㅇ 나 미경"
+[2026-01-22 14:18:58] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:18:58] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance, ask_current_state
+[2026-01-22 14:18:58] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:18:58] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:18:58] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:18:58] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:18:58] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2777ms
+[2026-01-22 14:19:07] INFO: 👤 [USER] 사용자 입력: "배고파 밥 못먹어서 " (11자)
+[2026-01-22 14:19:07] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_current_state
+[2026-01-22 14:19:07] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, ask_current_state, 히스토리: 3개 메시지
+[2026-01-22 14:19:07] INFO: 🤖 [LAST_BOT] "미경님 반가워요 😊 앞으로는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 진행할 거예요. 오늘은 컨디션이 어떤가요? 식사나 휴식은 잘 하셨나요?"
+[2026-01-22 14:19:07] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059132811
+[2026-01-22 14:19:07] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:19:07] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:19:07] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:19:07] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059132811
+[2026-01-22 14:19:07] INFO: 👤 [USER]: "배고파 밥 못먹어서 "
+[2026-01-22 14:19:10] INFO: 🤖 [BOT]: "밥을 못 먹어서 배고프면 힘이 빠지고 더 피곤하게 느껴질 수 있죠 😥 지금은 혹시 간단하게라도 드실 수 있는 게 있을까요?" (69자)
+[2026-01-22 14:19:10] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:19:10] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:19:10] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:19:10] INFO: 🎯 [LAST_ASKED_QUESTION]: Q5
+[2026-01-22 14:19:10] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 에너지 수준/피로감
+[2026-01-22 14:19:10] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q5
+[2026-01-22 14:19:10] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:19:10] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "미경님 반가워요 😊 앞으로는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 진행할 거예요. 오늘은 컨디션이 어떤가요? 식사나 휴식은 잘 하셨나요?"
+[2026-01-22 14:19:10] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "미경님 반가워요 😊 앞으로는 미경님의 최근 마음 상태를 함께 살펴보는 대화를 진행할 거예요. 오늘은 컨디션이 어떤가요? 식사나 휴식은 잘 하셨나요?" → 사용자답변 "배고파 밥 못먹어서 "
+[2026-01-22 14:19:10] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:10] INFO: 📋 [POLICIES] 정책 저장 완료: clarify_response, empathize
+[2026-01-22 14:19:10] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:10] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:10] INFO: 🔄 [SLOTS] Q5 업데이트: {"condition":"식사를 하지 못해 배고픔을 느끼는 상태","conflict":null,"experience":"yes","note":"식사를 거른 상태로 에너지 부족이나 피로감이 있을 가능성이 있음","questionId":"Q5","questionText":"에너지 수준/피로감","rawUserInput":["배고파 밥 못먹어서"],"status":"checking","updated":true}
+[2026-01-22 14:19:10] INFO: 📝 [STATUS] Last Asked Question: Q5
+[2026-01-22 14:19:10] INFO: ✅ [STATUS] Last Answered Question: Q5
+[2026-01-22 14:19:10] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:19:10] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059132811
+[2026-01-22 14:19:10] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3287ms
+[2026-01-22 14:19:14] INFO: 👤 [USER] 사용자 입력: "없어 ㅠㅠ 흑" (7자)
+[2026-01-22 14:19:14] INFO: 🔍 [PREFERENCE] 직전 정책들: empathize
+[2026-01-22 14:19:14] INFO: 📊 [SESSION_DATA] 메시지: 5개, 정책: purpose_guidance, ask_current_state, clarify_response, empathize, 히스토리: 5개 메시지
+[2026-01-22 14:19:14] INFO: 🤖 [LAST_BOT] "밥을 못 먹어서 배고프면 힘이 빠지고 더 피곤하게 느껴질 수 있죠 😥 지금은 혹시 간단하게라도 드실 수 있는 게 있을까요?"
+[2026-01-22 14:19:14] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059132811
+[2026-01-22 14:19:14] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:19:14] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:19:14] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:19:14] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059132811
+[2026-01-22 14:19:14] INFO: 👤 [USER]: "없어 ㅠㅠ 흑"
+[2026-01-22 14:19:17] INFO: 🤖 [BOT]: "배도 고픈데 먹을 게 없으면 괜히 더 지치고 속상할 것 같아요 😔 요즘에는 그런 상황 말고도 스트레스 받는 일들이 좀 있었을까요?" (73자)
+[2026-01-22 14:19:17] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:19:17] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:19:17] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:19:17] INFO: 🎯 [LAST_ASKED_QUESTION]: Q1
+[2026-01-22 14:19:17] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근의 스트레스 수준이나 요인
+[2026-01-22 14:19:17] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q5
+[2026-01-22 14:19:17] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:19:17] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "밥을 못 먹어서 배고프면 힘이 빠지고 더 피곤하게 느껴질 수 있죠 😥 지금은 혹시 간단하게라도 드실 수 있는 게 있을까요?"
+[2026-01-22 14:19:17] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "밥을 못 먹어서 배고프면 힘이 빠지고 더 피곤하게 느껴질 수 있죠 😥 지금은 혹시 간단하게라도 드실 수 있는 게 있을까요?" → 사용자답변 "없어 ㅠㅠ 흑"
+[2026-01-22 14:19:17] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:17] INFO: 📋 [POLICIES] 정책 저장 완료: empathize, ask_new_question
+[2026-01-22 14:19:17] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:17] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:17] INFO: 🔄 [SLOTS] Q5 업데이트: {"condition":"밥을 못 먹어서 배고픔으로 인해 피로감을 느끼는 상황","conflict":null,"experience":"yes","note":"사용자가 식사를 하지 못해 에너지가 떨어지고 피로를 느끼는 것으로 보임","questionId":"Q5","questionText":"에너지 수준/피로감","rawUserInput":["없어 ㅠㅠ 흑"],"status":"answered","updated":true}
+[2026-01-22 14:19:17] INFO: 📝 [STATUS] Last Asked Question: Q1
+[2026-01-22 14:19:17] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:19:17] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059132811
+[2026-01-22 14:19:17] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3408ms
+[2026-01-22 14:19:20] INFO: 👤 [USER] 사용자 입력: "음 없었어" (5자)
+[2026-01-22 14:19:20] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_new_question
+[2026-01-22 14:19:20] INFO: 📊 [SESSION_DATA] 메시지: 7개, 정책: purpose_guidance, ask_current_state, clarify_response, empathize, empathize, ask_new_question, 히스토리: 7개 메시지
+[2026-01-22 14:19:20] INFO: 🤖 [LAST_BOT] "배도 고픈데 먹을 게 없으면 괜히 더 지치고 속상할 것 같아요 😔 요즘에는 그런 상황 말고도 스트레스 받는 일들이 좀 있었을까요?"
+[2026-01-22 14:19:20] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059132811
+[2026-01-22 14:19:20] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:19:20] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:19:20] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:19:20] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059132811
+[2026-01-22 14:19:20] INFO: 👤 [USER]: "음 없었어"
+[2026-01-22 14:19:23] INFO: 🤖 [BOT]: "스트레스는 없었다니 다행이에요 😊 요즘엔 기분은 어떤가요, 혹시 조금 무기력하거나 다운되는 순간이 있진 않았어요?" (64자)
+[2026-01-22 14:19:23] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:19:23] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:19:23] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:19:23] INFO: 🎯 [LAST_ASKED_QUESTION]: Q2
+[2026-01-22 14:19:23] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 우울감/기분저하/무기력
+[2026-01-22 14:19:23] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q1
+[2026-01-22 14:19:23] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:19:23] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "배도 고픈데 먹을 게 없으면 괜히 더 지치고 속상할 것 같아요 😔 요즘에는 그런 상황 말고도 스트레스 받는 일들이 좀 있었을까요?"
+[2026-01-22 14:19:23] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "배도 고픈데 먹을 게 없으면 괜히 더 지치고 속상할 것 같아요 😔 요즘에는 그런 상황 말고도 스트레스 받는 일들이 좀 있었을까요?" → 사용자답변 "음 없었어"
+[2026-01-22 14:19:23] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:23] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:19:23] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:23] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:23] INFO: 🔄 [SLOTS] Q1 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자는 최근에 스트레스를 받는 일이 없었다고 명확히 답함","questionId":"Q1","questionText":"최근의 스트레스 수준이나 요인","rawUserInput":["음 없었어"],"status":"answered","updated":true}
+[2026-01-22 14:19:23] INFO: 📝 [STATUS] Last Asked Question: Q2
+[2026-01-22 14:19:23] INFO: ✅ [STATUS] Last Answered Question: Q1
+[2026-01-22 14:19:23] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:19:23] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059132811
+[2026-01-22 14:19:23] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3052ms
+[2026-01-22 14:19:30] INFO: 👤 [USER] 사용자 입력: "음 그렇지는 않았던 거 같아~" (16자)
+[2026-01-22 14:19:30] INFO: 🔍 [PREFERENCE] 직전 정책들: question
+[2026-01-22 14:19:30] INFO: 📊 [SESSION_DATA] 메시지: 9개, 정책: purpose_guidance, ask_current_state, clarify_response, empathize, empathize, ask_new_question, ask_new_question, question, 히스토리: 9개 메시지
+[2026-01-22 14:19:30] INFO: 🤖 [LAST_BOT] "스트레스는 없었다니 다행이에요 😊 요즘엔 기분은 어떤가요, 혹시 조금 무기력하거나 다운되는 순간이 있진 않았어요?"
+[2026-01-22 14:19:30] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059132811
+[2026-01-22 14:19:30] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:19:30] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:19:30] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:19:30] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059132811
+[2026-01-22 14:19:30] INFO: 👤 [USER]: "음 그렇지는 않았던 거 같아~"
+[2026-01-22 14:19:33] INFO: 🤖 [BOT]: "그렇구나, 요즘은 비교적 마음이 편안하게 지내고 계신 것 같네요 😊 혹시 최근에 괜히 긴장되거나 걱정되는 일은 없었어요?" (68자)
+[2026-01-22 14:19:33] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:19:33] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:19:33] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:19:33] INFO: 🎯 [LAST_ASKED_QUESTION]: Q3
+[2026-01-22 14:19:33] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 불안/긴장/걱정
+[2026-01-22 14:19:33] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q2
+[2026-01-22 14:19:33] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:19:33] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "스트레스는 없었다니 다행이에요 😊 요즘엔 기분은 어떤가요, 혹시 조금 무기력하거나 다운되는 순간이 있진 않았어요?"
+[2026-01-22 14:19:33] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "스트레스는 없었다니 다행이에요 😊 요즘엔 기분은 어떤가요, 혹시 조금 무기력하거나 다운되는 순간이 있진 않았어요?" → 사용자답변 "음 그렇지는 않았던 거 같아~"
+[2026-01-22 14:19:33] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:33] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:19:33] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:33] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:33] INFO: 🔄 [SLOTS] Q2 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자는 최근 우울감이나 무기력함을 느끼지 않았다고 응답함.","questionId":"Q2","questionText":"우울감/기분저하/무기력","rawUserInput":["음 그렇지는 않았던 거 같아~"],"status":"answered","updated":true}
+[2026-01-22 14:19:33] INFO: 📝 [STATUS] Last Asked Question: Q3
+[2026-01-22 14:19:33] INFO: ✅ [STATUS] Last Answered Question: Q2
+[2026-01-22 14:19:33] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:19:33] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059132811
+[2026-01-22 14:19:33] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3438ms
+[2026-01-22 14:19:38] INFO: 👤 [USER] 사용자 입력: "NO_RESPONSE" (11자)
+[2026-01-22 14:19:38] INFO: 🔍 [PREFERENCE] 직전 정책들: question
+[2026-01-22 14:19:38] INFO: 📊 [SESSION_DATA] 메시지: 11개, 정책: purpose_guidance, ask_current_state, clarify_response, empathize, empathize, ask_new_question, ask_new_question, question, ask_new_question, question, 히스토리: 11개 메시지
+[2026-01-22 14:19:38] INFO: 🤖 [LAST_BOT] "그렇구나, 요즘은 비교적 마음이 편안하게 지내고 계신 것 같네요 😊 혹시 최근에 괜히 긴장되거나 걱정되는 일은 없었어요?"
+[2026-01-22 14:19:38] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059132811
+[2026-01-22 14:19:38] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:19:38] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:19:38] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:19:38] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059132811
+[2026-01-22 14:19:38] INFO: 👤 [USER]: "NO_RESPONSE"
+[2026-01-22 14:19:40] INFO: 🤖 [BOT]: "그렇군요 😊 잠시 생각이 떠올라서 대답이 어려울 수도 있죠. 괜찮아요!  
+우리 다시 문진 이야기로 살짝 돌아가 볼까요?  
+요즘 미경님은 혹시 괜히 불안하거나 긴장되는 순간, 걱정되는 일이 있었을까요? 💭" (117자)
+[2026-01-22 14:19:40] INFO: 🎯 [INTENT]: no_response
+[2026-01-22 14:19:40] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:19:40] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:19:40] INFO: 🎯 [LAST_ASKED_QUESTION]: Q3
+[2026-01-22 14:19:40] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 불안/긴장/걱정
+[2026-01-22 14:19:40] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q2
+[2026-01-22 14:19:40] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:19:40] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "그렇구나, 요즘은 비교적 마음이 편안하게 지내고 계신 것 같네요 😊 혹시 최근에 괜히 긴장되거나 걱정되는 일은 없었어요?"
+[2026-01-22 14:19:40] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "그렇구나, 요즘은 비교적 마음이 편안하게 지내고 계신 것 같네요 😊 혹시 최근에 괜히 긴장되거나 걱정되는 일은 없었어요?" → 사용자답변 "NO_RESPONSE"
+[2026-01-22 14:19:40] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:40] INFO: 📋 [POLICIES] 정책 저장 완료: handle_no_response
+[2026-01-22 14:19:40] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:40] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059132811
+[2026-01-22 14:19:40] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:19:40] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:19:40] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2364ms
+[2026-01-22 14:21:44] INFO: 🚀 [SERVER] 서버가 포트 3003에서 실행 중입니다.
+[2026-01-22 14:21:44] INFO: 🗄️ [DB] MongoDB 연결 성공
+[2026-01-22 14:21:46] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:21:46] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:21:47] INFO: 👤 [USER] 사용자 입력: "ㅎㅇㅎㅇ" (4자)
+[2026-01-22 14:21:47] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2026-01-22 14:21:47] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2026-01-22 14:21:47] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:21:47] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059304911
+[2026-01-22 14:21:47] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:21:47] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:21:47] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:21:47] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059304911
+[2026-01-22 14:21:47] INFO: 👤 [USER]: "ㅎㅇㅎㅇ"
+[2026-01-22 14:21:50] INFO: 🤖 [BOT]: "반가워요ㅎㅎ 이번 대화는 요즘 마음 상태나 스트레스 같은 부분을 부드럽게 살펴보는 시간이 될 거예요 😊" (58자)
+[2026-01-22 14:21:50] INFO: 🎯 [INTENT]: greeting
+[2026-01-22 14:21:50] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:21:50] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:21:50] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:21:50] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:21:50] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:21:50] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:21:50] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:21:50] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀" → 사용자답변 "ㅎㅇㅎㅇ"
+[2026-01-22 14:21:50] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059304911
+[2026-01-22 14:21:50] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance
+[2026-01-22 14:21:50] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059304911
+[2026-01-22 14:21:50] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059304911
+[2026-01-22 14:21:50] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:21:50] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:21:50] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2333ms
+[2026-01-22 14:22:33] INFO: 👤 [USER] 사용자 입력: "웅웅웅 좋아" (6자)
+[2026-01-22 14:22:33] INFO: 🔍 [PREFERENCE] 직전 정책들: purpose_guidance
+[2026-01-22 14:22:33] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, 히스토리: 3개 메시지
+[2026-01-22 14:22:33] INFO: 🤖 [LAST_BOT] "반가워요ㅎㅎ 이번 대화는 요즘 마음 상태나 스트레스 같은 부분을 부드럽게 살펴보는 시간이 될 거예요 😊"
+[2026-01-22 14:22:33] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059304911
+[2026-01-22 14:22:33] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:22:33] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:22:33] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:22:33] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059304911
+[2026-01-22 14:22:33] INFO: 👤 [USER]: "웅웅웅 좋아"
+[2026-01-22 14:22:35] INFO: 🤖 [BOT]: "좋아요😊 오늘은 컨디션이 어떤가요? 식사나 잠은 잘 챙기셨나요?" (36자)
+[2026-01-22 14:22:35] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:22:35] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:22:35] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:22:35] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:22:35] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:22:35] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:22:35] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:22:35] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "반가워요ㅎㅎ 이번 대화는 요즘 마음 상태나 스트레스 같은 부분을 부드럽게 살펴보는 시간이 될 거예요 😊"
+[2026-01-22 14:22:35] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "반가워요ㅎㅎ 이번 대화는 요즘 마음 상태나 스트레스 같은 부분을 부드럽게 살펴보는 시간이 될 거예요 😊" → 사용자답변 "웅웅웅 좋아"
+[2026-01-22 14:22:35] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059304911
+[2026-01-22 14:22:35] INFO: 📋 [POLICIES] 정책 저장 완료: ask_current_state
+[2026-01-22 14:22:35] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059304911
+[2026-01-22 14:22:35] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059304911
+[2026-01-22 14:22:35] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:22:35] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:22:35] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2234ms
+[2026-01-22 14:23:29] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:23:29] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:23:30] INFO: 👤 [USER] 사용자 입력: "ㅎㅇㅎㅇ" (4자)
+[2026-01-22 14:23:30] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2026-01-22 14:23:30] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2026-01-22 14:23:30] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:23:30] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059408144
+[2026-01-22 14:23:30] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:23:30] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:23:30] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:23:30] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059408144
+[2026-01-22 14:23:30] INFO: 👤 [USER]: "ㅎㅇㅎㅇ"
+[2026-01-22 14:23:32] INFO: 🤖 [BOT]: "반가워요 ㅎㅎ 이번 문진은 요즘의 마음상태나 스트레스 같은 부분을 함께 살펴보는 시간이 될 거예요 😊" (57자)
+[2026-01-22 14:23:32] INFO: 🎯 [INTENT]: greeting
+[2026-01-22 14:23:32] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:23:32] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:23:32] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:23:32] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:23:32] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:23:32] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:23:32] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:23:32] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀" → 사용자답변 "ㅎㅇㅎㅇ"
+[2026-01-22 14:23:32] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059408144
+[2026-01-22 14:23:32] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance
+[2026-01-22 14:23:32] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059408144
+[2026-01-22 14:23:32] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059408144
+[2026-01-22 14:23:32] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:23:32] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:23:32] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2356ms
+[2026-01-22 14:23:34] INFO: 👤 [USER] 사용자 입력: "웅웅 좋아" (5자)
+[2026-01-22 14:23:34] INFO: 🔍 [PREFERENCE] 직전 정책들: purpose_guidance
+[2026-01-22 14:23:34] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, 히스토리: 3개 메시지
+[2026-01-22 14:23:34] INFO: 🤖 [LAST_BOT] "반가워요 ㅎㅎ 이번 문진은 요즘의 마음상태나 스트레스 같은 부분을 함께 살펴보는 시간이 될 거예요 😊"
+[2026-01-22 14:23:34] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059408144
+[2026-01-22 14:23:34] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:23:34] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:23:34] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:23:34] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059408144
+[2026-01-22 14:23:34] INFO: 👤 [USER]: "웅웅 좋아"
+[2026-01-22 14:23:39] INFO: 🤖 [BOT]: "좋아요ㅎㅎ 그럼 오늘은 전체적으로 컨디션이 어떤지 궁금해요 😊" (35자)
+[2026-01-22 14:23:39] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:23:39] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:23:39] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:23:39] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:23:39] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:23:39] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:23:39] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:23:39] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "반가워요 ㅎㅎ 이번 문진은 요즘의 마음상태나 스트레스 같은 부분을 함께 살펴보는 시간이 될 거예요 😊"
+[2026-01-22 14:23:39] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "반가워요 ㅎㅎ 이번 문진은 요즘의 마음상태나 스트레스 같은 부분을 함께 살펴보는 시간이 될 거예요 😊" → 사용자답변 "웅웅 좋아"
+[2026-01-22 14:23:39] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059408144
+[2026-01-22 14:23:39] INFO: 📋 [POLICIES] 정책 저장 완료: ask_current_state
+[2026-01-22 14:23:39] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059408144
+[2026-01-22 14:23:39] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059408144
+[2026-01-22 14:23:39] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:23:39] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:23:39] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 4427ms
+[2026-01-22 14:23:51] INFO: 👤 [USER] 사용자 입력: "왜 ㅎㅎ 거리지 갑자기 " (13자)
+[2026-01-22 14:23:51] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_current_state
+[2026-01-22 14:23:51] INFO: 📊 [SESSION_DATA] 메시지: 5개, 정책: purpose_guidance, ask_current_state, 히스토리: 5개 메시지
+[2026-01-22 14:23:51] INFO: 🤖 [LAST_BOT] "좋아요ㅎㅎ 그럼 오늘은 전체적으로 컨디션이 어떤지 궁금해요 😊"
+[2026-01-22 14:23:51] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059408144
+[2026-01-22 14:23:51] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:23:51] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:23:51] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:23:51] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059408144
+[2026-01-22 14:23:51] INFO: 👤 [USER]: "왜 ㅎㅎ 거리지 갑자기 "
+[2026-01-22 14:23:53] INFO: 🤖 [BOT]: "ㅎㅎ은 좀 더 편하고 부드럽게 느껴지길 바라는 마음에서 쓰는 거예요 😉 혹시 이런 가벼운 말투 괜찮으신가요?" (61자)
+[2026-01-22 14:23:53] INFO: 🎯 [INTENT]: other(챗봇의 말투나 표현 방식에 대한 반응)
+[2026-01-22 14:23:53] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:23:53] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:23:53] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:23:53] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:23:53] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:23:53] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:23:53] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "좋아요ㅎㅎ 그럼 오늘은 전체적으로 컨디션이 어떤지 궁금해요 😊"
+[2026-01-22 14:23:53] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "좋아요ㅎㅎ 그럼 오늘은 전체적으로 컨디션이 어떤지 궁금해요 😊" → 사용자답변 "왜 ㅎㅎ 거리지 갑자기 "
+[2026-01-22 14:23:53] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059408144
+[2026-01-22 14:23:53] INFO: 📋 [POLICIES] 정책 저장 완료: handle_off_topic
+[2026-01-22 14:23:53] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059408144
+[2026-01-22 14:23:53] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059408144
+[2026-01-22 14:23:53] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:23:53] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:23:53] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2174ms
+[2026-01-22 14:24:16] INFO: 👤 [USER] 사용자 입력: "움 별론데 괜찮아" (9자)
+[2026-01-22 14:24:16] INFO: 🔍 [PREFERENCE] 직전 정책들: handle_off_topic
+[2026-01-22 14:24:16] INFO: 📊 [SESSION_DATA] 메시지: 7개, 정책: purpose_guidance, ask_current_state, handle_off_topic, 히스토리: 7개 메시지
+[2026-01-22 14:24:16] INFO: 🤖 [LAST_BOT] "ㅎㅎ은 좀 더 편하고 부드럽게 느껴지길 바라는 마음에서 쓰는 거예요 😉 혹시 이런 가벼운 말투 괜찮으신가요?"
+[2026-01-22 14:24:16] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059408144
+[2026-01-22 14:24:16] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:24:16] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:24:16] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:24:16] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059408144
+[2026-01-22 14:24:16] INFO: 👤 [USER]: "움 별론데 괜찮아"
+[2026-01-22 14:24:19] INFO: 🤖 [BOT]: "괜찮다고 해줘서 고마워요, 그래도 별로라고 느껴지는 게 조금 마음이 쓰이네요 🍃 요즘 혹시 스트레스 받는 일이나 신경 쓰이는 게 있을까요?" (78자)
+[2026-01-22 14:24:19] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:24:19] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:24:19] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:24:19] INFO: 🎯 [LAST_ASKED_QUESTION]: Q1
+[2026-01-22 14:24:19] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근의 스트레스 수준이나 요인
+[2026-01-22 14:24:19] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:24:19] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:24:19] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "ㅎㅎ은 좀 더 편하고 부드럽게 느껴지길 바라는 마음에서 쓰는 거예요 😉 혹시 이런 가벼운 말투 괜찮으신가요?"
+[2026-01-22 14:24:19] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "ㅎㅎ은 좀 더 편하고 부드럽게 느껴지길 바라는 마음에서 쓰는 거예요 😉 혹시 이런 가벼운 말투 괜찮으신가요?" → 사용자답변 "움 별론데 괜찮아"
+[2026-01-22 14:24:19] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059408144
+[2026-01-22 14:24:19] INFO: 📋 [POLICIES] 정책 저장 완료: empathize, ask_new_question
+[2026-01-22 14:24:19] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059408144
+[2026-01-22 14:24:19] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059408144
+[2026-01-22 14:24:19] INFO: 📝 [STATUS] Last Asked Question: Q1
+[2026-01-22 14:24:19] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:24:19] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059408144
+[2026-01-22 14:24:19] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2834ms
+[2026-01-22 14:24:34] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:24:34] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:24:38] INFO: 👤 [USER] 사용자 입력: "내 이름도 마인디인데 " (12자)
+[2026-01-22 14:24:38] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2026-01-22 14:24:38] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2026-01-22 14:24:38] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:24:38] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059473390
+[2026-01-22 14:24:38] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:24:38] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:24:38] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:24:38] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059473390
+[2026-01-22 14:24:38] INFO: 👤 [USER]: "내 이름도 마인디인데 "
+[2026-01-22 14:24:41] INFO: 🤖 [BOT]: "우와, 이름이 같아서 더 반갑네요 마인디님 😊 같은 이름이라 그런지 왠지 더 친근하게 느껴져요. 오늘은 전체적으로 컨디션이 어떤가요?" (75자)
+[2026-01-22 14:24:41] INFO: 🎯 [INTENT]: greeting
+[2026-01-22 14:24:41] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:24:41] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:24:41] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:24:41] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:24:41] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:24:41] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:24:41] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:24:41] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀" → 사용자답변 "내 이름도 마인디인데 "
+[2026-01-22 14:24:41] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:24:41] INFO: 📋 [POLICIES] 정책 저장 완료: empathize, ask_current_state
+[2026-01-22 14:24:41] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:24:41] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:24:41] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:24:41] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:24:41] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2363ms
+[2026-01-22 14:24:45] INFO: 👤 [USER] 사용자 입력: "컨디션 나쁘지 않은거같아" (13자)
+[2026-01-22 14:24:45] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_current_state
+[2026-01-22 14:24:45] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: empathize, ask_current_state, 히스토리: 3개 메시지
+[2026-01-22 14:24:45] INFO: 🤖 [LAST_BOT] "우와, 이름이 같아서 더 반갑네요 마인디님 😊 같은 이름이라 그런지 왠지 더 친근하게 느껴져요. 오늘은 전체적으로 컨디션이 어떤가요?"
+[2026-01-22 14:24:45] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059473390
+[2026-01-22 14:24:45] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:24:45] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:24:45] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:24:45] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059473390
+[2026-01-22 14:24:45] INFO: 👤 [USER]: "컨디션 나쁘지 않은거같아"
+[2026-01-22 14:24:48] INFO: 🤖 [BOT]: "컨디션이 괜찮다니 다행이에요 😊 그래도 혹시 요즘 신경 쓰이거나 스트레스를 느끼는 일은 있으신가요?" (56자)
+[2026-01-22 14:24:48] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:24:48] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:24:48] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:24:48] INFO: 🎯 [LAST_ASKED_QUESTION]: Q1
+[2026-01-22 14:24:48] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근의 스트레스 수준이나 요인
+[2026-01-22 14:24:48] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q5
+[2026-01-22 14:24:48] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:24:48] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "우와, 이름이 같아서 더 반갑네요 마인디님 😊 같은 이름이라 그런지 왠지 더 친근하게 느껴져요. 오늘은 전체적으로 컨디션이 어떤가요?"
+[2026-01-22 14:24:48] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "우와, 이름이 같아서 더 반갑네요 마인디님 😊 같은 이름이라 그런지 왠지 더 친근하게 느껴져요. 오늘은 전체적으로 컨디션이 어떤가요?" → 사용자답변 "컨디션 나쁘지 않은거같아"
+[2026-01-22 14:24:48] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:24:48] INFO: 📋 [POLICIES] 정책 저장 완료: empathize, ask_new_question
+[2026-01-22 14:24:48] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:24:48] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:24:48] INFO: 🔄 [SLOTS] Q5 업데이트: {"condition":null,"conflict":null,"experience":"no","note":"사용자는 현재 전반적인 컨디션이 나쁘지 않다고 표현함. 피로감이나 에너지 저하를 느끼지 않는 상태로 보임.","questionId":"Q5","questionText":"에너지 수준/피로감","rawUserInput":["컨디션 나쁘지 않은거같아"],"status":"answered","updated":true}
+[2026-01-22 14:24:48] INFO: 📝 [STATUS] Last Asked Question: Q1
+[2026-01-22 14:24:48] INFO: ✅ [STATUS] Last Answered Question: Q5
+[2026-01-22 14:24:48] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:24:48] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059473390
+[2026-01-22 14:24:48] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3037ms
+[2026-01-22 14:25:20] INFO: 👤 [USER] 사용자 입력: "있어 생리터졌어 개오바임" (13자)
+[2026-01-22 14:25:20] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_new_question
+[2026-01-22 14:25:20] INFO: 📊 [SESSION_DATA] 메시지: 5개, 정책: empathize, ask_current_state, empathize, ask_new_question, 히스토리: 5개 메시지
+[2026-01-22 14:25:20] INFO: 🤖 [LAST_BOT] "컨디션이 괜찮다니 다행이에요 😊 그래도 혹시 요즘 신경 쓰이거나 스트레스를 느끼는 일은 있으신가요?"
+[2026-01-22 14:25:20] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059473390
+[2026-01-22 14:25:20] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:25:20] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:25:20] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:25:20] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059473390
+[2026-01-22 14:25:20] INFO: 👤 [USER]: "있어 생리터졌어 개오바임"
+[2026-01-22 14:25:23] INFO: 🤖 [BOT]: "생리 때문에 몸도 마음도 힘들 수 있죠, 정말 고생 많아요 💭 요즘은 기분이 좀 가라앉거나 무기력하게 느껴지는 때도 있나요?" (70자)
+[2026-01-22 14:25:23] INFO: 🎯 [INTENT]: answer_context
+[2026-01-22 14:25:23] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:25:23] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:25:23] INFO: 🎯 [LAST_ASKED_QUESTION]: Q2
+[2026-01-22 14:25:23] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 우울감/기분저하/무기력
+[2026-01-22 14:25:23] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q1
+[2026-01-22 14:25:23] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:25:23] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "컨디션이 괜찮다니 다행이에요 😊 그래도 혹시 요즘 신경 쓰이거나 스트레스를 느끼는 일은 있으신가요?"
+[2026-01-22 14:25:23] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "컨디션이 괜찮다니 다행이에요 😊 그래도 혹시 요즘 신경 쓰이거나 스트레스를 느끼는 일은 있으신가요?" → 사용자답변 "있어 생리터졌어 개오바임"
+[2026-01-22 14:25:23] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:25:23] INFO: 📋 [POLICIES] 정책 저장 완료: empathize, ask_new_question
+[2026-01-22 14:25:23] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:25:23] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:25:24] INFO: 🔄 [SLOTS] Q1 업데이트: {"condition":"생리로 인한 신체적 불편함과 스트레스","conflict":null,"experience":"yes","note":"사용자가 생리로 인해 스트레스를 느끼고 있다고 명확히 표현함","questionId":"Q1","questionText":"최근의 스트레스 수준이나 요인","rawUserInput":["있어 생리터졌어 개오바임"],"status":"answered","updated":true}
+[2026-01-22 14:25:24] INFO: 📝 [STATUS] Last Asked Question: Q2
+[2026-01-22 14:25:24] INFO: ✅ [STATUS] Last Answered Question: Q1
+[2026-01-22 14:25:24] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:25:24] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059473390
+[2026-01-22 14:25:24] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3278ms
+[2026-01-22 14:25:31] INFO: 👤 [USER] 사용자 입력: "가끔은 그럴때도 있는 거 같아~" (17자)
+[2026-01-22 14:25:31] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_new_question
+[2026-01-22 14:25:31] INFO: 📊 [SESSION_DATA] 메시지: 7개, 정책: empathize, ask_current_state, empathize, ask_new_question, empathize, ask_new_question, 히스토리: 7개 메시지
+[2026-01-22 14:25:31] INFO: 🤖 [LAST_BOT] "생리 때문에 몸도 마음도 힘들 수 있죠, 정말 고생 많아요 💭 요즘은 기분이 좀 가라앉거나 무기력하게 느껴지는 때도 있나요?"
+[2026-01-22 14:25:31] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059473390
+[2026-01-22 14:25:31] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:25:31] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:25:31] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:25:31] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059473390
+[2026-01-22 14:25:31] INFO: 👤 [USER]: "가끔은 그럴때도 있는 거 같아~"
+[2026-01-22 14:25:35] INFO: 🤖 [BOT]: "그럴 때가 있으면 마음이 조금 무거워질 수도 있죠 💭 그런 기분이 들 때는 주로 언제나 어떤 상황에서 그렇게 느껴지시나요?" (69자)
+[2026-01-22 14:25:35] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:25:35] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:25:35] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:25:35] INFO: 🎯 [LAST_ASKED_QUESTION]: Q2
+[2026-01-22 14:25:35] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 우울감/기분저하/무기력
+[2026-01-22 14:25:35] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q2
+[2026-01-22 14:25:35] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:25:35] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "생리 때문에 몸도 마음도 힘들 수 있죠, 정말 고생 많아요 💭 요즘은 기분이 좀 가라앉거나 무기력하게 느껴지는 때도 있나요?"
+[2026-01-22 14:25:35] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "생리 때문에 몸도 마음도 힘들 수 있죠, 정말 고생 많아요 💭 요즘은 기분이 좀 가라앉거나 무기력하게 느껴지는 때도 있나요?" → 사용자답변 "가끔은 그럴때도 있는 거 같아~"
+[2026-01-22 14:25:35] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:25:35] INFO: 📋 [POLICIES] 정책 저장 완료: ask_context, empathize
+[2026-01-22 14:25:35] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:25:35] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:25:35] INFO: 🔄 [SLOTS] Q2 업데이트: {"condition":"생리로 인해 몸과 마음이 힘든 시기와 관련된 기분 저하","conflict":null,"experience":"yes","note":"사용자는 가끔 기분이 가라앉거나 무기력함을 느낀다고 표현함. 빈도나 강도에 대한 추가 확인 필요.","questionId":"Q2","questionText":"우울감/기분저하/무기력","rawUserInput":["가끔은 그럴때도 있는 거 같아~"],"status":"asking","updated":true}
+[2026-01-22 14:25:35] INFO: ✅ [STATUS] Last Answered Question: Q2
+[2026-01-22 14:25:35] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:25:35] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059473390
+[2026-01-22 14:25:35] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3714ms
+[2026-01-22 14:25:59] INFO: 👤 [USER] 사용자 입력: "배아플때" (4자)
+[2026-01-22 14:25:59] INFO: 🔍 [PREFERENCE] 직전 정책들: empathize
+[2026-01-22 14:25:59] INFO: 📊 [SESSION_DATA] 메시지: 9개, 정책: empathize, ask_current_state, empathize, ask_new_question, empathize, ask_new_question, ask_context, empathize, 히스토리: 9개 메시지
+[2026-01-22 14:25:59] INFO: 🤖 [LAST_BOT] "그럴 때가 있으면 마음이 조금 무거워질 수도 있죠 💭 그런 기분이 들 때는 주로 언제나 어떤 상황에서 그렇게 느껴지시나요?"
+[2026-01-22 14:25:59] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059473390
+[2026-01-22 14:25:59] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:25:59] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:25:59] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:25:59] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059473390
+[2026-01-22 14:25:59] INFO: 👤 [USER]: "배아플때"
+[2026-01-22 14:26:02] INFO: 🤖 [BOT]: "배가 아플 때 기분이 가라앉는 건 정말 자연스러운 일이에요, 그만큼 몸이 힘들다는 뜻이니까요 🌧️ 그럴 때는 주로 어떤 상황에서 그런 기분이 더 심해지는 것 같으세요?" (94자)
+[2026-01-22 14:26:02] INFO: 🎯 [INTENT]: answer_context
+[2026-01-22 14:26:02] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:26:02] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:26:02] INFO: 🎯 [LAST_ASKED_QUESTION]: Q2
+[2026-01-22 14:26:02] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 우울감/기분저하/무기력
+[2026-01-22 14:26:02] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q2
+[2026-01-22 14:26:02] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:26:02] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "그럴 때가 있으면 마음이 조금 무거워질 수도 있죠 💭 그런 기분이 들 때는 주로 언제나 어떤 상황에서 그렇게 느껴지시나요?"
+[2026-01-22 14:26:02] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "그럴 때가 있으면 마음이 조금 무거워질 수도 있죠 💭 그런 기분이 들 때는 주로 언제나 어떤 상황에서 그렇게 느껴지시나요?" → 사용자답변 "배아플때"
+[2026-01-22 14:26:02] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:26:03] INFO: 📋 [POLICIES] 정책 저장 완료: ask_context, empathize
+[2026-01-22 14:26:03] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:26:03] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:26:03] INFO: 🔄 [SLOTS] Q2 업데이트: {"condition":"배가 아플 때 우울감이나 기분 저하를 느낀다고 함","conflict":null,"experience":"yes","note":"신체적 통증(복통)이 있을 때 기분이 무거워지는 경향이 있음","questionId":"Q2","questionText":"우울감/기분저하/무기력","rawUserInput":["배아플때"],"status":"asking","updated":true}
+[2026-01-22 14:26:03] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:26:03] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059473390
+[2026-01-22 14:26:03] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3738ms
+[2026-01-22 14:26:14] INFO: 👤 [USER] 사용자 입력: "무슨말인지 잘 모르겠아" (12자)
+[2026-01-22 14:26:14] INFO: 🔍 [PREFERENCE] 직전 정책들: empathize
+[2026-01-22 14:26:14] INFO: 📊 [SESSION_DATA] 메시지: 11개, 정책: empathize, ask_current_state, empathize, ask_new_question, empathize, ask_new_question, ask_context, empathize, ask_context, empathize, 히스토리: 11개 메시지
+[2026-01-22 14:26:14] INFO: 🤖 [LAST_BOT] "배가 아플 때 기분이 가라앉는 건 정말 자연스러운 일이에요, 그만큼 몸이 힘들다는 뜻이니까요 🌧️ 그럴 때는 주로 어떤 상황에서 그런 기분이 더 심해지는 것 같으세요?"
+[2026-01-22 14:26:14] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059473390
+[2026-01-22 14:26:14] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:26:14] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:26:14] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:26:14] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059473390
+[2026-01-22 14:26:14] INFO: 👤 [USER]: "무슨말인지 잘 모르겠아"
+[2026-01-22 14:26:16] INFO: 🤖 [BOT]: "그럴 수 있어요, 제가 아까 한 말이 조금 복잡하게 들렸을 수도 있겠네요 🙂 혹시 어떤 부분이 잘 이해되지 않았는지 말해주실 수 있을까요?" (78자)
+[2026-01-22 14:26:16] INFO: 🎯 [INTENT]: other(이해하지 못함/명확화 요청)
+[2026-01-22 14:26:16] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:26:16] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:26:16] INFO: 🎯 [LAST_ASKED_QUESTION]: Q2
+[2026-01-22 14:26:16] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 우울감/기분저하/무기력
+[2026-01-22 14:26:16] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q2
+[2026-01-22 14:26:16] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:26:16] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "배가 아플 때 기분이 가라앉는 건 정말 자연스러운 일이에요, 그만큼 몸이 힘들다는 뜻이니까요 🌧️ 그럴 때는 주로 어떤 상황에서 그런 기분이 더 심해지는 것 같으세요?"
+[2026-01-22 14:26:16] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "배가 아플 때 기분이 가라앉는 건 정말 자연스러운 일이에요, 그만큼 몸이 힘들다는 뜻이니까요 🌧️ 그럴 때는 주로 어떤 상황에서 그런 기분이 더 심해지는 것 같으세요?" → 사용자답변 "무슨말인지 잘 모르겠아"
+[2026-01-22 14:26:16] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:26:16] INFO: 📋 [POLICIES] 정책 저장 완료: clarify_response, empathize
+[2026-01-22 14:26:16] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:26:16] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:26:16] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:26:16] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:26:16] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2207ms
+[2026-01-22 14:26:36] INFO: 👤 [USER] 사용자 입력: "아 잘 모르겟는데 너 대체 정책이 뭐가 선택되는거냐" (28자)
+[2026-01-22 14:26:36] INFO: 🔍 [PREFERENCE] 직전 정책들: empathize
+[2026-01-22 14:26:36] INFO: 📊 [SESSION_DATA] 메시지: 13개, 정책: empathize, ask_current_state, empathize, ask_new_question, empathize, ask_new_question, ask_context, empathize, ask_context, empathize, clarify_response, empathize, 히스토리: 13개 메시지
+[2026-01-22 14:26:36] INFO: 🤖 [LAST_BOT] "그럴 수 있어요, 제가 아까 한 말이 조금 복잡하게 들렸을 수도 있겠네요 🙂 혹시 어떤 부분이 잘 이해되지 않았는지 말해주실 수 있을까요?"
+[2026-01-22 14:26:36] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059473390
+[2026-01-22 14:26:36] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:26:36] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:26:36] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:26:36] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059473390
+[2026-01-22 14:26:36] INFO: 👤 [USER]: "아 잘 모르겟는데 너 대체 정책이 뭐가 선택되는거냐"
+[2026-01-22 14:26:39] INFO: 🤖 [BOT]: "좋은 질문이에요 마인디님 🙂 제가 말하는 정책은 상황에 맞게 어떤 방식으로 대화를 이어갈지 정하는 기준 같은 거예요! 그런데 혹시 문진으로 다시 돌아가서, 배 아플 때 기분이 가라앉는 게 보통 얼마나 자주 있는지도 여쭤봐도 될까요?" (130자)
+[2026-01-22 14:26:39] INFO: 🎯 [INTENT]: question
+[2026-01-22 14:26:39] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:26:39] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:26:39] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:26:39] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:26:39] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q2
+[2026-01-22 14:26:39] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:26:39] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "그럴 수 있어요, 제가 아까 한 말이 조금 복잡하게 들렸을 수도 있겠네요 🙂 혹시 어떤 부분이 잘 이해되지 않았는지 말해주실 수 있을까요?"
+[2026-01-22 14:26:39] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "그럴 수 있어요, 제가 아까 한 말이 조금 복잡하게 들렸을 수도 있겠네요 🙂 혹시 어떤 부분이 잘 이해되지 않았는지 말해주실 수 있을까요?" → 사용자답변 "아 잘 모르겟는데 너 대체 정책이 뭐가 선택되는거냐"
+[2026-01-22 14:26:39] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:26:39] INFO: 📋 [POLICIES] 정책 저장 완료: handle_off_topic
+[2026-01-22 14:26:39] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:26:39] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059473390
+[2026-01-22 14:26:39] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:26:39] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:26:39] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2397ms
+[2026-01-22 14:31:19] INFO: 🚀 [SERVER] 서버가 포트 3003에서 실행 중입니다.
+[2026-01-22 14:31:19] INFO: 🗄️ [DB] MongoDB 연결 성공
+[2026-01-22 14:31:25] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:31:25] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:31:32] INFO: 👤 [USER] 사용자 입력: "나 개발자" (5자)
+[2026-01-22 14:31:32] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2026-01-22 14:31:32] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2026-01-22 14:31:32] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:31:32] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059883987
+[2026-01-22 14:31:32] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:31:32] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:31:32] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:31:32] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059883987
+[2026-01-22 14:31:32] INFO: 👤 [USER]: "나 개발자"
+[2026-01-22 14:31:34] INFO: 🤖 [BOT]: "반가워요 개발자님 😊 요즘 컨디션은 어떠세요? 식사나 휴식은 잘 챙기고 계신가요?" (46자)
+[2026-01-22 14:31:34] INFO: 🎯 [INTENT]: greeting
+[2026-01-22 14:31:34] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:31:34] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:31:34] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:31:34] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:31:34] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:31:34] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:31:34] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:31:34] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀" → 사용자답변 "나 개발자"
+[2026-01-22 14:31:34] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059883987
+[2026-01-22 14:31:34] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance, ask_current_state
+[2026-01-22 14:31:34] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059883987
+[2026-01-22 14:31:34] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059883987
+[2026-01-22 14:31:34] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:31:34] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:31:34] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 1991ms
+[2026-01-22 14:31:58] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:31:58] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:32:01] INFO: 👤 [USER] 사용자 입력: "나 미경이라고해" (8자)
+[2026-01-22 14:32:01] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2026-01-22 14:32:01] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2026-01-22 14:32:01] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:32:01] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059917366
+[2026-01-22 14:32:01] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:32:01] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:32:01] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:32:01] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059917366
+[2026-01-22 14:32:01] INFO: 👤 [USER]: "나 미경이라고해"
+[2026-01-22 14:32:04] INFO: 🤖 [BOT]: "미경님, 만나서 반가워요 😊 오늘은 최근의 마음 상태와 컨디션을 함께 살펴보는 대화를 나눠보려 해요. 우선 오늘은 기분이 어떤지, 식사나 휴식은 잘 하셨는지 궁금해요." (94자)
+[2026-01-22 14:32:04] INFO: 🎯 [INTENT]: greeting
+[2026-01-22 14:32:04] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:32:04] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:32:04] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:32:04] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:32:04] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:32:04] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:32:04] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:32:04] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀" → 사용자답변 "나 미경이라고해"
+[2026-01-22 14:32:04] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:32:04] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance, ask_current_state
+[2026-01-22 14:32:04] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:32:04] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:32:04] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:32:04] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:32:04] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2555ms
+[2026-01-22 14:32:34] INFO: 👤 [USER] 사용자 입력: "밥 못먹었다 ㅠㅠ " (10자)
+[2026-01-22 14:32:34] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_current_state
+[2026-01-22 14:32:34] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, ask_current_state, 히스토리: 3개 메시지
+[2026-01-22 14:32:34] INFO: 🤖 [LAST_BOT] "미경님, 만나서 반가워요 😊 오늘은 최근의 마음 상태와 컨디션을 함께 살펴보는 대화를 나눠보려 해요. 우선 오늘은 기분이 어떤지, 식사나 휴식은 잘 하셨는지 궁금해요."
+[2026-01-22 14:32:34] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059917366
+[2026-01-22 14:32:34] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:32:34] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:32:34] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:32:34] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059917366
+[2026-01-22 14:32:34] INFO: 👤 [USER]: "밥 못먹었다 ㅠㅠ "
+[2026-01-22 14:32:38] INFO: 🤖 [BOT]: "밥도 못 먹을 정도면 정말 많이 지치셨을 것 같아요 😔 혹시 식사 거르게 된 게 바쁘거나 스트레스가 심해서였을까요?" (65자)
+[2026-01-22 14:32:38] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:32:38] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:32:38] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:32:38] INFO: 🎯 [LAST_ASKED_QUESTION]: Q1
+[2026-01-22 14:32:38] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근의 스트레스 수준이나 요인
+[2026-01-22 14:32:38] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q5
+[2026-01-22 14:32:38] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:32:38] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "미경님, 만나서 반가워요 😊 오늘은 최근의 마음 상태와 컨디션을 함께 살펴보는 대화를 나눠보려 해요. 우선 오늘은 기분이 어떤지, 식사나 휴식은 잘 하셨는지 궁금해요."
+[2026-01-22 14:32:38] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "미경님, 만나서 반가워요 😊 오늘은 최근의 마음 상태와 컨디션을 함께 살펴보는 대화를 나눠보려 해요. 우선 오늘은 기분이 어떤지, 식사나 휴식은 잘 하셨는지 궁금해요." → 사용자답변 "밥 못먹었다 ㅠㅠ "
+[2026-01-22 14:32:38] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:32:38] INFO: 📋 [POLICIES] 정책 저장 완료: clarify_response, empathize
+[2026-01-22 14:32:38] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:32:38] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:32:38] INFO: 🔄 [SLOTS] Q1 업데이트: {"condition":"식사를 못할 정도로 바쁘거나 스트레스가 있을 가능성 있음","conflict":null,"experience":"unknown","note":"식사를 거른 것으로 보아 컨디션이나 스트레스 상태에 영향이 있을 수 있음","questionId":"Q1","questionText":"최근의 스트레스 수준이나 요인","rawUserInput":["밥 못먹었다 ㅠㅠ"],"status":"checking","updated":true}
+[2026-01-22 14:32:38] INFO: 🔄 [SLOTS] Q5 업데이트: {"condition":"식사를 못해 에너지 부족이나 피로감이 있을 가능성 있음","conflict":null,"experience":"yes","note":"식사를 거른 상태로 보아 에너지 저하나 피로감이 동반될 수 있음","questionId":"Q5","questionText":"에너지 수준/피로감","rawUserInput":["밥 못먹었다 ㅠㅠ"],"status":"asking","updated":true}
+[2026-01-22 14:32:38] INFO: 📝 [STATUS] Last Asked Question: Q1
+[2026-01-22 14:32:38] INFO: ✅ [STATUS] Last Answered Question: Q5
+[2026-01-22 14:32:38] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:32:38] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059917366
+[2026-01-22 14:32:38] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 4124ms
+[2026-01-22 14:33:11] INFO: 👤 [USER] 사용자 입력: "어 바빴어 계속 미팅하느라" (14자)
+[2026-01-22 14:33:11] INFO: 🔍 [PREFERENCE] 직전 정책들: empathize
+[2026-01-22 14:33:11] INFO: 📊 [SESSION_DATA] 메시지: 5개, 정책: purpose_guidance, ask_current_state, clarify_response, empathize, 히스토리: 5개 메시지
+[2026-01-22 14:33:11] INFO: 🤖 [LAST_BOT] "밥도 못 먹을 정도면 정말 많이 지치셨을 것 같아요 😔 혹시 식사 거르게 된 게 바쁘거나 스트레스가 심해서였을까요?"
+[2026-01-22 14:33:11] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059917366
+[2026-01-22 14:33:11] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:33:11] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:33:11] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:33:11] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059917366
+[2026-01-22 14:33:11] INFO: 👤 [USER]: "어 바빴어 계속 미팅하느라"
+[2026-01-22 14:33:14] INFO: 🤖 [BOT]: "하루 종일 미팅이라니 정말 정신없었겠어요 😥 그래도 잠깐이라도 숨 돌릴 시간은 있었나요?" (50자)
+[2026-01-22 14:33:14] INFO: 🎯 [INTENT]: answer_context
+[2026-01-22 14:33:14] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:33:14] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:33:14] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:33:14] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:33:14] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q5
+[2026-01-22 14:33:14] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:33:14] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "밥도 못 먹을 정도면 정말 많이 지치셨을 것 같아요 😔 혹시 식사 거르게 된 게 바쁘거나 스트레스가 심해서였을까요?"
+[2026-01-22 14:33:14] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "밥도 못 먹을 정도면 정말 많이 지치셨을 것 같아요 😔 혹시 식사 거르게 된 게 바쁘거나 스트레스가 심해서였을까요?" → 사용자답변 "어 바빴어 계속 미팅하느라"
+[2026-01-22 14:33:14] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:33:14] INFO: 📋 [POLICIES] 정책 저장 완료: clarify_response, empathize
+[2026-01-22 14:33:14] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:33:14] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:33:14] INFO: 🔄 [SLOTS] Q5 업데이트: {"condition":"계속된 미팅으로 인해 바쁨","conflict":null,"experience":"yes","note":"사용자가 바쁨으로 인해 식사를 거르고 피로감을 느끼는 상황으로 보임","questionId":"Q5","questionText":"에너지 수준/피로감","rawUserInput":["어 바빴어 계속 미팅하느라"],"status":"answered","updated":true}
+[2026-01-22 14:33:14] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:33:14] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059917366
+[2026-01-22 14:33:14] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3309ms
+[2026-01-22 14:33:18] INFO: 👤 [USER] 사용자 입력: "웅 지금 " (5자)
+[2026-01-22 14:33:18] INFO: 🔍 [PREFERENCE] 직전 정책들: empathize
+[2026-01-22 14:33:18] INFO: 📊 [SESSION_DATA] 메시지: 7개, 정책: purpose_guidance, ask_current_state, clarify_response, empathize, clarify_response, empathize, 히스토리: 7개 메시지
+[2026-01-22 14:33:18] INFO: 🤖 [LAST_BOT] "하루 종일 미팅이라니 정말 정신없었겠어요 😥 그래도 잠깐이라도 숨 돌릴 시간은 있었나요?"
+[2026-01-22 14:33:18] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059917366
+[2026-01-22 14:33:18] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:33:18] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:33:18] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:33:18] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059917366
+[2026-01-22 14:33:18] INFO: 👤 [USER]: "웅 지금 "
+[2026-01-22 14:33:37] INFO: 🤖 [BOT]: "지금도 스트레스가 계속 이어지고 있군요 😔 하루 종일 긴장된 상태였을 것 같아요, 조금이라도 쉬는 시간 가질 수 있었나요?" (69자)
+[2026-01-22 14:33:37] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:33:37] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:33:37] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:33:37] INFO: 🎯 [LAST_ASKED_QUESTION]: Q1
+[2026-01-22 14:33:37] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 최근의 스트레스 수준이나 요인
+[2026-01-22 14:33:37] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q1
+[2026-01-22 14:33:37] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:33:37] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "하루 종일 미팅이라니 정말 정신없었겠어요 😥 그래도 잠깐이라도 숨 돌릴 시간은 있었나요?"
+[2026-01-22 14:33:37] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "하루 종일 미팅이라니 정말 정신없었겠어요 😥 그래도 잠깐이라도 숨 돌릴 시간은 있었나요?" → 사용자답변 "웅 지금 "
+[2026-01-22 14:33:37] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:33:37] INFO: 📋 [POLICIES] 정책 저장 완료: ask_context, empathize
+[2026-01-22 14:33:37] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:33:37] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:33:37] INFO: 🔄 [SLOTS] Q1 업데이트: {"condition":"하루 종일 미팅으로 인한 피로와 정신적 부담","conflict":null,"experience":"yes","note":"사용자가 현재 스트레스를 느끼고 있음을 간단히 동의하는 형태로 표현함","questionId":"Q1","questionText":"최근의 스트레스 수준이나 요인","rawUserInput":["웅 지금"],"status":"asking","updated":true}
+[2026-01-22 14:33:37] INFO: ✅ [STATUS] Last Answered Question: Q1
+[2026-01-22 14:33:37] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:33:37] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059917366
+[2026-01-22 14:33:37] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 19070ms
+[2026-01-22 14:33:44] INFO: 👤 [USER] 사용자 입력: "웅 지금 그러고 있다니까 " (14자)
+[2026-01-22 14:33:44] INFO: 🔍 [PREFERENCE] 직전 정책들: empathize
+[2026-01-22 14:33:44] INFO: 📊 [SESSION_DATA] 메시지: 9개, 정책: purpose_guidance, ask_current_state, clarify_response, empathize, clarify_response, empathize, ask_context, empathize, 히스토리: 9개 메시지
+[2026-01-22 14:33:44] INFO: 🤖 [LAST_BOT] "지금도 스트레스가 계속 이어지고 있군요 😔 하루 종일 긴장된 상태였을 것 같아요, 조금이라도 쉬는 시간 가질 수 있었나요?"
+[2026-01-22 14:33:44] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769059917366
+[2026-01-22 14:33:44] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:33:44] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:33:44] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:33:44] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769059917366
+[2026-01-22 14:33:44] INFO: 👤 [USER]: "웅 지금 그러고 있다니까 "
+[2026-01-22 14:33:48] INFO: 🤖 [BOT]: "지금은 그래도 조금 한숨 돌리고 있는 것 같아서 다행이에요 😊 그런데 요즘은 기분이 좀 다운되거나 의욕이 잘 안 생길 때도 있었나요?" (75자)
+[2026-01-22 14:33:48] INFO: 🎯 [INTENT]: answer_state
+[2026-01-22 14:33:48] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:33:48] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:33:48] INFO: 🎯 [LAST_ASKED_QUESTION]: Q2
+[2026-01-22 14:33:48] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: 우울감/기분저하/무기력
+[2026-01-22 14:33:48] INFO: 🎯 [LAST_ANSWERED_QUESTION]: Q1
+[2026-01-22 14:33:48] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:33:48] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "지금도 스트레스가 계속 이어지고 있군요 😔 하루 종일 긴장된 상태였을 것 같아요, 조금이라도 쉬는 시간 가질 수 있었나요?"
+[2026-01-22 14:33:48] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "지금도 스트레스가 계속 이어지고 있군요 😔 하루 종일 긴장된 상태였을 것 같아요, 조금이라도 쉬는 시간 가질 수 있었나요?" → 사용자답변 "웅 지금 그러고 있다니까 "
+[2026-01-22 14:33:48] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:33:48] INFO: 📋 [POLICIES] 정책 저장 완료: ask_new_question, question
+[2026-01-22 14:33:48] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:33:48] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769059917366
+[2026-01-22 14:33:48] INFO: 🔄 [SLOTS] Q1 업데이트: {"condition":"현재 스트레스가 지속되고 있으며, 사용자가 지금 쉬는 중이라고 언급함","conflict":null,"experience":"yes","note":"스트레스가 계속되고 있지만 사용자가 휴식을 취하고 있음","questionId":"Q1","questionText":"최근의 스트레스 수준이나 요인","rawUserInput":["웅 지금 그러고 있다니까"],"status":"answered","updated":true}
+[2026-01-22 14:33:48] INFO: 📝 [STATUS] Last Asked Question: Q2
+[2026-01-22 14:33:48] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:33:48] INFO: 💾 [DB] Status 업데이트 완료: user_mindy, session_1769059917366
+[2026-01-22 14:33:48] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 3589ms
+[2026-01-22 14:34:32] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:34:32] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-01-22 14:34:34] INFO: 👤 [USER] 사용자 입력: "안녕 " (3자)
+[2026-01-22 14:34:34] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2026-01-22 14:34:34] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2026-01-22 14:34:34] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:34:34] INFO: 📊 [STATUS] 상태 조회 시작: user_mindy, session_1769060071416
+[2026-01-22 14:34:34] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-01-22 14:34:34] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-01-22 14:34:34] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-01-22 14:34:34] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mindy, 세션ID=session_1769060071416
+[2026-01-22 14:34:34] INFO: 👤 [USER]: "안녕 "
+[2026-01-22 14:34:36] INFO: 🤖 [BOT]: "안녕하세요 반가워요 😊 저는 앞으로 당신의 최근 마음 상태를 함께 살펴보며 조금 더 가볍게 만들 수 있도록 도와드릴게요!" (68자)
+[2026-01-22 14:34:36] INFO: 🎯 [INTENT]: greeting
+[2026-01-22 14:34:36] INFO: 🎯 [IS_COMPLETED]: false
+[2026-01-22 14:34:36] INFO: 🎯 [IS_FINISHED]: false
+[2026-01-22 14:34:36] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-01-22 14:34:36] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-01-22 14:34:36] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-01-22 14:34:36] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-01-22 14:34:36] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-01-22 14:34:36] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀" → 사용자답변 "안녕 "
+[2026-01-22 14:34:36] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mindy/session_1769060071416
+[2026-01-22 14:34:36] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance
+[2026-01-22 14:34:36] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mindy/session_1769060071416
+[2026-01-22 14:34:36] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mindy/session_1769060071416
+[2026-01-22 14:34:36] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-01-22 14:34:36] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-01-22 14:34:36] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 2189ms

@@ -29,14 +29,14 @@ def generate_response_by_policy(policy, user_message, history, status, client, t
     first_policy = policy.get('first_policy', 'default')
     ai_logger.info(f"🔍 선택된 정책: {first_policy}")
     
-    prompt = POLICY_PROMPTS_SINGLE.get(first_policy, "announce_completion")
+    prompt = POLICY_PROMPTS_SINGLE.get(first_policy, "others")
     question = check_question(policy)
     
     # 말투 프롬프트 추가
     tone_prompt = TONE_PROMPTS.get(tone_preference or '미선택', TONE_PROMPTS['미선택'])
-    print(tone_prompt)
     ai_logger.info(f"🔍 선택된 말투: {tone_preference}")
     prompt_with_tone = prompt + "\n" + tone_prompt
+    print(prompt_with_tone)
 
     if question != None:
         context_history = f"선택된 정책: {policy}\n대화 히스토리:\n{history}\n현재 사용자 메시지: {user_message}\n현재 문진 상태: {status}\n선택된 문진문항: {question}"
@@ -90,17 +90,18 @@ def generate_response_by_policies(policy, user_message, history, status, client,
     ai_logger.info(f"🔍 선택된 정책들: {first_policy}, {second_policy}")
     
     # 핵심 지시사항만 조합
-    instruction_1 = POLICY_PROMPTS_MULTI.get(first_policy, "announce_completion")
-    instruction_2 = POLICY_PROMPTS_MULTI.get(second_policy, "announce_completion")
+    instruction_1 = POLICY_PROMPTS_MULTI.get(first_policy, "others")
+    instruction_2 = POLICY_PROMPTS_MULTI.get(second_policy, "others")
     
     policy_instructions = f"정책 1: {instruction_1}\n정책 2: {instruction_2}"
     combined_prompt = MULTI_POLICY_BASE_PROMPT.format(policy_instructions=policy_instructions)
-    
+
     # 말투 프롬프트 추가
     tone_prompt = TONE_PROMPTS.get(tone_preference or '미선택', TONE_PROMPTS['미선택'])
     ai_logger.info(f"🔍 선택된 말투: {tone_preference}")
     combined_prompt_with_tone = combined_prompt + "\n" + tone_prompt
-    
+    print(combined_prompt_with_tone)
+
     question = check_question(policy)
     
     if question != None:

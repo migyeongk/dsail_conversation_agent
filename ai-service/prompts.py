@@ -665,7 +665,6 @@ HANDLE_OFF_TOPIC_MULTI = """
 """ 
 
 
-
 ASK_RETURN_TO_TOPIC_SINGLE = """
 당신은 정책에 따라 응답을 생성하는 정신건강 문진 대화를 위한 인공지능 챗봇입니다.
 주어진 이전 대화내역과 사용자의 마지막 발화를 바탕으로 사용자가 제공한 문진과 관계없는 발화에 대해 사용자의 말에 가볍게 반응한 후 다시 문진으로 자연스럽게 돌아오는 응답을 생성해주세요.
@@ -682,8 +681,44 @@ ASK_RETURN_TO_TOPIC_SINGLE = """
 5. 반드시 이전 대화 목록을 참고하여 같은 어투, 형식의 말이 반복되지 않도록 하세요. 
 """
 
-
 ASK_RETURN_TO_TOPIC_MULTI = """
+주어진 이전 대화내역과 사용자의 마지막 발화를 바탕으로 사용자가 제공한 문진과 관계없는 발화에 대해 사용자의 말에 가볍게 반응한 후 다시 문진으로 자연스럽게 돌아오는 응답을 생성해주세요.
+# 참고사항
+- 사용자의 말을 무시하지 말고, "그렇군요!", "네, 날씨가 좋네요!" 와 같이 가볍게 수긍하세요. 
+- 복귀에 대한 동의를 요청하세요. 다시 문진으로 돌아가도 괜찮은지 부드럽게 물어보세요. (예: "다시 저희 대화로 돌아와 볼까요?")
+- 사용자의 말을 비판하거나 무시하는 뉘앙스를 주지 마세요.
+"""
+
+
+HANDLE_NO_RESPONSE_MULTI = """
+현재 문진 대화 중, 사용자가 질문에 대해 명확한 응답을 하지 않았습니다. 사용자의 상황을 이해하고 적절한 답변을 생성하세요.
+
+# 참고사항
+- 사용자에게 이 질문이 대답하기 어렵거나 껄끄러운지 공감적으로 물어보세요.
+- 원하시면 다른 질문으로 넘어갈 수 있다는 선택지를 자연스럽게 제시하세요.
+- 이전 대화 내역을 고려하여 자연스러운 답변을 생성하세요.
+- 사용자에게 압박을 주지 않도록 배려하는 태도를 유지하세요.
+"""
+
+HANDLE_NO_RESPONSE_SINGLE = """
+당신은 정책에 따라 응답을 생성하는 정신건강 문진 대화를 위한 인공지능 챗봇입니다.
+현재 문진 대화 중, 사용자가 질문에 대해 명확한 응답을 하지 않았습니다. 사용자의 상황을 이해하고 적절한 답변을 생성하세요.
+
+# 참고사항
+- 사용자에게 이 질문이 대답하기 어렵거나 껄끄러운지 공감적으로 물어보세요.
+- 원하시면 다른 질문으로 넘어갈 수 있다는 선택지를 자연스럽게 제시하세요.
+- 이전 대화 내역을 고려하여 자연스러운 답변을 생성하세요.
+- 사용자에게 압박을 주지 않도록 배려하는 태도를 유지하세요.
+
+# 주의사항
+1. 답변은 반드시 한 문장으로 생성해주세요.
+2. 자연스럽고 적절한 어조로 응답해주세요.
+3. 사용자를 재촉하거나 압박하는 뉘앙스를 주지 마세요.
+4. 답변은 대화 내역과 유저의 마지막 발화와 자연스럽게 이어져야 합니다.
+5. 반드시 이전 대화 목록을 참고하여 같은 어투, 형식의 말이 반복되지 않도록 하세요.
+"""
+
+HANDLE_NO_RESPONSE_MULTI = """
 주어진 이전 대화내역과 사용자의 마지막 발화를 바탕으로 사용자가 제공한 문진과 관계없는 발화에 대해 사용자의 말에 가볍게 반응한 후 다시 문진으로 자연스럽게 돌아오는 응답을 생성해주세요.
 # 참고사항
 - 사용자의 말을 무시하지 말고, "그렇군요!", "네, 날씨가 좋네요!" 와 같이 가볍게 수긍하세요. 
@@ -908,6 +943,64 @@ OTHERS_SINGLE = """
 
 
 # =======================정책별 프롬프트 딕셔너리 =======================#
+# POLICY_PROMPTS_SINGLE = {
+#     "self_introduction": SELF_INTRODUCTION_SINGLE,
+#     "purpose_guidance": PURPOSE_GUIDANCE_SINGLE,
+#     "ask_current_state": ASK_CURRENT_STATE_SINGLE,
+#     "request_agreement": REQUEST_AGREEMENT_SINGLE,
+#     "ask_tone_preference": ASK_TONE_PREFERENCE_SINGLE,
+#     "ask_conversation_style": ASK_CONVERSATION_STYLE_SINGLE,
+#     "ask_new_symptom": ASK_NEW_SYMPTOM_SINGLE,
+#     "ask_frequency": ASK_FREQUENCY_SINGLE,
+#     "ask_condition": ASK_CONDITION_SINGLE,
+#     "clarify_symptom": CLARIFY_SYMPTOM_SINGLE,
+#     "check_conflict": CHECK_CONFLICT_SINGLE,
+#     "empathize": EMPATHIZE_SINGLE,
+#     "restate": RESTATE_SINGLE,
+#     "question": QUESTION_SINGLE,
+#     "answer_question": ANSWER_QUESTION_SINGLE,
+#     "handle_off_topic": HANDLE_OFF_TOPIC_SINGLE,
+#     "ask_return_to_topic": ASK_RETURN_TO_TOPIC_SINGLE,
+#     "explain_limitations": EXPLAIN_LIMITATIONS_SINGLE,
+#     "handle_crisis": HANDLE_CRISIS_SINGLE,
+#     "announce_completion": ANNOUNCE_COMPLETION_SINGLE,
+#     "ask_additional_concerns": ASK_ADDITIONAL_CONCERNS_SINGLE,
+#     "express_gratitude": EXPRESS_GRATITUDE_SINGLE,
+#     "summarize_conversation": SUMMARIZE_CONVERSATION_SINGLE,
+#     "farewell_message": FAREWELL_MESSAGE_SINGLE,
+#     "ask_completion": ASK_COMPLETION_SINGLE,
+#     "others": OTHERS_SINGLE
+# }
+
+
+# POLICY_PROMPTS_MULTI = {
+#     "self_introduction": SELF_INTRODUCTION_MULTI,
+#     "purpose_guidance": PURPOSE_GUIDANCE_MULTI,
+#     "ask_current_state": ASK_CURRENT_STATE_MULTI,
+#     "request_agreement": REQUEST_AGREEMENT_MULTI,
+#     "ask_tone_preference": ASK_TONE_PREFERENCE_MULTI,
+#     "ask_conversation_style": ASK_CONVERSATION_STYLE_MULTI,
+#     "ask_new_symptom": ASK_NEW_SYMPTOM_MULTI,
+#     "ask_frequency": ASK_FREQUENCY_MULTI,
+#     "ask_condition": ASK_CONDITION_MULTI,
+#     "clarify_symptom": CLARIFY_SYMPTOM_MULTI,
+#     "check_conflict": CHECK_CONFLICT_MULTI,
+#     "empathize": EMPATHIZE_MULTI,
+#     "restate": RESTATE_MULTI,
+#     "question": QUESTION_MULTI,
+#     "answer_question": ANSWER_QUESTION_MULTI,
+#     "handle_off_topic": HANDLE_OFF_TOPIC_MULTI,
+#     "ask_return_to_topic": ASK_RETURN_TO_TOPIC_MULTI,
+#     "explain_limitations": EXPLAIN_LIMITATIONS_MULTI,
+#     "handle_crisis": HANDLE_CRISIS_MULTI,
+#     "announce_completion": ANNOUNCE_COMPLETION_MULTI,
+#     "ask_additional_concerns": ASK_ADDITIONAL_CONCERNS_MULTI,
+#     "express_gratitude": EXPRESS_GRATITUDE_MULTI,
+#     "summarize_conversation": SUMMARIZE_CONVERSATION_MULTI,
+#     "farewell_message": FAREWELL_MESSAGE_MULTI,
+#     "ask_completion": ASK_COMPLETION_MULTI
+# }
+
 POLICY_PROMPTS_SINGLE = {
     "self_introduction": SELF_INTRODUCTION_SINGLE,
     "purpose_guidance": PURPOSE_GUIDANCE_SINGLE,
@@ -915,9 +1008,9 @@ POLICY_PROMPTS_SINGLE = {
     "request_agreement": REQUEST_AGREEMENT_SINGLE,
     "ask_tone_preference": ASK_TONE_PREFERENCE_SINGLE,
     "ask_conversation_style": ASK_CONVERSATION_STYLE_SINGLE,
-    "ask_new_symptom": ASK_NEW_SYMPTOM_SINGLE,
+    "ask_new_question": ASK_NEW_SYMPTOM_SINGLE,
     "ask_frequency": ASK_FREQUENCY_SINGLE,
-    "ask_condition": ASK_CONDITION_SINGLE,
+    "ask_context": ASK_CONDITION_SINGLE,
     "clarify_symptom": CLARIFY_SYMPTOM_SINGLE,
     "check_conflict": CHECK_CONFLICT_SINGLE,
     "empathize": EMPATHIZE_SINGLE,
@@ -927,6 +1020,7 @@ POLICY_PROMPTS_SINGLE = {
     "handle_off_topic": HANDLE_OFF_TOPIC_SINGLE,
     "ask_return_to_topic": ASK_RETURN_TO_TOPIC_SINGLE,
     "explain_limitations": EXPLAIN_LIMITATIONS_SINGLE,
+    "handle_no_response": HANDLE_NO_RESPONSE_MULTI,
     "handle_crisis": HANDLE_CRISIS_SINGLE,
     "announce_completion": ANNOUNCE_COMPLETION_SINGLE,
     "ask_additional_concerns": ASK_ADDITIONAL_CONCERNS_SINGLE,
@@ -937,7 +1031,6 @@ POLICY_PROMPTS_SINGLE = {
     "others": OTHERS_SINGLE
 }
 
-
 POLICY_PROMPTS_MULTI = {
     "self_introduction": SELF_INTRODUCTION_MULTI,
     "purpose_guidance": PURPOSE_GUIDANCE_MULTI,
@@ -945,9 +1038,9 @@ POLICY_PROMPTS_MULTI = {
     "request_agreement": REQUEST_AGREEMENT_MULTI,
     "ask_tone_preference": ASK_TONE_PREFERENCE_MULTI,
     "ask_conversation_style": ASK_CONVERSATION_STYLE_MULTI,
-    "ask_new_symptom": ASK_NEW_SYMPTOM_MULTI,
+    "ask_new_question": ASK_NEW_SYMPTOM_MULTI,
     "ask_frequency": ASK_FREQUENCY_MULTI,
-    "ask_condition": ASK_CONDITION_MULTI,
+    "ask_context": ASK_CONDITION_MULTI,
     "clarify_symptom": CLARIFY_SYMPTOM_MULTI,
     "check_conflict": CHECK_CONFLICT_MULTI,
     "empathize": EMPATHIZE_MULTI,
@@ -957,6 +1050,7 @@ POLICY_PROMPTS_MULTI = {
     "handle_off_topic": HANDLE_OFF_TOPIC_MULTI,
     "ask_return_to_topic": ASK_RETURN_TO_TOPIC_MULTI,
     "explain_limitations": EXPLAIN_LIMITATIONS_MULTI,
+    "handle_no_response": HANDLE_NO_RESPONSE_MULTI,
     "handle_crisis": HANDLE_CRISIS_MULTI,
     "announce_completion": ANNOUNCE_COMPLETION_MULTI,
     "ask_additional_concerns": ASK_ADDITIONAL_CONCERNS_MULTI,
@@ -965,6 +1059,7 @@ POLICY_PROMPTS_MULTI = {
     "farewell_message": FAREWELL_MESSAGE_MULTI,
     "ask_completion": ASK_COMPLETION_MULTI
 }
+
 
 # =======================정책별 토큰 제한 설정 =======================#
 POLICY_MAX_TOKENS = {

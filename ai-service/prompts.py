@@ -468,13 +468,6 @@ HANDLE_NO_RESPONSE_SINGLE = """
 5. 반드시 이전 대화 목록을 참고하여 같은 어투, 형식의 말이 반복되지 않도록 하세요.
 """
 
-HANDLE_NO_RESPONSE_MULTI = """
-주어진 이전 대화내역과 사용자의 마지막 발화를 바탕으로 사용자가 제공한 문진과 관계없는 발화에 대해 사용자의 말에 가볍게 반응한 후 다시 문진으로 자연스럽게 돌아오는 응답을 생성해주세요.
-# 참고사항
-- 사용자의 말을 무시하지 말고, "그렇군요!", "네, 날씨가 좋네요!" 와 같이 가볍게 수긍하세요. 
-- 복귀에 대한 동의를 요청하세요. 다시 문진으로 돌아가도 괜찮은지 부드럽게 물어보세요. (예: "다시 저희 대화로 돌아와 볼까요?")
-- 사용자의 말을 비판하거나 무시하는 뉘앙스를 주지 마세요.
-"""
 
 
 EXPLAIN_LIMITATIONS_SINGLE = """
@@ -718,7 +711,7 @@ POLICY_PROMPTS_SINGLE = {
     "handle_off_topic": HANDLE_OFF_TOPIC_SINGLE,
     "ask_return_to_topic": ASK_RETURN_TO_TOPIC_SINGLE,
     "explain_limitations": EXPLAIN_LIMITATIONS_SINGLE,
-    "handle_no_response": HANDLE_NO_RESPONSE_MULTI,
+    "handle_no_response": HANDLE_NO_RESPONSE_SINGLE,
     "handle_crisis": HANDLE_CRISIS_SINGLE,
     "announce_completion": ANNOUNCE_COMPLETION_SINGLE,
     "ask_additional_concerns": ASK_ADDITIONAL_CONCERNS_SINGLE,

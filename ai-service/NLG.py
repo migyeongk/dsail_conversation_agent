@@ -48,6 +48,7 @@ def generate_response_by_policy(policy, user_message, history, status, client, t
         {"role": "user", "content": context_history}
     ]
     
+    print(context_history)
     # 정책별 토큰 제한
     max_tokens = POLICY_MAX_TOKENS.get(first_policy,200)
     
@@ -113,7 +114,7 @@ def generate_response_by_policies(policy, user_message, history, status, client,
         {"role": "system", "content": combined_prompt_with_tone},
         {"role": "user", "content": context_history}
     ]
-
+    print(context_history)
     
     max_retries = 3
     retry_delay = 1  # 초

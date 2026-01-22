@@ -33,8 +33,8 @@ const SessionSchema = new mongoose.Schema({
   // 사용자 선호 설정
   tonePreference: {
     type: String,
-    enum: ['정중하지만 다정한 말투', '이성적이고 전문적인 말투', '친구처럼 대화하는 말투', '미선택'],
-    default: '미선택'
+    enum: ['정중하지만 다정한 말투', '이성적이고 전문적인 말투', '친구처럼 대화하는 말투', '미선택', '친구같은 말투', '다정한 말투'],
+    default: '친구같은 말투'
   },
   conversationStyle: {
     type: String,

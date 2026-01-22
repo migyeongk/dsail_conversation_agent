@@ -20,7 +20,7 @@ module.exports = function () {
   router.post("/start", async (req, res) => {
     console.log("=== 세션 시작 요청 ===", new Date().toISOString());
     try {
-      const greeting = "안녕하세요? 제 이름은 디제이, 정신건강 문진 대화를 위한 챗봇이에요 🩺 오늘 만나서 정말 반가워요 🙌 당신의 이름을 알려주실래요? 👀";
+      const greeting = "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀";
       const userId = req.headers['x-user-id'] || req.headers['X-User-ID'];
       const sessionId = req.headers['x-session-id'] || req.headers['X-Session-ID'];
       

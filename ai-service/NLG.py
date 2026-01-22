@@ -34,6 +34,7 @@ def generate_response_by_policy(policy, user_message, history, status, client, t
     
     # 말투 프롬프트 추가
     tone_prompt = TONE_PROMPTS.get(tone_preference or '미선택', TONE_PROMPTS['미선택'])
+    print(tone_prompt)
     ai_logger.info(f"🔍 선택된 말투: {tone_preference}")
     prompt_with_tone = prompt + "\n" + tone_prompt
 
@@ -65,7 +66,7 @@ def generate_response_by_policy(policy, user_message, history, status, client, t
                 model="gpt-5-chat-latest",
                 messages=messages,
                 max_tokens=max_tokens,
-                temperature=0.7
+                temperature=1.0
             )
             
             generated_response = response.choices[0].message.content.strip()
@@ -126,7 +127,7 @@ def generate_response_by_policies(policy, user_message, history, status, client,
             response = client.chat.completions.create(
                 model="gpt-5-chat-latest",
                 messages=messages,
-                max_tokens=300,
+                max_tokens=200, # 이 부분 수정 필요 (짧게 대화하려면)
                 temperature=0.7
             )
             

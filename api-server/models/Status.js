@@ -21,7 +21,7 @@ const StatusSchema = new mongoose.Schema({
     questionId: {
       type: String,
       required: true,
-      enum: ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10"]
+      enum: ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8"]
     },
     questionText: {
       type: String,
@@ -41,10 +41,10 @@ const StatusSchema = new mongoose.Schema({
       type: [String],
       default: []
     },
-    frequency: {
-      type: String,
-      default: null
-    },
+    // frequency: {
+    //   type: String,
+    //   default: null
+    // },
     context:{
       type: String,
       default: null
@@ -73,12 +73,12 @@ const StatusSchema = new mongoose.Schema({
   lastAnsweredQuestion: {
     type: String,
     default: null,
-    enum: ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10", null]
+    enum: ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", null]
   },
   lastAskedQuestion: {
     type: String,
     default: null,
-    enum: ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10", null]
+    enum: ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", null]
   }
 }, { 
   timestamps: true,
@@ -164,19 +164,31 @@ StatusSchema.methods.resetUpdatedFlags = function() {
 // 정적 메서드: 대화별 상태 찾기 또는 생성
 StatusSchema.statics.findOrCreate = async function(userId, sessionId) {
   let status = await this.findOne({ userId, sessionId });
-  
+
+    // if (!status) {
+    // const questions = [
+    //   { questionId: "Q1", questionText: "최근 스트레스를 받거나 나를 힘들게 하는 일이 있다" },
+    //   { questionId: "Q2", questionText: "기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다" },
+    //   { questionId: "Q3", questionText: "평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다" },
+    //   { questionId: "Q4", questionText: "잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다" },
+    //   { questionId: "Q5", questionText: "최근 매사에 피곤하고 기운이 없다" },
+    //   { questionId: "Q6", questionText: "내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다." },
+    //   { questionId: "Q7", questionText: "차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다" },
+    //   { questionId: "Q8", questionText: "초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다" },
+    //   { questionId: "Q9", questionText: "최근 여러 가지 일에 대해 너무 많은 걱정을 한다" },
+    //   { questionId: "Q10", questionText: "걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다" }
+    // ];
+
   if (!status) {
     const questions = [
-      { questionId: "Q1", questionText: "최근 스트레스를 받거나 나를 힘들게 하는 일이 있다" },
-      { questionId: "Q2", questionText: "기분이 가라앉거나, 우울하거나, 희망이 없다고 느낀다" },
-      { questionId: "Q3", questionText: "평소 하던 일에 대한 흥미가 없어지거나 즐거움을 느끼지 못한다" },
-      { questionId: "Q4", questionText: "잠들기가 어렵거나 자주 깨거나 혹은 평소와 다르게 너무 많이 잔다" },
-      { questionId: "Q5", questionText: "최근 매사에 피곤하고 기운이 없다" },
-      { questionId: "Q6", questionText: "내가 무언가를 잘못했거나 실패했다는 생각이 들거나 자신과 가족을 실망시켰다고 생각한다." },
-      { questionId: "Q7", questionText: "차라리 죽는 것이 더 낫겠다거나 혹은 자해할 생각을 한다" },
-      { questionId: "Q8", questionText: "초조하거나, 마음이 불안하거나, 혹시 나쁜 일이 생길까 조마조마한 느낌을 받는다" },
-      { questionId: "Q9", questionText: "최근 여러 가지 일에 대해 너무 많은 걱정을 한다" },
-      { questionId: "Q10", questionText: "걱정이 한 번 시작되면 쉽게 멈추거나 조절하기 어렵다" }
+      { questionId: "Q1", questionText: "최근의 스트레스 수준이나 요인" },
+      { questionId: "Q2", questionText: "우울감/기분저하/무기력" },
+      { questionId: "Q3", questionText: "불안/긴장/걱정" },
+      { questionId: "Q4", questionText: "수면 문제/수면의 질/수면시간" },
+      { questionId: "Q5", questionText: "에너지 수준/피로감" },
+      { questionId: "Q6", questionText: "사회적 관계/사회적 연결감" },
+      { questionId: "Q7", questionText: "취미/흥미/지속여부" },
+      { questionId: "Q8", questionText: "일상에서의 즐거움을 주는 요소" },
     ];
 
     status = new this({

@@ -1,6 +1,5 @@
 # Summary.py - 대화 내용을 분석하여 레포트를 생성하는 모듈
 import json
-import logging
 from logger_config import ai_logger, log_error
 
 
@@ -150,13 +149,6 @@ def format_additional_info(session_data, status_data):
             info_text += f"- 총 메시지 수: {session_data.get('messageCount', 0)}개\n"
             info_text += f"- 대화 지속 시간: {session_data.get('totalDuration', 0)}초\n"
             info_text += f"- 대화 완료 여부: {'완료' if session_data.get('isFinished', False) else '진행중'}\n"
-            info_text += f"- 선호 말투: {session_data.get('tonePreference', '미설정')}\n"
-            info_text += f"- 대화 스타일: {session_data.get('conversationStyle', '미설정')}\n"
-            
-            # 선택된 정책들 (대화 패턴 분석에 유용)
-            policies = session_data.get('selectedPolicies', [])
-            if policies:
-                info_text += f"- 대화 중 나타난 패턴: {', '.join(policies[-10:])}\n"  # 최근 10개만
         
         # 상태 정보 포맷팅
         if status_data and status_data.get('questions'):

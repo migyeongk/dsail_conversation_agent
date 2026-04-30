@@ -76,20 +76,13 @@ module.exports = function () {
         logger.info(`💾 [SESSION_SAVED] Session 메시지 저장 완료: ${userId}/${sessionId}`);
       }
       
-      // 3. 정책 저장
-      if (metadata.first_policy || metadata.second_policy) {
-        const policies = [metadata.first_policy, metadata.second_policy].filter(Boolean);
-        await session.addSelectedPolicies(policies);
-        logger.info(`📋 [POLICIES] 정책 저장 완료: ${policies.join(', ')}`);
-      }
-      
-      // 4. 대화 종료 상태 업데이트
+      // 3. 대화 종료 상태 업데이트
       if (metadata.finished && !session.isFinished) {
         await session.setFinished(true);
         logger.info(`🏁 [FINISHED] 대화 종료 상태 업데이트: ${userId}/${sessionId}`);
       }
       
-      // 5. 활동 시간 업데이트
+      // 4. 활동 시간 업데이트
       await session.updateActivity();
       
       logger.info(`✅ [INTEGRATED_SAVE] 통합 저장 완료: ${userId}/${sessionId}`);
@@ -124,6 +117,9 @@ module.exports = function () {
       // AI 서비스에 전달할 상태 정보 구성 (전체 question-answer 내용 포함)
       const statusInfo = {
         is_completed: status.isCompleted,
+        recent_context_summary: status.recentContextSummary || "",
+        no_response_retry_question: status.noResponseRetryQuestion || null,
+        no_response_retry_count: status.noResponseRetryCount || 0,
         last_answered_question: status.lastAnsweredQuestion,
         last_asked_question: status.lastAskedQuestion,
         questions: status.questions.map(q => ({
@@ -132,9 +128,7 @@ module.exports = function () {
           experience: q.experience,
           status: q.status,
           rawUserInput: q.rawUserInput,
-          frequency: q.frequency,
-          context: q.context,
-          note: q.note,
+          detail: q.detail || [],
           updated: q.updated || false
         }))
       };
@@ -149,6 +143,9 @@ module.exports = function () {
       return {
         total_score: 0,
         is_completed: false,
+        recent_context_summary: "",
+        no_response_retry_question: null,
+        no_response_retry_count: 0,
         answered_count: 0,
         completion_rate: 0,
         last_answered_question: null,
@@ -168,11 +165,8 @@ module.exports = function () {
         return {
           historyText: "",
           messageCount: 0,
-          selectedPolicies: [],
           lastBotMessage: null,
-          isFinished: false,
-          tonePreference: '미선택',
-          conversationStyle: '미선택'
+          isFinished: false
         };
       }
       
@@ -203,14 +197,11 @@ module.exports = function () {
       const result = {
         historyText,
         messageCount: session.messageCount || 0,
-        selectedPolicies: session.selectedPolicies || [],
         lastBotMessage,
-        isFinished: session.isFinished || false,
-        tonePreference: session.tonePreference || '미선택',
-        conversationStyle: session.conversationStyle || '미선택'
+        isFinished: session.isFinished || false
       };
       
-      logger.info(`📊 [SESSION_DATA] 메시지: ${result.messageCount}개, 정책: ${result.selectedPolicies.join(', ') || '없음'}, 히스토리: ${processedMessages.length}개 메시지`);
+      logger.info(`📊 [SESSION_DATA] 메시지: ${result.messageCount}개, 히스토리: ${processedMessages.length}개 메시지`);
       if (lastBotMessage) {
         logger.info(`🤖 [LAST_BOT] "${lastBotMessage}"`);
       }
@@ -221,7 +212,6 @@ module.exports = function () {
         return {
           historyText: "",
           messageCount: 0,
-          selectedPolicies: [],
           lastBotMessage: null,
           isFinished: false
         };
@@ -238,7 +228,7 @@ module.exports = function () {
     const { message: userMessage } = req.body;
     const { id: userId, sessionId } = req.user;
     
-    logger.info(`👤 [USER] 사용자 입력: "${userMessage}" (${userMessage?.length}자)`);
+    logger.info(`👤 [USER] 사용자 입력: "${userMessage}" (${userMessage ? userMessage.length : 0}자)`);
 
     if (!userMessage) {
       logger.warn("[ERROR] 빈 메시지 요청");
@@ -253,39 +243,8 @@ module.exports = function () {
         response: ruleResponse,
         finished: false,
         first_policy: null,
-        second_policy: null,
         timestamp: getKoreaTime()
       });
-    }
-
-    // 사용자 선호 설정 업데이트 (AI 서비스 호출 전)
-    try {
-      const session = await Session.findOne({ userId, sessionId });
-      if (session) {
-        // 직전 정책 확인
-        const lastPolicies = session.selectedPolicies.slice(-1);
-        logger.info(`🔍 [PREFERENCE] 직전 정책들: ${lastPolicies.join(', ')}`);
-        
-        // 말투 선택 처리
-        if (lastPolicies.includes('ask_tone_preference')) {
-          const toneValue = userMessage.trim();
-          if (toneValue === '정중하지만 다정한 말투' || toneValue === '이성적이고 전문적인 말투' || toneValue === '친구처럼 대화하는 말투') {
-            await session.setTonePreference(toneValue);
-            logger.info(`🗣️ [PREFERENCE] 말투 설정 완료: ${toneValue}`);
-          }
-        }
-        
-        // 대화 스타일 선택 처리
-        if (lastPolicies.includes('ask_conversation_style')) {
-          const styleValue = userMessage.trim();
-          if (styleValue === '심층적이고 구체적인 대화' || styleValue === '간결하고 신속한 대화') {
-            await session.setConversationStyle(styleValue);
-            logger.info(`💬 [PREFERENCE] 대화 스타일 설정 완료: ${styleValue}`);
-          }
-        }
-      }
-    } catch (preferenceError) {
-      logger.error(`❌ [PREFERENCE] 선호 설정 업데이트 실패: ${preferenceError.message}`);
     }
 
     // 기본 대화 에이전트 
@@ -312,10 +271,7 @@ module.exports = function () {
         history: sessionData.historyText,
         last_bot_message: sessionData.lastBotMessage,
         status: statusInfo,
-        messageCount: sessionData.messageCount,
-        selectedPolicies: sessionData.selectedPolicies,
-        tonePreference: sessionData.tonePreference,
-        conversationStyle: sessionData.conversationStyle
+        messageCount: sessionData.messageCount
       };
       
       // AI 서비스 요청 상세 정보 로깅
@@ -330,24 +286,23 @@ module.exports = function () {
         updated_slots: updatedSlots, 
         intent: intentAnalysis, 
         first_policy,
-        second_policy,
+        recent_context_summary,
+        no_response_retry_question,
+        no_response_retry_count,
         is_completed, 
         is_finished,
         last_asked_question,
         last_asked_question_text,
-        last_answered_question,
-        selected_policies
+        last_answered_question
       } = botResponse.data;
 
-      logger.info(`🤖 [BOT]: "${chatbotReply}" (${chatbotReply?.length}자)`);
-      logger.info(`🎯 [INTENT]: ${intentAnalysis?.intent}`);
+      logger.info(`🤖 [BOT]: "${chatbotReply}" (${chatbotReply ? chatbotReply.length : 0}자)`);
+      logger.info(`🎯 [INTENT]: ${intentAnalysis ? intentAnalysis.intent : null}`);
       logger.info(`🎯 [IS_COMPLETED]: ${is_completed}`);
       logger.info(`🎯 [IS_FINISHED]: ${is_finished}`);
       logger.info(`🎯 [LAST_ASKED_QUESTION]: ${last_asked_question}`);
       logger.info(`🎯 [LAST_ASKED_QUESTION_TEXT]: ${last_asked_question_text}`);
       logger.info(`🎯 [LAST_ANSWERED_QUESTION]: ${last_answered_question}`);
-      logger.info(`🎯 [SELECTED_POLICIES]: ${selected_policies}`);
-
       // 통합 저장 처리 (Chat + Session 메시지 + 정책 + 상태)
       try {
         const startTime = req.timestamp || Date.now();
@@ -360,7 +315,6 @@ module.exports = function () {
           previousBotResponse,
           responseTime,
           first_policy,
-          second_policy,
           finished: is_finished
         });
         
@@ -386,7 +340,7 @@ module.exports = function () {
                 
                 if (existingQuestion) {
                   // 변경사항 체크
-                  const fieldsToUpdate = ['experience', 'status', 'rawUserInput', 'frequency', 'context', 'note', 'conflict'];
+                  const fieldsToUpdate = ['experience', 'status', 'rawUserInput', 'detail'];
                   let questionChanged = false;
                   
                   for (const field of fieldsToUpdate) {
@@ -417,6 +371,33 @@ module.exports = function () {
             status.lastAnsweredQuestion = last_answered_question;
             hasChanges = true;
             logger.info(`✅ [STATUS] Last Answered Question: ${last_answered_question}`);
+          }
+
+          if (
+            recent_context_summary !== undefined &&
+            status.recentContextSummary !== recent_context_summary
+          ) {
+            status.recentContextSummary = recent_context_summary || "";
+            hasChanges = true;
+            logger.info(`🧭 [STATUS] Recent Context Summary 업데이트: ${status.recentContextSummary}`);
+          }
+
+          if (
+            no_response_retry_question !== undefined &&
+            status.noResponseRetryQuestion !== no_response_retry_question
+          ) {
+            status.noResponseRetryQuestion = no_response_retry_question;
+            hasChanges = true;
+            logger.info(`🔁 [STATUS] noResponseRetryQuestion 업데이트: ${status.noResponseRetryQuestion}`);
+          }
+
+          if (
+            no_response_retry_count !== undefined &&
+            status.noResponseRetryCount !== no_response_retry_count
+          ) {
+            status.noResponseRetryCount = no_response_retry_count;
+            hasChanges = true;
+            logger.info(`🔁 [STATUS] noResponseRetryCount 업데이트: ${status.noResponseRetryCount}`);
           }
           
           // is_completed 상태 업데이트 
@@ -451,7 +432,6 @@ module.exports = function () {
         response: chatbotReply,
         finished: is_finished, // 프론트엔드에서 사용할 종료 상태
         first_policy: first_policy,
-        second_policy: second_policy,
         timestamp: getKoreaTime()
       });
 

@@ -1,0 +1,97 @@
+2026-04-07 08:52:59 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-07 11:32:39 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-07 12:25:19 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-07 12:25:21 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-07 12:26:41 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-07 12:37:50 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-07 12:37:56 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-07 12:38:14 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-07 12:38:21 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-07 12:38:33 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-07 12:47:16 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-07 12:47:19 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-07 12:47:32 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-09 17:45:47 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008922 | Session: s20260409174517 | Timestamp: 1775724347761 | Message: 다시 인사하지 말고 바로 끝내 줘.
+2026-04-09 17:45:47 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-09 17:45:47 | INFO     | ai_service | chat:49 | 💬 User Message: 다시 인사하지 말고 바로 끝내 줘.
+2026-04-09 17:45:47 | INFO     | ai_service | chat:50 | 👤 User ID: u3008922, Session ID: s20260409174517
+2026-04-09 17:45:47 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1775724347761
+2026-04-09 17:45:47 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2026-04-09 17:45:47 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2026-04-09 17:45:47 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-09 17:45:47 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-09 17:45:47 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-09 17:45:47 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-09 17:45:47 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-09 17:45:47 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-09 17:45:47 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-09 17:45:47 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-09 17:45:47 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-09 17:45:47 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-09 17:45:47 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-09 17:45:47 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-09 17:45:47 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-09 17:45:47 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-09 17:45:47 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-09 17:45:47 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-09 17:45:47 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-09 17:45:47 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-09 17:45:47 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-09 17:45:49 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-09 17:45:49 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-09 17:45:49 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-09 17:45:49 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-09 17:45:49 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-09 17:45:51 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'farewell_message', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': True}
+2026-04-09 17:45:51 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: farewell_message
+2026-04-09 17:45:51 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-09 17:45:51 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-09 17:45:51 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-09 17:45:51 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: farewell_message
+2026-04-09 17:45:51 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-09 17:45:51 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-09 17:45:51 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_farewell_message
+2026-04-09 17:45:52 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 오늘 대화를 여기서 마무리할게요, 당신은 이미 충분히 잘하고 있고 앞으로도 스스로를 돌보며 한 걸음씩 나아갈 수 있을 거예요 🌷 필요할 땐 언제든 전문가의 도움을 받아도 괜찮다는 걸 꼭 기억해주세요.
+2026-04-10 22:35:45 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008922 | Session: s20260410223526 | Timestamp: 1775828145648 | Message: 두 번 묻지 말고 바로 끝내 줘.
+2026-04-10 22:35:45 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-10 22:35:45 | INFO     | ai_service | chat:49 | 💬 User Message: 두 번 묻지 말고 바로 끝내 줘.
+2026-04-10 22:35:45 | INFO     | ai_service | chat:50 | 👤 User ID: u3008922, Session ID: s20260410223526
+2026-04-10 22:35:45 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1775828145648
+2026-04-10 22:35:45 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2026-04-10 22:35:45 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2026-04-10 22:35:45 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-10 22:35:45 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-10 22:35:45 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-10 22:35:45 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-10 22:35:45 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-10 22:35:45 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-10 22:35:45 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-10 22:35:45 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-10 22:35:45 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-10 22:35:45 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-10 22:35:45 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-10 22:35:45 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-10 22:35:45 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-10 22:35:45 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-10 22:35:45 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-10 22:35:45 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-10 22:35:45 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-10 22:35:45 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-10 22:35:45 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-10 22:35:47 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'other(대화 종료 요청)'}
+2026-04-10 22:35:47 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-10 22:35:47 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-10 22:35:47 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-10 22:35:47 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-10 22:35:49 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'farewell_message', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': True}
+2026-04-10 22:35:49 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: farewell_message
+2026-04-10 22:35:49 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-10 22:35:49 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-10 22:35:49 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-10 22:35:49 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: farewell_message
+2026-04-10 22:35:49 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-10 22:35:49 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-10 22:35:49 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_farewell_message
+2026-04-10 22:35:50 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 알겠어요, 오늘은 여기서 마무리할게요 😊 당신은 소중하고 충분히 가치 있는 사람이라는 걸 잊지 마시고, 언제든 도움이 필요하면 전문가나 주변에 손 내밀어 주세요; 앞으로의 날들에 따뜻한 빛이 함께하길 바라요 🌷

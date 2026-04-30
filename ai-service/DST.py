@@ -4,70 +4,6 @@ import copy
 import time
 from logger_config import ai_logger, log_api_call, log_error
 
-# 증상 분석 프롬프트 (Chain-of-Thought 방식)
-# SYMPTOM_ANALYSIS_PROMPT = """
-# 당신은 신중한 정신의학 전문가입니다. 
-# 챗봇의 직전 질문과 사용자의 현재 발화를 분석하여 주어진 문진표 내의 우울 및 불안 관련 증상을 추출하고 업데이트해주세요.
-
-# 현재 문항 상태:
-# {questions_info}
-
-# INSTRUCTIONS:
-# 1. 현재 사용자 발화에서 증상 관련 표현을 찾으세요
-# 2. 각 증상이 우울 및 불안의 증상으로 명확한지 판단하세요
-# 3. 아래 데이터 구조에 맞게 정보를 업데이트하고 반환하세요
-# 4. rawUserInput에 챗봇의 발화의 내용을 포함하지 마세요
-
-# DATA STRUCTURE:
-# - questionId: 해당 문항 ID (Q1~Q10)
-# - questionText: 실제 문항 텍스트 
-# - experience: 사용자가 해당 증상을 경험하고 있는지 여부 ("yes", "no", "unknown")
-#     - yes: 사용자가 해당 증상을 경험하고 있다고 명확히 언급했을 때 
-#     - no: 사용자가 명확히 해당 증상을 경험하지 않는다고 표현했을 때
-#     - unknown: 관련 언급이 없거나 모호한 경우 
-# - status: 답변 완료 상태 ("unanswered", "checking", "asking", "conflict", "answered") 
-#     - unanswered: 관련 언급이 전혀 없는 상태
-#     - checking: 관련 언급은 있지만 애매하여 추가 확인이 필요한 상태
-#     - asking: 사용자가 증상을 경험하고 있다고 답하여 증상의 빈도나 맥락에 대해 추가로 질문해야 하는 상태 
-#     - answered: 증상의 유무 및 빈도나 맥락에 대한 명확하고 구체적인 답변이 완료된 상태
-#     - conflict: 이전에 수집된 문항과 상충되거나 모순이 있는 경우 
-# - rawUserInput: 증상과 관련된 사용자 발화들을 저장한 리스트 (업데이트 할 내용이 있다면, 기존 내역에 새로운 요소 추가하여 리스트 업데이트)
-# - frequency: 사용자 발화로부터 해당 증상 발생 빈도에 대한 내용 추출 (명확한 빈도가 아니라면 추출하지 마세요)
-# - condition: 사용자 발화로부터 해당 증상 발생과 관련된 조건, 이유 등에 대한 내용 추출 (예: "회사가 너무 바빠서", "시험 때문에", "가족 문제로")
-# - note: 사용자 발화로부터 해당 증상과 관련된 일반적인 노트나 추가 정보 추출 (예: "사용자의 응답 내용", "추가 설명", "관련 정보"), 
-# - updated: 이번 시점에 업데이트 되었는지 여부 (true/false)
-
-# CAUTION:
-# 1. 해당 증상의 경험유무(experience)에 대한 언급은 있으나 명확하지 않은 경우 status를 "checking"으로 설정하여 추가 확인이 필요함을 표시하세요
-# 2. 사용자가 해당 증상을 경험하고 있다고 답하여 추가적인 맥락이나 빈도에 대한 질문이 필요한 경우 status를 "asking"으로 설정하세요
-# 3. 사용자가 해당 증상을 경험하고 있으며, 해당 증상에 대한 추가적인 맥락 또는 빈도에 대한 답변이 수집된 경우 status를 "answered"로 설정하세요. 
-# 4. 사용자의 현재 발화에서 문진 항목 내 증상이 관찰되지 않은 경우 빈 배열을 반환하세요 
-# 5. rawUserInput은 반드시 기존 내역에 현재 발화에서 추가로 관측된 내용을 추가하여 리스트를 업데이트한 후 반환하세요. 
-# 6. 전체 status를 참고하여, 현재 사용자의 발화가 이전에 수집된 문항과 상충되거나 모순이 있는 경우 status를 "conflict"로 설정하고 그 모순에 대한 내용을 conflict 항목에 기록하세요. 
-# 이후 챗봇이 사용자에게 충돌에 대해 확인하는 메시지를 보낼 것입니다 (예: 이전에는 ~했는데, 지금은 ~이라고 답했습니다, 어느쪽이 맞을까요?). 그것에 대한 답변이 온 경우 아래 단계를 수행하세요. 
-#     a. experience 항목을 정정된 내용에 맞게 수정하세요. 
-#     b. 이에 맞게 condition, frequency를 상황에 맞게 업데이트 하세요.
-#     c. rawUserInput에 유저의 새로운 답변을 추가하세요.
-#     d. status를 checking으로 설정하세요. 
-#     e. conflict 항목에 충돌을 해결한 기록을 추가하세요.
-
-# JSON 배열 형태로 답변해주세요:
-# [
-#     {{
-#         "questionId": "[해당 문항 ID]",
-#         "questionText": "[실제 문항 텍스트]",
-#         "experience": "[yes, no, or unknown]",
-#         "status": "[unanswered, checking, asking, answered, or conflict]",
-#         "rawUserInput": ["[증상 관련 사용자 발화 리스트]"],
-#         "frequency": "[빈도 내용 또는 null]",
-#         "condition": "[조건/이유 내용 또는 null]",
-#         "note": "[추가 정보 또는 null]",
-#         "conflict": "[모순 내용 또는 null]",
-#         "updated": "[true or false]"
-#     }}
-# ]
-# """
-
 
 SYMPTOM_ANALYSIS_PROMPT = """
 당신은 사용자의 일상과 마음 상태를 신중하게 이해하고 기록하는 AI 어시스턴트입니다. 
@@ -83,36 +19,30 @@ INSTRUCTIONS:
 4. rawUserInput에 챗봇의 발화 내용을 포함하지 마세요
 
 DATA STRUCTURE:
-- questionId: 해당 문항 ID (Q1~Q8)
+- questionId: 해당 문항 ID (Q1~Q6)
 - questionText: 실제 문항 텍스트 
 - experience: 사용자가 해당 항목에 대해 어떻게 응답했는지 ("yes", "no", "unknown")
     - yes: 사용자가 긍정적으로 응답했거나 해당 상태/경험을 하고 있다고 명확히 언급했을 때 
     - no: 사용자가 명확히 부정했거나 해당 상태를 경험하지 않는다고 표현했을 때
     - unknown: 관련 언급이 없거나 모호한 경우 
-- status: 답변 완료 상태 ("unanswered", "checking", "asking", "conflict", "answered") 
-    - unanswered: 관련 언급이 전혀 없는 상태
-    - checking: 관련 언급은 있지만 모호하여 재확인이 필요한 상태 
-    - asking: 사용자가 초기 답변을 했지만 더 구체적인 맥락이나 세부 정보가 필요한 상태 
-    - answered: 해당 항목에 대한 명확하고 충분한 답변이 완료된 상태
-    - conflict: 이전에 수집된 답변과 상충되거나 모순이 있는 상태 
+- status: 답변 완료 상태 ("unanswered", "answered", "skipped") 
+    - unanswered: 아직 해당 항목에 대해 유효한 답변을 받지 못한 상태
+    - answered: 해당 항목에 대해 유효한 답변을 받은 상태
+    - skipped: 사용자가 답변을 거절했거나 넘어가기를 원한 상태
 - rawUserInput: 해당 항목과 관련된 사용자 발화들을 저장한 리스트 (업데이트 할 내용이 있다면, 기존 내역에 새로운 요소 추가하여 리스트 업데이트)
-- condition: 사용자 발화로부터 해당 상태와 관련된 배경, 이유, 상황 등에 대한 내용 추출 (예: "회사가 너무 바빠서", "시험 기간이라서", "날씨 때문에")
-- note: 사용자 발화로부터 해당 항목과 관련된 일반적인 노트나 추가 정보 추출 (예: "사용자의 응답 내용", "추가 설명", "관련 정보")
+- detail: 사용자가 해당 항목에 대해 말한 구체적인 내용이나 상황 설명을 저장한 리스트
+    - 예: "시험 때문에 불안해요", "새벽에 자주 깨요", "요즘 회사 일 때문에 스트레스를 받아요"
+    - 사용자가 단순히 "응", "있어요", "아니요"처럼 짧게만 답한 경우에는 비워둘 수 있습니다
 - updated: 이번 시점에 업데이트 되었는지 여부 (true/false)
 
 CAUTION:
-1. 해당 항목에 대한 언급은 있으나 명확하지 않은 경우 status를 "checking"으로 설정하여 추가 확인이 필요함을 표시하세요
-2. 사용자가 초기 답변을 했지만 더 구체적인 배경이나 맥락에 대한 질문이 필요한 경우 status를 "asking"으로 설정하세요
-3. 사용자가 특정 항목에 대해 충분한 답을 했거나 같은 항목에 대한 질문을 두 번 했다면 해당 항목의 status를 "answered"로 설정하세요
-4. 사용자의 현재 발화에서 어떤 문항과도 관련이 없는 경우 빈 배열을 반환하세요 
-5. rawUserInput은 반드시 기존 내역에 현재 발화에서 추가로 관측된 내용을 추가하여 리스트를 업데이트한 후 반환하세요
-6. 전체 status를 참고하여, 현재 사용자의 발화가 이전에 수집된 답변과 상충되거나 모순이 있는 경우 status를 "conflict"로 설정하고 그 모순에 대한 내용을 conflict 항목에 기록하세요
-이후 챗봇이 사용자에게 충돌에 대해 확인하는 메시지를 보낼 것입니다 (예: 이전에는 ~했는데, 지금은 ~이라고 답했습니다, 어느 쪽이 맞을까요?). 그것에 대한 답변이 온 경우 아래 단계를 수행하세요:
-    a. experience 항목을 정정된 내용에 맞게 수정하세요
-    b. 이에 맞게 condition, note를 상황에 맞게 업데이트 하세요
-    c. rawUserInput에 유저의 새로운 답변을 추가하세요
-    d. status를 checking으로 설정하세요
-    e. conflict 항목에 충돌을 해결한 기록을 추가하세요
+1. 사용자가 현재 질문에 대해 답변한 경우 status를 "answered"로 설정하세요
+2. 사용자가 답변을 거절하거나 넘어가기를 원한 경우 status를 "skipped"로 설정하세요
+3. 사용자의 발화가 현재 질문과 충분히 연결되지 않거나 답변이 아니면 해당 항목을 업데이트하지 말고 빈 배열을 반환하세요
+4. rawUserInput은 반드시 기존 내역에 현재 발화에서 추가로 관측된 내용을 추가하여 리스트를 업데이트한 후 반환하세요
+5. 사용자가 구체적인 상황, 이유, 시점, 예시를 말하면 detail에 현재 발화 내용을 추가하세요
+6. 사용자가 단순한 yes/no 수준으로만 답하고 구체 내용이 없으면 detail은 비워두거나 기존 값만 유지하세요
+7. 문항들은 최근 30일 동안의 마음 상태를 묻는 흐름이라는 점을 고려해 해석하세요
     
 JSON 배열 형태로 답변해주세요:
 [
@@ -120,11 +50,9 @@ JSON 배열 형태로 답변해주세요:
         "questionId": "[해당 문항 ID]",
         "questionText": "[실제 문항 텍스트]",
         "experience": "[yes, no, or unknown]",
-        "status": "[unanswered, checking, asking, answered, or conflict]",
+        "status": "[unanswered, answered, or skipped]",
         "rawUserInput": ["[해당 항목 관련 사용자 발화 리스트]"],
-        "condition": "[배경/이유/상황 또는 null]",
-        "note": "[추가 정보 또는 null]",
-        "conflict": "[모순 내용 또는 null]",
+        "detail": ["[구체적인 내용이나 상황 설명 리스트]"],
         "updated": "[true or false]"
     }}
 ]
@@ -174,7 +102,7 @@ def analysis_user_symptom(last_bot_message, user_message, status, intent, client
     
     # 현재 질문들 정보
     questions_info = "\n".join([
-        f"- {q['questionId']}: {q['questionText']} (status: {q['status']}, frequency: {q.get('frequency', 'null')}, score: {q.get('score', 'null')})"
+        f"- {q['questionId']}: {q['questionText']} (status: {q['status']}, experience: {q.get('experience', 'unknown')}, detail: {q.get('detail', [])})"
         for q in status.get("questions", [])
     ])
     
@@ -227,6 +155,37 @@ def analysis_user_symptom(last_bot_message, user_message, status, intent, client
                 log_error("증상 분석 최종 실패", e)
                 return []
             continue
+
+
+def build_recent_context_summary(current_status, updated_slots):
+    """별도 LLM 호출 없이 최근 맥락 요약을 규칙 기반으로 갱신하는 함수"""
+    current_summary = current_status.get("recent_context_summary", "")
+
+    for slot in updated_slots:
+        if slot.get("updated") is not True:
+            continue
+
+        detail_list = slot.get("detail") or []
+        raw_list = slot.get("rawUserInput") or []
+        question_text = slot.get("questionText", "")
+        experience = slot.get("experience", "unknown")
+
+        if detail_list:
+            latest_detail = detail_list[-1].strip()
+            if latest_detail:
+                summary = f"{question_text}: {latest_detail}"
+                ai_logger.info(f"🧭 최근 맥락 요약 갱신(detail): {summary}")
+                return summary
+
+        if experience == "yes" and raw_list:
+            latest_raw = raw_list[-1].strip()
+            if latest_raw:
+                summary = f"{question_text}: {latest_raw}"
+                ai_logger.info(f"🧭 최근 맥락 요약 갱신(raw yes): {summary}")
+                return summary
+
+    ai_logger.info(f"🧭 최근 맥락 요약 유지: {current_summary}")
+    return current_summary
     
 
 def create_full_updated_status(current_status, updated_slots):
@@ -289,6 +248,10 @@ def update_dialogue_state(last_bot_message, status, user_message, intent, client
 
         # 전체 업데이트된 상태 생성 (룰 베이스)
         updated_status, latest_answered_question = create_full_updated_status(status, updated_slots)
+        updated_status["recent_context_summary"] = build_recent_context_summary(
+            current_status=status,
+            updated_slots=updated_slots
+        )
         ai_logger.info(f"📊 상태 DB 업데이트 완료: {updated_status}")
         ai_logger.info("----------------------------------------------------------")
         

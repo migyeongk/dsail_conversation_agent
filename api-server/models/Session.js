@@ -25,22 +25,6 @@ const SessionSchema = new mongoose.Schema({
   // 대화 통계
   messageCount: { type: Number, default: 0 },
   totalDuration: { type: Number, default: 0 }, // 초 단위
-  // AI 정책 선택 이력
-  selectedPolicies: { 
-    type: [String], 
-    default: [] 
-  },
-  // 사용자 선호 설정
-  tonePreference: {
-    type: String,
-    enum: ['정중하지만 다정한 말투', '이성적이고 전문적인 말투', '친구처럼 대화하는 말투', '미선택', '친구같은 말투', '다정한 말투'],
-    default: '친구같은 말투'
-  },
-  conversationStyle: {
-    type: String,
-    enum: ['심층적이고 구체적인 대화', '간결하고 신속한 대화', '미선택'],
-    default: '미선택'
-  },
   // 대화 내용
   messages: [{
     sender: {
@@ -56,15 +40,7 @@ const SessionSchema = new mongoose.Schema({
       type: Date,
       default: Date.now
     }
-  }],
-  // Summary 관련 필드
-  summary: {
-    depression: { type: String }, // 우울상태 분석
-    anxiety: { type: String },    // 불안상태 분석
-    suggestion: { type: String }, // 제안사항
-    generatedAt: { type: Date },  // 생성 시간
-    version: { type: String, default: "1.0" } // Summary 버전 (추후 업데이트 시 사용)
-  }
+  }]
 }, { 
   timestamps: true,
   collection: 'sessions' // 컬렉션명 명시
@@ -167,23 +143,6 @@ SessionSchema.methods.getMessages = function() {
   return this.messages.sort((a, b) => a.timestamp - b.timestamp);
 };
 
-// 인스턴스 메서드: 선택된 정책 추가
-SessionSchema.methods.addSelectedPolicies = function(policies) {
-  if (!Array.isArray(policies)) {
-    policies = [policies];
-  }
-  
-  // 중복 허용하여 추가
-  this.selectedPolicies = [...this.selectedPolicies, ...policies];
-  
-  return this.save();
-};
-
-// 인스턴스 메서드: 선택된 정책 조회
-SessionSchema.methods.getSelectedPolicies = function() {
-  return this.selectedPolicies;
-};
-
 // 인스턴스 메서드: 대화 종료 상태 업데이트
 SessionSchema.methods.setFinished = function(finished = true) {
   this.isFinished = finished;
@@ -191,48 +150,6 @@ SessionSchema.methods.setFinished = function(finished = true) {
     this.isActive = false; // 종료되면 비활성화
   }
   return this.save();
-};
-
-// 인스턴스 메서드: 말투 선호 설정 업데이트
-SessionSchema.methods.setTonePreference = function(tonePreference) {
-  this.tonePreference = tonePreference;
-  return this.save();
-};
-
-// 인스턴스 메서드: 대화 스타일 선호 설정 업데이트
-SessionSchema.methods.setConversationStyle = function(conversationStyle) {
-  this.conversationStyle = conversationStyle;
-  return this.save();
-};
-
-// 인스턴스 메서드: 사용자 선호 설정 조회
-SessionSchema.methods.getUserPreferences = function() {
-  return {
-    tonePreference: this.tonePreference,
-    conversationStyle: this.conversationStyle
-  };
-};
-
-// 인스턴스 메서드: Summary 저장
-SessionSchema.methods.setSummary = function(summaryData) {
-  this.summary = {
-    depression: summaryData.depression,
-    anxiety: summaryData.anxiety,
-    suggestion: summaryData.suggestion,
-    generatedAt: new Date(),
-    version: summaryData.version || "1.0"
-  };
-  return this.save();
-};
-
-// 인스턴스 메서드: Summary 조회
-SessionSchema.methods.getSummary = function() {
-  return this.summary;
-};
-
-// 인스턴스 메서드: Summary 존재 여부 확인
-SessionSchema.methods.hasSummary = function() {
-  return !!(this.summary && this.summary.depression && this.summary.anxiety && this.summary.suggestion);
 };
 
 // 정적 메서드: 비활성 세션 정리

@@ -1,0 +1,85 @@
+[2026-04-29 20:46:40] INFO: 🚀 [SERVER] 서버가 포트 3003에서 실행 중입니다.
+[2026-04-29 20:46:40] INFO: 🗄️ [DB] MongoDB 연결 성공
+[2026-04-29 20:47:11] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-04-29 20:47:11] INFO: 📂 [LOAD] 대화내역 로드 성공: 1개 메시지, 활성상태: true
+[2026-04-29 20:47:14] INFO: 👤 [USER] 사용자 입력: "ㅎㅇㅎㅇ" (4자)
+[2026-04-29 20:47:14] INFO: 🔍 [PREFERENCE] 직전 정책들: 
+[2026-04-29 20:47:14] INFO: 📊 [SESSION_DATA] 메시지: 1개, 정책: 없음, 히스토리: 1개 메시지
+[2026-04-29 20:47:14] INFO: 🤖 [LAST_BOT] "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-04-29 20:47:14] INFO: 📊 [STATUS] 상태 조회 시작: user_mgkagn, session_1777463231348
+[2026-04-29 20:47:14] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-04-29 20:47:14] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-04-29 20:47:14] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-04-29 20:47:14] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mgkagn, 세션ID=session_1777463231348
+[2026-04-29 20:47:14] INFO: 👤 [USER]: "ㅎㅇㅎㅇ"
+[2026-04-29 20:47:22] INFO: 🤖 [BOT]: "ㅎㅇㅎㅇ 반가워요 :) 이 대화는 최근의 마음 상태와 스트레스 정도를 편하게 이야기하면서 함께 살펴보기 위한 문진이에요!" (67자)
+[2026-04-29 20:47:22] INFO: 🎯 [INTENT]: greeting
+[2026-04-29 20:47:22] INFO: 🎯 [IS_COMPLETED]: false
+[2026-04-29 20:47:22] INFO: 🎯 [IS_FINISHED]: false
+[2026-04-29 20:47:22] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-04-29 20:47:22] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-04-29 20:47:22] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-04-29 20:47:22] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-04-29 20:47:22] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀"
+[2026-04-29 20:47:22] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀" → 사용자답변 "ㅎㅇㅎㅇ"
+[2026-04-29 20:47:22] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mgkagn/session_1777463231348
+[2026-04-29 20:47:22] INFO: 📋 [POLICIES] 정책 저장 완료: purpose_guidance
+[2026-04-29 20:47:22] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mgkagn/session_1777463231348
+[2026-04-29 20:47:22] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mgkagn/session_1777463231348
+[2026-04-29 20:47:22] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-04-29 20:47:22] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-04-29 20:47:22] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 7396ms
+[2026-04-29 20:51:35] INFO: 👤 [USER] 사용자 입력: "웅 좋아~" (5자)
+[2026-04-29 20:51:35] INFO: 🔍 [PREFERENCE] 직전 정책들: purpose_guidance
+[2026-04-29 20:51:35] INFO: 📊 [SESSION_DATA] 메시지: 3개, 정책: purpose_guidance, 히스토리: 3개 메시지
+[2026-04-29 20:51:35] INFO: 🤖 [LAST_BOT] "ㅎㅇㅎㅇ 반가워요 :) 이 대화는 최근의 마음 상태와 스트레스 정도를 편하게 이야기하면서 함께 살펴보기 위한 문진이에요!"
+[2026-04-29 20:51:35] INFO: 📊 [STATUS] 상태 조회 시작: user_mgkagn, session_1777463231348
+[2026-04-29 20:51:35] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-04-29 20:51:35] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-04-29 20:51:35] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-04-29 20:51:35] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mgkagn, 세션ID=session_1777463231348
+[2026-04-29 20:51:35] INFO: 👤 [USER]: "웅 좋아~"
+[2026-04-29 20:51:40] INFO: 🤖 [BOT]: "좋아요😊 오늘은 전체적인 컨디션이 어떤지 궁금해요, 몸이나 마음이 좀 괜찮으신가요?" (47자)
+[2026-04-29 20:51:40] INFO: 🎯 [INTENT]: answer_state
+[2026-04-29 20:51:40] INFO: 🎯 [IS_COMPLETED]: false
+[2026-04-29 20:51:40] INFO: 🎯 [IS_FINISHED]: false
+[2026-04-29 20:51:40] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-04-29 20:51:40] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-04-29 20:51:40] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-04-29 20:51:40] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-04-29 20:51:40] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "ㅎㅇㅎㅇ 반가워요 :) 이 대화는 최근의 마음 상태와 스트레스 정도를 편하게 이야기하면서 함께 살펴보기 위한 문진이에요!"
+[2026-04-29 20:51:40] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "ㅎㅇㅎㅇ 반가워요 :) 이 대화는 최근의 마음 상태와 스트레스 정도를 편하게 이야기하면서 함께 살펴보기 위한 문진이에요!" → 사용자답변 "웅 좋아~"
+[2026-04-29 20:51:40] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mgkagn/session_1777463231348
+[2026-04-29 20:51:40] INFO: 📋 [POLICIES] 정책 저장 완료: ask_current_state
+[2026-04-29 20:51:40] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mgkagn/session_1777463231348
+[2026-04-29 20:51:40] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mgkagn/session_1777463231348
+[2026-04-29 20:51:40] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-04-29 20:51:40] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-04-29 20:51:40] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 4217ms
+[2026-04-29 22:45:21] INFO: 👤 [USER] 사용자 입력: "속도?" (3자)
+[2026-04-29 22:45:21] INFO: 🔍 [PREFERENCE] 직전 정책들: ask_current_state
+[2026-04-29 22:45:21] INFO: 📊 [SESSION_DATA] 메시지: 5개, 정책: purpose_guidance, ask_current_state, 히스토리: 5개 메시지
+[2026-04-29 22:45:21] INFO: 🤖 [LAST_BOT] "좋아요😊 오늘은 전체적인 컨디션이 어떤지 궁금해요, 몸이나 마음이 좀 괜찮으신가요?"
+[2026-04-29 22:45:21] INFO: 📊 [STATUS] 상태 조회 시작: user_mgkagn, session_1777463231348
+[2026-04-29 22:45:21] INFO: 📊 [STATUS] DB 조회 결과: 존재함
+[2026-04-29 22:45:21] INFO: 📊 [STATUS] DB에서 조회한 isCompleted: false
+[2026-04-29 22:45:21] INFO: 📊 [STATUS] AI 서비스로 전송할 상태 정보: is_completed=false
+[2026-04-29 22:45:21] INFO: 🤖 [CALL] URL=http://localhost:5002/api/chat, 사용자ID=user_mgkagn, 세션ID=session_1777463231348
+[2026-04-29 22:45:21] INFO: 👤 [USER]: "속도?"
+[2026-04-29 22:45:26] INFO: 🤖 [BOT]: "혹시 "속도"라고 하신 게 채팅 속도를 말씀하신 걸까요? 😊 제가 조절할 수 있는 부분이 있다면 알려드릴게요!" (62자)
+[2026-04-29 22:45:26] INFO: 🎯 [INTENT]: question
+[2026-04-29 22:45:26] INFO: 🎯 [IS_COMPLETED]: false
+[2026-04-29 22:45:26] INFO: 🎯 [IS_FINISHED]: false
+[2026-04-29 22:45:26] INFO: 🎯 [LAST_ASKED_QUESTION]: null
+[2026-04-29 22:45:26] INFO: 🎯 [LAST_ASKED_QUESTION_TEXT]: null
+[2026-04-29 22:45:26] INFO: 🎯 [LAST_ANSWERED_QUESTION]: null
+[2026-04-29 22:45:26] INFO: 🎯 [SELECTED_POLICIES]: undefined
+[2026-04-29 22:45:26] INFO: 🔍 [PREVIOUS_BOT] 이전 봇 질문: "좋아요😊 오늘은 전체적인 컨디션이 어떤지 궁금해요, 몸이나 마음이 좀 괜찮으신가요?"
+[2026-04-29 22:45:26] INFO: 💾 [CHAT_SAVED] Chat 저장 완료: 봇질문 "좋아요😊 오늘은 전체적인 컨디션이 어떤지 궁금해요, 몸이나 마음이 좀 괜찮으신가요?" → 사용자답변 "속도?"
+[2026-04-29 22:45:26] INFO: 💾 [SESSION_SAVED] Session 메시지 저장 완료: user_mgkagn/session_1777463231348
+[2026-04-29 22:45:26] INFO: 📋 [POLICIES] 정책 저장 완료: handle_off_topic
+[2026-04-29 22:45:26] INFO: ✅ [INTEGRATED_SAVE] 통합 저장 완료: user_mgkagn/session_1777463231348
+[2026-04-29 22:45:26] INFO: 💾 [INTEGRATED_SAVE] 모든 저장 완료: user_mgkagn/session_1777463231348
+[2026-04-29 22:45:26] INFO: ⚡ [STATUS] isCompleted 변경 없음: 현재=false, 받은값=false
+[2026-04-29 22:45:26] INFO: ⚡ [DB] 변경사항 없음 - DB 저장 생략
+[2026-04-29 22:45:26] INFO: ✅ [SUCCESS] 대화 처리 성공 - 응답시간: 5485ms

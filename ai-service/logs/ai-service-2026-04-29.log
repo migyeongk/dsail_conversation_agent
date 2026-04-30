@@ -1,0 +1,178 @@
+2026-04-29 13:43:55 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 13:44:00 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 13:44:03 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 13:44:14 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 13:44:23 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 13:47:09 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:11:15 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:12:15 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:12:22 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:12:30 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:12:35 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:12:54 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:17:08 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:21:39 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:21:50 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:23:14 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:23:20 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:23:25 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 14:23:34 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 16:08:51 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 16:20:49 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 16:22:26 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 16:22:45 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 20:46:49 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 20:46:49 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 20:47:14 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_mgkagn | Session: session_1777463231348 | Timestamp: 1777463234725 | Message: ㅎㅇㅎㅇ
+2026-04-29 20:47:14 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-29 20:47:14 | INFO     | ai_service | chat:49 | 💬 User Message: ㅎㅇㅎㅇ
+2026-04-29 20:47:14 | INFO     | ai_service | chat:50 | 👤 User ID: user_mgkagn, Session ID: session_1777463231348
+2026-04-29 20:47:14 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777463234725
+2026-04-29 20:47:14 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2026-04-29 20:47:14 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2026-04-29 20:47:14 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-29 20:47:14 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-29 20:47:14 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-29 20:47:14 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-29 20:47:14 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-29 20:47:14 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-29 20:47:14 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-29 20:47:14 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-29 20:47:14 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-29 20:47:14 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-29 20:47:14 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-29 20:47:14 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-29 20:47:14 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-29 20:47:14 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-29 20:47:14 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-29 20:47:14 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-29 20:47:14 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-29 20:47:14 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-29 20:47:14 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-29 20:47:17 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'greeting'}
+2026-04-29 20:47:17 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-29 20:47:17 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-29 20:47:17 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-29 20:47:17 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-29 20:47:19 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'purpose_guidance', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-29 20:47:19 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: purpose_guidance
+2026-04-29 20:47:19 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-29 20:47:19 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-29 20:47:19 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-29 20:47:19 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: purpose_guidance
+2026-04-29 20:47:19 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-29 20:47:19 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-29 20:47:19 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_purpose_guidance
+2026-04-29 20:47:22 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: ㅎㅇㅎㅇ 반가워요 :) 이 대화는 최근의 마음 상태와 스트레스 정도를 편하게 이야기하면서 함께 살펴보기 위한 문진이에요!
+2026-04-29 20:51:35 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_mgkagn | Session: session_1777463231348 | Timestamp: 1777463495881 | Message: 웅 좋아~
+2026-04-29 20:51:35 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-29 20:51:35 | INFO     | ai_service | chat:49 | 💬 User Message: 웅 좋아~
+2026-04-29 20:51:35 | INFO     | ai_service | chat:50 | 👤 User ID: user_mgkagn, Session ID: session_1777463231348
+2026-04-29 20:51:35 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777463495881
+2026-04-29 20:51:35 | INFO     | ai_service | chat:52 | 📊 Message Count: 3
+2026-04-29 20:51:35 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance']
+2026-04-29 20:51:35 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: ㅎㅇㅎㅇ 반가워요 :) 이 대화는 최근의 마음 상태와 스트레스 정도를 편하게 이야기하면서 함께 살펴보기 위한 문진이에요!
+2026-04-29 20:51:35 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-29 20:51:35 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-29 20:51:35 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: ㅎㅇㅎㅇ
+Bot: ㅎㅇㅎㅇ 반가워요 :) 이 대화는 최근의 마음 상태와 스트레스 정도를 편하게 이야기하면서 함께 살펴보기 위한 문진이에요!
+2026-04-29 20:51:35 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-29 20:51:35 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-29 20:51:35 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-29 20:51:35 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-29 20:51:35 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-29 20:51:35 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-29 20:51:35 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-29 20:51:35 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-29 20:51:35 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-29 20:51:35 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-29 20:51:35 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-29 20:51:35 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-29 20:51:35 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-29 20:51:35 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-29 20:51:35 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-29 20:51:37 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'answer_state'}
+2026-04-29 20:51:37 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-29 20:51:37 | INFO     | ai_service | chat:90 | 🧠 Symptom 관련 의도 감지: DST 실행
+2026-04-29 20:51:37 | INFO     | ai_service | update_dialogue_state:284 | 🧠 DST 시작 - Intent: answer_state
+2026-04-29 20:51:37 | INFO     | ai_service | analysis_user_symptom:173 | 🔍 사용자 증상 분석 시작 - Intent: answer_state
+2026-04-29 20:51:37 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: symptom_analysis
+2026-04-29 20:51:37 | INFO     | ai_service | analysis_user_symptom:205 | 🤖 GPT 분석 결과: []
+2026-04-29 20:51:37 | INFO     | ai_service | analysis_user_symptom:209 | ‼️ 감지된 증상이 없습니다.
+2026-04-29 20:51:37 | INFO     | ai_service | create_full_updated_status:261 | 👉 마지막 답변된 질문: None
+2026-04-29 20:51:37 | INFO     | ai_service | update_dialogue_state:292 | 📊 상태 DB 업데이트 완료: {'is_completed': False, 'last_answered_question': None, 'last_asked_question': None, 'questions': [{'questionId': 'Q1', 'questionText': '최근의 스트레스 수준이나 요인', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q2', 'questionText': '우울감/기분저하/무기력', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q3', 'questionText': '불안/긴장/걱정', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q4', 'questionText': '수면 문제/수면의 질/수면시간', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q6', 'questionText': '사회적 관계/사회적 연결감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q7', 'questionText': '취미/흥미/지속여부', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q8', 'questionText': '일상에서의 즐거움을 주는 요소', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}]}
+2026-04-29 20:51:37 | INFO     | ai_service | update_dialogue_state:293 | ----------------------------------------------------------
+2026-04-29 20:51:37 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-29 20:51:37 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance
+2026-04-29 20:51:37 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-29 20:51:38 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_current_state', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-29 20:51:38 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_current_state
+2026-04-29 20:51:38 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-29 20:51:38 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-29 20:51:38 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-29 20:51:38 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: ask_current_state
+2026-04-29 20:51:38 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-29 20:51:38 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-29 20:51:38 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_current_state
+2026-04-29 20:51:40 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 좋아요😊 오늘은 전체적인 컨디션이 어떤지 궁금해요, 몸이나 마음이 좀 괜찮으신가요?
+2026-04-29 22:45:21 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: user_mgkagn | Session: session_1777463231348 | Timestamp: 1777470321366 | Message: 속도?
+2026-04-29 22:45:21 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-29 22:45:21 | INFO     | ai_service | chat:49 | 💬 User Message: 속도?
+2026-04-29 22:45:21 | INFO     | ai_service | chat:50 | 👤 User ID: user_mgkagn, Session ID: session_1777463231348
+2026-04-29 22:45:21 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777470321366
+2026-04-29 22:45:21 | INFO     | ai_service | chat:52 | 📊 Message Count: 5
+2026-04-29 22:45:21 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state']
+2026-04-29 22:45:21 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 좋아요😊 오늘은 전체적인 컨디션이 어떤지 궁금해요, 몸이나 마음이 좀 괜찮으신가요?
+2026-04-29 22:45:21 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-29 22:45:21 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-29 22:45:21 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: ㅎㅇㅎㅇ
+Bot: ㅎㅇㅎㅇ 반가워요 :) 이 대화는 최근의 마음 상태와 스트레스 정도를 편하게 이야기하면서 함께 살펴보기 위한 문진이에요!
+User: 웅 좋아~
+Bot: 좋아요😊 오늘은 전체적인 컨디션이 어떤지 궁금해요, 몸이나 마음이 좀 괜찮으신가요?
+2026-04-29 22:45:21 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-29 22:45:21 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-29 22:45:21 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-29 22:45:21 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-29 22:45:21 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-29 22:45:21 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-29 22:45:21 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-29 22:45:21 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-29 22:45:21 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-29 22:45:21 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-29 22:45:21 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-29 22:45:21 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-29 22:45:21 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-29 22:45:21 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-29 22:45:21 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-29 22:45:23 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'question'}
+2026-04-29 22:45:23 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-29 22:45:23 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-29 22:45:23 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-29 22:45:23 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state
+2026-04-29 22:45:23 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-29 22:45:25 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'handle_off_topic', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-29 22:45:25 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: handle_off_topic
+2026-04-29 22:45:25 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-29 22:45:25 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-29 22:45:25 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-29 22:45:25 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: handle_off_topic
+2026-04-29 22:45:25 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-29 22:45:25 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-29 22:45:25 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_handle_off_topic
+2026-04-29 22:45:26 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 혹시 "속도"라고 하신 게 채팅 속도를 말씀하신 걸까요? 😊 제가 조절할 수 있는 부분이 있다면 알려드릴게요!
+2026-04-29 22:48:02 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 22:51:32 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 22:51:38 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 22:53:09 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 22:54:42 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 22:57:29 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 22:57:31 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 22:59:08 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 23:01:43 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 23:05:18 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-29 23:05:33 | INFO     | ai_service | <module>:248 | 🚀 Running Chatbot...

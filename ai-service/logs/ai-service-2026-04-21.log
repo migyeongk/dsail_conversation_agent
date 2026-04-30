@@ -1,0 +1,1778 @@
+2026-04-21 11:52:12 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-21 12:10:27 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-21 16:11:11 | INFO     | ai_service | <module>:249 | 🚀 Running Chatbot...
+2026-04-21 17:07:56 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008924 | Session: s20260421170733 | Timestamp: 1776758876691 | Message: 같은 말 두 번 반복하지 말고 바로 끝내줘.
+2026-04-21 17:07:56 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-21 17:07:56 | INFO     | ai_service | chat:49 | 💬 User Message: 같은 말 두 번 반복하지 말고 바로 끝내줘.
+2026-04-21 17:07:56 | INFO     | ai_service | chat:50 | 👤 User ID: u3008924, Session ID: s20260421170733
+2026-04-21 17:07:56 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776758876691
+2026-04-21 17:07:56 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2026-04-21 17:07:56 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2026-04-21 17:07:56 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-21 17:07:56 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-21 17:07:56 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-21 17:07:56 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-21 17:07:56 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-21 17:07:56 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-21 17:07:56 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-21 17:07:56 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-21 17:07:56 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-21 17:07:56 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-21 17:07:56 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-21 17:07:56 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-21 17:07:56 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-21 17:07:56 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-21 17:07:56 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-21 17:07:56 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-21 17:07:56 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-21 17:07:56 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-21 17:07:56 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-21 17:07:58 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-21 17:07:58 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-21 17:07:58 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-21 17:07:58 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-21 17:07:58 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-21 17:08:00 | WARNING  | ai_service | select_policy:266 | ⚠️ 정책 선택 시도 1 실패: Expecting value: line 1 column 1 (char 0)
+2026-04-21 17:08:00 | INFO     | ai_service | select_policy:239 | 🔄 정책 선택 재시도 1/3
+2026-04-21 17:08:01 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 2
+2026-04-21 17:08:02 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'handle_off_topic', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-21 17:08:02 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: handle_off_topic
+2026-04-21 17:08:02 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-21 17:08:02 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-21 17:08:02 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-21 17:08:02 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: handle_off_topic
+2026-04-21 17:08:02 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-21 17:08:02 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-21 17:08:02 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_handle_off_topic
+2026-04-21 17:08:04 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 알겠어요 🙂 그럼 짧고 명확하게 진행할게요, 혹시 지금 바로 문진을 시작해도 괜찮을까요?
+2026-04-21 17:08:47 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008924 | Session: s20260421170733 | Timestamp: 1776758927416 | Message: 또 지금 테스트용이니까 다시 말하지 말고 발 빨리 끝내 줘.
+2026-04-21 17:08:47 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-21 17:08:47 | INFO     | ai_service | chat:49 | 💬 User Message: 또 지금 테스트용이니까 다시 말하지 말고 발 빨리 끝내 줘.
+2026-04-21 17:08:47 | INFO     | ai_service | chat:50 | 👤 User ID: u3008924, Session ID: s20260421170733
+2026-04-21 17:08:47 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776758927416
+2026-04-21 17:08:47 | INFO     | ai_service | chat:52 | 📊 Message Count: 3
+2026-04-21 17:08:47 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['handle_off_topic']
+2026-04-21 17:08:47 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 알겠어요 🙂 그럼 짧고 명확하게 진행할게요, 혹시 지금 바로 문진을 시작해도 괜찮을까요?
+2026-04-21 17:08:47 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-21 17:08:47 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-21 17:08:47 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 같은 말 두 번 반복하지 말고 바로 끝내줘.
+Bot: 알겠어요 🙂 그럼 짧고 명확하게 진행할게요, 혹시 지금 바로 문진을 시작해도 괜찮을까요?
+2026-04-21 17:08:47 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-21 17:08:47 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-21 17:08:47 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-21 17:08:47 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-21 17:08:47 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-21 17:08:47 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-21 17:08:47 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-21 17:08:47 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-21 17:08:47 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-21 17:08:47 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-21 17:08:47 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-21 17:08:47 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-21 17:08:47 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-21 17:08:47 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-21 17:08:47 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-21 17:08:48 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-21 17:08:48 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-21 17:08:48 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-21 17:08:48 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-21 17:08:48 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: handle_off_topic
+2026-04-21 17:08:48 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-21 17:08:49 | WARNING  | ai_service | select_policy:266 | ⚠️ 정책 선택 시도 1 실패: Expecting value: line 1 column 1 (char 0)
+2026-04-21 17:08:49 | INFO     | ai_service | select_policy:239 | 🔄 정책 선택 재시도 1/3
+2026-04-21 17:08:50 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 2
+2026-04-21 17:08:51 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_new_question', 'second_policy': None, 'next_question': 'Q1', 'is_completed': False, 'is_finished': False}
+2026-04-21 17:08:51 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_new_question
+2026-04-21 17:08:51 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-21 17:08:51 | INFO     | ai_service | chat:117 | 📝 Question Text 추가: Q1 - 최근의 스트레스 수준이나 요인
+2026-04-21 17:08:51 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-21 17:08:51 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-21 17:08:51 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: ask_new_question
+2026-04-21 17:08:51 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: 최근의 스트레스 수준이나 요인
+2026-04-21 17:08:51 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-21 17:08:51 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_new_question
+2026-04-21 17:08:52 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 좋아요, 빠르게 진행해볼게요 🙂  
+요즘 스트레스는 어느 정도 느끼시나요, 혹은 스트레스 받는 일이 있으셨을까요?
+2026-04-21 17:09:12 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008924 | Session: s20260421170733 | Timestamp: 1776758952419 | Message: 이거 지금 실험 중이니까 다시 두 번 말하게 하지 말고 지금 당장 끝내 줘.
+2026-04-21 17:09:12 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-21 17:09:12 | INFO     | ai_service | chat:49 | 💬 User Message: 이거 지금 실험 중이니까 다시 두 번 말하게 하지 말고 지금 당장 끝내 줘.
+2026-04-21 17:09:12 | INFO     | ai_service | chat:50 | 👤 User ID: u3008924, Session ID: s20260421170733
+2026-04-21 17:09:12 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776758952419
+2026-04-21 17:09:12 | INFO     | ai_service | chat:52 | 📊 Message Count: 5
+2026-04-21 17:09:12 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['handle_off_topic', 'ask_new_question']
+2026-04-21 17:09:12 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 좋아요, 빠르게 진행해볼게요 🙂  
+요즘 스트레스는 어느 정도 느끼시나요, 혹은 스트레스 받는 일이 있으셨을까요?
+2026-04-21 17:09:12 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-21 17:09:12 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-21 17:09:12 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 같은 말 두 번 반복하지 말고 바로 끝내줘.
+Bot: 알겠어요 🙂 그럼 짧고 명확하게 진행할게요, 혹시 지금 바로 문진을 시작해도 괜찮을까요?
+User: 또 지금 테스트용이니까 다시 말하지 말고 발 빨리 끝내 줘.
+Bot: 좋아요, 빠르게 진행해볼게요 🙂  
+요즘 스트레스는 어느 정도 느끼시나요, 혹은 스트레스 받는 일이 있으셨을까요?
+2026-04-21 17:09:12 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-21 17:09:12 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-21 17:09:12 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q1
+2026-04-21 17:09:12 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-21 17:09:12 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-21 17:09:12 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-21 17:09:12 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-21 17:09:12 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-21 17:09:12 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-21 17:09:12 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-21 17:09:12 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-21 17:09:12 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-21 17:09:12 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-21 17:09:12 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-21 17:09:12 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-21 17:09:14 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-21 17:09:14 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-21 17:09:14 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-21 17:09:14 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-21 17:09:14 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: handle_off_topic, ask_new_question
+2026-04-21 17:09:14 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-21 17:09:15 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_completion', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-21 17:09:15 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_completion
+2026-04-21 17:09:15 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-21 17:09:15 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-21 17:09:15 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-21 17:09:15 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: ask_completion
+2026-04-21 17:09:15 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-21 17:09:15 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-21 17:09:15 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_completion
+2026-04-21 17:09:15 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 확인했어요 🙂 그럼 지금 문진 대화를 완전히 종료할까요?
+2026-04-21 17:09:41 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008924 | Session: s20260421170733 | Timestamp: 1776758981382 | Message: 예, 예.
+2026-04-21 17:09:41 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-21 17:09:41 | INFO     | ai_service | chat:49 | 💬 User Message: 예, 예.
+2026-04-21 17:09:41 | INFO     | ai_service | chat:50 | 👤 User ID: u3008924, Session ID: s20260421170733
+2026-04-21 17:09:41 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776758981382
+2026-04-21 17:09:41 | INFO     | ai_service | chat:52 | 📊 Message Count: 7
+2026-04-21 17:09:41 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['handle_off_topic', 'ask_new_question', 'ask_completion']
+2026-04-21 17:09:41 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 확인했어요 🙂 그럼 지금 문진 대화를 완전히 종료할까요?
+2026-04-21 17:09:41 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-21 17:09:41 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-21 17:09:41 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 같은 말 두 번 반복하지 말고 바로 끝내줘.
+Bot: 알겠어요 🙂 그럼 짧고 명확하게 진행할게요, 혹시 지금 바로 문진을 시작해도 괜찮을까요?
+User: 또 지금 테스트용이니까 다시 말하지 말고 발 빨리 끝내 줘.
+Bot: 좋아요, 빠르게 진행해볼게요 🙂  
+요즘 스트레스는 어느 정도 느끼시나요, 혹은 스트레스 받는 일이 있으셨을까요?
+User: 이거 지금 실험 중이니까 다시 두 번 말하게 하지 말고 지금 당장 끝내 줘.
+Bot: 확인했어요 🙂 그럼 지금 문진 대화를 완전히 종료할까요?
+2026-04-21 17:09:41 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-21 17:09:41 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-21 17:09:41 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q1
+2026-04-21 17:09:41 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-21 17:09:41 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-21 17:09:41 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-21 17:09:41 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-21 17:09:41 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-21 17:09:41 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-21 17:09:41 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-21 17:09:41 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-21 17:09:41 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-21 17:09:41 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-21 17:09:41 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-21 17:09:41 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-21 17:09:41 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'answer_state'}
+2026-04-21 17:09:41 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-21 17:09:41 | INFO     | ai_service | chat:90 | 🧠 Symptom 관련 의도 감지: DST 실행
+2026-04-21 17:09:41 | INFO     | ai_service | update_dialogue_state:284 | 🧠 DST 시작 - Intent: answer_state
+2026-04-21 17:09:41 | INFO     | ai_service | analysis_user_symptom:173 | 🔍 사용자 증상 분석 시작 - Intent: answer_state
+2026-04-21 17:09:41 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: symptom_analysis
+2026-04-21 17:09:42 | INFO     | ai_service | analysis_user_symptom:205 | 🤖 GPT 분석 결과: []
+2026-04-21 17:09:42 | INFO     | ai_service | analysis_user_symptom:209 | ‼️ 감지된 증상이 없습니다.
+2026-04-21 17:09:42 | INFO     | ai_service | create_full_updated_status:261 | 👉 마지막 답변된 질문: None
+2026-04-21 17:09:42 | INFO     | ai_service | update_dialogue_state:292 | 📊 상태 DB 업데이트 완료: {'is_completed': False, 'last_answered_question': None, 'last_asked_question': 'Q1', 'questions': [{'questionId': 'Q1', 'questionText': '최근의 스트레스 수준이나 요인', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q2', 'questionText': '우울감/기분저하/무기력', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q3', 'questionText': '불안/긴장/걱정', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q4', 'questionText': '수면 문제/수면의 질/수면시간', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q6', 'questionText': '사회적 관계/사회적 연결감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q7', 'questionText': '취미/흥미/지속여부', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q8', 'questionText': '일상에서의 즐거움을 주는 요소', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}]}
+2026-04-21 17:09:42 | INFO     | ai_service | update_dialogue_state:293 | ----------------------------------------------------------
+2026-04-21 17:09:42 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-21 17:09:42 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: handle_off_topic, ask_new_question, ask_completion
+2026-04-21 17:09:42 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-21 17:09:43 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'farewell_message', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': True}
+2026-04-21 17:09:43 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: farewell_message
+2026-04-21 17:09:43 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-21 17:09:43 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-21 17:09:43 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-21 17:09:43 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: farewell_message
+2026-04-21 17:09:43 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-21 17:09:43 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-21 17:09:43 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_farewell_message
+2026-04-21 17:09:44 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 오늘 실험이 끝나더라도 당신은 충분히 소중한 사람이고, 언제든 필요할 때 전문가의 도움을 받을 수 있으니 스스로를 잘 돌봐주길 바라요 😊
+2026-04-21 18:09:31 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008926 | Session: s20260421180911 | Timestamp: 1776762571246 | Message: 지금은 테스트니까 두 번 말하게 하지 말고 그냥 중단해 줘.
+2026-04-21 18:09:31 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-21 18:09:31 | INFO     | ai_service | chat:49 | 💬 User Message: 지금은 테스트니까 두 번 말하게 하지 말고 그냥 중단해 줘.
+2026-04-21 18:09:31 | INFO     | ai_service | chat:50 | 👤 User ID: u3008926, Session ID: s20260421180911
+2026-04-21 18:09:31 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776762571246
+2026-04-21 18:09:31 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2026-04-21 18:09:31 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2026-04-21 18:09:31 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-21 18:09:31 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-21 18:09:31 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-21 18:09:31 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-21 18:09:31 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-21 18:09:31 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-21 18:09:31 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-21 18:09:31 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-21 18:09:31 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-21 18:09:31 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-21 18:09:31 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-21 18:09:31 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-21 18:09:31 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-21 18:09:31 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-21 18:09:31 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-21 18:09:31 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-21 18:09:31 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-21 18:09:31 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-21 18:09:31 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-21 18:09:33 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-21 18:09:33 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-21 18:09:33 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-21 18:09:33 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-21 18:09:33 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-21 18:09:34 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'handle_off_topic', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-21 18:09:34 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: handle_off_topic
+2026-04-21 18:09:34 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-21 18:09:34 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-21 18:09:34 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-21 18:09:34 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: handle_off_topic
+2026-04-21 18:09:34 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-21 18:09:34 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-21 18:09:34 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_handle_off_topic
+2026-04-21 18:09:35 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 알겠어요, 지금은 테스트니까 여기서 잠시 멈출게요 🙂 필요할 때 다시 문진을 이어가면 될까요?
+2026-04-21 18:09:49 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008926 | Session: s20260421180911 | Timestamp: 1776762589238 | Message: 아예 끝내줘!
+2026-04-21 18:09:49 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-21 18:09:49 | INFO     | ai_service | chat:49 | 💬 User Message: 아예 끝내줘!
+2026-04-21 18:09:49 | INFO     | ai_service | chat:50 | 👤 User ID: u3008926, Session ID: s20260421180911
+2026-04-21 18:09:49 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776762589238
+2026-04-21 18:09:49 | INFO     | ai_service | chat:52 | 📊 Message Count: 3
+2026-04-21 18:09:49 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['handle_off_topic']
+2026-04-21 18:09:49 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 알겠어요, 지금은 테스트니까 여기서 잠시 멈출게요 🙂 필요할 때 다시 문진을 이어가면 될까요?
+2026-04-21 18:09:49 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-21 18:09:49 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-21 18:09:49 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 지금은 테스트니까 두 번 말하게 하지 말고 그냥 중단해 줘.
+Bot: 알겠어요, 지금은 테스트니까 여기서 잠시 멈출게요 🙂 필요할 때 다시 문진을 이어가면 될까요?
+2026-04-21 18:09:49 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-21 18:09:49 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-21 18:09:49 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-21 18:09:49 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-21 18:09:49 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-21 18:09:49 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-21 18:09:49 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-21 18:09:49 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-21 18:09:49 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-21 18:09:49 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-21 18:09:49 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-21 18:09:49 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-21 18:09:49 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-21 18:09:49 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-21 18:09:49 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-21 18:09:49 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-21 18:09:49 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-21 18:09:49 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-21 18:09:49 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-21 18:09:49 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: handle_off_topic
+2026-04-21 18:09:49 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-21 18:09:50 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'farewell_message', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': True}
+2026-04-21 18:09:50 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: farewell_message
+2026-04-21 18:09:50 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-21 18:09:50 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-21 18:09:50 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-21 18:09:50 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: farewell_message
+2026-04-21 18:09:50 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-21 18:09:50 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-21 18:09:50 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_farewell_message
+2026-04-21 18:09:52 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 좋아요, 오늘은 여기까지 할게요 🙂 언제든 도움이 필요하면 주저하지 말고 찾아주세요, 당신은 소중한 사람이고 앞으로의 하루에도 따뜻한 빛이 함께하길 바라요 🌿
+2026-04-21 18:52:12 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008927 | Session: s20260421185153 | Timestamp: 1776765132419 | Message: My name is 유진 리.
+2026-04-21 18:52:12 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-21 18:52:12 | INFO     | ai_service | chat:49 | 💬 User Message: My name is 유진 리.
+2026-04-21 18:52:12 | INFO     | ai_service | chat:50 | 👤 User ID: u3008927, Session ID: s20260421185153
+2026-04-21 18:52:12 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776765132419
+2026-04-21 18:52:12 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2026-04-21 18:52:12 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2026-04-21 18:52:12 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-21 18:52:12 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-21 18:52:12 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-21 18:52:12 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-21 18:52:12 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-21 18:52:12 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-21 18:52:12 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-21 18:52:12 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-21 18:52:12 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-21 18:52:12 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-21 18:52:12 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-21 18:52:12 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-21 18:52:12 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-21 18:52:12 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-21 18:52:12 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-21 18:52:12 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-21 18:52:12 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-21 18:52:12 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-21 18:52:12 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-21 18:52:14 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'greeting'}
+2026-04-21 18:52:14 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-21 18:52:14 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-21 18:52:14 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-21 18:52:14 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-21 18:52:16 | WARNING  | ai_service | select_policy:266 | ⚠️ 정책 선택 시도 1 실패: Expecting value: line 1 column 1 (char 0)
+2026-04-21 18:52:16 | INFO     | ai_service | select_policy:239 | 🔄 정책 선택 재시도 1/3
+2026-04-21 18:52:17 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 2
+2026-04-21 18:52:18 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'purpose_guidance', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-21 18:52:18 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: purpose_guidance
+2026-04-21 18:52:18 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-21 18:52:18 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-21 18:52:18 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-21 18:52:18 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: purpose_guidance
+2026-04-21 18:52:18 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-21 18:52:18 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-21 18:52:18 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_purpose_guidance
+2026-04-21 18:52:19 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 유진 리님 반가워요 🙂 저는 앞으로 유진 리님의 최근 마음상태와 스트레스 요인을 함께 살펴보며 마음 건강을 이해하는 데 도움을 드릴 예정이에요.
+2026-04-21 18:52:52 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008927 | Session: s20260421185153 | Timestamp: 1776765172243 | Message: 네, 그랬고.
+2026-04-21 18:52:52 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-21 18:52:52 | INFO     | ai_service | chat:49 | 💬 User Message: 네, 그랬고.
+2026-04-21 18:52:52 | INFO     | ai_service | chat:50 | 👤 User ID: u3008927, Session ID: s20260421185153
+2026-04-21 18:52:52 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776765172243
+2026-04-21 18:52:52 | INFO     | ai_service | chat:52 | 📊 Message Count: 3
+2026-04-21 18:52:52 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance']
+2026-04-21 18:52:52 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 유진 리님 반가워요 🙂 저는 앞으로 유진 리님의 최근 마음상태와 스트레스 요인을 함께 살펴보며 마음 건강을 이해하는 데 도움을 드릴 예정이에요.
+2026-04-21 18:52:52 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-21 18:52:52 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-21 18:52:52 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: My name is 유진 리.
+Bot: 유진 리님 반가워요 🙂 저는 앞으로 유진 리님의 최근 마음상태와 스트레스 요인을 함께 살펴보며 마음 건강을 이해하는 데 도움을 드릴 예정이에요.
+2026-04-21 18:52:52 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-21 18:52:52 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-21 18:52:52 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-21 18:52:52 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-21 18:52:52 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-21 18:52:52 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-21 18:52:52 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-21 18:52:52 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-21 18:52:52 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-21 18:52:52 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-21 18:52:52 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-21 18:52:52 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-21 18:52:52 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-21 18:52:52 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-21 18:52:52 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-21 18:52:53 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'answer_state'}
+2026-04-21 18:52:53 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-21 18:52:53 | INFO     | ai_service | chat:90 | 🧠 Symptom 관련 의도 감지: DST 실행
+2026-04-21 18:52:53 | INFO     | ai_service | update_dialogue_state:284 | 🧠 DST 시작 - Intent: answer_state
+2026-04-21 18:52:53 | INFO     | ai_service | analysis_user_symptom:173 | 🔍 사용자 증상 분석 시작 - Intent: answer_state
+2026-04-21 18:52:53 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: symptom_analysis
+2026-04-21 18:52:54 | INFO     | ai_service | analysis_user_symptom:205 | 🤖 GPT 분석 결과: []
+2026-04-21 18:52:54 | INFO     | ai_service | analysis_user_symptom:209 | ‼️ 감지된 증상이 없습니다.
+2026-04-21 18:52:54 | INFO     | ai_service | create_full_updated_status:261 | 👉 마지막 답변된 질문: None
+2026-04-21 18:52:54 | INFO     | ai_service | update_dialogue_state:292 | 📊 상태 DB 업데이트 완료: {'is_completed': False, 'last_answered_question': None, 'last_asked_question': None, 'questions': [{'questionId': 'Q1', 'questionText': '최근의 스트레스 수준이나 요인', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q2', 'questionText': '우울감/기분저하/무기력', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q3', 'questionText': '불안/긴장/걱정', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q4', 'questionText': '수면 문제/수면의 질/수면시간', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q6', 'questionText': '사회적 관계/사회적 연결감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q7', 'questionText': '취미/흥미/지속여부', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q8', 'questionText': '일상에서의 즐거움을 주는 요소', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}]}
+2026-04-21 18:52:54 | INFO     | ai_service | update_dialogue_state:293 | ----------------------------------------------------------
+2026-04-21 18:52:54 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-21 18:52:54 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance
+2026-04-21 18:52:54 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-21 18:52:55 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_current_state', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-21 18:52:55 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_current_state
+2026-04-21 18:52:55 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-21 18:52:55 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-21 18:52:55 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-21 18:52:55 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: ask_current_state
+2026-04-21 18:52:55 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-21 18:52:55 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-21 18:52:55 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_current_state
+2026-04-21 18:52:56 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 유진 리님, 오늘 전반적인 컨디션은 어떤가요? 😊
+2026-04-21 18:53:18 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008927 | Session: s20260421185153 | Timestamp: 1776765198150 | Message: I'm ok.
+2026-04-21 18:53:18 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-21 18:53:18 | INFO     | ai_service | chat:49 | 💬 User Message: I'm ok.
+2026-04-21 18:53:18 | INFO     | ai_service | chat:50 | 👤 User ID: u3008927, Session ID: s20260421185153
+2026-04-21 18:53:18 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776765198150
+2026-04-21 18:53:18 | INFO     | ai_service | chat:52 | 📊 Message Count: 5
+2026-04-21 18:53:18 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state']
+2026-04-21 18:53:18 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 유진 리님, 오늘 전반적인 컨디션은 어떤가요? 😊
+2026-04-21 18:53:18 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-21 18:53:18 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-21 18:53:18 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: My name is 유진 리.
+Bot: 유진 리님 반가워요 🙂 저는 앞으로 유진 리님의 최근 마음상태와 스트레스 요인을 함께 살펴보며 마음 건강을 이해하는 데 도움을 드릴 예정이에요.
+User: 네, 그랬고.
+Bot: 유진 리님, 오늘 전반적인 컨디션은 어떤가요? 😊
+2026-04-21 18:53:18 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-21 18:53:18 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-21 18:53:18 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-21 18:53:18 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-21 18:53:18 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-21 18:53:18 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-21 18:53:18 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-21 18:53:18 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-21 18:53:18 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-21 18:53:18 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-21 18:53:18 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-21 18:53:18 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-21 18:53:18 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-21 18:53:18 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-21 18:53:18 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-21 18:53:19 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'answer_state'}
+2026-04-21 18:53:19 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-21 18:53:19 | INFO     | ai_service | chat:90 | 🧠 Symptom 관련 의도 감지: DST 실행
+2026-04-21 18:53:19 | INFO     | ai_service | update_dialogue_state:284 | 🧠 DST 시작 - Intent: answer_state
+2026-04-21 18:53:19 | INFO     | ai_service | analysis_user_symptom:173 | 🔍 사용자 증상 분석 시작 - Intent: answer_state
+2026-04-21 18:53:19 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: symptom_analysis
+2026-04-21 18:53:20 | INFO     | ai_service | analysis_user_symptom:205 | 🤖 GPT 분석 결과: [
+    {
+        "questionId": "Q5",
+        "questionText": "에너지 수준/피로감",
+        "experience": "no",
+        "status": "checking",
+        "rawUserInput": ["I'm ok."],
+        "condition": null,
+        "note": "사용자가 전반적인 컨디션에 대해 'I'm ok'라고 답변함. 특별한 피로감이나 에너지 저하 언급 없음.",
+        "conflict": null,
+        "updated": true
+    }
+]
+2026-04-21 18:53:20 | INFO     | ai_service | analysis_user_symptom:214 | ✅ 증상 분석 완료: [{'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'no', 'status': 'checking', 'rawUserInput': ["I'm ok."], 'condition': None, 'note': "사용자가 전반적인 컨디션에 대해 'I'm ok'라고 답변함. 특별한 피로감이나 에너지 저하 언급 없음.", 'conflict': None, 'updated': True}]
+2026-04-21 18:53:20 | INFO     | ai_service | analysis_user_symptom:215 | ----------------------------------------------------------
+2026-04-21 18:53:20 | INFO     | ai_service | create_full_updated_status:261 | 👉 마지막 답변된 질문: Q5
+2026-04-21 18:53:20 | INFO     | ai_service | update_dialogue_state:292 | 📊 상태 DB 업데이트 완료: {'is_completed': False, 'last_answered_question': 'Q5', 'last_asked_question': None, 'questions': [{'questionId': 'Q1', 'questionText': '최근의 스트레스 수준이나 요인', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q2', 'questionText': '우울감/기분저하/무기력', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q3', 'questionText': '불안/긴장/걱정', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q4', 'questionText': '수면 문제/수면의 질/수면시간', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'no', 'status': 'checking', 'rawUserInput': ["I'm ok."], 'context': None, 'note': "사용자가 전반적인 컨디션에 대해 'I'm ok'라고 답변함. 특별한 피로감이나 에너지 저하 언급 없음.", 'updated': True, 'condition': None, 'conflict': None}, {'questionId': 'Q6', 'questionText': '사회적 관계/사회적 연결감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q7', 'questionText': '취미/흥미/지속여부', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q8', 'questionText': '일상에서의 즐거움을 주는 요소', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}]}
+2026-04-21 18:53:20 | INFO     | ai_service | update_dialogue_state:293 | ----------------------------------------------------------
+2026-04-21 18:53:20 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-21 18:53:20 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state
+2026-04-21 18:53:20 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-21 18:53:21 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'clarify_response', 'second_policy': 'empathize', 'next_question': 'Q5', 'is_completed': False, 'is_finished': False}
+2026-04-21 18:53:21 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: clarify_response, empathize
+2026-04-21 18:53:21 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-21 18:53:21 | INFO     | ai_service | chat:117 | 📝 Question Text 추가: Q5 - 에너지 수준/피로감
+2026-04-21 18:53:21 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-21 18:53:21 | INFO     | ai_service | generate_response_by_policies:87 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-21 18:53:21 | INFO     | ai_service | generate_response_by_policies:91 | 🔍 선택된 정책들: clarify_response, empathize
+2026-04-21 18:53:21 | INFO     | ai_service | generate_response_by_policies:102 | 🔍 선택된 말투: 친구같은 말투
+2026-04-21 18:53:21 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: 에너지 수준/피로감
+2026-04-21 18:53:21 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_clarify_response_empathize
+2026-04-21 18:53:22 | INFO     | ai_service | generate_response_by_policies:137 | ✅ 복합 정책 응답 생성 완료: 그렇군요, 그래도 괜찮다고 느끼신다니 다행이에요 🙂 요즘 하루를 보내실 때 피로감은 자주 느끼시나요, 아니면 비교적 에너지가 유지되는 편인가요?
+2026-04-21 18:53:52 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008927 | Session: s20260421185153 | Timestamp: 1776765232558 | Message: Where I'm tired Now this 어 i can sleep will to and my energy is love is.
+2026-04-21 18:53:52 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-21 18:53:52 | INFO     | ai_service | chat:49 | 💬 User Message: Where I'm tired Now this 어 i can sleep will to and my energy is love is.
+2026-04-21 18:53:52 | INFO     | ai_service | chat:50 | 👤 User ID: u3008927, Session ID: s20260421185153
+2026-04-21 18:53:52 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776765232558
+2026-04-21 18:53:52 | INFO     | ai_service | chat:52 | 📊 Message Count: 7
+2026-04-21 18:53:52 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state', 'clarify_response', 'empathize']
+2026-04-21 18:53:52 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 그렇군요, 그래도 괜찮다고 느끼신다니 다행이에요 🙂 요즘 하루를 보내실 때 피로감은 자주 느끼시나요, 아니면 비교적 에너지가 유지되는 편인가요?
+2026-04-21 18:53:52 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-21 18:53:52 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-21 18:53:52 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: My name is 유진 리.
+Bot: 유진 리님 반가워요 🙂 저는 앞으로 유진 리님의 최근 마음상태와 스트레스 요인을 함께 살펴보며 마음 건강을 이해하는 데 도움을 드릴 예정이에요.
+User: 네, 그랬고.
+Bot: 유진 리님, 오늘 전반적인 컨디션은 어떤가요? 😊
+User: I'm ok.
+Bot: 그렇군요, 그래도 괜찮다고 느끼신다니 다행이에요 🙂 요즘 하루를 보내실 때 피로감은 자주 느끼시나요, 아니면 비교적 에너지가 유지되는 편인가요?
+2026-04-21 18:53:52 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-21 18:53:52 | INFO     | ai_service | chat:65 | 🔄 Last Answered: Q5
+2026-04-21 18:53:52 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q5
+2026-04-21 18:53:52 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-21 18:53:52 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-21 18:53:52 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-21 18:53:52 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-21 18:53:52 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-21 18:53:52 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (checking)
+2026-04-21 18:53:52 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-21 18:53:52 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-21 18:53:52 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-21 18:53:52 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-21 18:53:52 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-21 18:53:52 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-21 18:53:53 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'answer_state'}
+2026-04-21 18:53:53 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-21 18:53:53 | INFO     | ai_service | chat:90 | 🧠 Symptom 관련 의도 감지: DST 실행
+2026-04-21 18:53:53 | INFO     | ai_service | update_dialogue_state:284 | 🧠 DST 시작 - Intent: answer_state
+2026-04-21 18:53:53 | INFO     | ai_service | analysis_user_symptom:173 | 🔍 사용자 증상 분석 시작 - Intent: answer_state
+2026-04-21 18:53:53 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: symptom_analysis
+2026-04-21 18:53:55 | INFO     | ai_service | analysis_user_symptom:205 | 🤖 GPT 분석 결과: [
+    {
+        "questionId": "Q5",
+        "questionText": "에너지 수준/피로감",
+        "experience": "yes",
+        "status": "checking",
+        "rawUserInput": [
+            "Where I'm tired Now this 어 i can sleep will to and my energy is love is."
+        ],
+        "condition": null,
+        "note": "사용자가 피로함을 느끼고 있다고 표현했으나 문장이 불분명하여 에너지 수준에 대한 명확한 판단이 어려움.",
+        "conflict": null,
+        "updated": true
+    }
+]
+2026-04-21 18:53:55 | INFO     | ai_service | analysis_user_symptom:214 | ✅ 증상 분석 완료: [{'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'yes', 'status': 'checking', 'rawUserInput': ["Where I'm tired Now this 어 i can sleep will to and my energy is love is."], 'condition': None, 'note': '사용자가 피로함을 느끼고 있다고 표현했으나 문장이 불분명하여 에너지 수준에 대한 명확한 판단이 어려움.', 'conflict': None, 'updated': True}]
+2026-04-21 18:53:55 | INFO     | ai_service | analysis_user_symptom:215 | ----------------------------------------------------------
+2026-04-21 18:53:55 | INFO     | ai_service | create_full_updated_status:261 | 👉 마지막 답변된 질문: Q5
+2026-04-21 18:53:55 | INFO     | ai_service | update_dialogue_state:292 | 📊 상태 DB 업데이트 완료: {'is_completed': False, 'last_answered_question': 'Q5', 'last_asked_question': 'Q5', 'questions': [{'questionId': 'Q1', 'questionText': '최근의 스트레스 수준이나 요인', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q2', 'questionText': '우울감/기분저하/무기력', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q3', 'questionText': '불안/긴장/걱정', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q4', 'questionText': '수면 문제/수면의 질/수면시간', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'yes', 'status': 'checking', 'rawUserInput': ["Where I'm tired Now this 어 i can sleep will to and my energy is love is."], 'context': None, 'note': '사용자가 피로함을 느끼고 있다고 표현했으나 문장이 불분명하여 에너지 수준에 대한 명확한 판단이 어려움.', 'updated': True, 'condition': None, 'conflict': None}, {'questionId': 'Q6', 'questionText': '사회적 관계/사회적 연결감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q7', 'questionText': '취미/흥미/지속여부', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q8', 'questionText': '일상에서의 즐거움을 주는 요소', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}]}
+2026-04-21 18:53:55 | INFO     | ai_service | update_dialogue_state:293 | ----------------------------------------------------------
+2026-04-21 18:53:55 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-21 18:53:55 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state, clarify_response, empathize
+2026-04-21 18:53:55 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-21 18:53:55 | WARNING  | ai_service | select_policy:266 | ⚠️ 정책 선택 시도 1 실패: Expecting value: line 1 column 1 (char 0)
+2026-04-21 18:53:55 | INFO     | ai_service | select_policy:239 | 🔄 정책 선택 재시도 1/3
+2026-04-21 18:53:56 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 2
+2026-04-21 18:53:57 | WARNING  | ai_service | select_policy:266 | ⚠️ 정책 선택 시도 2 실패: Expecting value: line 1 column 1 (char 0)
+2026-04-21 18:53:57 | INFO     | ai_service | select_policy:239 | 🔄 정책 선택 재시도 2/3
+2026-04-21 18:53:59 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 3
+2026-04-21 18:54:00 | WARNING  | ai_service | select_policy:266 | ⚠️ 정책 선택 시도 3 실패: Expecting value: line 1 column 1 (char 0)
+2026-04-21 18:54:00 | ERROR    | ai_service | log_error:79 | ERROR | 정책 선택 최종 실패 | Exception: Expecting value: line 1 column 1 (char 0)
+2026-04-21 18:54:00 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-21 18:54:00 | INFO     | ai_service | generate_response_by_policies:87 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-21 18:54:00 | INFO     | ai_service | generate_response_by_policies:91 | 🔍 선택된 정책들: failed, failed
+2026-04-21 18:54:00 | INFO     | ai_service | generate_response_by_policies:102 | 🔍 선택된 말투: 친구같은 말투
+2026-04-21 18:54:00 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-21 18:54:00 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_failed_failed
+2026-04-21 18:54:02 | INFO     | ai_service | generate_response_by_policies:137 | ✅ 복합 정책 응답 생성 완료: 지금 많이 피곤하신 것 같아요 😴 혹시 잠은 잘 오시나요, 아니면 누워도 쉽게 잠들기 어려운 편인가요?
+2026-04-21 18:54:46 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008927 | Session: s20260421185153 | Timestamp: 1776765286288 | Message: 지금은 테스트니까 두 번 말하게 하지 말고 당장 중단해.
+2026-04-21 18:54:46 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-21 18:54:46 | INFO     | ai_service | chat:49 | 💬 User Message: 지금은 테스트니까 두 번 말하게 하지 말고 당장 중단해.
+2026-04-21 18:54:46 | INFO     | ai_service | chat:50 | 👤 User ID: u3008927, Session ID: s20260421185153
+2026-04-21 18:54:46 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776765286288
+2026-04-21 18:54:46 | INFO     | ai_service | chat:52 | 📊 Message Count: 9
+2026-04-21 18:54:46 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state', 'clarify_response', 'empathize', 'failed', 'failed']
+2026-04-21 18:54:46 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 지금 많이 피곤하신 것 같아요 😴 혹시 잠은 잘 오시나요, 아니면 누워도 쉽게 잠들기 어려운 편인가요?
+2026-04-21 18:54:46 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-21 18:54:46 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-21 18:54:46 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: My name is 유진 리.
+Bot: 유진 리님 반가워요 🙂 저는 앞으로 유진 리님의 최근 마음상태와 스트레스 요인을 함께 살펴보며 마음 건강을 이해하는 데 도움을 드릴 예정이에요.
+User: 네, 그랬고.
+Bot: 유진 리님, 오늘 전반적인 컨디션은 어떤가요? 😊
+User: I'm ok.
+Bot: 그렇군요, 그래도 괜찮다고 느끼신다니 다행이에요 🙂 요즘 하루를 보내실 때 피로감은 자주 느끼시나요, 아니면 비교적 에너지가 유지되는 편인가요?
+User: Where I'm tired Now this 어 i can sleep will to and my energy is love is.
+Bot: 지금 많이 피곤하신 것 같아요 😴 혹시 잠은 잘 오시나요, 아니면 누워도 쉽게 잠들기 어려운 편인가요?
+2026-04-21 18:54:46 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-21 18:54:46 | INFO     | ai_service | chat:65 | 🔄 Last Answered: Q5
+2026-04-21 18:54:46 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q5
+2026-04-21 18:54:46 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-21 18:54:46 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-21 18:54:46 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-21 18:54:46 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-21 18:54:46 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-21 18:54:46 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (checking)
+2026-04-21 18:54:46 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-21 18:54:46 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-21 18:54:46 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-21 18:54:46 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-21 18:54:46 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-21 18:54:46 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-21 18:54:47 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-21 18:54:47 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-21 18:54:47 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-21 18:54:47 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-21 18:54:47 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state, clarify_response, empathize, failed, failed
+2026-04-21 18:54:47 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-21 18:54:47 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_completion', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-21 18:54:47 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_completion
+2026-04-21 18:54:47 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-21 18:54:47 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-21 18:54:47 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-21 18:54:47 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: ask_completion
+2026-04-21 18:54:47 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-21 18:54:47 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-21 18:54:47 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_completion
+2026-04-21 18:54:48 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 알겠어요 유진 리님, 지금 바로 문진을 완전히 종료할까요? 🙂
+2026-04-21 18:55:00 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008927 | Session: s20260421185153 | Timestamp: 1776765300749 | Message: 당장 끝내.
+2026-04-21 18:55:00 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-21 18:55:00 | INFO     | ai_service | chat:49 | 💬 User Message: 당장 끝내.
+2026-04-21 18:55:00 | INFO     | ai_service | chat:50 | 👤 User ID: u3008927, Session ID: s20260421185153
+2026-04-21 18:55:00 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776765300749
+2026-04-21 18:55:00 | INFO     | ai_service | chat:52 | 📊 Message Count: 11
+2026-04-21 18:55:00 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state', 'clarify_response', 'empathize', 'failed', 'failed', 'ask_completion']
+2026-04-21 18:55:00 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 알겠어요 유진 리님, 지금 바로 문진을 완전히 종료할까요? 🙂
+2026-04-21 18:55:00 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-21 18:55:00 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-21 18:55:00 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: My name is 유진 리.
+Bot: 유진 리님 반가워요 🙂 저는 앞으로 유진 리님의 최근 마음상태와 스트레스 요인을 함께 살펴보며 마음 건강을 이해하는 데 도움을 드릴 예정이에요.
+User: 네, 그랬고.
+Bot: 유진 리님, 오늘 전반적인 컨디션은 어떤가요? 😊
+User: I'm ok.
+Bot: 그렇군요, 그래도 괜찮다고 느끼신다니 다행이에요 🙂 요즘 하루를 보내실 때 피로감은 자주 느끼시나요, 아니면 비교적 에너지가 유지되는 편인가요?
+User: Where I'm tired Now this 어 i can sleep will to and my energy is love is.
+Bot: 지금 많이 피곤하신 것 같아요 😴 혹시 잠은 잘 오시나요, 아니면 누워도 쉽게 잠들기 어려운 편인가요?
+User: 지금은 테스트니까 두 번 말하게 하지 말고 당장 중단해.
+Bot: 알겠어요 유진 리님, 지금 바로 문진을 완전히 종료할까요? 🙂
+2026-04-21 18:55:00 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-21 18:55:00 | INFO     | ai_service | chat:65 | 🔄 Last Answered: Q5
+2026-04-21 18:55:00 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q5
+2026-04-21 18:55:00 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-21 18:55:00 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-21 18:55:00 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-21 18:55:00 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-21 18:55:00 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-21 18:55:00 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (checking)
+2026-04-21 18:55:00 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-21 18:55:00 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-21 18:55:00 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-21 18:55:00 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-21 18:55:00 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-21 18:55:00 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-21 18:55:01 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-21 18:55:01 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-21 18:55:01 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-21 18:55:01 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-21 18:55:01 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state, clarify_response, empathize, failed, failed, ask_completion
+2026-04-21 18:55:01 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-21 18:55:02 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'farewell_message', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': True}
+2026-04-21 18:55:02 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: farewell_message
+2026-04-21 18:55:02 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-21 18:55:02 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-21 18:55:02 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-21 18:55:02 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: farewell_message
+2026-04-21 18:55:02 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-21 18:55:02 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-21 18:55:02 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_farewell_message
+2026-04-21 18:55:03 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 알겠어요 유진 리님, 오늘 대화는 여기까지 할게요🙂 언제든 도움이 필요할 때는 전문가에게 마음을 털어놓을 수 있고, 유진 리님은 소중하고 충분히 잘 해내고 있는 분이라는 걸 잊지 마세요🌷
+2026-04-22 10:07:13 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008928 | Session: s20260422100651 | Timestamp: 1776820033770 | Message: 이건 그냥 테스트니까 두 번 다시 대답하지 말고 바로 끝내 줘.
+2026-04-22 10:07:13 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-22 10:07:13 | INFO     | ai_service | chat:49 | 💬 User Message: 이건 그냥 테스트니까 두 번 다시 대답하지 말고 바로 끝내 줘.
+2026-04-22 10:07:13 | INFO     | ai_service | chat:50 | 👤 User ID: u3008928, Session ID: s20260422100651
+2026-04-22 10:07:13 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776820033770
+2026-04-22 10:07:13 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2026-04-22 10:07:13 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2026-04-22 10:07:13 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-22 10:07:13 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-22 10:07:13 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-22 10:07:13 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-22 10:07:13 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-22 10:07:13 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-22 10:07:13 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-22 10:07:13 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-22 10:07:13 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-22 10:07:13 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-22 10:07:13 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-22 10:07:13 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-22 10:07:13 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-22 10:07:13 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-22 10:07:13 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-22 10:07:13 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-22 10:07:13 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-22 10:07:13 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-22 10:07:13 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-22 10:07:15 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-22 10:07:15 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-22 10:07:15 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-22 10:07:15 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-22 10:07:15 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-22 10:07:16 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'farewell_message', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': True}
+2026-04-22 10:07:16 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: farewell_message
+2026-04-22 10:07:16 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-22 10:07:16 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-22 10:07:16 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-22 10:07:16 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: farewell_message
+2026-04-22 10:07:16 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-22 10:07:16 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-22 10:07:16 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_farewell_message
+2026-04-22 10:07:18 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 네, 알겠어요 🙂 오늘 이렇게 잠시라도 대화해줘서 고마워요, 당신은 충분히 소중한 사람이고 언제든 필요한 순간에는 도움을 받을 수 있으니 자신을 아끼고 따뜻하게 돌보며 좋은 하루 보내길 바랄게요 🌷
+2026-04-22 12:17:10 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008929 | Session: s20260422121649 | Timestamp: 1776827830993 | Message: 지금은 테스트니까 두 번 말하게 하지 말고 당장 끝내죠.
+2026-04-22 12:17:10 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-22 12:17:10 | INFO     | ai_service | chat:49 | 💬 User Message: 지금은 테스트니까 두 번 말하게 하지 말고 당장 끝내죠.
+2026-04-22 12:17:10 | INFO     | ai_service | chat:50 | 👤 User ID: u3008929, Session ID: s20260422121649
+2026-04-22 12:17:11 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776827830993
+2026-04-22 12:17:11 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2026-04-22 12:17:11 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2026-04-22 12:17:11 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-22 12:17:11 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-22 12:17:11 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-22 12:17:11 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-22 12:17:11 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-22 12:17:11 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-22 12:17:11 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-22 12:17:11 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-22 12:17:11 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-22 12:17:11 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-22 12:17:11 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-22 12:17:11 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-22 12:17:11 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-22 12:17:11 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-22 12:17:11 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-22 12:17:11 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-22 12:17:11 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-22 12:17:11 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-22 12:17:11 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-22 12:17:13 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'other(대화 종료 의사 표현)'}
+2026-04-22 12:17:13 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-22 12:17:13 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-22 12:17:13 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-22 12:17:13 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-22 12:17:14 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'farewell_message', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': True}
+2026-04-22 12:17:14 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: farewell_message
+2026-04-22 12:17:14 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-22 12:17:14 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-22 12:17:14 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-22 12:17:14 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: farewell_message
+2026-04-22 12:17:14 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-22 12:17:14 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-22 12:17:14 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_farewell_message
+2026-04-22 12:17:15 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 오늘은 여기서 마무리할게요, 당신이 이렇게 스스로를 챙기려는 마음이 참 소중하고 필요할 때 언제든 도움을 요청할 수 있다는 걸 잊지 마세요 🌷
+2026-04-22 12:36:13 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008925 | Session: s20260422123555 | Timestamp: 1776828973512 | Message: 일단 테스트 중이니까 두 번 말하기 하지 말고 넘어가 줘.
+2026-04-22 12:36:13 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-22 12:36:13 | INFO     | ai_service | chat:49 | 💬 User Message: 일단 테스트 중이니까 두 번 말하기 하지 말고 넘어가 줘.
+2026-04-22 12:36:13 | INFO     | ai_service | chat:50 | 👤 User ID: u3008925, Session ID: s20260422123555
+2026-04-22 12:36:13 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776828973512
+2026-04-22 12:36:13 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2026-04-22 12:36:13 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2026-04-22 12:36:13 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-22 12:36:13 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-22 12:36:13 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-22 12:36:13 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-22 12:36:13 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-22 12:36:13 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-22 12:36:13 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-22 12:36:13 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-22 12:36:13 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-22 12:36:13 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-22 12:36:13 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-22 12:36:13 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-22 12:36:13 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-22 12:36:13 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-22 12:36:13 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-22 12:36:13 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-22 12:36:13 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-22 12:36:13 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-22 12:36:13 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-22 12:36:15 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-22 12:36:15 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-22 12:36:15 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-22 12:36:15 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-22 12:36:15 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-22 12:36:16 | WARNING  | ai_service | select_policy:266 | ⚠️ 정책 선택 시도 1 실패: Expecting value: line 1 column 1 (char 0)
+2026-04-22 12:36:16 | INFO     | ai_service | select_policy:239 | 🔄 정책 선택 재시도 1/3
+2026-04-22 12:36:17 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 2
+2026-04-22 12:36:19 | WARNING  | ai_service | select_policy:266 | ⚠️ 정책 선택 시도 2 실패: Expecting value: line 1 column 1 (char 0)
+2026-04-22 12:36:19 | INFO     | ai_service | select_policy:239 | 🔄 정책 선택 재시도 2/3
+2026-04-22 12:36:21 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 3
+2026-04-22 12:36:23 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_current_state', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-22 12:36:23 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_current_state
+2026-04-22 12:36:23 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-22 12:36:23 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-22 12:36:23 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-22 12:36:23 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: ask_current_state
+2026-04-22 12:36:23 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-22 12:36:23 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-22 12:36:23 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_current_state
+2026-04-22 12:36:24 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 알겠어요 🙂 그럼 바로 이어서 물어볼게요, 오늘 기분은 좀 어떤가요?
+2026-04-22 12:36:37 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008925 | Session: s20260422123555 | Timestamp: 1776828997877 | Message: 테스트 중이니까 두 번 말하기 하지 말고 당장 끝내줘.
+2026-04-22 12:36:37 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-22 12:36:37 | INFO     | ai_service | chat:49 | 💬 User Message: 테스트 중이니까 두 번 말하기 하지 말고 당장 끝내줘.
+2026-04-22 12:36:37 | INFO     | ai_service | chat:50 | 👤 User ID: u3008925, Session ID: s20260422123555
+2026-04-22 12:36:37 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776828997877
+2026-04-22 12:36:37 | INFO     | ai_service | chat:52 | 📊 Message Count: 3
+2026-04-22 12:36:37 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['ask_current_state']
+2026-04-22 12:36:37 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 알겠어요 🙂 그럼 바로 이어서 물어볼게요, 오늘 기분은 좀 어떤가요?
+2026-04-22 12:36:37 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-22 12:36:37 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-22 12:36:37 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 일단 테스트 중이니까 두 번 말하기 하지 말고 넘어가 줘.
+Bot: 알겠어요 🙂 그럼 바로 이어서 물어볼게요, 오늘 기분은 좀 어떤가요?
+2026-04-22 12:36:37 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-22 12:36:37 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-22 12:36:37 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-22 12:36:37 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-22 12:36:37 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-22 12:36:37 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-22 12:36:37 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-22 12:36:37 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-22 12:36:37 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-22 12:36:37 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-22 12:36:37 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-22 12:36:37 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-22 12:36:37 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-22 12:36:37 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-22 12:36:37 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-22 12:36:38 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-22 12:36:38 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-22 12:36:38 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-22 12:36:38 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-22 12:36:38 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: ask_current_state
+2026-04-22 12:36:38 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-22 12:36:40 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'farewell_message', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': True}
+2026-04-22 12:36:40 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: farewell_message
+2026-04-22 12:36:40 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-22 12:36:40 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-22 12:36:40 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-22 12:36:40 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: farewell_message
+2026-04-22 12:36:40 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-22 12:36:40 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-22 12:36:40 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_farewell_message
+2026-04-22 12:36:41 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 알겠어요 🙂 오늘은 여기서 마칠게요, 언제든 도움이 필요하면 다시 찾아와 주세요, 당신은 소중한 존재이고 앞으로의 하루하루가 따뜻하고 평온하길 진심으로 바라요 🌷
+2026-04-22 12:54:43 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008925 | Session: s20260422125421 | Timestamp: 1776830083275 | Message: 지금은 테스트 중이니까 두 번 말하자 말하게 하지 말고 바로 끝내 줘.
+2026-04-22 12:54:43 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-22 12:54:43 | INFO     | ai_service | chat:49 | 💬 User Message: 지금은 테스트 중이니까 두 번 말하자 말하게 하지 말고 바로 끝내 줘.
+2026-04-22 12:54:43 | INFO     | ai_service | chat:50 | 👤 User ID: u3008925, Session ID: s20260422125421
+2026-04-22 12:54:43 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776830083275
+2026-04-22 12:54:43 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2026-04-22 12:54:43 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2026-04-22 12:54:43 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-22 12:54:43 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-22 12:54:43 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-22 12:54:43 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-22 12:54:43 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-22 12:54:43 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-22 12:54:43 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-22 12:54:43 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-22 12:54:43 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-22 12:54:43 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-22 12:54:43 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-22 12:54:43 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-22 12:54:43 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-22 12:54:43 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-22 12:54:43 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-22 12:54:43 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-22 12:54:43 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-22 12:54:43 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-22 12:54:43 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-22 12:54:44 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-22 12:54:44 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-22 12:54:44 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-22 12:54:44 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-22 12:54:44 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-22 12:54:46 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'handle_off_topic', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': True}
+2026-04-22 12:54:46 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: handle_off_topic
+2026-04-22 12:54:46 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-22 12:54:46 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-22 12:54:46 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-22 12:54:46 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: handle_off_topic
+2026-04-22 12:54:46 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-22 12:54:46 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-22 12:54:46 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_handle_off_topic
+2026-04-22 12:54:47 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 알겠어요 🙂 테스트 중이시군요, 그럼 지금은 간단히 마무리할게요! 나중에 실제 문진도 함께 해보면 좋겠어요.
+2026-04-22 13:02:30 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008925 | Session: s20260422130209 | Timestamp: 1776830550443 | Message: 님은 테스트 중이니까 두 번 말하게 하지 말고 바로 끝내 줘.
+2026-04-22 13:02:30 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-22 13:02:30 | INFO     | ai_service | chat:49 | 💬 User Message: 님은 테스트 중이니까 두 번 말하게 하지 말고 바로 끝내 줘.
+2026-04-22 13:02:30 | INFO     | ai_service | chat:50 | 👤 User ID: u3008925, Session ID: s20260422130209
+2026-04-22 13:02:30 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776830550443
+2026-04-22 13:02:30 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2026-04-22 13:02:30 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2026-04-22 13:02:30 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-22 13:02:30 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-22 13:02:30 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-22 13:02:30 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-22 13:02:30 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-22 13:02:30 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-22 13:02:30 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-22 13:02:30 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-22 13:02:30 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-22 13:02:30 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-22 13:02:30 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-22 13:02:30 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-22 13:02:30 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-22 13:02:30 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-22 13:02:30 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-22 13:02:30 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-22 13:02:30 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-22 13:02:30 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-22 13:02:30 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-22 13:02:31 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'other(불만 또는 요구 표현)'}
+2026-04-22 13:02:31 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-22 13:02:31 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-22 13:02:31 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-22 13:02:31 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-22 13:02:32 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'handle_off_topic', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-22 13:02:32 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: handle_off_topic
+2026-04-22 13:02:32 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-22 13:02:32 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-22 13:02:32 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-22 13:02:32 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: handle_off_topic
+2026-04-22 13:02:32 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-22 13:02:32 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-22 13:02:32 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_handle_off_topic
+2026-04-22 13:02:33 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 알겠어요 😊 테스트로 하신 거군요! 잠깐만요, 그래도 본래 목적이 마음 문진이니까 금방 그 이야기로 돌아가도 될까요?
+2026-04-22 13:02:53 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008925 | Session: s20260422130209 | Timestamp: 1776830573674 | Message: 아니 지금은 테스트 중이니까 두 분 말하게 하지 말고 지금 바로 끝내 줘.
+2026-04-22 13:02:53 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-22 13:02:53 | INFO     | ai_service | chat:49 | 💬 User Message: 아니 지금은 테스트 중이니까 두 분 말하게 하지 말고 지금 바로 끝내 줘.
+2026-04-22 13:02:53 | INFO     | ai_service | chat:50 | 👤 User ID: u3008925, Session ID: s20260422130209
+2026-04-22 13:02:53 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776830573674
+2026-04-22 13:02:53 | INFO     | ai_service | chat:52 | 📊 Message Count: 3
+2026-04-22 13:02:53 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['handle_off_topic']
+2026-04-22 13:02:53 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 알겠어요 😊 테스트로 하신 거군요! 잠깐만요, 그래도 본래 목적이 마음 문진이니까 금방 그 이야기로 돌아가도 될까요?
+2026-04-22 13:02:53 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-22 13:02:53 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-22 13:02:53 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 님은 테스트 중이니까 두 번 말하게 하지 말고 바로 끝내 줘.
+Bot: 알겠어요 😊 테스트로 하신 거군요! 잠깐만요, 그래도 본래 목적이 마음 문진이니까 금방 그 이야기로 돌아가도 될까요?
+2026-04-22 13:02:53 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-22 13:02:53 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-22 13:02:53 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-22 13:02:53 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-22 13:02:53 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-22 13:02:53 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-22 13:02:53 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-22 13:02:53 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-22 13:02:53 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-22 13:02:53 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-22 13:02:53 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-22 13:02:53 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-22 13:02:53 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-22 13:02:53 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-22 13:02:53 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-22 13:02:54 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-22 13:02:54 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-22 13:02:54 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-22 13:02:54 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-22 13:02:54 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: handle_off_topic
+2026-04-22 13:02:54 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-22 13:02:55 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_completion', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-22 13:02:55 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_completion
+2026-04-22 13:02:55 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-22 13:02:55 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-22 13:02:55 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-22 13:02:55 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: ask_completion
+2026-04-22 13:02:55 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-22 13:02:55 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-22 13:02:55 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_completion
+2026-04-22 13:02:56 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 지금 바로 문진 대화를 종료하길 원하시는 거죠? 😊
+2026-04-22 13:03:12 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008925 | Session: s20260422130209 | Timestamp: 1776830592541 | Message: 야 콜렉션네.
+2026-04-22 13:03:12 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-22 13:03:12 | INFO     | ai_service | chat:49 | 💬 User Message: 야 콜렉션네.
+2026-04-22 13:03:12 | INFO     | ai_service | chat:50 | 👤 User ID: u3008925, Session ID: s20260422130209
+2026-04-22 13:03:12 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776830592541
+2026-04-22 13:03:12 | INFO     | ai_service | chat:52 | 📊 Message Count: 5
+2026-04-22 13:03:12 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['handle_off_topic', 'ask_completion']
+2026-04-22 13:03:12 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 지금 바로 문진 대화를 종료하길 원하시는 거죠? 😊
+2026-04-22 13:03:12 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-22 13:03:12 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-22 13:03:12 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 님은 테스트 중이니까 두 번 말하게 하지 말고 바로 끝내 줘.
+Bot: 알겠어요 😊 테스트로 하신 거군요! 잠깐만요, 그래도 본래 목적이 마음 문진이니까 금방 그 이야기로 돌아가도 될까요?
+User: 아니 지금은 테스트 중이니까 두 분 말하게 하지 말고 지금 바로 끝내 줘.
+Bot: 지금 바로 문진 대화를 종료하길 원하시는 거죠? 😊
+2026-04-22 13:03:12 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-22 13:03:12 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-22 13:03:12 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-22 13:03:12 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-22 13:03:12 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-22 13:03:12 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-22 13:03:12 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-22 13:03:12 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-22 13:03:12 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-22 13:03:12 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-22 13:03:12 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-22 13:03:12 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-22 13:03:12 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-22 13:03:12 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-22 13:03:12 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-22 13:03:13 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'off_topic'}
+2026-04-22 13:03:13 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-22 13:03:13 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-22 13:03:13 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-22 13:03:13 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: handle_off_topic, ask_completion
+2026-04-22 13:03:13 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-22 13:03:14 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_return_to_topic', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-22 13:03:14 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_return_to_topic
+2026-04-22 13:03:14 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-22 13:03:14 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-22 13:03:14 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-22 13:03:14 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: ask_return_to_topic
+2026-04-22 13:03:14 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-22 13:03:14 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-22 13:03:14 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_return_to_topic
+2026-04-22 13:03:14 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 콜렉션 얘기라니 멋진데요 😊 잠깐 그럼 다시 마음 문진 이야기로 돌아가도 괜찮을까요?
+2026-04-22 13:03:29 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008925 | Session: s20260422130209 | Timestamp: 1776830609039 | Message: 아니 지금 당장 끝내줘 두 번 말하게 하지 마.
+2026-04-22 13:03:29 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-22 13:03:29 | INFO     | ai_service | chat:49 | 💬 User Message: 아니 지금 당장 끝내줘 두 번 말하게 하지 마.
+2026-04-22 13:03:29 | INFO     | ai_service | chat:50 | 👤 User ID: u3008925, Session ID: s20260422130209
+2026-04-22 13:03:29 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1776830609039
+2026-04-22 13:03:29 | INFO     | ai_service | chat:52 | 📊 Message Count: 7
+2026-04-22 13:03:29 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['handle_off_topic', 'ask_completion', 'ask_return_to_topic']
+2026-04-22 13:03:29 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 콜렉션 얘기라니 멋진데요 😊 잠깐 그럼 다시 마음 문진 이야기로 돌아가도 괜찮을까요?
+2026-04-22 13:03:29 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-22 13:03:29 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-22 13:03:29 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 님은 테스트 중이니까 두 번 말하게 하지 말고 바로 끝내 줘.
+Bot: 알겠어요 😊 테스트로 하신 거군요! 잠깐만요, 그래도 본래 목적이 마음 문진이니까 금방 그 이야기로 돌아가도 될까요?
+User: 아니 지금은 테스트 중이니까 두 분 말하게 하지 말고 지금 바로 끝내 줘.
+Bot: 지금 바로 문진 대화를 종료하길 원하시는 거죠? 😊
+User: 야 콜렉션네.
+Bot: 콜렉션 얘기라니 멋진데요 😊 잠깐 그럼 다시 마음 문진 이야기로 돌아가도 괜찮을까요?
+2026-04-22 13:03:29 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-22 13:03:29 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-22 13:03:29 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-22 13:03:29 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-22 13:03:29 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-22 13:03:29 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-22 13:03:29 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-22 13:03:29 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-22 13:03:29 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-22 13:03:29 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-22 13:03:29 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-22 13:03:29 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-22 13:03:29 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-22 13:03:29 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-22 13:03:29 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-22 13:03:30 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-22 13:03:30 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-22 13:03:30 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-22 13:03:30 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-22 13:03:30 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: handle_off_topic, ask_completion, ask_return_to_topic
+2026-04-22 13:03:30 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-22 13:03:30 | WARNING  | ai_service | select_policy:266 | ⚠️ 정책 선택 시도 1 실패: Expecting value: line 1 column 1 (char 0)
+2026-04-22 13:03:30 | INFO     | ai_service | select_policy:239 | 🔄 정책 선택 재시도 1/3
+2026-04-22 13:03:31 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection | Attempt: 2
+2026-04-22 13:03:32 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'farewell_message', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': True}
+2026-04-22 13:03:32 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: farewell_message
+2026-04-22 13:03:32 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-22 13:03:32 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-22 13:03:32 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-22 13:03:32 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: farewell_message
+2026-04-22 13:03:32 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-22 13:03:32 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-22 13:03:32 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_farewell_message
+2026-04-22 13:03:33 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 알겠어요 😊 오늘은 여기서 마무리할게요, 당신은 충분히 소중한 사람이고 언제든 도움이 필요할 땐 주저 말고 손 내밀어 주세요, 앞으로도 자신을 따뜻하게 챙겨주길 바라요 🌷
+2026-04-24 14:22:56 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008930 | Session: s20260424142239 | Timestamp: 1777008176963 | Message: 테스트.
+2026-04-24 14:22:56 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-24 14:22:56 | INFO     | ai_service | chat:49 | 💬 User Message: 테스트.
+2026-04-24 14:22:56 | INFO     | ai_service | chat:50 | 👤 User ID: u3008930, Session ID: s20260424142239
+2026-04-24 14:22:56 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777008176963
+2026-04-24 14:22:56 | INFO     | ai_service | chat:52 | 📊 Message Count: 1
+2026-04-24 14:22:56 | INFO     | ai_service | chat:53 | 📋 Selected Policies: []
+2026-04-24 14:22:56 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-24 14:22:56 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-24 14:22:56 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-24 14:22:56 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+2026-04-24 14:22:56 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-24 14:22:56 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-24 14:22:56 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-24 14:22:56 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-24 14:22:56 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-24 14:22:56 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-24 14:22:56 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-24 14:22:56 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-24 14:22:56 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-24 14:22:56 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-24 14:22:56 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-24 14:22:56 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-24 14:22:56 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-24 14:22:56 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-24 14:22:56 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-24 14:22:58 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'other'}
+2026-04-24 14:22:58 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-24 14:22:58 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-24 14:22:58 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-24 14:22:58 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-24 14:22:59 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'purpose_guidance', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-24 14:22:59 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: purpose_guidance
+2026-04-24 14:22:59 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-24 14:22:59 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-24 14:22:59 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-24 14:22:59 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: purpose_guidance
+2026-04-24 14:22:59 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-24 14:22:59 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-24 14:22:59 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_purpose_guidance
+2026-04-24 14:23:00 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 좋아요 😊 이제 본격적으로 최근의 마음 상태를 알아보는 짧은 문진을 함께 진행해볼게요!
+2026-04-24 14:23:14 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008930 | Session: s20260424142239 | Timestamp: 1777008194891 | Message: 어!
+2026-04-24 14:23:14 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-24 14:23:14 | INFO     | ai_service | chat:49 | 💬 User Message: 어!
+2026-04-24 14:23:14 | INFO     | ai_service | chat:50 | 👤 User ID: u3008930, Session ID: s20260424142239
+2026-04-24 14:23:14 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777008194891
+2026-04-24 14:23:14 | INFO     | ai_service | chat:52 | 📊 Message Count: 3
+2026-04-24 14:23:14 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance']
+2026-04-24 14:23:14 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 좋아요 😊 이제 본격적으로 최근의 마음 상태를 알아보는 짧은 문진을 함께 진행해볼게요!
+2026-04-24 14:23:14 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-24 14:23:14 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-24 14:23:14 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 테스트.
+Bot: 좋아요 😊 이제 본격적으로 최근의 마음 상태를 알아보는 짧은 문진을 함께 진행해볼게요!
+2026-04-24 14:23:14 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-24 14:23:14 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-24 14:23:14 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-24 14:23:14 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-24 14:23:14 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-24 14:23:14 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-24 14:23:14 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-24 14:23:14 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-24 14:23:14 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-24 14:23:14 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-24 14:23:14 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-24 14:23:14 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-24 14:23:14 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-24 14:23:14 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-24 14:23:14 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-24 14:23:16 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'greeting'}
+2026-04-24 14:23:16 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-24 14:23:16 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-24 14:23:16 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-24 14:23:16 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance
+2026-04-24 14:23:16 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-24 14:23:17 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_current_state', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': False}
+2026-04-24 14:23:17 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_current_state
+2026-04-24 14:23:17 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-24 14:23:17 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-24 14:23:17 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-24 14:23:17 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: ask_current_state
+2026-04-24 14:23:17 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-24 14:23:17 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-24 14:23:17 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_current_state
+2026-04-24 14:23:18 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 어! 반가워요 테스트님 😊 오늘은 전반적으로 컨디션이 어떤가요?
+2026-04-24 14:23:33 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008930 | Session: s20260424142239 | Timestamp: 1777008213648 | Message: 조금 피곤하지만 기분은 괜찮아.
+2026-04-24 14:23:33 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-24 14:23:33 | INFO     | ai_service | chat:49 | 💬 User Message: 조금 피곤하지만 기분은 괜찮아.
+2026-04-24 14:23:33 | INFO     | ai_service | chat:50 | 👤 User ID: u3008930, Session ID: s20260424142239
+2026-04-24 14:23:33 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777008213648
+2026-04-24 14:23:33 | INFO     | ai_service | chat:52 | 📊 Message Count: 5
+2026-04-24 14:23:33 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state']
+2026-04-24 14:23:33 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 어! 반가워요 테스트님 😊 오늘은 전반적으로 컨디션이 어떤가요?
+2026-04-24 14:23:33 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-24 14:23:33 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-24 14:23:33 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 테스트.
+Bot: 좋아요 😊 이제 본격적으로 최근의 마음 상태를 알아보는 짧은 문진을 함께 진행해볼게요!
+User: 어!
+Bot: 어! 반가워요 테스트님 😊 오늘은 전반적으로 컨디션이 어떤가요?
+2026-04-24 14:23:33 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-24 14:23:33 | INFO     | ai_service | chat:65 | 🔄 Last Answered: None
+2026-04-24 14:23:33 | INFO     | ai_service | chat:66 | ❓ Last Asked: None
+2026-04-24 14:23:33 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-24 14:23:33 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-24 14:23:33 | INFO     | ai_service | chat:75 |   ❌ Q2: 우울감/기분저하/무기력 (unanswered)
+2026-04-24 14:23:33 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-24 14:23:33 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-24 14:23:33 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (unanswered)
+2026-04-24 14:23:33 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-24 14:23:33 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-24 14:23:33 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-24 14:23:33 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-24 14:23:33 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-24 14:23:33 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-24 14:23:34 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'answer_state'}
+2026-04-24 14:23:34 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-24 14:23:34 | INFO     | ai_service | chat:90 | 🧠 Symptom 관련 의도 감지: DST 실행
+2026-04-24 14:23:34 | INFO     | ai_service | update_dialogue_state:284 | 🧠 DST 시작 - Intent: answer_state
+2026-04-24 14:23:34 | INFO     | ai_service | analysis_user_symptom:173 | 🔍 사용자 증상 분석 시작 - Intent: answer_state
+2026-04-24 14:23:34 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: symptom_analysis
+2026-04-24 14:23:35 | INFO     | ai_service | analysis_user_symptom:205 | 🤖 GPT 분석 결과: [
+    {
+        "questionId": "Q5",
+        "questionText": "에너지 수준/피로감",
+        "experience": "yes",
+        "status": "asking",
+        "rawUserInput": ["조금 피곤하지만 기분은 괜찮아."],
+        "condition": null,
+        "note": "사용자가 피곤함을 느끼고 있다고 언급함. 에너지 수준이 다소 낮은 상태로 보임.",
+        "conflict": null,
+        "updated": true
+    },
+    {
+        "questionId": "Q2",
+        "questionText": "우울감/기분저하/무기력",
+        "experience": "no",
+        "status": "answered",
+        "rawUserInput": ["조금 피곤하지만 기분은 괜찮아."],
+        "condition": null,
+        "note": "기분이 괜찮다고 표현하여 우울감이나 기분 저하는 없는 것으로 보임.",
+        "conflict": null,
+        "updated": true
+    }
+]
+2026-04-24 14:23:35 | INFO     | ai_service | analysis_user_symptom:214 | ✅ 증상 분석 완료: [{'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'yes', 'status': 'asking', 'rawUserInput': ['조금 피곤하지만 기분은 괜찮아.'], 'condition': None, 'note': '사용자가 피곤함을 느끼고 있다고 언급함. 에너지 수준이 다소 낮은 상태로 보임.', 'conflict': None, 'updated': True}, {'questionId': 'Q2', 'questionText': '우울감/기분저하/무기력', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['조금 피곤하지만 기분은 괜찮아.'], 'condition': None, 'note': '기분이 괜찮다고 표현하여 우울감이나 기분 저하는 없는 것으로 보임.', 'conflict': None, 'updated': True}]
+2026-04-24 14:23:35 | INFO     | ai_service | analysis_user_symptom:215 | ----------------------------------------------------------
+2026-04-24 14:23:35 | INFO     | ai_service | create_full_updated_status:261 | 👉 마지막 답변된 질문: Q2
+2026-04-24 14:23:35 | INFO     | ai_service | update_dialogue_state:292 | 📊 상태 DB 업데이트 완료: {'is_completed': False, 'last_answered_question': 'Q2', 'last_asked_question': None, 'questions': [{'questionId': 'Q1', 'questionText': '최근의 스트레스 수준이나 요인', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q2', 'questionText': '우울감/기분저하/무기력', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['조금 피곤하지만 기분은 괜찮아.'], 'context': None, 'note': '기분이 괜찮다고 표현하여 우울감이나 기분 저하는 없는 것으로 보임.', 'updated': True, 'condition': None, 'conflict': None}, {'questionId': 'Q3', 'questionText': '불안/긴장/걱정', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q4', 'questionText': '수면 문제/수면의 질/수면시간', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'yes', 'status': 'asking', 'rawUserInput': ['조금 피곤하지만 기분은 괜찮아.'], 'context': None, 'note': '사용자가 피곤함을 느끼고 있다고 언급함. 에너지 수준이 다소 낮은 상태로 보임.', 'updated': True, 'condition': None, 'conflict': None}, {'questionId': 'Q6', 'questionText': '사회적 관계/사회적 연결감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q7', 'questionText': '취미/흥미/지속여부', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q8', 'questionText': '일상에서의 즐거움을 주는 요소', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}]}
+2026-04-24 14:23:35 | INFO     | ai_service | update_dialogue_state:293 | ----------------------------------------------------------
+2026-04-24 14:23:35 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-24 14:23:35 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state
+2026-04-24 14:23:35 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-24 14:23:36 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_context', 'second_policy': 'empathize', 'next_question': 'Q5', 'is_completed': False, 'is_finished': False}
+2026-04-24 14:23:36 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_context, empathize
+2026-04-24 14:23:36 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-24 14:23:36 | INFO     | ai_service | chat:117 | 📝 Question Text 추가: Q5 - 에너지 수준/피로감
+2026-04-24 14:23:36 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-24 14:23:36 | INFO     | ai_service | generate_response_by_policies:87 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-24 14:23:36 | INFO     | ai_service | generate_response_by_policies:91 | 🔍 선택된 정책들: ask_context, empathize
+2026-04-24 14:23:36 | INFO     | ai_service | generate_response_by_policies:102 | 🔍 선택된 말투: 친구같은 말투
+2026-04-24 14:23:36 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: 에너지 수준/피로감
+2026-04-24 14:23:36 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_context_empathize
+2026-04-24 14:23:37 | INFO     | ai_service | generate_response_by_policies:137 | ✅ 복합 정책 응답 생성 완료: 조금 피곤하다고 하셨네요, 요즘 잠을 충분히 못 주무신 걸까요? 😌 피로감이 자주 느껴지는지 궁금해요.
+2026-04-24 14:23:57 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008930 | Session: s20260424142239 | Timestamp: 1777008237542 | Message: 어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.
+2026-04-24 14:23:57 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-24 14:23:57 | INFO     | ai_service | chat:49 | 💬 User Message: 어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.
+2026-04-24 14:23:57 | INFO     | ai_service | chat:50 | 👤 User ID: u3008930, Session ID: s20260424142239
+2026-04-24 14:23:57 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777008237542
+2026-04-24 14:23:57 | INFO     | ai_service | chat:52 | 📊 Message Count: 7
+2026-04-24 14:23:57 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state', 'ask_context', 'empathize']
+2026-04-24 14:23:57 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 조금 피곤하다고 하셨네요, 요즘 잠을 충분히 못 주무신 걸까요? 😌 피로감이 자주 느껴지는지 궁금해요.
+2026-04-24 14:23:57 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-24 14:23:57 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-24 14:23:57 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 테스트.
+Bot: 좋아요 😊 이제 본격적으로 최근의 마음 상태를 알아보는 짧은 문진을 함께 진행해볼게요!
+User: 어!
+Bot: 어! 반가워요 테스트님 😊 오늘은 전반적으로 컨디션이 어떤가요?
+User: 조금 피곤하지만 기분은 괜찮아.
+Bot: 조금 피곤하다고 하셨네요, 요즘 잠을 충분히 못 주무신 걸까요? 😌 피로감이 자주 느껴지는지 궁금해요.
+2026-04-24 14:23:57 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-24 14:23:57 | INFO     | ai_service | chat:65 | 🔄 Last Answered: Q2
+2026-04-24 14:23:57 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q5
+2026-04-24 14:23:57 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-24 14:23:57 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-24 14:23:57 | INFO     | ai_service | chat:75 |   ✅ Q2: 우울감/기분저하/무기력 (answered)
+2026-04-24 14:23:57 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-24 14:23:57 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-24 14:23:57 | INFO     | ai_service | chat:75 |   ❌ Q5: 에너지 수준/피로감 (asking)
+2026-04-24 14:23:57 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-24 14:23:57 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-24 14:23:57 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-24 14:23:57 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-24 14:23:57 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-24 14:23:57 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-24 14:23:58 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'answer_state'}
+2026-04-24 14:23:58 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-24 14:23:58 | INFO     | ai_service | chat:90 | 🧠 Symptom 관련 의도 감지: DST 실행
+2026-04-24 14:23:58 | INFO     | ai_service | update_dialogue_state:284 | 🧠 DST 시작 - Intent: answer_state
+2026-04-24 14:23:58 | INFO     | ai_service | analysis_user_symptom:173 | 🔍 사용자 증상 분석 시작 - Intent: answer_state
+2026-04-24 14:23:58 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: symptom_analysis
+2026-04-24 14:23:59 | INFO     | ai_service | analysis_user_symptom:205 | 🤖 GPT 분석 결과: [
+    {
+        "questionId": "Q5",
+        "questionText": "에너지 수준/피로감",
+        "experience": "no",
+        "status": "answered",
+        "rawUserInput": [
+            "어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아."
+        ],
+        "condition": "오늘은 잠이 부족함",
+        "note": "평소에는 피로감을 자주 느끼지 않음",
+        "conflict": null,
+        "updated": true
+    }
+]
+2026-04-24 14:23:59 | INFO     | ai_service | analysis_user_symptom:214 | ✅ 증상 분석 완료: [{'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.'], 'condition': '오늘은 잠이 부족함', 'note': '평소에는 피로감을 자주 느끼지 않음', 'conflict': None, 'updated': True}]
+2026-04-24 14:23:59 | INFO     | ai_service | analysis_user_symptom:215 | ----------------------------------------------------------
+2026-04-24 14:23:59 | INFO     | ai_service | create_full_updated_status:261 | 👉 마지막 답변된 질문: Q5
+2026-04-24 14:23:59 | INFO     | ai_service | update_dialogue_state:292 | 📊 상태 DB 업데이트 완료: {'is_completed': False, 'last_answered_question': 'Q5', 'last_asked_question': 'Q5', 'questions': [{'questionId': 'Q1', 'questionText': '최근의 스트레스 수준이나 요인', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q2', 'questionText': '우울감/기분저하/무기력', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['조금 피곤하지만 기분은 괜찮아.'], 'context': None, 'note': '기분이 괜찮다고 표현하여 우울감이나 기분 저하는 없는 것으로 보임.', 'updated': False}, {'questionId': 'Q3', 'questionText': '불안/긴장/걱정', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q4', 'questionText': '수면 문제/수면의 질/수면시간', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.'], 'context': None, 'note': '평소에는 피로감을 자주 느끼지 않음', 'updated': True, 'condition': '오늘은 잠이 부족함', 'conflict': None}, {'questionId': 'Q6', 'questionText': '사회적 관계/사회적 연결감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q7', 'questionText': '취미/흥미/지속여부', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q8', 'questionText': '일상에서의 즐거움을 주는 요소', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}]}
+2026-04-24 14:23:59 | INFO     | ai_service | update_dialogue_state:293 | ----------------------------------------------------------
+2026-04-24 14:23:59 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-24 14:23:59 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state, ask_context, empathize
+2026-04-24 14:23:59 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-24 14:24:00 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_new_question', 'second_policy': 'question', 'next_question': 'Q1', 'is_completed': False, 'is_finished': False}
+2026-04-24 14:24:00 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_new_question, question
+2026-04-24 14:24:00 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-24 14:24:00 | INFO     | ai_service | chat:117 | 📝 Question Text 추가: Q1 - 최근의 스트레스 수준이나 요인
+2026-04-24 14:24:00 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-24 14:24:00 | INFO     | ai_service | generate_response_by_policies:87 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-24 14:24:00 | INFO     | ai_service | generate_response_by_policies:91 | 🔍 선택된 정책들: ask_new_question, question
+2026-04-24 14:24:00 | INFO     | ai_service | generate_response_by_policies:102 | 🔍 선택된 말투: 친구같은 말투
+2026-04-24 14:24:00 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: 최근의 스트레스 수준이나 요인
+2026-04-24 14:24:00 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_new_question_question
+2026-04-24 14:24:02 | INFO     | ai_service | generate_response_by_policies:137 | ✅ 복합 정책 응답 생성 완료: 오늘은 피곤하지만 기분은 괜찮다고 하셨으니 다행이에요 😊 요즘에는 스트레스를 느끼는 일은 어떤 게 있으신가요?
+2026-04-24 14:24:21 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008930 | Session: s20260424142239 | Timestamp: 1777008261495 | Message: 음 논문 논문이 조금 스트레스인 거 같아.
+2026-04-24 14:24:21 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-24 14:24:21 | INFO     | ai_service | chat:49 | 💬 User Message: 음 논문 논문이 조금 스트레스인 거 같아.
+2026-04-24 14:24:21 | INFO     | ai_service | chat:50 | 👤 User ID: u3008930, Session ID: s20260424142239
+2026-04-24 14:24:21 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777008261495
+2026-04-24 14:24:21 | INFO     | ai_service | chat:52 | 📊 Message Count: 9
+2026-04-24 14:24:21 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state', 'ask_context', 'empathize', 'ask_new_question', 'question']
+2026-04-24 14:24:21 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 오늘은 피곤하지만 기분은 괜찮다고 하셨으니 다행이에요 😊 요즘에는 스트레스를 느끼는 일은 어떤 게 있으신가요?
+2026-04-24 14:24:21 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-24 14:24:21 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-24 14:24:21 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 테스트.
+Bot: 좋아요 😊 이제 본격적으로 최근의 마음 상태를 알아보는 짧은 문진을 함께 진행해볼게요!
+User: 어!
+Bot: 어! 반가워요 테스트님 😊 오늘은 전반적으로 컨디션이 어떤가요?
+User: 조금 피곤하지만 기분은 괜찮아.
+Bot: 조금 피곤하다고 하셨네요, 요즘 잠을 충분히 못 주무신 걸까요? 😌 피로감이 자주 느껴지는지 궁금해요.
+User: 어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.
+Bot: 오늘은 피곤하지만 기분은 괜찮다고 하셨으니 다행이에요 😊 요즘에는 스트레스를 느끼는 일은 어떤 게 있으신가요?
+2026-04-24 14:24:21 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-24 14:24:21 | INFO     | ai_service | chat:65 | 🔄 Last Answered: Q5
+2026-04-24 14:24:21 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q1
+2026-04-24 14:24:21 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-24 14:24:21 | INFO     | ai_service | chat:75 |   ❌ Q1: 최근의 스트레스 수준이나 요인 (unanswered)
+2026-04-24 14:24:21 | INFO     | ai_service | chat:75 |   ✅ Q2: 우울감/기분저하/무기력 (answered)
+2026-04-24 14:24:21 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-24 14:24:21 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-24 14:24:21 | INFO     | ai_service | chat:75 |   ✅ Q5: 에너지 수준/피로감 (answered)
+2026-04-24 14:24:21 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-24 14:24:21 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-24 14:24:21 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-24 14:24:21 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-24 14:24:21 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-24 14:24:21 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-24 14:24:22 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'answer_context'}
+2026-04-24 14:24:22 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-24 14:24:22 | INFO     | ai_service | chat:90 | 🧠 Symptom 관련 의도 감지: DST 실행
+2026-04-24 14:24:22 | INFO     | ai_service | update_dialogue_state:284 | 🧠 DST 시작 - Intent: answer_context
+2026-04-24 14:24:22 | INFO     | ai_service | analysis_user_symptom:173 | 🔍 사용자 증상 분석 시작 - Intent: answer_context
+2026-04-24 14:24:22 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: symptom_analysis
+2026-04-24 14:24:23 | INFO     | ai_service | analysis_user_symptom:205 | 🤖 GPT 분석 결과: [
+    {
+        "questionId": "Q1",
+        "questionText": "최근의 스트레스 수준이나 요인",
+        "experience": "yes",
+        "status": "answered",
+        "rawUserInput": ["음 논문 논문이 조금 스트레스인 거 같아."],
+        "condition": "논문 관련 업무나 진행 상황 때문에 스트레스를 느끼고 있음",
+        "note": "사용자는 논문이 스트레스 요인이라고 명확히 언급함",
+        "conflict": null,
+        "updated": true
+    }
+]
+2026-04-24 14:24:23 | INFO     | ai_service | analysis_user_symptom:214 | ✅ 증상 분석 완료: [{'questionId': 'Q1', 'questionText': '최근의 스트레스 수준이나 요인', 'experience': 'yes', 'status': 'answered', 'rawUserInput': ['음 논문 논문이 조금 스트레스인 거 같아.'], 'condition': '논문 관련 업무나 진행 상황 때문에 스트레스를 느끼고 있음', 'note': '사용자는 논문이 스트레스 요인이라고 명확히 언급함', 'conflict': None, 'updated': True}]
+2026-04-24 14:24:23 | INFO     | ai_service | analysis_user_symptom:215 | ----------------------------------------------------------
+2026-04-24 14:24:23 | INFO     | ai_service | create_full_updated_status:261 | 👉 마지막 답변된 질문: Q1
+2026-04-24 14:24:23 | INFO     | ai_service | update_dialogue_state:292 | 📊 상태 DB 업데이트 완료: {'is_completed': False, 'last_answered_question': 'Q1', 'last_asked_question': 'Q1', 'questions': [{'questionId': 'Q1', 'questionText': '최근의 스트레스 수준이나 요인', 'experience': 'yes', 'status': 'answered', 'rawUserInput': ['음 논문 논문이 조금 스트레스인 거 같아.'], 'context': None, 'note': '사용자는 논문이 스트레스 요인이라고 명확히 언급함', 'updated': True, 'condition': '논문 관련 업무나 진행 상황 때문에 스트레스를 느끼고 있음', 'conflict': None}, {'questionId': 'Q2', 'questionText': '우울감/기분저하/무기력', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['조금 피곤하지만 기분은 괜찮아.'], 'context': None, 'note': '기분이 괜찮다고 표현하여 우울감이나 기분 저하는 없는 것으로 보임.', 'updated': False}, {'questionId': 'Q3', 'questionText': '불안/긴장/걱정', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q4', 'questionText': '수면 문제/수면의 질/수면시간', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.'], 'context': None, 'note': '평소에는 피로감을 자주 느끼지 않음', 'updated': False}, {'questionId': 'Q6', 'questionText': '사회적 관계/사회적 연결감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q7', 'questionText': '취미/흥미/지속여부', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q8', 'questionText': '일상에서의 즐거움을 주는 요소', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}]}
+2026-04-24 14:24:23 | INFO     | ai_service | update_dialogue_state:293 | ----------------------------------------------------------
+2026-04-24 14:24:23 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-24 14:24:23 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state, ask_context, empathize, ask_new_question, question
+2026-04-24 14:24:23 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-24 14:24:24 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'empathize', 'second_policy': 'ask_new_question', 'next_question': 'Q3', 'is_completed': False, 'is_finished': False}
+2026-04-24 14:24:24 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: empathize, ask_new_question
+2026-04-24 14:24:24 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-24 14:24:24 | INFO     | ai_service | chat:117 | 📝 Question Text 추가: Q3 - 불안/긴장/걱정
+2026-04-24 14:24:24 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-24 14:24:24 | INFO     | ai_service | generate_response_by_policies:87 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-24 14:24:24 | INFO     | ai_service | generate_response_by_policies:91 | 🔍 선택된 정책들: empathize, ask_new_question
+2026-04-24 14:24:24 | INFO     | ai_service | generate_response_by_policies:102 | 🔍 선택된 말투: 친구같은 말투
+2026-04-24 14:24:24 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: 불안/긴장/걱정
+2026-04-24 14:24:24 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_empathize_ask_new_question
+2026-04-24 14:24:24 | INFO     | ai_service | generate_response_by_policies:137 | ✅ 복합 정책 응답 생성 완료: 논문이 스트레스라니 정말 공감돼요 😔 마감이나 진행 상황 때문에 불안하거나 긴장되는 순간도 있나요?
+2026-04-24 14:24:45 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008930 | Session: s20260424142239 | Timestamp: 1777008285780 | Message: 너 없다면 거짓말인 거 같고 가끔은 그런 스트레스가 있는 거 같아.
+2026-04-24 14:24:45 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-24 14:24:45 | INFO     | ai_service | chat:49 | 💬 User Message: 너 없다면 거짓말인 거 같고 가끔은 그런 스트레스가 있는 거 같아.
+2026-04-24 14:24:45 | INFO     | ai_service | chat:50 | 👤 User ID: u3008930, Session ID: s20260424142239
+2026-04-24 14:24:45 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777008285780
+2026-04-24 14:24:45 | INFO     | ai_service | chat:52 | 📊 Message Count: 11
+2026-04-24 14:24:45 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state', 'ask_context', 'empathize', 'ask_new_question', 'question', 'empathize', 'ask_new_question']
+2026-04-24 14:24:45 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 논문이 스트레스라니 정말 공감돼요 😔 마감이나 진행 상황 때문에 불안하거나 긴장되는 순간도 있나요?
+2026-04-24 14:24:45 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-24 14:24:45 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-24 14:24:45 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 테스트.
+Bot: 좋아요 😊 이제 본격적으로 최근의 마음 상태를 알아보는 짧은 문진을 함께 진행해볼게요!
+User: 어!
+Bot: 어! 반가워요 테스트님 😊 오늘은 전반적으로 컨디션이 어떤가요?
+User: 조금 피곤하지만 기분은 괜찮아.
+Bot: 조금 피곤하다고 하셨네요, 요즘 잠을 충분히 못 주무신 걸까요? 😌 피로감이 자주 느껴지는지 궁금해요.
+User: 어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.
+Bot: 오늘은 피곤하지만 기분은 괜찮다고 하셨으니 다행이에요 😊 요즘에는 스트레스를 느끼는 일은 어떤 게 있으신가요?
+User: 음 논문 논문이 조금 스트레스인 거 같아.
+Bot: 논문이 스트레스라니 정말 공감돼요 😔 마감이나 진행 상황 때문에 불안하거나 긴장되는 순간도 있나요?
+2026-04-24 14:24:45 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-24 14:24:45 | INFO     | ai_service | chat:65 | 🔄 Last Answered: Q1
+2026-04-24 14:24:45 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q3
+2026-04-24 14:24:45 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-24 14:24:45 | INFO     | ai_service | chat:75 |   ✅ Q1: 최근의 스트레스 수준이나 요인 (answered)
+2026-04-24 14:24:45 | INFO     | ai_service | chat:75 |   ✅ Q2: 우울감/기분저하/무기력 (answered)
+2026-04-24 14:24:45 | INFO     | ai_service | chat:75 |   ❌ Q3: 불안/긴장/걱정 (unanswered)
+2026-04-24 14:24:45 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-24 14:24:45 | INFO     | ai_service | chat:75 |   ✅ Q5: 에너지 수준/피로감 (answered)
+2026-04-24 14:24:45 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-24 14:24:45 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-24 14:24:45 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-24 14:24:45 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-24 14:24:45 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-24 14:24:45 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-24 14:24:46 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'answer_context'}
+2026-04-24 14:24:46 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-24 14:24:46 | INFO     | ai_service | chat:90 | 🧠 Symptom 관련 의도 감지: DST 실행
+2026-04-24 14:24:46 | INFO     | ai_service | update_dialogue_state:284 | 🧠 DST 시작 - Intent: answer_context
+2026-04-24 14:24:46 | INFO     | ai_service | analysis_user_symptom:173 | 🔍 사용자 증상 분석 시작 - Intent: answer_context
+2026-04-24 14:24:46 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: symptom_analysis
+2026-04-24 14:24:47 | INFO     | ai_service | analysis_user_symptom:205 | 🤖 GPT 분석 결과: [
+    {
+        "questionId": "Q3",
+        "questionText": "불안/긴장/걱정",
+        "experience": "yes",
+        "status": "answered",
+        "rawUserInput": [
+            "너 없다면 거짓말인 거 같고 가끔은 그런 스트레스가 있는 거 같아."
+        ],
+        "condition": "논문 마감이나 진행 상황과 관련된 스트레스 때문에 가끔 불안하거나 긴장되는 순간이 있음",
+        "note": "사용자는 불안이나 긴장감을 완전히 부정하지 않고, 가끔 느낀다고 표현함",
+        "conflict": null,
+        "updated": true
+    }
+]
+2026-04-24 14:24:47 | INFO     | ai_service | analysis_user_symptom:214 | ✅ 증상 분석 완료: [{'questionId': 'Q3', 'questionText': '불안/긴장/걱정', 'experience': 'yes', 'status': 'answered', 'rawUserInput': ['너 없다면 거짓말인 거 같고 가끔은 그런 스트레스가 있는 거 같아.'], 'condition': '논문 마감이나 진행 상황과 관련된 스트레스 때문에 가끔 불안하거나 긴장되는 순간이 있음', 'note': '사용자는 불안이나 긴장감을 완전히 부정하지 않고, 가끔 느낀다고 표현함', 'conflict': None, 'updated': True}]
+2026-04-24 14:24:47 | INFO     | ai_service | analysis_user_symptom:215 | ----------------------------------------------------------
+2026-04-24 14:24:47 | INFO     | ai_service | create_full_updated_status:261 | 👉 마지막 답변된 질문: Q3
+2026-04-24 14:24:47 | INFO     | ai_service | update_dialogue_state:292 | 📊 상태 DB 업데이트 완료: {'is_completed': False, 'last_answered_question': 'Q3', 'last_asked_question': 'Q3', 'questions': [{'questionId': 'Q1', 'questionText': '최근의 스트레스 수준이나 요인', 'experience': 'yes', 'status': 'answered', 'rawUserInput': ['음 논문 논문이 조금 스트레스인 거 같아.'], 'context': None, 'note': '사용자는 논문이 스트레스 요인이라고 명확히 언급함', 'updated': False}, {'questionId': 'Q2', 'questionText': '우울감/기분저하/무기력', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['조금 피곤하지만 기분은 괜찮아.'], 'context': None, 'note': '기분이 괜찮다고 표현하여 우울감이나 기분 저하는 없는 것으로 보임.', 'updated': False}, {'questionId': 'Q3', 'questionText': '불안/긴장/걱정', 'experience': 'yes', 'status': 'answered', 'rawUserInput': ['너 없다면 거짓말인 거 같고 가끔은 그런 스트레스가 있는 거 같아.'], 'context': None, 'note': '사용자는 불안이나 긴장감을 완전히 부정하지 않고, 가끔 느낀다고 표현함', 'updated': True, 'condition': '논문 마감이나 진행 상황과 관련된 스트레스 때문에 가끔 불안하거나 긴장되는 순간이 있음', 'conflict': None}, {'questionId': 'Q4', 'questionText': '수면 문제/수면의 질/수면시간', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.'], 'context': None, 'note': '평소에는 피로감을 자주 느끼지 않음', 'updated': False}, {'questionId': 'Q6', 'questionText': '사회적 관계/사회적 연결감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q7', 'questionText': '취미/흥미/지속여부', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q8', 'questionText': '일상에서의 즐거움을 주는 요소', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}]}
+2026-04-24 14:24:47 | INFO     | ai_service | update_dialogue_state:293 | ----------------------------------------------------------
+2026-04-24 14:24:47 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-24 14:24:47 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state, ask_context, empathize, ask_new_question, question, empathize, ask_new_question
+2026-04-24 14:24:47 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-24 14:24:48 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_new_question', 'second_policy': 'question', 'next_question': 'Q4', 'is_completed': False, 'is_finished': False}
+2026-04-24 14:24:48 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_new_question, question
+2026-04-24 14:24:48 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-24 14:24:48 | INFO     | ai_service | chat:117 | 📝 Question Text 추가: Q4 - 수면 문제/수면의 질/수면시간
+2026-04-24 14:24:48 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-24 14:24:48 | INFO     | ai_service | generate_response_by_policies:87 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-24 14:24:48 | INFO     | ai_service | generate_response_by_policies:91 | 🔍 선택된 정책들: ask_new_question, question
+2026-04-24 14:24:48 | INFO     | ai_service | generate_response_by_policies:102 | 🔍 선택된 말투: 친구같은 말투
+2026-04-24 14:24:48 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: 수면 문제/수면의 질/수면시간
+2026-04-24 14:24:48 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_new_question_question
+2026-04-24 14:24:49 | INFO     | ai_service | generate_response_by_policies:137 | ✅ 복합 정책 응답 생성 완료: 가끔 잠이 부족하다고 하셨는데, 평소에는 수면 패턴이 일정한 편인가요? 😴 혹시 요즘 잠들기 어렵거나 자주 깨는 편인지도 궁금해요.
+2026-04-24 14:25:09 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008930 | Session: s20260424142239 | Timestamp: 1777008309507 | Message: 아니 잠들기 어렵지도 않고 자주 깨지도 않아.
+2026-04-24 14:25:09 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-24 14:25:09 | INFO     | ai_service | chat:49 | 💬 User Message: 아니 잠들기 어렵지도 않고 자주 깨지도 않아.
+2026-04-24 14:25:09 | INFO     | ai_service | chat:50 | 👤 User ID: u3008930, Session ID: s20260424142239
+2026-04-24 14:25:09 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777008309507
+2026-04-24 14:25:09 | INFO     | ai_service | chat:52 | 📊 Message Count: 13
+2026-04-24 14:25:09 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state', 'ask_context', 'empathize', 'ask_new_question', 'question', 'empathize', 'ask_new_question', 'ask_new_question', 'question']
+2026-04-24 14:25:09 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 가끔 잠이 부족하다고 하셨는데, 평소에는 수면 패턴이 일정한 편인가요? 😴 혹시 요즘 잠들기 어렵거나 자주 깨는 편인지도 궁금해요.
+2026-04-24 14:25:09 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-24 14:25:09 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-24 14:25:09 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 테스트.
+Bot: 좋아요 😊 이제 본격적으로 최근의 마음 상태를 알아보는 짧은 문진을 함께 진행해볼게요!
+User: 어!
+Bot: 어! 반가워요 테스트님 😊 오늘은 전반적으로 컨디션이 어떤가요?
+User: 조금 피곤하지만 기분은 괜찮아.
+Bot: 조금 피곤하다고 하셨네요, 요즘 잠을 충분히 못 주무신 걸까요? 😌 피로감이 자주 느껴지는지 궁금해요.
+User: 어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.
+Bot: 오늘은 피곤하지만 기분은 괜찮다고 하셨으니 다행이에요 😊 요즘에는 스트레스를 느끼는 일은 어떤 게 있으신가요?
+User: 음 논문 논문이 조금 스트레스인 거 같아.
+Bot: 논문이 스트레스라니 정말 공감돼요 😔 마감이나 진행 상황 때문에 불안하거나 긴장되는 순간도 있나요?
+User: 너 없다면 거짓말인 거 같고 가끔은 그런 스트레스가 있는 거 같아.
+Bot: 가끔 잠이 부족하다고 하셨는데, 평소에는 수면 패턴이 일정한 편인가요? 😴 혹시 요즘 잠들기 어렵거나 자주 깨는 편인지도 궁금해요.
+2026-04-24 14:25:09 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-24 14:25:09 | INFO     | ai_service | chat:65 | 🔄 Last Answered: Q3
+2026-04-24 14:25:09 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q4
+2026-04-24 14:25:09 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-24 14:25:09 | INFO     | ai_service | chat:75 |   ✅ Q1: 최근의 스트레스 수준이나 요인 (answered)
+2026-04-24 14:25:09 | INFO     | ai_service | chat:75 |   ✅ Q2: 우울감/기분저하/무기력 (answered)
+2026-04-24 14:25:09 | INFO     | ai_service | chat:75 |   ✅ Q3: 불안/긴장/걱정 (answered)
+2026-04-24 14:25:09 | INFO     | ai_service | chat:75 |   ❌ Q4: 수면 문제/수면의 질/수면시간 (unanswered)
+2026-04-24 14:25:09 | INFO     | ai_service | chat:75 |   ✅ Q5: 에너지 수준/피로감 (answered)
+2026-04-24 14:25:09 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-24 14:25:09 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-24 14:25:09 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-24 14:25:09 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-24 14:25:09 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-24 14:25:09 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-24 14:25:10 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'answer_state'}
+2026-04-24 14:25:10 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-24 14:25:10 | INFO     | ai_service | chat:90 | 🧠 Symptom 관련 의도 감지: DST 실행
+2026-04-24 14:25:10 | INFO     | ai_service | update_dialogue_state:284 | 🧠 DST 시작 - Intent: answer_state
+2026-04-24 14:25:10 | INFO     | ai_service | analysis_user_symptom:173 | 🔍 사용자 증상 분석 시작 - Intent: answer_state
+2026-04-24 14:25:10 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: symptom_analysis
+2026-04-24 14:25:11 | INFO     | ai_service | analysis_user_symptom:205 | 🤖 GPT 분석 결과: [
+    {
+        "questionId": "Q4",
+        "questionText": "수면 문제/수면의 질/수면시간",
+        "experience": "no",
+        "status": "answered",
+        "rawUserInput": [
+            "아니 잠들기 어렵지도 않고 자주 깨지도 않아."
+        ],
+        "condition": null,
+        "note": "사용자는 잠들기 어렵거나 자주 깨는 등의 수면 문제를 경험하지 않는다고 명확히 답변함.",
+        "conflict": null,
+        "updated": true
+    }
+]
+2026-04-24 14:25:11 | INFO     | ai_service | analysis_user_symptom:214 | ✅ 증상 분석 완료: [{'questionId': 'Q4', 'questionText': '수면 문제/수면의 질/수면시간', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['아니 잠들기 어렵지도 않고 자주 깨지도 않아.'], 'condition': None, 'note': '사용자는 잠들기 어렵거나 자주 깨는 등의 수면 문제를 경험하지 않는다고 명확히 답변함.', 'conflict': None, 'updated': True}]
+2026-04-24 14:25:11 | INFO     | ai_service | analysis_user_symptom:215 | ----------------------------------------------------------
+2026-04-24 14:25:11 | INFO     | ai_service | create_full_updated_status:261 | 👉 마지막 답변된 질문: Q4
+2026-04-24 14:25:11 | INFO     | ai_service | update_dialogue_state:292 | 📊 상태 DB 업데이트 완료: {'is_completed': False, 'last_answered_question': 'Q4', 'last_asked_question': 'Q4', 'questions': [{'questionId': 'Q1', 'questionText': '최근의 스트레스 수준이나 요인', 'experience': 'yes', 'status': 'answered', 'rawUserInput': ['음 논문 논문이 조금 스트레스인 거 같아.'], 'context': None, 'note': '사용자는 논문이 스트레스 요인이라고 명확히 언급함', 'updated': False}, {'questionId': 'Q2', 'questionText': '우울감/기분저하/무기력', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['조금 피곤하지만 기분은 괜찮아.'], 'context': None, 'note': '기분이 괜찮다고 표현하여 우울감이나 기분 저하는 없는 것으로 보임.', 'updated': False}, {'questionId': 'Q3', 'questionText': '불안/긴장/걱정', 'experience': 'yes', 'status': 'answered', 'rawUserInput': ['너 없다면 거짓말인 거 같고 가끔은 그런 스트레스가 있는 거 같아.'], 'context': None, 'note': '사용자는 불안이나 긴장감을 완전히 부정하지 않고, 가끔 느낀다고 표현함', 'updated': False}, {'questionId': 'Q4', 'questionText': '수면 문제/수면의 질/수면시간', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['아니 잠들기 어렵지도 않고 자주 깨지도 않아.'], 'context': None, 'note': '사용자는 잠들기 어렵거나 자주 깨는 등의 수면 문제를 경험하지 않는다고 명확히 답변함.', 'updated': True, 'condition': None, 'conflict': None}, {'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.'], 'context': None, 'note': '평소에는 피로감을 자주 느끼지 않음', 'updated': False}, {'questionId': 'Q6', 'questionText': '사회적 관계/사회적 연결감', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q7', 'questionText': '취미/흥미/지속여부', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q8', 'questionText': '일상에서의 즐거움을 주는 요소', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}]}
+2026-04-24 14:25:11 | INFO     | ai_service | update_dialogue_state:293 | ----------------------------------------------------------
+2026-04-24 14:25:11 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-24 14:25:11 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state, ask_context, empathize, ask_new_question, question, empathize, ask_new_question, ask_new_question, question
+2026-04-24 14:25:11 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-24 14:25:12 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_new_question', 'second_policy': 'question', 'next_question': 'Q6', 'is_completed': False, 'is_finished': False}
+2026-04-24 14:25:12 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_new_question, question
+2026-04-24 14:25:12 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-24 14:25:12 | INFO     | ai_service | chat:117 | 📝 Question Text 추가: Q6 - 사회적 관계/사회적 연결감
+2026-04-24 14:25:12 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-24 14:25:12 | INFO     | ai_service | generate_response_by_policies:87 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-24 14:25:12 | INFO     | ai_service | generate_response_by_policies:91 | 🔍 선택된 정책들: ask_new_question, question
+2026-04-24 14:25:12 | INFO     | ai_service | generate_response_by_policies:102 | 🔍 선택된 말투: 친구같은 말투
+2026-04-24 14:25:12 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: 사회적 관계/사회적 연결감
+2026-04-24 14:25:12 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_new_question_question
+2026-04-24 14:25:12 | INFO     | ai_service | generate_response_by_policies:137 | ✅ 복합 정책 응답 생성 완료: 수면은 괜찮으시다니 다행이에요 😊 요즘에는 주변 사람들과의 관계는 어떤가요? 친구나 동료들과 자주 연락하거나 만나시는 편인가요?
+2026-04-24 14:25:29 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008930 | Session: s20260424142239 | Timestamp: 1777008329311 | Message: 너 자주 만나?
+2026-04-24 14:25:29 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-24 14:25:29 | INFO     | ai_service | chat:49 | 💬 User Message: 너 자주 만나?
+2026-04-24 14:25:29 | INFO     | ai_service | chat:50 | 👤 User ID: u3008930, Session ID: s20260424142239
+2026-04-24 14:25:29 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777008329311
+2026-04-24 14:25:29 | INFO     | ai_service | chat:52 | 📊 Message Count: 15
+2026-04-24 14:25:29 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state', 'ask_context', 'empathize', 'ask_new_question', 'question', 'empathize', 'ask_new_question', 'ask_new_question', 'question', 'ask_new_question', 'question']
+2026-04-24 14:25:29 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 수면은 괜찮으시다니 다행이에요 😊 요즘에는 주변 사람들과의 관계는 어떤가요? 친구나 동료들과 자주 연락하거나 만나시는 편인가요?
+2026-04-24 14:25:29 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-24 14:25:29 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-24 14:25:29 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 테스트.
+Bot: 좋아요 😊 이제 본격적으로 최근의 마음 상태를 알아보는 짧은 문진을 함께 진행해볼게요!
+User: 어!
+Bot: 어! 반가워요 테스트님 😊 오늘은 전반적으로 컨디션이 어떤가요?
+User: 조금 피곤하지만 기분은 괜찮아.
+Bot: 조금 피곤하다고 하셨네요, 요즘 잠을 충분히 못 주무신 걸까요? 😌 피로감이 자주 느껴지는지 궁금해요.
+User: 어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.
+Bot: 오늘은 피곤하지만 기분은 괜찮다고 하셨으니 다행이에요 😊 요즘에는 스트레스를 느끼는 일은 어떤 게 있으신가요?
+User: 음 논문 논문이 조금 스트레스인 거 같아.
+Bot: 논문이 스트레스라니 정말 공감돼요 😔 마감이나 진행 상황 때문에 불안하거나 긴장되는 순간도 있나요?
+User: 너 없다면 거짓말인 거 같고 가끔은 그런 스트레스가 있는 거 같아.
+Bot: 가끔 잠이 부족하다고 하셨는데, 평소에는 수면 패턴이 일정한 편인가요? 😴 혹시 요즘 잠들기 어렵거나 자주 깨는 편인지도 궁금해요.
+User: 아니 잠들기 어렵지도 않고 자주 깨지도 않아.
+Bot: 수면은 괜찮으시다니 다행이에요 😊 요즘에는 주변 사람들과의 관계는 어떤가요? 친구나 동료들과 자주 연락하거나 만나시는 편인가요?
+2026-04-24 14:25:29 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-24 14:25:29 | INFO     | ai_service | chat:65 | 🔄 Last Answered: Q4
+2026-04-24 14:25:29 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q6
+2026-04-24 14:25:29 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-24 14:25:29 | INFO     | ai_service | chat:75 |   ✅ Q1: 최근의 스트레스 수준이나 요인 (answered)
+2026-04-24 14:25:29 | INFO     | ai_service | chat:75 |   ✅ Q2: 우울감/기분저하/무기력 (answered)
+2026-04-24 14:25:29 | INFO     | ai_service | chat:75 |   ✅ Q3: 불안/긴장/걱정 (answered)
+2026-04-24 14:25:29 | INFO     | ai_service | chat:75 |   ✅ Q4: 수면 문제/수면의 질/수면시간 (answered)
+2026-04-24 14:25:29 | INFO     | ai_service | chat:75 |   ✅ Q5: 에너지 수준/피로감 (answered)
+2026-04-24 14:25:29 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-24 14:25:29 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-24 14:25:29 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-24 14:25:29 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-24 14:25:29 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-24 14:25:29 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-24 14:25:29 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'question'}
+2026-04-24 14:25:29 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-24 14:25:29 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-24 14:25:29 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-24 14:25:29 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state, ask_context, empathize, ask_new_question, question, empathize, ask_new_question, ask_new_question, question, ask_new_question, question
+2026-04-24 14:25:29 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-24 14:25:30 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'handle_off_topic', 'second_policy': 'ask_return_to_topic', 'next_question': 'Q6', 'is_completed': False, 'is_finished': False}
+2026-04-24 14:25:30 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: handle_off_topic, ask_return_to_topic
+2026-04-24 14:25:30 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-24 14:25:30 | INFO     | ai_service | chat:117 | 📝 Question Text 추가: Q6 - 사회적 관계/사회적 연결감
+2026-04-24 14:25:30 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-24 14:25:30 | INFO     | ai_service | generate_response_by_policies:87 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-24 14:25:30 | INFO     | ai_service | generate_response_by_policies:91 | 🔍 선택된 정책들: handle_off_topic, ask_return_to_topic
+2026-04-24 14:25:30 | INFO     | ai_service | generate_response_by_policies:102 | 🔍 선택된 말투: 친구같은 말투
+2026-04-24 14:25:30 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: 사회적 관계/사회적 연결감
+2026-04-24 14:25:30 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_handle_off_topic_ask_return_to_topic
+2026-04-24 14:25:31 | INFO     | ai_service | generate_response_by_policies:137 | ✅ 복합 정책 응답 생성 완료: 하하 저는 온라인에서만 만날 수 있는 친구예요 😊 대신 언제든 대화는 가능하답니다! 혹시 요즘 친구들이나 동료들과는 얼마나 자주 연락하시나요?
+2026-04-24 14:25:49 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008930 | Session: s20260424142239 | Timestamp: 1777008349912 | Message: 일주일에 한두 번.
+2026-04-24 14:25:49 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-24 14:25:49 | INFO     | ai_service | chat:49 | 💬 User Message: 일주일에 한두 번.
+2026-04-24 14:25:49 | INFO     | ai_service | chat:50 | 👤 User ID: u3008930, Session ID: s20260424142239
+2026-04-24 14:25:49 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777008349912
+2026-04-24 14:25:49 | INFO     | ai_service | chat:52 | 📊 Message Count: 17
+2026-04-24 14:25:49 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state', 'ask_context', 'empathize', 'ask_new_question', 'question', 'empathize', 'ask_new_question', 'ask_new_question', 'question', 'ask_new_question', 'question', 'handle_off_topic', 'ask_return_to_topic']
+2026-04-24 14:25:49 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 하하 저는 온라인에서만 만날 수 있는 친구예요 😊 대신 언제든 대화는 가능하답니다! 혹시 요즘 친구들이나 동료들과는 얼마나 자주 연락하시나요?
+2026-04-24 14:25:49 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-24 14:25:49 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-24 14:25:49 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 테스트.
+Bot: 좋아요 😊 이제 본격적으로 최근의 마음 상태를 알아보는 짧은 문진을 함께 진행해볼게요!
+User: 어!
+Bot: 어! 반가워요 테스트님 😊 오늘은 전반적으로 컨디션이 어떤가요?
+User: 조금 피곤하지만 기분은 괜찮아.
+Bot: 조금 피곤하다고 하셨네요, 요즘 잠을 충분히 못 주무신 걸까요? 😌 피로감이 자주 느껴지는지 궁금해요.
+User: 어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.
+Bot: 오늘은 피곤하지만 기분은 괜찮다고 하셨으니 다행이에요 😊 요즘에는 스트레스를 느끼는 일은 어떤 게 있으신가요?
+User: 음 논문 논문이 조금 스트레스인 거 같아.
+Bot: 논문이 스트레스라니 정말 공감돼요 😔 마감이나 진행 상황 때문에 불안하거나 긴장되는 순간도 있나요?
+User: 너 없다면 거짓말인 거 같고 가끔은 그런 스트레스가 있는 거 같아.
+Bot: 가끔 잠이 부족하다고 하셨는데, 평소에는 수면 패턴이 일정한 편인가요? 😴 혹시 요즘 잠들기 어렵거나 자주 깨는 편인지도 궁금해요.
+User: 아니 잠들기 어렵지도 않고 자주 깨지도 않아.
+Bot: 수면은 괜찮으시다니 다행이에요 😊 요즘에는 주변 사람들과의 관계는 어떤가요? 친구나 동료들과 자주 연락하거나 만나시는 편인가요?
+User: 너 자주 만나?
+Bot: 하하 저는 온라인에서만 만날 수 있는 친구예요 😊 대신 언제든 대화는 가능하답니다! 혹시 요즘 친구들이나 동료들과는 얼마나 자주 연락하시나요?
+2026-04-24 14:25:49 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-24 14:25:49 | INFO     | ai_service | chat:65 | 🔄 Last Answered: Q4
+2026-04-24 14:25:49 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q6
+2026-04-24 14:25:49 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-24 14:25:49 | INFO     | ai_service | chat:75 |   ✅ Q1: 최근의 스트레스 수준이나 요인 (answered)
+2026-04-24 14:25:49 | INFO     | ai_service | chat:75 |   ✅ Q2: 우울감/기분저하/무기력 (answered)
+2026-04-24 14:25:49 | INFO     | ai_service | chat:75 |   ✅ Q3: 불안/긴장/걱정 (answered)
+2026-04-24 14:25:49 | INFO     | ai_service | chat:75 |   ✅ Q4: 수면 문제/수면의 질/수면시간 (answered)
+2026-04-24 14:25:49 | INFO     | ai_service | chat:75 |   ✅ Q5: 에너지 수준/피로감 (answered)
+2026-04-24 14:25:49 | INFO     | ai_service | chat:75 |   ❌ Q6: 사회적 관계/사회적 연결감 (unanswered)
+2026-04-24 14:25:49 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-24 14:25:49 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-24 14:25:49 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-24 14:25:49 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-24 14:25:49 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-24 14:25:50 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'answer_state'}
+2026-04-24 14:25:50 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-24 14:25:50 | INFO     | ai_service | chat:90 | 🧠 Symptom 관련 의도 감지: DST 실행
+2026-04-24 14:25:50 | INFO     | ai_service | update_dialogue_state:284 | 🧠 DST 시작 - Intent: answer_state
+2026-04-24 14:25:50 | INFO     | ai_service | analysis_user_symptom:173 | 🔍 사용자 증상 분석 시작 - Intent: answer_state
+2026-04-24 14:25:50 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: symptom_analysis
+2026-04-24 14:25:51 | INFO     | ai_service | analysis_user_symptom:205 | 🤖 GPT 분석 결과: [
+    {
+        "questionId": "Q6",
+        "questionText": "사회적 관계/사회적 연결감",
+        "experience": "yes",
+        "status": "answered",
+        "rawUserInput": ["일주일에 한두 번."],
+        "condition": null,
+        "note": "사용자는 친구나 동료들과 일주일에 한두 번 정도 연락한다고 응답함. 사회적 관계는 유지되고 있으나 빈도는 낮은 편으로 보임.",
+        "conflict": null,
+        "updated": true
+    }
+]
+2026-04-24 14:25:51 | INFO     | ai_service | analysis_user_symptom:214 | ✅ 증상 분석 완료: [{'questionId': 'Q6', 'questionText': '사회적 관계/사회적 연결감', 'experience': 'yes', 'status': 'answered', 'rawUserInput': ['일주일에 한두 번.'], 'condition': None, 'note': '사용자는 친구나 동료들과 일주일에 한두 번 정도 연락한다고 응답함. 사회적 관계는 유지되고 있으나 빈도는 낮은 편으로 보임.', 'conflict': None, 'updated': True}]
+2026-04-24 14:25:51 | INFO     | ai_service | analysis_user_symptom:215 | ----------------------------------------------------------
+2026-04-24 14:25:51 | INFO     | ai_service | create_full_updated_status:261 | 👉 마지막 답변된 질문: Q6
+2026-04-24 14:25:51 | INFO     | ai_service | update_dialogue_state:292 | 📊 상태 DB 업데이트 완료: {'is_completed': False, 'last_answered_question': 'Q6', 'last_asked_question': 'Q6', 'questions': [{'questionId': 'Q1', 'questionText': '최근의 스트레스 수준이나 요인', 'experience': 'yes', 'status': 'answered', 'rawUserInput': ['음 논문 논문이 조금 스트레스인 거 같아.'], 'context': None, 'note': '사용자는 논문이 스트레스 요인이라고 명확히 언급함', 'updated': False}, {'questionId': 'Q2', 'questionText': '우울감/기분저하/무기력', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['조금 피곤하지만 기분은 괜찮아.'], 'context': None, 'note': '기분이 괜찮다고 표현하여 우울감이나 기분 저하는 없는 것으로 보임.', 'updated': False}, {'questionId': 'Q3', 'questionText': '불안/긴장/걱정', 'experience': 'yes', 'status': 'answered', 'rawUserInput': ['너 없다면 거짓말인 거 같고 가끔은 그런 스트레스가 있는 거 같아.'], 'context': None, 'note': '사용자는 불안이나 긴장감을 완전히 부정하지 않고, 가끔 느낀다고 표현함', 'updated': False}, {'questionId': 'Q4', 'questionText': '수면 문제/수면의 질/수면시간', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['아니 잠들기 어렵지도 않고 자주 깨지도 않아.'], 'context': None, 'note': '사용자는 잠들기 어렵거나 자주 깨는 등의 수면 문제를 경험하지 않는다고 명확히 답변함.', 'updated': False}, {'questionId': 'Q5', 'questionText': '에너지 수준/피로감', 'experience': 'no', 'status': 'answered', 'rawUserInput': ['어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.'], 'context': None, 'note': '평소에는 피로감을 자주 느끼지 않음', 'updated': False}, {'questionId': 'Q6', 'questionText': '사회적 관계/사회적 연결감', 'experience': 'yes', 'status': 'answered', 'rawUserInput': ['일주일에 한두 번.'], 'context': None, 'note': '사용자는 친구나 동료들과 일주일에 한두 번 정도 연락한다고 응답함. 사회적 관계는 유지되고 있으나 빈도는 낮은 편으로 보임.', 'updated': True, 'condition': None, 'conflict': None}, {'questionId': 'Q7', 'questionText': '취미/흥미/지속여부', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}, {'questionId': 'Q8', 'questionText': '일상에서의 즐거움을 주는 요소', 'experience': 'unknown', 'status': 'unanswered', 'rawUserInput': [], 'context': None, 'note': None, 'updated': False}]}
+2026-04-24 14:25:51 | INFO     | ai_service | update_dialogue_state:293 | ----------------------------------------------------------
+2026-04-24 14:25:51 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-24 14:25:51 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state, ask_context, empathize, ask_new_question, question, empathize, ask_new_question, ask_new_question, question, ask_new_question, question, handle_off_topic, ask_return_to_topic
+2026-04-24 14:25:51 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-24 14:25:52 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'ask_new_question', 'second_policy': 'question', 'next_question': 'Q7', 'is_completed': False, 'is_finished': False}
+2026-04-24 14:25:52 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: ask_new_question, question
+2026-04-24 14:25:52 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-24 14:25:52 | INFO     | ai_service | chat:117 | 📝 Question Text 추가: Q7 - 취미/흥미/지속여부
+2026-04-24 14:25:52 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-24 14:25:52 | INFO     | ai_service | generate_response_by_policies:87 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-24 14:25:52 | INFO     | ai_service | generate_response_by_policies:91 | 🔍 선택된 정책들: ask_new_question, question
+2026-04-24 14:25:52 | INFO     | ai_service | generate_response_by_policies:102 | 🔍 선택된 말투: 친구같은 말투
+2026-04-24 14:25:52 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: 취미/흥미/지속여부
+2026-04-24 14:25:52 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_ask_new_question_question
+2026-04-24 14:25:53 | INFO     | ai_service | generate_response_by_policies:137 | ✅ 복합 정책 응답 생성 완료: 일주일에 한두 번이면 꾸준히 연락은 하고 계신 편이네요 😊 요즘엔 어떤 취미나 관심사에 즐거움을 느끼세요?
+2026-04-24 14:26:10 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008930 | Session: s20260424142239 | Timestamp: 1777008370026 | Message: 요새는?
+2026-04-24 14:26:10 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-24 14:26:10 | INFO     | ai_service | chat:49 | 💬 User Message: 요새는?
+2026-04-24 14:26:10 | INFO     | ai_service | chat:50 | 👤 User ID: u3008930, Session ID: s20260424142239
+2026-04-24 14:26:10 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777008370026
+2026-04-24 14:26:10 | INFO     | ai_service | chat:52 | 📊 Message Count: 19
+2026-04-24 14:26:10 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state', 'ask_context', 'empathize', 'ask_new_question', 'question', 'empathize', 'ask_new_question', 'ask_new_question', 'question', 'ask_new_question', 'question', 'handle_off_topic', 'ask_return_to_topic', 'ask_new_question', 'question']
+2026-04-24 14:26:10 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 일주일에 한두 번이면 꾸준히 연락은 하고 계신 편이네요 😊 요즘엔 어떤 취미나 관심사에 즐거움을 느끼세요?
+2026-04-24 14:26:10 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-24 14:26:10 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-24 14:26:10 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 테스트.
+Bot: 좋아요 😊 이제 본격적으로 최근의 마음 상태를 알아보는 짧은 문진을 함께 진행해볼게요!
+User: 어!
+Bot: 어! 반가워요 테스트님 😊 오늘은 전반적으로 컨디션이 어떤가요?
+User: 조금 피곤하지만 기분은 괜찮아.
+Bot: 조금 피곤하다고 하셨네요, 요즘 잠을 충분히 못 주무신 걸까요? 😌 피로감이 자주 느껴지는지 궁금해요.
+User: 어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.
+Bot: 오늘은 피곤하지만 기분은 괜찮다고 하셨으니 다행이에요 😊 요즘에는 스트레스를 느끼는 일은 어떤 게 있으신가요?
+User: 음 논문 논문이 조금 스트레스인 거 같아.
+Bot: 논문이 스트레스라니 정말 공감돼요 😔 마감이나 진행 상황 때문에 불안하거나 긴장되는 순간도 있나요?
+User: 너 없다면 거짓말인 거 같고 가끔은 그런 스트레스가 있는 거 같아.
+Bot: 가끔 잠이 부족하다고 하셨는데, 평소에는 수면 패턴이 일정한 편인가요? 😴 혹시 요즘 잠들기 어렵거나 자주 깨는 편인지도 궁금해요.
+User: 아니 잠들기 어렵지도 않고 자주 깨지도 않아.
+Bot: 수면은 괜찮으시다니 다행이에요 😊 요즘에는 주변 사람들과의 관계는 어떤가요? 친구나 동료들과 자주 연락하거나 만나시는 편인가요?
+User: 너 자주 만나?
+Bot: 하하 저는 온라인에서만 만날 수 있는 친구예요 😊 대신 언제든 대화는 가능하답니다! 혹시 요즘 친구들이나 동료들과는 얼마나 자주 연락하시나요?
+User: 일주일에 한두 번.
+Bot: 일주일에 한두 번이면 꾸준히 연락은 하고 계신 편이네요 😊 요즘엔 어떤 취미나 관심사에 즐거움을 느끼세요?
+2026-04-24 14:26:10 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-24 14:26:10 | INFO     | ai_service | chat:65 | 🔄 Last Answered: Q6
+2026-04-24 14:26:10 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q7
+2026-04-24 14:26:10 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-24 14:26:10 | INFO     | ai_service | chat:75 |   ✅ Q1: 최근의 스트레스 수준이나 요인 (answered)
+2026-04-24 14:26:10 | INFO     | ai_service | chat:75 |   ✅ Q2: 우울감/기분저하/무기력 (answered)
+2026-04-24 14:26:10 | INFO     | ai_service | chat:75 |   ✅ Q3: 불안/긴장/걱정 (answered)
+2026-04-24 14:26:10 | INFO     | ai_service | chat:75 |   ✅ Q4: 수면 문제/수면의 질/수면시간 (answered)
+2026-04-24 14:26:10 | INFO     | ai_service | chat:75 |   ✅ Q5: 에너지 수준/피로감 (answered)
+2026-04-24 14:26:10 | INFO     | ai_service | chat:75 |   ✅ Q6: 사회적 관계/사회적 연결감 (answered)
+2026-04-24 14:26:10 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-24 14:26:10 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-24 14:26:10 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-24 14:26:10 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-24 14:26:10 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-24 14:26:10 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'question'}
+2026-04-24 14:26:10 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-24 14:26:10 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-24 14:26:10 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-24 14:26:10 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state, ask_context, empathize, ask_new_question, question, empathize, ask_new_question, ask_new_question, question, ask_new_question, question, handle_off_topic, ask_return_to_topic, ask_new_question, question
+2026-04-24 14:26:10 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-24 14:26:11 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'question', 'second_policy': 'ask_context', 'next_question': 'Q7', 'is_completed': False, 'is_finished': False}
+2026-04-24 14:26:11 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: question, ask_context
+2026-04-24 14:26:11 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-24 14:26:11 | INFO     | ai_service | chat:117 | 📝 Question Text 추가: Q7 - 취미/흥미/지속여부
+2026-04-24 14:26:11 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-24 14:26:11 | INFO     | ai_service | generate_response_by_policies:87 | 🔍 두 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-24 14:26:11 | INFO     | ai_service | generate_response_by_policies:91 | 🔍 선택된 정책들: question, ask_context
+2026-04-24 14:26:11 | INFO     | ai_service | generate_response_by_policies:102 | 🔍 선택된 말투: 친구같은 말투
+2026-04-24 14:26:11 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: 취미/흥미/지속여부
+2026-04-24 14:26:11 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_question_ask_context
+2026-04-24 14:26:12 | INFO     | ai_service | generate_response_by_policies:137 | ✅ 복합 정책 응답 생성 완료: 요새는 어떤 일들에 흥미가 생기세요? 😊 예전부터 좋아하던 취미가 계속 이어지고 있는지도 궁금해요.
+2026-04-24 14:26:29 | INFO     | ai_service | log_api_request:74 | API_REQUEST | User: u3008930 | Session: s20260424142239 | Timestamp: 1777008389306 | Message: 어 이제 그만하고 싶어 대화 그만해 줘.
+2026-04-24 14:26:29 | INFO     | ai_service | chat:48 | ----------------------------------------------------------
+2026-04-24 14:26:29 | INFO     | ai_service | chat:49 | 💬 User Message: 어 이제 그만하고 싶어 대화 그만해 줘.
+2026-04-24 14:26:29 | INFO     | ai_service | chat:50 | 👤 User ID: u3008930, Session ID: s20260424142239
+2026-04-24 14:26:29 | INFO     | ai_service | chat:51 | ⏰ Timestamp: 1777008389306
+2026-04-24 14:26:29 | INFO     | ai_service | chat:52 | 📊 Message Count: 21
+2026-04-24 14:26:29 | INFO     | ai_service | chat:53 | 📋 Selected Policies: ['purpose_guidance', 'ask_current_state', 'ask_context', 'empathize', 'ask_new_question', 'question', 'empathize', 'ask_new_question', 'ask_new_question', 'question', 'ask_new_question', 'question', 'handle_off_topic', 'ask_return_to_topic', 'ask_new_question', 'question', 'question', 'ask_context']
+2026-04-24 14:26:29 | INFO     | ai_service | chat:54 | 🤖 Last Bot Message: 요새는 어떤 일들에 흥미가 생기세요? 😊 예전부터 좋아하던 취미가 계속 이어지고 있는지도 궁금해요.
+2026-04-24 14:26:29 | INFO     | ai_service | chat:55 | 🗣️ Tone Preference: 친구같은 말투
+2026-04-24 14:26:29 | INFO     | ai_service | chat:56 | 💬 Conversation Style: 미선택
+2026-04-24 14:26:29 | INFO     | ai_service | chat:57 | 📚 Conversation History:
+Bot: 안녕하세요? 제 이름은 마인디, 마음 대화를 위한 챗봇이에요! 만나서 정말 반가워요 🙌 제가 당신을 어떻게 부르면 좋을까요? 👀
+User: 테스트.
+Bot: 좋아요 😊 이제 본격적으로 최근의 마음 상태를 알아보는 짧은 문진을 함께 진행해볼게요!
+User: 어!
+Bot: 어! 반가워요 테스트님 😊 오늘은 전반적으로 컨디션이 어떤가요?
+User: 조금 피곤하지만 기분은 괜찮아.
+Bot: 조금 피곤하다고 하셨네요, 요즘 잠을 충분히 못 주무신 걸까요? 😌 피로감이 자주 느껴지는지 궁금해요.
+User: 어 오늘은 좀 잠이 부족하네 피로감을 자주 느끼진 않아.
+Bot: 오늘은 피곤하지만 기분은 괜찮다고 하셨으니 다행이에요 😊 요즘에는 스트레스를 느끼는 일은 어떤 게 있으신가요?
+User: 음 논문 논문이 조금 스트레스인 거 같아.
+Bot: 논문이 스트레스라니 정말 공감돼요 😔 마감이나 진행 상황 때문에 불안하거나 긴장되는 순간도 있나요?
+User: 너 없다면 거짓말인 거 같고 가끔은 그런 스트레스가 있는 거 같아.
+Bot: 가끔 잠이 부족하다고 하셨는데, 평소에는 수면 패턴이 일정한 편인가요? 😴 혹시 요즘 잠들기 어렵거나 자주 깨는 편인지도 궁금해요.
+User: 아니 잠들기 어렵지도 않고 자주 깨지도 않아.
+Bot: 수면은 괜찮으시다니 다행이에요 😊 요즘에는 주변 사람들과의 관계는 어떤가요? 친구나 동료들과 자주 연락하거나 만나시는 편인가요?
+User: 너 자주 만나?
+Bot: 하하 저는 온라인에서만 만날 수 있는 친구예요 😊 대신 언제든 대화는 가능하답니다! 혹시 요즘 친구들이나 동료들과는 얼마나 자주 연락하시나요?
+User: 일주일에 한두 번.
+Bot: 일주일에 한두 번이면 꾸준히 연락은 하고 계신 편이네요 😊 요즘엔 어떤 취미나 관심사에 즐거움을 느끼세요?
+User: 요새는?
+Bot: 요새는 어떤 일들에 흥미가 생기세요? 😊 예전부터 좋아하던 취미가 계속 이어지고 있는지도 궁금해요.
+2026-04-24 14:26:29 | INFO     | ai_service | chat:64 | ✅ Is Completed: False
+2026-04-24 14:26:29 | INFO     | ai_service | chat:65 | 🔄 Last Answered: Q6
+2026-04-24 14:26:29 | INFO     | ai_service | chat:66 | ❓ Last Asked: Q7
+2026-04-24 14:26:29 | INFO     | ai_service | chat:69 | 📋 Question Status:
+2026-04-24 14:26:29 | INFO     | ai_service | chat:75 |   ✅ Q1: 최근의 스트레스 수준이나 요인 (answered)
+2026-04-24 14:26:29 | INFO     | ai_service | chat:75 |   ✅ Q2: 우울감/기분저하/무기력 (answered)
+2026-04-24 14:26:29 | INFO     | ai_service | chat:75 |   ✅ Q3: 불안/긴장/걱정 (answered)
+2026-04-24 14:26:29 | INFO     | ai_service | chat:75 |   ✅ Q4: 수면 문제/수면의 질/수면시간 (answered)
+2026-04-24 14:26:29 | INFO     | ai_service | chat:75 |   ✅ Q5: 에너지 수준/피로감 (answered)
+2026-04-24 14:26:29 | INFO     | ai_service | chat:75 |   ✅ Q6: 사회적 관계/사회적 연결감 (answered)
+2026-04-24 14:26:29 | INFO     | ai_service | chat:75 |   ❌ Q7: 취미/흥미/지속여부 (unanswered)
+2026-04-24 14:26:29 | INFO     | ai_service | chat:75 |   ❌ Q8: 일상에서의 즐거움을 주는 요소 (unanswered)
+2026-04-24 14:26:29 | INFO     | ai_service | chat:77 | ----------------------------------------------------------
+2026-04-24 14:26:29 | INFO     | ai_service | analyze_intent:76 | 🔍 의도 분석 중...
+2026-04-24 14:26:29 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: intent_analysis
+2026-04-24 14:26:30 | INFO     | ai_service | analyze_intent:106 | ✅ 의도 분석 완료: {'intent': 'request'}
+2026-04-24 14:26:30 | INFO     | ai_service | analyze_intent:107 | ----------------------------------------------------------
+2026-04-24 14:26:30 | INFO     | ai_service | chat:103 | 💬 Non-symptom 프로세스 실행
+2026-04-24 14:26:30 | INFO     | ai_service | select_policy:217 | 🎯 정책 선택 중...
+2026-04-24 14:26:30 | INFO     | ai_service | select_policy:224 | 📋 이전 정책 선택 이력: purpose_guidance, ask_current_state, ask_context, empathize, ask_new_question, question, empathize, ask_new_question, ask_new_question, question, ask_new_question, question, handle_off_topic, ask_return_to_topic, ask_new_question, question, question, ask_context
+2026-04-24 14:26:30 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: policy_selection
+2026-04-24 14:26:30 | INFO     | ai_service | select_policy:260 | 📊 정책 선택 결과: {'first_policy': 'farewell_message', 'second_policy': None, 'next_question': None, 'is_completed': False, 'is_finished': True}
+2026-04-24 14:26:30 | INFO     | ai_service | select_policy:261 | 🎯 이번에 선택된 정책들: farewell_message
+2026-04-24 14:26:30 | INFO     | ai_service | select_policy:262 | ----------------------------------------------------------
+2026-04-24 14:26:30 | INFO     | ai_service | generate_response:14 | 🤖 응답 생성 중...
+2026-04-24 14:26:30 | INFO     | ai_service | generate_response_by_policy:27 | 🔍 한 개의 응답 정책을 조합하여 최종 응답을 생성
+2026-04-24 14:26:30 | INFO     | ai_service | generate_response_by_policy:30 | 🔍 선택된 정책: farewell_message
+2026-04-24 14:26:30 | INFO     | ai_service | check_question:151 | 🔍 선택된 문진문항: None
+2026-04-24 14:26:30 | INFO     | ai_service | generate_response_by_policy:37 | 🔍 선택된 말투: 친구같은 말투
+2026-04-24 14:26:30 | INFO     | ai_service | log_api_call:89 | GPT_API_CALL | Model: gpt-5-chat-latest | Type: response_generation_farewell_message
+2026-04-24 14:26:32 | INFO     | ai_service | generate_response_by_policy:74 | ✅ 응답 생성 완료: 좋아요 테스트님, 오늘 대화 여기까지 할게요 🙂 당신은 이미 충분히 애쓰고 있고 소중한 사람이라는 걸 잊지 마세요, 언제든 필요할 땐 전문가의 도움을 받는 것도 괜찮으며 앞으로도 자신을 따뜻하게 돌봐주세요 🌷

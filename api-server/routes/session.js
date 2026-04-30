@@ -118,9 +118,6 @@ module.exports = function () {
         isFinished: session.isFinished || false,
         messageCount: session.messageCount || 0,
         totalDuration: session.totalDuration || 0,
-        selectedPolicies: session.selectedPolicies || [],
-        tonePreference: session.tonePreference || null,
-        conversationStyle: session.conversationStyle || null,
         createdAt: session.createdAt,
         updatedAt: session.updatedAt,
         lastActivity: session.lastActivity
